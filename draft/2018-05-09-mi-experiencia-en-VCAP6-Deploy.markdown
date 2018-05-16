@@ -38,7 +38,7 @@ Código del examen: 3V0-623
 
 Certificación requerida: [VCP6-DCV](https://www.vmware.com/education-services/certification/vcp6-dcv-exam.html)
 
-Formato: 100% práctico, utiliza la misma interface que los [HOL](hol.vmware.com) de VMWare
+Formato: 100% práctico, utiliza la misma interface que los [HOL](http://labs.hol.vmware.com/HOL/catalogs/catalog/681) de VMWare (recomiendo familiarizarse con este entorno)
 
 Duración: 190 minutos
 
@@ -62,7 +62,7 @@ Básicamente mi preparación se basó en los siguientes aspectos, ordenados para
 
 2. Material de los blogs
 
-3. HOL
+3. [HOL](http://labs.hol.vmware.com/HOL/catalogs/catalog/681)
 
 4. Manuales (están en el escritorio el dia del examen)
 
