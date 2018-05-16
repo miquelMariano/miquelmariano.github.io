@@ -58,16 +58,17 @@ En mi caso, no es una cosa de la que esté demasiado orgulloso, pero hay que dec
 
 Básicamente mi preparación se basó en los siguientes aspectos, ordenados para mi, de mas a menos prioritario.
 
-1. [Guía de estudio en PDF](https://miquelmariano.github.io/assets/VCAP6-DCV-Deployment-Study-Guide.pdf)
+- [Guía de estudio en PDF](https://miquelmariano.github.io/assets/VCAP6-DCV-Deployment-Study-Guide.pdf)
 
-2. Material de los blogs. Estos son los 2 que para mi gusto tienen mejor contenido:
+- Material de los blogs. Estos son los 2 que para mi gusto tienen mejor contenido:
 
 [vStellar](http://www.vstellar.com/2017/12/29/vcap6-dcv-deploy-study-guide/)
+
 [vJenner](http://www.vjenner.com/vcap6-dcv-deployment-study-guide/)
 
-3. [HOL](http://labs.hol.vmware.com/HOL/catalogs/catalog/681)
+- [HOL](http://labs.hol.vmware.com/HOL/catalogs/catalog/681)
 
-4. Manuales oficiales vSphere 6.0
+- Manuales oficiales vSphere 6.0
 
 Aunque os los encontrareis en el escritorio del laboratorio el dia del examen, no está de mas que les deis un repaso antes. Os los dejo [aquí](https://miquelmariano.github.io/assets/vsphere-documentation-60.zip)
 
