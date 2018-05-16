@@ -28,10 +28,18 @@
             </li>
         {% endif %}
 
-        {% if site.about == true %}
+        {% if site.strava == true %}
             {% if page.title != "Strava" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/strava">Strava</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
+        {% if site.vcap == true %}
+            {% if page.title != "Strava" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/vcap-experience">VCAP6-DCV Deploy</a>
                 </li>
             {% endif %}
         {% endif %}
