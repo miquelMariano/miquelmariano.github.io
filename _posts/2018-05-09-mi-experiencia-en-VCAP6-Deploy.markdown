@@ -62,8 +62,8 @@ Básicamente mi preparación se basó en los siguientes aspectos, ordenados para
 
 2. Material de los blogs. Estos son los 2 que para mi gusto tienen mejor contenido:
 
-* [vStellar](http://www.vstellar.com/2017/12/29/vcap6-dcv-deploy-study-guide/)
-* [vJenner](http://www.vjenner.com/vcap6-dcv-deployment-study-guide/)
+[vStellar](http://www.vstellar.com/2017/12/29/vcap6-dcv-deploy-study-guide/)
+[vJenner](http://www.vjenner.com/vcap6-dcv-deployment-study-guide/)
 
 3. [HOL](http://labs.hol.vmware.com/HOL/catalogs/catalog/681)
 
