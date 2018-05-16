@@ -73,11 +73,9 @@ Estos son los 2 que para mi gusto tienen mejor contenido:
 
 Aunque os los encontrareis en el escritorio del laboratorio el dia del examen, no está de mas que les deis un repaso antes. Os los dejo [aquí](https://miquelmariano.github.io/assets/vsphere-documentation-60.zip)
 
-
 A parte de material comentado previamente, también es muy importante la práctica. Practicar, practicar, practicar y mas practicar. Hay que tener cierta soltura con el laboratorio y las diferentes interfaces de administración que dispone vSphere. Tendremos "poco" tiempo y esta agilidad sobre el lab será fundamental para ir avanzando.
 
 A mi personalmente, me ha ayudado muchisimo la formación. Pero no como alumno, desde hace mas de 1 año soy instructuctor del curso [Administración de vSphere 6.5](bla.com) que ofrecemos desde Ncora de forma trimestral y sin duda, el tener que prepararme continuamente este curso, ha sido fundamental para contrarestar la falta de horas de estudio.
-
 
 ### El dia "D"
 
@@ -102,7 +100,6 @@ Se trata de sumar puntos, por muy perdidos que vayais en un laboratorio concreto
 No perdais mucho tiempo en esas cosas que no sabeis. Es mejor ir avanzando en el laboratorio, os ayudará psicologicamente ver que vais avanzando, y después ya volvereis a los lab mas complejos.
 
 Evidentemente no tendreis al Sr. Google para que os ayude, pero si que tendreis toda la documentación de vSphere 6.0 disponible en el escritorio del lab. No tendreis mucho tiempo para consultarla, pero si que para las preguntas de línea de comandos o configuración avanzada os será muy útil.
-
 
 ### El resultado
 
