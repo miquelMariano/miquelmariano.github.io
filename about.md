@@ -4,8 +4,6 @@ title: Sobre mí
 permalink: /about/
 ---
 
-![profile]({{ site.url }}/{{ site.picture }}) 
-
 Hola, me llamo Miquel Mariano Ramis y soy Consultor TI en [Ncora](https://www.ncora.com/)
 
 A parte de la tecnología, me encanta el deporte al aire libre. Aunque viva en una isla como Mallorca, soy mas de montaña que de playa, así que es fácil encontrarme por el monte haciendo MTB, corriendo o simplemente practicando algo de senderismo.
