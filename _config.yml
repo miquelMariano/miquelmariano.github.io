@@ -93,6 +93,7 @@ blog: true
 # add new buttons
 galaxy: true
 vcap: true
+strava: true
 
 
 # do you want to show the "read time" of the posts?
