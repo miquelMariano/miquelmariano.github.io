@@ -1,5 +1,5 @@
 ---
-title: Uso de variables y condicionales con Ansible
+title: Uso de condicionales con Ansible
 date: '2020-01-03 00:00:00'
 layout: post
 image: /assets/images/posts/2018/06/ansible_logo.png
@@ -10,7 +10,7 @@ tag:
 - automation
 category: blog
 author: miquelMariano
-description: Uso de variables con Ansible
+description: Uso de condicionales con Ansible
 hidden: false
 o: "{{"
 c: "}}"
