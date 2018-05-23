@@ -17,11 +17,7 @@ hidden: false
 permalink: /basics5/
 ---
 
-http://vsphereworld.com/back-basics-types-virtual-disks-vsphere/
-
-Buenos dias a tod@as!!
-
-En esta segunda entrada de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), me gustaria dar un repaso al licenciamiento vSphere
+https://blogs.vmware.com/vsphere/2014/03/vsphere-ha-vm-monitoring-back-basics.html
 
 
 

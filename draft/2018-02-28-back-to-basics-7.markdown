@@ -14,10 +14,10 @@ category: blog
 author: miquelMariano
 description: Back-to-basics 2 - ESXi logs
 hidden: false
-permalink: /basics4/
+permalink: /basics7/
 ---
 
-http://buildvirtual.net/calculate-host-failure-requirements/
+http://vsphereworld.com/back-basics-types-virtual-disks-vsphere/
 
 Buenos dias a tod@as!!
 

@@ -23,7 +23,7 @@ Buenas a tod@as!
 
 Hace ya tiempo, escribí un post, por el cual os recomiendo que os paseis, sobre el [uso de variables en Ansible](https://miquelmariano.github.io//2018/01/ansible-vars/)
 
-En el artículo de hoy, vamos a ir un paso mas allá y veremos como tratarlas en expresiones condicionales. A veces nos puede resultar necesario almacenar el resultado de una tarea y que otras tareas puedan acceder a ella y en función del valor hacer una cosa u otra. Vamos a ver algunos pequeños ejemplos del uso de estas variables en condicionales:
+En el artículo de hoy, vamos a ir un paso mas allá y veremos como tratarlas en expresiones condicionales. A veces nos puede resultar necesario almacenar el resultado de una tarea y que otras tareas puedan acceder a ella y en función del valor hacer, una cosa u otra. Vamos a ver algunos pequeños ejemplos del uso de estas variables en condicionales:
 
 ### Ansible cuando la variable es igual a otro valor
 
