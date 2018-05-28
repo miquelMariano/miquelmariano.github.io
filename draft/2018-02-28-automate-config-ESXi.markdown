@@ -114,6 +114,8 @@ ks=ftp://ftp.ncora.com/ks.cfg nameserver=192.168.6.100 ip=192.168.6.78 netmask=2
 
 ![ks02]({{ site.imagesposts2018 }}/05/ks02.png)
 
+Y hasta aquí por hoy, espero que sea de vuestro interés
+
 Un saludo!
 
 Miquel.
