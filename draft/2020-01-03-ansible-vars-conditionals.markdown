@@ -25,40 +25,40 @@ Hace ya tiempo, escribí un post, por el cual os recomiendo que os paseis, sobre
 
 En el artículo de hoy, vamos a ir un paso mas allá y veremos como tratarlas en expresiones condicionales. A veces nos puede resultar necesario almacenar el resultado de una tarea y que otras tareas puedan acceder a ella y en función del valor hacer, una cosa u otra. Vamos a ver algunos pequeños ejemplos del uso de estas variables en condicionales:
 
-### Ansible cuando la variable es igual a otro valor
+### Cuando la variable es igual a otro valor
 
 ```yaml
 - hosts: all
   vars:
     test1: "Hello World"
   tasks:
-  - name: Ansible when variable equals example
+  - name: Cuando la variable es igual a otro valor
     debug:
       msg: "Equals"
     when: test1 == "Hello World"
 ```
 
-### Ansible cuando la variable no es igual a otro valor
+### Cuando la variable no es igual a otro valor
 
 ```yaml
 - hosts: all
   vars:
     test1: "Bye World"
   tasks:
-  - name: Ansible when variable not equals example
+  - name: Cuando la variable no es igual a otro valor
     debug:
       msg: "Not Equals"
     when: test1 != "Hello World"
 ```
 
-### Ansible cuando la variable contiene cadena
+### Cuando la variable contiene una deterninada cadena
 
 ```yaml
 - hosts: all
   vars:
     test1: "Bye World"
   tasks:
-  - name: Ansible when variable contains string example example
+  - name: Cuando la variable contiene una deterninada cadena
     debug:
       msg: "Equals"
     when: test1.find("World") != -1
@@ -69,20 +69,20 @@ En el artículo de hoy, vamos a ir un paso mas allá y veremos como tratarlas en
   tasks:
   - shell: cat /etc/temp.txt
     register: output
-  - name: Ansible when variable contains string example example
+  - name: Cuando la variable contiene una deterninada cadena
     debug:
       msg: "Equals"
     when: output.stdout.find("World") != -1
 ```
 
-### Ansible cuando la variable está vacía
+### Cuando la variable está vacía
 
 ```yaml
 - hosts: all
   tasks:
   - shell: cat /etc/temp.txt
     register: output
-  - name: Ansible when variable is empty example
+  - name: Cuando la variable está vacía
     debug:
       msg: "empty"
     when: output.stdout == ""
