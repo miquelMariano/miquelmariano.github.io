@@ -42,6 +42,8 @@ En primer lugar, necesitaremos un fichero de configuración. En mi caso, lo he l
 ### Date: 28.05.2018
 ### Tested with: ESXi 6.7
 ### Usage: ks=https://https://miquelmariano.github.io/assets/KickStartFiles/demo.cfg nameserver=192.168.6.100 ip=192.168.6.78 netmask=255.255.255.0 gateway=192.168.6.1 vlaid=6
+### Usage: ks=ftp://ftp.ncora.com/ks.cfg nameserver=192.168.6.100 ip=192.168.6.78 netmask=255.255.255.0 gateway=192.168.6.1 vlaid=6
+
 
 ##### Stage 01 - Pre installation:
  
