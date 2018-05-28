@@ -14,7 +14,7 @@ category: blog
 author: miquelMariano
 description: Automatizando configuración de VMWare ESXi tras instalación
 hidden: false
-permalink: /configesxi/
+permalink: /interactiveconfig/
 ---
 
 https://www.virtuallyghetto.com/2015/10/how-to-prompt-for-user-input-during-an-interactive-or-scripted-install-of-esxi.html
