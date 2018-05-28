@@ -17,12 +17,6 @@ hidden: false
 permalink: /configesxi/
 ---
 
-https://www.tech-coffee.net/deploy-esxi-6-5-from-usb-stick-and-unattended-file/
-
-https://be-virtual.net/automated-installation-with-vmware-esxi-5-56-06-5/
-
-http://theartofit.org/esxi-6-5-install-using-ftp-server-kickstart-script/
-
 Buenos dias a tod@as!!
 
 En este post de hoy, vamos a ver como realizar una configuración desatendida de nuestros hosts ESXi en el momento de la instalación con el fichero "kickstart".
