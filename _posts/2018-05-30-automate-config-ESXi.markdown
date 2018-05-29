@@ -9,7 +9,8 @@ tag:
 - vsphere
 - vexpert
 - devops
-- backtobasics
+- esxi
+- automation
 category: blog
 author: miquelMariano
 description: Instalación y configuración desatendida de VMWare ESXi
