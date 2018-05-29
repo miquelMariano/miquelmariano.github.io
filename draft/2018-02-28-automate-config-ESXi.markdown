@@ -1,5 +1,5 @@
 ---
-title: Automatizando configuración de VMWare ESXi tras instalación
+title: Instalación y configuración desatendida de VMWare ESXi
 date: '2018-02-28 00:00:00'
 layout: post
 image: /assets/images/posts/2018/05/esxi_auto.png
@@ -12,7 +12,7 @@ tag:
 - backtobasics
 category: blog
 author: miquelMariano
-description: Automatizando configuración de VMWare ESXi tras instalación
+description: Instalación y configuración desatendida de VMWare ESXi
 hidden: false
 permalink: /configesxi/
 ---
