@@ -1,6 +1,6 @@
 ---
 title: Instalación y configuración desatendida de VMWare ESXi
-date: '2018-02-28 00:00:00'
+date: '2018-05-30 00:00:00'
 layout: post
 image: /assets/images/posts/2018/05/esxi_auto.png
 headerImage: true
@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: Instalación y configuración desatendida de VMWare ESXi
 hidden: false
-permalink: /configesxi/
 ---
 
 Buenos dias a tod@as!!
