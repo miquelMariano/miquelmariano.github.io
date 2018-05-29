@@ -106,7 +106,7 @@ Una vez tengamos el fichero preparado y accesible por FTP (mediante el usuario a
 
 * Paso 1: Arrancar nuestro servidor con la ISO de instalación del ESXi.
 * Paso 2: Pulsamos `shift + o` en el momento del arranque del instalador
-* Paso 3: añadiremos la siguiente línea para hacer la llamada al fichero kickstart
+* Paso 3: añadiremos la siguiente línea para hacer la llamada al fichero kickstart (con nuestra propia configuración IP, claro está. Esta configuración es temporal, para poder descargarse el fichero de configuración. NO es la IP que se quedará en el ESXi)
 
 ```ssh
 ks=ftp://ftp.ncora.com/ks.cfg nameserver=192.168.6.100 ip=192.168.6.78 netmask=255.255.255.0 gateway=192.168.6.1 vlaid=6
