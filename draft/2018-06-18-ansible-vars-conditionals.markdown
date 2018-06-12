@@ -1,6 +1,6 @@
 ---
 title: Uso de condicionales con Ansible
-date: '2020-01-03 00:00:00'
+date: '2018-06-12 00:00:00'
 layout: post
 image: /assets/images/posts/2018/06/ansible_logo.png
 headerImage: true
@@ -16,14 +16,12 @@ o: "{{"
 c: "}}"
 permalink: /conditionals/
 ---
-http://www.mydailytutorials.com/working-ansible-variables-conditionals/
-
 
 Buenas a tod@as!
 
 Hace ya tiempo, escribí un post, por el cual os recomiendo que os paseis, sobre el [uso de variables en Ansible](https://miquelmariano.github.io//2018/01/ansible-vars/)
 
-En el artículo de hoy, vamos a ir un paso mas allá y veremos como tratarlas en expresiones condicionales. A veces nos puede resultar necesario almacenar el resultado de una tarea y que otras tareas puedan acceder a ella y en función del valor hacer, una cosa u otra. Vamos a ver algunos pequeños ejemplos del uso de estas variables en condicionales:
+En el artículo de hoy, vamos a ir un paso mas allá y veremos como tratarlas en expresiones condicionales. A veces nos puede resultar necesario almacenar el resultado de una tarea y que otras tareas puedan acceder a ella y en función del valor hacer, una cosa u otra. Vamos a ver algunos pequeños ejemplos del uso de variables en condicionales:
 
 ### Cuando la variable es igual a otro valor
 
@@ -89,11 +87,7 @@ En el artículo de hoy, vamos a ir un paso mas allá y veremos como tratarlas en
 ```
 
 
-
-
-
-
-Hasta el próximo post :-)
+Espero que os sea de utilidad. Hasta el próximo post :-)
 
 Un saludo!!!
 
