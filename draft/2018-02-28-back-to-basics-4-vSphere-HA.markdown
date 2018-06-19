@@ -2,7 +2,7 @@
 title: Back-to-basics 4 - vSphere HA
 date: '2018-02-28 00:00:00'
 layout: post
-image: /assets/images/posts/2018/03/logs.png
+image: /assets/images/posts/2018/06/ha0.png
 headerImage: true
 tag:
 - vmware
@@ -28,7 +28,6 @@ VMware introdujo por primera vez vSphere HA, creo recordar, en Virtual Infrastru
 vSphere HA es una funcionalidad que nos da VMWare y que permite a un administrador agrupar servidores físicos en un mismo grupo lógico llamado clúster. Esto nos permite, que en caso de fallo de un servidor físico, vSphere HA detecta qué máquinas virtuales se han visto afectadas y las reinicia en otro servidor estable dentro del clúster. Este proceso de reinicio de cargas de trabajo fallidas en sistemas secundarios se denomina conmutación por error.
 
 ![ha1]({{ site.imagesposts2018 }}/06/ha1.png)
-
 
 ### Funciones de VMware vSphere HA
 VMware vSphere HA permite a las organizaciones mejorar la disponibilidad detectando automáticamente máquinas virtuales con errores y reiniciándolas en diferentes servidores físicos sin la participación humana manual. La posibilidad de reiniciar estas máquinas virtuales en hardware físico diferente es posible porque los archivos del disco de la máquina virtual (VMDK) se guardan en el almacenamiento compartido, accesible para todos los servidores físicos conectados a través del clúster de HA.
