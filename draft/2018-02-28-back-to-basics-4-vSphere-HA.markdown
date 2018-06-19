@@ -43,7 +43,6 @@ vSphere HA utiliza un agente llamado Fault Domain Manager para monitorear la  di
 
 ![ha-arch]({{ site.imagesposts2018 }}/06/ha-arch.jpg)
 
- 
 VMware actualizó vSphere HA en 2017.
 Los servidores host dentro de un clúster HA se comunican a través de un latido, que es un mensaje periódico que indica que un host se está ejecutando como se esperaba. Si el host principal no puede detectar una señal de latido de otro host o VM dentro del clúster, instruye a vSphere HA para que tome medidas correctivas. El tipo de acción depende del tipo de falla detectada, así como de las preferencias del usuario. En el caso de una falla de máquina virtual en la que el servidor host continúa ejecutándose, vSphere HA reinicia la máquina virtual en el host original. Si falla un host completo, la utilidad reinicia todas las VM afectadas en otros hosts en el clúster.
 
