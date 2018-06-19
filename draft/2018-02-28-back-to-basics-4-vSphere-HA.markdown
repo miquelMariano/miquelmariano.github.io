@@ -31,6 +31,8 @@ vSphere HA es una funcionalidad que nos da VMWare y que permite a un administrad
 
 ### Funciones de VMware vSphere HA
 
+### Funciones de vSphere HA
+
 VMware vSphere HA permite a las organizaciones mejorar la disponibilidad detectando automáticamente máquinas virtuales con errores y reiniciándolas en diferentes servidores físicos sin la participación humana manual. La posibilidad de reiniciar estas máquinas virtuales en hardware físico diferente es posible porque los archivos del disco de la máquina virtual (VMDK) se guardan en el almacenamiento compartido, accesible para todos los servidores físicos conectados a través del clúster de HA.
 
  El planificador de recursos distribuidos (DRS) de VMware  se usa a menudo junto con vSphere HA para reequilibrar las cargas de trabajo que deben reiniciarse en hosts alternativos. Una organización que usa vSphere HA y DRS en conjunto puede garantizar que las VM reiniciadas no afecten el rendimiento de otras VM en el host de conmutación por error.
