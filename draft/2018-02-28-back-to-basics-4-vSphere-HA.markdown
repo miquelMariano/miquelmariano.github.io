@@ -29,8 +29,6 @@ vSphere HA es una funcionalidad que nos da VMWare y que permite a un administrad
 
 ![ha1]({{ site.imagesposts2018 }}/06/ha1.png)
 
-### Funciones de VMware vSphere HA
-
 ### Funciones de vSphere HA
 
 VMware vSphere HA permite a las organizaciones mejorar la disponibilidad detectando automáticamente máquinas virtuales con errores y reiniciándolas en diferentes servidores físicos sin la participación humana manual. La posibilidad de reiniciar estas máquinas virtuales en hardware físico diferente es posible porque los archivos del disco de la máquina virtual (VMDK) se guardan en el almacenamiento compartido, accesible para todos los servidores físicos conectados a través del clúster de HA.
@@ -41,7 +39,7 @@ La característica de tolerancia a fallas de VMware también puede garantizar ni
 
 ### Cómo funciona vSphere HA
 
-VMware vSphere HA utiliza una utilidad llamada Fault Domain Manager Agent para monitorear la  disponibilidad del host de ESXi y reiniciar las máquinas virtuales fallidas. Al configurar vSphere HA, un administrador define un grupo de servidores para que sirvan como un clúster de alta disponibilidad. Fault Domain Manager se ejecuta en cada host dentro del clúster. Un host en el clúster sirve como  host principal  (todos los demás hosts se denominan  esclavos  ) para supervisar las señales de otros hosts en el clúster y comunicarse con vCenter Server.
+vSphere HA utiliza un agente llamado Fault Domain Manager para monitorear la  disponibilidad del host de ESXi y reiniciar las máquinas virtuales fallidas. Al configurar vSphere HA, un administrador define los servidores miembros del clúster de alta disponibilidad. Fault Domain Manager se ejecuta en cada host ESXi dentro del clúster. Uno de los host dentro clúster sirve como "master"  (todos los demás se denominan "slave") para supervisar las señales de heartbeat de otros hosts y comunicarse con vCenter Server.
 
 ![ha-arch]({{ site.imagesposts2018 }}/06/ha-arch.jpg)
 
