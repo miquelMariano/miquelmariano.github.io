@@ -19,6 +19,8 @@ permalink: /basics4/
 
 https://searchvmware.techtarget.com/definition/VMware-HA
 
+https://www.dtechinspiration.com/high-availability-harequirementsfundamental-componentsconfiguring/
+
 Buenos dias a todos
 
 Continuando con la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), en esta ocasión vamos a hablar sobre vSphere HA.
