@@ -37,7 +37,7 @@ VMware vSphere HA nos permite mejorar la disponibilidad de nuestros servidores, 
 
 ### Componentes de vSphere HA
 
-#### vCenter Server
+#### __vCenter Server__
 
 Es el responsable de varias tareas respecto a vSphere HA, por ejemplo:
 
@@ -45,11 +45,11 @@ Es el responsable de varias tareas respecto a vSphere HA, por ejemplo:
 * Configurar la protección de las VMs
 * Comunicar la configuración del clúster y todos los cambios al nodo master
 
-#### Hostd y VPXA
+#### __Hostd y VPXA__
 
 El "daemon" hostd es quizás el componente más importante de un host ESXi, que juntamente con el VPXA son los encargados de comunicarse con el vCenter. Ambos se encuentran instalados en cada ESXi. El agente FDM depende del hostd del host para obtener la información sobre la lista de todas las máquinas virtuales inventariadas en ese host y en caso de que el hostd no esté operativo, el agente FDM detiene / pausa todas las funciones y espera hasta que esté de nuevo en funcionamiento
 
-#### FDM Agent o HA Agent
+#### __FDM Agent o HA Agent__
 
 El agente FDM (Fault Domain Manager) es el encargado de monitorear la  disponibilidad del host ESXi y reiniciar las máquinas virtuales en caso de error físico. Fault Domain Manager se ejecuta en cada host ESXi dentro del clúster. Uno de estos host dentro clúster toma el role de "master" mientras todos los demás se denominan "slave". Para supervisar el estado de los ESXi, estos utilizan unas señales en foma de heartbeat de otros hosts y comunicarse con vCenter Server.
 
