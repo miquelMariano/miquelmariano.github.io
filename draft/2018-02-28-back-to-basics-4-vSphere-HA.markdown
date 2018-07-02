@@ -51,7 +51,9 @@ El "daemon" hostd es quizás el componente más importante de un host ESXi, que 
 
 #### FDM Agent o HA Agent
 
-FDM (Fault Domain Manager) usa el concepto de agente ejecutándose en un host ESXi y se encuentra completamente separado y desacoplado del agente de vCenter (VPXA). Desde su aparición en la versión 5.1 (Viene a substituir AAM Automatic Availability Manager), han introducido algunas mejoras: 
+El agente FDM (Fault Domain Manager) es el encargado de monitorear la  disponibilidad del host ESXi y reiniciar las máquinas virtuales en caso de error físico. Fault Domain Manager se ejecuta en cada host ESXi dentro del clúster. Uno de estos host dentro clúster toma el role de "master" mientras todos los demás se denominan "slave". Para supervisar el estado de los ESXi, estos utilizan unas señales en foma de heartbeat de otros hosts y comunicarse con vCenter Server.
+
+Desde su aparición en la versión 5.1 (viene a substituir AAM Automatic Availability Manager), han introducido algunas mejoras: 
 
 * FDM es compatible con la arquitectura master & slave.
 * Es compatible con IPV6.
