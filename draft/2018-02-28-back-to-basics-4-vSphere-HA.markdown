@@ -35,6 +35,24 @@ VMware vSphere HA nos permite mejorar la disponibilidad de nuestros servidores, 
 
 ![ha1]({{ site.imagesposts2018 }}/06/ha1.png)
 
+### Componentes de vSphere HA
+
+#### vCenter Server
+
+Es el responsable de varias tareas respecto a vSphere HA, por ejemplo:
+
+* Desplegar y configurar los agentes HA sobre los ESXi
+* Configurar la protección de las VMs
+* Comunicar la configuración del clúster y todos los cambios al nodo master
+
+#### Hostd and VPXA
+
+El "daemon" hostd es quizás el componente más importante de un host ESXi, que juntamente con el VPXA son los encargados de comunicarse con el vCenter. Ambos se encuentran instalados en cada ESXi. El agente FDM depende del hostd del host para obtener la información sobre la lista de todas las máquinas virtuales inventariadas en ese host y en caso de que el hostd no esté operativo, el agente FDM detiene / pausa todas las funciones y espera hasta que esté de nuevo en funcionamiento
+
+#### FDM Agent or HA Agent
+
+![ha2]({{ site.imagesposts2018 }}/06/ha2.jpg)
+
 ### Cómo funciona vSphere HA
 
 #### hola
