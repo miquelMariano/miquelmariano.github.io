@@ -29,17 +29,15 @@ VMware introdujo por primera vez vSphere HA, creo recordar, en Virtual Infrastru
 
 vSphere HA es una funcionalidad que nos da VMWare y que permite a un administrador agrupar servidores físicos en un mismo grupo lógico llamado clúster. Esto nos permite, que en caso de fallo de un servidor físico, vSphere HA detecta qué máquinas virtuales se han visto afectadas y las reinicia en otro servidor estable dentro del clúster. Este proceso de reinicio de cargas de trabajo fallidas en sistemas secundarios se denomina conmutación por error.
 
-![ha1]({{ site.imagesposts2018 }}/06/ha1.png)
-
 ### Funciones de vSphere HA
 
-VMware vSphere HA permite a las organizaciones mejorar la disponibilidad detectando automáticamente máquinas virtuales con errores y reiniciándolas en diferentes servidores físicos sin la participación humana manual. La posibilidad de reiniciar estas máquinas virtuales en hardware físico diferente es posible porque los archivos del disco de la máquina virtual (VMDK) se guardan en el almacenamiento compartido, accesible para todos los servidores físicos conectados a través del clúster de HA.
+VMware vSphere HA nos permite mejorar la disponibilidad de nuestros servidores, detectando automáticamente máquinas virtuales con errores y reiniciándolas en diferentes servidores físicos sin intervención humana manual. La posibilidad de reiniciar estas máquinas virtuales en hardware físico diferente es posible porque los archivos del disco de la máquina virtual (VMDK) se guardan en almacenamiento compartido, accesible para todos los servidores físicos conectados a través del clúster HA.
 
- El planificador de recursos distribuidos (DRS) de VMware  se usa a menudo junto con vSphere HA para reequilibrar las cargas de trabajo que deben reiniciarse en hosts alternativos. Una organización que usa vSphere HA y DRS en conjunto puede garantizar que las VM reiniciadas no afecten el rendimiento de otras VM en el host de conmutación por error.
-
-La característica de tolerancia a fallas de VMware también puede garantizar niveles muy altos de disponibilidad. Mientras que vSphere HA reinicia máquinas virtuales fallidas después de una detección breve y un tiempo de arranque, Fault Tolerance mantiene una copia redundante de la máquina virtual protegida que puede hacerse cargo de las operaciones de la copia fallida.
+![ha1]({{ site.imagesposts2018 }}/06/ha1.png)
 
 ### Cómo funciona vSphere HA
+
+#### hola
 
 vSphere HA utiliza un agente llamado Fault Domain Manager para monitorear la  disponibilidad del host de ESXi y reiniciar las máquinas virtuales fallidas. Al configurar vSphere HA, un administrador define los servidores miembros del clúster de alta disponibilidad. Fault Domain Manager se ejecuta en cada host ESXi dentro del clúster. Uno de los host dentro clúster sirve como "master"  (todos los demás se denominan "slave") para supervisar las señales de heartbeat de otros hosts y comunicarse con vCenter Server.
 
