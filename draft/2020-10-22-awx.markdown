@@ -24,6 +24,8 @@ https://galaxy.ansible.com/geerlingguy/awx/
 
 http://khmel.org/?p=1245
 
+https://www.howtoforge.com/tutorial/centos-ansible-awx-installation/
+
 
 
 
