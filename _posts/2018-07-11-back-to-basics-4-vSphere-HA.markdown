@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: Back-to-basics 4 - vSphere HA
 hidden: false
-permalink: /basics4/
 ---
 
 Buenos dias a todos

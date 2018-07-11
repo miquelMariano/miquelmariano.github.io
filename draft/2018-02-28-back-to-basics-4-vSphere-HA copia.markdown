@@ -14,7 +14,7 @@ category: blog
 author: miquelMariano
 description: Back-to-basics 4 - vSphere HA
 hidden: false
-permalink: /basics4/
+permalink: /basics44/
 ---
 
 https://searchvmware.techtarget.com/definition/VMware-HA
