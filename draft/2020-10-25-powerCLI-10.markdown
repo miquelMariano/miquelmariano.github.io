@@ -1,0 +1,26 @@
+---
+title: Introducción a PRTG [Overview]
+date: '2017-08-25 00:00:00'
+layout: post
+image: /assets/images/posts/2017/10/prtg-logo.png
+headerImage: true
+tag:
+- Monitoring
+- DevOps
+- prtg
+category: blog
+author: miquelMariano
+description: Introducción a PRTG "Overview"
+hidden: false
+permalink: /powercli10/
+---
+
+
+http://thesolving.com/virtualization/how-to-install-and-configure-vmware-powercli-version-10/
+
+Un saludo!
+
+Miquel.
+
+
+
