@@ -1,25 +1,23 @@
 ---
-title: Back-to-basics 4 - vSphere HA
-date: '2018-02-28 00:00:00'
+title: Aumentar tiempo de cierre de sesión en vSphere Client
+date: '2018-07-26 00:00:00'
 layout: post
-image: /assets/images/posts/2018/06/ha0.png
+image: /assets/images/posts/2018/07/timeout.png
 headerImage: true
 tag:
 - vmware
 - vsphere
 - vexpert
-- devops
-- backtobasics
+- vcenter
 category: blog
 author: miquelMariano
-description: Back-to-basics 4 - vSphere HA
+description: Aumentar tiempo de cierre de sesión en vSphere Client
 hidden: false
-permalink: /timeout/
 ---
 
 Buenos dias a tod@s!
 
-Los que trabajais continuamente con el vSphere Client, os abreis dado cuenta que durante vuestra jornada laboral estais continuamente haciendo login en el cliente. Eso es debido a que el timeout de la sesión, por defecto está en 2 minutos.
+Los que trabajáis continuamente con el vSphere Client, os abréis dado cuenta que durante vuestra jornada laboral estais continuamente haciendo login en el cliente. Eso es debido a que el timeout de la sesión, por defecto está en 2 minutos.
 
 A continuación vamos a ver como cambiar este tiempo modificando el fichero `webclient.properties` 
 
@@ -37,8 +35,7 @@ session.timeout = 120
 
 ```
 
-Y por último, reiniciar los servicios
-
+Y por último, reiniciar los servicios.
 
 Reiniciar el servicio Flash-based Web Client 
 
@@ -54,6 +51,10 @@ service-control --stop vsphere-ui
 service-control --start vsphere-ui
 ```
 
+Para los que todavía sigáis manteniendo el vCenter sobre windows, en la [KB oficial](https://kb.vmware.com/s/article/2040626) también explica como cambiarlo.
 
+Espero que sea de vuestro interés.
 
-https://kb.vmware.com/s/article/2040626
+Un saludo!!
+
+Miquel.
