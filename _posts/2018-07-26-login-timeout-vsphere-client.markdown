@@ -23,16 +23,15 @@ A continuación vamos a ver como cambiar este tiempo modificando el fichero `web
 
 Para vCenter Server Appliance, el fichero se encuentra en:
 
-* Flash-based Web Client - /etc/vmware/vsphere-client/
+* Flash-based Web Client - `/etc/vmware/vsphere-client/`
 
-* vSphere Client in vSphere 6.5 - /etc/vmware/vsphere-ui/
+* vSphere Client in vSphere 6.5 - `/etc/vmware/vsphere-ui/`
 
 Simplemente tendremos que modificar la siguiente linea
 
 ```ssh
 # Web client session timeout in minutes, default is 120, i.e. 2 hours
 session.timeout = 120
-
 ```
 
 Y por último, reiniciar los servicios.
@@ -44,7 +43,7 @@ service-control --stop vsphere-client
 service-control --start vsphere-client
 ```
 
-Reinicial HTML5 vSphere Client 
+Reiniciar HTML5 vSphere Client 
 
 ```ssh
 service-control --stop vsphere-ui
