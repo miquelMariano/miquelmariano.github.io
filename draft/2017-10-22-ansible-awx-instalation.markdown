@@ -1,18 +1,16 @@
 ---
-title: Error al eliminar fichero de datastore VMFS
+title: Ansible AWX - Part 1 Instalación
 date: '2017-09-22 00:00:00'
 layout: post
-image: /assets/images/posts/2017/08/vcenter-backup.png
+image: /assets/images/posts/2018/08/awx-logo.png
 headerImage: false
 tag:
-- vmware
-- vexpert
-- vCenter
-- VCSA
-- VMFS
+- automation
+- ansible
+- devops
 category: blog
 author: miquelMariano
-description: Error al eliminar fichero de datastore VMFS
+description: Ansible AWX - Part 1 Instalación
 hidden: false
 permalink: /awx/
 ---
