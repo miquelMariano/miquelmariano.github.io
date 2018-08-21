@@ -1,18 +1,18 @@
 ---
-title: Automatizando configuración de VMWare ESXi tras instalación
+title: Instalar vCenter 6.7 via CLI
 date: '2018-02-28 00:00:00'
 layout: post
-image: /assets/images/posts/2018/05/esxi_auto.png
+image: /assets/images/posts/2018/08/install_cli.png
 headerImage: true
 tag:
 - vmware
 - vsphere
 - vexpert
-- devops
-- backtobasics
+- automation
+- vcenter
 category: blog
 author: miquelMariano
-description: Automatizando configuración de VMWare ESXi tras instalación
+description: Instalar vCenter 6.7 via CLI
 hidden: false
 permalink: /cliinstaller/
 ---
