@@ -1,6 +1,6 @@
 ---
 title: Instalar vCenter 6.7 via CLI
-date: '2018-08-22 00:00:00'
+date: '2018-02-28 00:00:00'
 layout: post
 image: /assets/images/posts/2018/08/install_cli.png
 headerImage: true
@@ -18,23 +18,6 @@ permalink: /cliinstaller/
 ---
 
 https://virtualtassie.com/2017/vsphere-6-5-cli-vcsa-embedded-deployment-walkthrough/
-
-Buenos dias a tod@s!!
-
-Como sabéis, VCSA se puede [implementar a través de GUI](https://miquelmariano.github.io/2017/07/ncoratutorial-install-vcsa/) sin demasiadas complicaciones desde máquinas Windows, Linux o incluso MAC.
-
-El objetivo del post de hoy es ver cómo podemos desplegar un vCenter en versión 6.7 (6.5 también sigue en mismo procedimiento) de forma desatendida a través de la linea de comandos CLI.
-
-Este proceso utiliza un archivo JSON para definir toda la configuración del nuevo servidor, desde el host ESXi en dónde se desplegará en nuevo apliance, hasta la contraseña de root del VCSA pasando por configuración IP, NTP, etc etc....
-
-Tras jugar un poco con la CLI en el laboratorio, creo que este método de instalación va a ser el elegido en mis futuras implementaciones.
-
-### Primeros pasos
-
-Antes de instalar cualquier VCSA, es necesario asegurarse de que en nuestro DNS está correctamente creado el registro. Durante el proceso de configuración, será necesario conectarse al nuevo vCenter y si el FQDN que hemos especificado no existe, fallará.
-
-### Vistazo rápido de la ISO
-
 
 
 ```json
