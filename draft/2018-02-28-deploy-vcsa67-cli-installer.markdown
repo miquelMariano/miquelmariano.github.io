@@ -42,6 +42,20 @@ A continuación, echemos un vistazo al archivo ISO de VCSA que descargué de VMw
 
 ![cli2]({{ site.imagesposts2018 }}/08/cli2.png)
 
+Vamos a sumergirnos en la carpeta de plantillas y echar un vistazo, ya que aquí es donde están instalados los archivos de configuración JSON de ejemplo. Dentro de la carpeta de plantillas, hay subcarpetas para instalar, migrar y actualizar. La herramienta CLI se puede usar para realizar una nueva instalación, una migración de Windows VC al dispositivo y una actualización. Dirígete a la carpeta de instalación y verás las plantillas JSON provistas por VMware.
+
+![cli3]({{ site.imagesposts2018 }}/08/cli3.png)
+
+![cli4]({{ site.imagesposts2018 }}/08/cli4.png)
+
+### Crear el archivo JSON
+
+Con los archivos de configuración de JSON, puede abrirlos en cualquier editor de texto para realizar los cambios necesarios. Hay una pequeña descripción para cada configuración en cuanto a lo que se requiere. Recomiendo ver el video al comienzo de esta publicación mientras recorro cada una de las configuraciones. Aunque puede abrir en un editor de texto, encontré un excelente editor en línea JSON (http://www.jsoneditoronline.org/) que también le muestro en mi clip de YouTube.
+
+He puesto la salida de mi archivo JSON completo a continuación. También ingresé en una sección para el servidor NTP, que recomiendo que también lo haga. Asegúrese de poner la coma en la línea sobre la entrada NTP.Servers y guarde el archivo JSON.
+
+La documentación de vSphere 6.5 contiene información para todas las configuraciones que se pueden usar en el archivo JSON - https://pubs.vmware.com/vsphere-65/index.jsp#com.vmware.vsphere.install.doc/GUID- 457EAE1F-B08A-4E64-8506-8A3FA84A0446.html
+
 
 ```json
 {
@@ -122,5 +136,14 @@ A continuación, echemos un vistazo al archivo ISO de VCSA que descargué de VMw
 }
 ```
 
+### Usando vcsa-deploy
+
+Ahora que tenemos un archivo JSON que especifica la configuración, podemos sumergirnos en la ejecución de la utilidad CLI para verificar que los datos en el archivo de configuración sean correctos y luego pasar a la implementación del dispositivo.
+
+Abra un símbolo del sistema y busque la siguiente ubicación, donde la unidad representa el archivo ISO de VCSA que montamos anteriormente (para mí esto es E: \) - E: \ vcsa-cli-installer \ win32
+
+Ejecute el siguiente comando para mostrar la ayuda y las opciones disponibles para la configuración de instalación de la herramienta:
+
+vcsa-deploy.exe install -h`
 
 >vcsa-deploy.exe install --acknowledge-ceip --accept-eula --no-ssl-certificate-verification c:\tmp\vcenter67.json
