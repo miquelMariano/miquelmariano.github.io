@@ -146,4 +146,4 @@ Ejecute el siguiente comando para mostrar la ayuda y las opciones disponibles pa
 
 `vcsa-deploy.exe install -h`
 
-'vcsa-deploy.exe install --acknowledge-ceip --accept-eula --no-ssl-certificate-verification c:\tmp\vcenter67.json`
+`vcsa-deploy.exe install --acknowledge-ceip --accept-eula --no-ssl-certificate-verification c:\tmp\vcenter67.json`
