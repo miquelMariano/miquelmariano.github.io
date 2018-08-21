@@ -144,6 +144,6 @@ Abra un símbolo del sistema y busque la siguiente ubicación, donde la unidad r
 
 Ejecute el siguiente comando para mostrar la ayuda y las opciones disponibles para la configuración de instalación de la herramienta:
 
-vcsa-deploy.exe install -h`
+`vcsa-deploy.exe install -h`
 
->vcsa-deploy.exe install --acknowledge-ceip --accept-eula --no-ssl-certificate-verification c:\tmp\vcenter67.json
+'vcsa-deploy.exe install --acknowledge-ceip --accept-eula --no-ssl-certificate-verification c:\tmp\vcenter67.json`
