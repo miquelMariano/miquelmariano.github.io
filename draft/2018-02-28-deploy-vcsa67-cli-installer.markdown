@@ -40,6 +40,8 @@ A continuación, echemos un vistazo al archivo ISO de VCSA que descargué de VMw
 
 ![cli1]({{ site.imagesposts2018 }}/08/cli1.png)
 
+![cli2]({{ site.imagesposts2018 }}/08/cli2.png)
+
 
 ```json
 {
