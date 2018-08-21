@@ -36,6 +36,10 @@ Antes de instalar cualquier VCSA, es necesario asegurarse de que en nuestro DNS 
 ### Vistazo rápido de la ISO
 
 
+A continuación, echemos un vistazo al archivo ISO de VCSA que descargué de VMware. Si montamos el archivo ISO y luego lo abrimos, verá una carpeta llamada vcsa-cli-installer. En su interior, encontrará carpetas para Linux, Mac y Windows, así como una carpeta de plantillas.
+
+![cli1]({{ site.imagesposts2018 }}/08/cli1.png)
+
 
 ```json
 {
