@@ -24,7 +24,7 @@ El objetivo del post de hoy es ver cómo podemos desplegar un vCenter en versió
 
 Este proceso utiliza un archivo JSON para definir toda la configuración del nuevo servidor, desde el host ESXi en dónde se desplegará en nuevo apliance, hasta la contraseña de root del VCSA pasando por configuración IP, NTP, etc etc....
 
-Tras jugar un poco con la CLI en el laboratorio, creo que este método de instalación va a ser el elegido en mis futuras implementaciones.
+Tras jugar un poco con la CLI en el laboratorio, creo que este método de instalación va a ser el elegido en mis futuras implementaciones ;-)
 
 ### Antes de empezar
 
