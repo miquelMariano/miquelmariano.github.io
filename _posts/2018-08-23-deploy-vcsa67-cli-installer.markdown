@@ -1,6 +1,6 @@
 ---
 title: Instalar vCenter 6.7 via CLI
-date: '2018-08-22 00:00:00'
+date: '2018-08-23 00:00:00'
 layout: post
 image: /assets/images/posts/2018/08/install_cli.png
 headerImage: true
@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: Instalar vCenter 6.7 via CLI
 hidden: false
-permalink: /cliinstaller/
 ---
 
 https://virtualtassie.com/2017/vsphere-6-5-cli-vcsa-embedded-deployment-walkthrough/
@@ -164,8 +163,21 @@ Una vez que se haya iniciado el proceso, es momento de ponerse comodos y esperar
 
 ![cli7]({{ site.imagesposts2018 }}/08/cli7.png)
 
+![cli8]({{ site.imagesposts2018 }}/08/cli8.png)
 
+Llegados a este punto, si todo ha ido correctamente, ya nos podremos conectar mediante vSphere Client al nuevo vCenter recien implementado.
 
+### Resumen
+
+A mi personalmente, cada vez me gustan mas las lineas de comandos, no solo para automatizar los procesos sinó también para reducir el error del factor humano a la hora de picar parámetros durante el wizard de instalación que nos aporta la GUI.
+
+Como hemos visto, una vez sabemos como funciona la herramienta GUI, este método puede volverse muy poderoso y fácil de usar gracias al fichero JSON.
+
+Espero que os sea de utilidad.
+
+Un saludo!
+
+Miquel.
 
 
 
