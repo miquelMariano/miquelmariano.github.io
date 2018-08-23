@@ -143,7 +143,7 @@ Para mostrar la ayuda de la herramienta ejecutaremos el comando `vcsa-deploy.exe
 
 Ejecutaremos el siguiente comando para realizar una verificación del archivo de configuración. 
 
-`vcsa-deploy.exe install --acknowledge-ceip --accept-eula --no-esx-ssl-verify --verify-template-only c:\tmp\vcenter67.json
+`vcsa-deploy.exe install --acknowledge-ceip --accept-eula --no-esx-ssl-verify --verify-template-only c:\tmp\vcenter67.json`
 
 > En VCSA 6.5 el flag para verificar es --verify-only
 
@@ -165,7 +165,7 @@ Una vez que se haya iniciado el proceso, es momento de ponerse comodos y esperar
 
 Llegados a este punto, si todo ha ido correctamente, ya nos podremos conectar mediante vSphere Client al nuevo vCenter recien implementado.
 
-### Resumen
+### Resumen
 
 A mi personalmente, cada vez me gustan mas las lineas de comandos, no solo para automatizar los procesos sinó también para reducir el error del factor humano a la hora de picar parámetros durante el wizard de instalación que nos aporta la GUI.
 
