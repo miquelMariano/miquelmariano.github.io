@@ -16,8 +16,6 @@ description: Instalar vCenter 6.7 via CLI
 hidden: false
 ---
 
-https://virtualtassie.com/2017/vsphere-6-5-cli-vcsa-embedded-deployment-walkthrough/
-
 Buenos dias a tod@s!!
 
 Como sabéis, VCSA se puede [implementar a través de GUI](https://miquelmariano.github.io/2017/07/ncoratutorial-install-vcsa/) sin demasiadas complicaciones desde máquinas Windows, Linux o incluso MAC.
