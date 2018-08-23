@@ -136,7 +136,8 @@ Aquí teneis el ejemplo del fichero que yo utilizaré:
 }
 ```
 
-### Verificar el archivo JSON
+### Verificar el archivo JSON
+### Antes de empezar
 
 Ahora que tenemos el archivo JSON con la configuración, ya ejecutar la herramienta CLI para realizar el despliegue.
 
@@ -153,6 +154,7 @@ Ejecutaremos el siguiente comando para realizar una verificación del archivo de
 ![cli5]({{ site.imagesposts2018 }}/08/cli5.png)
 
 ### Despliegue y configuración VCSA
+### Antes de empezar
 
 Hemos llegado al momento de ejecutar el comando que realmente hará el despliegue y la configuración. El comando es similar al anterior, pero sin el flag de verificación ( --verify-template-only).
 
