@@ -16,7 +16,7 @@ description: Instalar vCenter 6.7 via CLI
 hidden: false
 ---
 
-Buenos dias a tod@s!!
+Buenos días a tod@s!!
 
 Como sabéis, VCSA se puede [implementar a través de GUI](https://miquelmariano.github.io/2017/07/ncoratutorial-install-vcsa/) sin demasiadas complicaciones desde máquinas Windows, Linux o incluso MAC.
 
