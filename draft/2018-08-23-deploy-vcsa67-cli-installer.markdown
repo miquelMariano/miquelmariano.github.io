@@ -150,10 +150,22 @@ Ejecutaremos el siguiente comando para realizar una verificación del archivo de
 
 > En VCSA 6.5 el flag para verificar es --verify-only
 
+![cli5]({{ site.imagesposts2018 }}/08/cli5.png)
+
+### Despliegue y configuración VCSA
+
+Hemos llegado al momento de ejecutar el comando que realmente hará el despliegue y la configuración. El comando es similar al anterior, pero sin el flag de verificación ( --verify-template-only).
+
+`vcsa-deploy.exe install --acknowledge-ceip --accept-eula --no-ssl-certificate-verification c:\temp\embedded_vCSA_on_ESXi.json`
+
+Una vez que se haya iniciado el proceso, es momento de ponerse comodos y esperar, el despliegue tarda alrededor de 15-20 minutos en implementarse, configurarse y que los servicios se inicien.
+
+![cli6]({{ site.imagesposts2018 }}/08/cli6.png)
+
+![cli7]({{ site.imagesposts2018 }}/08/cli7.png)
 
 
-Como verá hacia la parte inferior de la captura de pantalla, la verificación se completó con éxito, por lo que sabemos que los datos y los detalles del host de ESXi que hemos proporcionado en el archivo JSON son válidos.
 
-`vcsa-deploy.exe install -h`
 
-`vcsa-deploy.exe install --acknowledge-ceip --accept-eula --no-ssl-certificate-verification c:\tmp\vcenter67.json`
+
+
