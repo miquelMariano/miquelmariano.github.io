@@ -49,8 +49,11 @@ Nos conectamos a través de un cliente SSH y verificamos la versión actual.
 > Es probable que os encontreis con algún paquete incompatible.
 > ![actualizacion_offline1]({{ site.imagesposts2018 }}/05/actualizacion_offline1.png)
 > En este caso, el comando a utilizar es el siguiente:
+
 > `esxcli software profile update -d <full_path_to_offline_bundle> -p <Image Profile>`
-> Para saber cual es el <Image Profile> podreis ejecutar el comando
+
+> Para saber cual es el <Image Profile> podreis ejecutar el comando:
+
 > `esxcli software sources profile list -d <full_path_to_offline_bundle>`
 
 Tras unos segundos, veremos el resultado de la acrtualización, con los paquetes instalados y los que se han eliminado. Y si todo ha ido bien, será necesario un reinicio del servidor.
