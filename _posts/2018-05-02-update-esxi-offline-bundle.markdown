@@ -49,14 +49,6 @@ Tras unos segundos, veremos el resultado de la acrtualización, con los paquetes
 
 ![offline3]({{ site.imagesposts2018 }}/05/offline3.png)
 
-## 5| Verificar que el host se ha actualizado correctamente.
-
-Tras el correspondiente reinicio, comprobaremos que la versión del ESXi ya es la nueva 6.7
-
-![offline4]({{ site.imagesposts2018 }}/05/offline4.png)
-
-![offline5]({{ site.imagesposts2018 }}/05/offline5.png)
-
 > #### Actualización 24/08/2018
 > Es probable que os encontreis con algún paquete incompatible.
 > ![actualizacion_offline1]({{ site.imagesposts2018 }}/05/actualizacion_offline1.png)
@@ -67,6 +59,14 @@ Tras el correspondiente reinicio, comprobaremos que la versión del ESXi ya es l
 > Para saber cual es el <Image Profile> podreis ejecutar el comando:
 
 > `esxcli software sources profile list -d <full_path_to_offline_bundle>`
+
+## 5| Verificar que el host se ha actualizado correctamente.
+
+Tras el correspondiente reinicio, comprobaremos que la versión del ESXi ya es la nueva 6.7
+
+![offline4]({{ site.imagesposts2018 }}/05/offline4.png)
+
+![offline5]({{ site.imagesposts2018 }}/05/offline5.png)
 
 
 Espero que os sea de utilidad.
