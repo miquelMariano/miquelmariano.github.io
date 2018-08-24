@@ -45,17 +45,6 @@ Nos conectamos a través de un cliente SSH y verificamos la versión actual.
  esxcli software vib update -d /vmfs/volumes/formacionesxi01/VMware-ESXi-6.7.0-8169922-depot.zip
 ```
 
-> #### Actualización 24/08/2018
-> Es probable que os encontreis con algún paquete incompatible.
-> ![actualizacion_offline1]({{ site.imagesposts2018 }}/05/actualizacion_offline1.png)
-> En este caso, el comando a utilizar es el siguiente:
-
-> `esxcli software profile update -d <full_path_to_offline_bundle> -p <Image Profile>`
-
-> Para saber cual es el <Image Profile> podreis ejecutar el comando:
-
-> `esxcli software sources profile list -d <full_path_to_offline_bundle>`
-
 Tras unos segundos, veremos el resultado de la acrtualización, con los paquetes instalados y los que se han eliminado. Y si todo ha ido bien, será necesario un reinicio del servidor.
 
 ![offline3]({{ site.imagesposts2018 }}/05/offline3.png)
@@ -68,6 +57,16 @@ Tras el correspondiente reinicio, comprobaremos que la versión del ESXi ya es l
 
 ![offline5]({{ site.imagesposts2018 }}/05/offline5.png)
 
+> #### Actualización 24/08/2018
+> Es probable que os encontreis con algún paquete incompatible.
+> ![actualizacion_offline1]({{ site.imagesposts2018 }}/05/actualizacion_offline1.png)
+> En este caso, el comando a utilizar es el siguiente:
+
+> `esxcli software profile update -d <full_path_to_offline_bundle> -p <Image Profile>`
+
+> Para saber cual es el <Image Profile> podreis ejecutar el comando:
+
+> `esxcli software sources profile list -d <full_path_to_offline_bundle>`
 
 
 Espero que os sea de utilidad.
