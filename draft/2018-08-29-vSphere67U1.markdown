@@ -1,0 +1,41 @@
+---
+title: vSphere 6.7 U1 anunciado en el VMWorld USA
+date: '2017-09-22 00:00:00'
+layout: post
+image: /assets/images/posts/2018/08/vSphere67U1Platinum1.png
+headerImage: true
+tag:
+- vmware
+- vsphere
+- vmworld
+- vcenter
+- esxi
+category: blog
+author: miquelMariano
+description: vSphere 6.7 U1 anunciado en el VMWorld USA
+hidden: false
+permalink: /67
+---
+
+Buenos dias a tod@as!!
+
+https://blogs.vmware.com/vsphere/2018/08/under-the-hood-vsphere-6-7-update-1.html
+
+https://www.jorgedelacruz.es/2018/08/27/vmworld-vsphere-6-7-update-1-ha-sido-anunciado-en-el-vmworld-2018-us/
+
+http://cloudvm.es/novedades-de-vsphere-6-7-update-1
+
+https://patriciocerda.com/vmworld-2018-lanzamiento-vsphere-6-7-update-1/
+
+https://www.dbigcloud.com/virtualizacion/316-vmworld-2018-novedades-vmware.html
+
+
+
+
+
+
+Un saludo!
+
+Miquel.
+
+
