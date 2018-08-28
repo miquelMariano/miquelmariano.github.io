@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: vSphere 6.7 U1 anunciado en el VMWorld USA
 hidden: false
-permalink: /67/
 ---
 
 Buenos dias a tod@as!!
