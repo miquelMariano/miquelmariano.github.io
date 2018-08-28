@@ -1,6 +1,6 @@
 ---
 title: vSphere 6.7 U1 anunciado en el VMWorld USA
-date: '2017-09-22 00:00:00'
+date: '2018-08-29 00:00:00'
 layout: post
 image: /assets/images/posts/2018/08/vSphere67U1Platinum1.png
 headerImage: true
