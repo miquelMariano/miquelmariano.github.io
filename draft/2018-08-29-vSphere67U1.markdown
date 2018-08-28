@@ -19,7 +19,7 @@ permalink: /67/
 
 Buenos dias a tod@as!!
 
-Como ya habréis leido por ahi, ayer en el VMWorld USA 2018 se anunció el lanzamiento de vSphere 6.7 U1 + vSphere Platinum. Entre otras cosas incluye las siguientes novedades:
+Como ya habréis leido por ahi, ayer en el [VMWorld USA 2018](https://www.vmworld.com/en/index.html) se anunció el lanzamiento de vSphere 6.7 U1 + vSphere Platinum. Entre otras cosas incluye las siguientes novedades:
 
 ![novedades]({{ site.imagesposts2018 }}/08/vSphere67U1_features_blog.png)
 
