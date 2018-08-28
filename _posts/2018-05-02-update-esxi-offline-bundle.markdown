@@ -56,7 +56,7 @@ Tras unos segundos, veremos el resultado de la acrtualización, con los paquetes
 
 > `esxcli software profile update -d <full_path_to_offline_bundle> -p <Image Profile>`
 
-> Para saber cual es el <Image Profile> podreis ejecutar el comando:
+> Para saber cual es el "Image Profile" podreis ejecutar el comando:
 
 > `esxcli software sources profile list -d <full_path_to_offline_bundle>`
 
