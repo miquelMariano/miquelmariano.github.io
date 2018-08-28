@@ -19,7 +19,7 @@ permalink: /67/
 
 Buenos dias a tod@as!!
 
-Como ya habréis leido por ahi, ayer en el VMWorld USA 2018 se anunció el lanzamiento de vSphere 6.7 U1 + vSphere Platinum.
+Como ya habréis leido por ahi, ayer en el VMWorld USA 2018 se anunció el lanzamiento de vSphere 6.7 U1 + vSphere Platinum. Entre otras cosas incluye las siguientes novedades:
 
 * Funcionalidad completada en vSphere HTML5 Client
 
@@ -35,6 +35,8 @@ Como ya habréis leido por ahi, ayer en el VMWorld USA 2018 se anunció el lanza
 
 * vMotion con soporte para NVIDIA Quadro vDWS e Intel FPGA
 
+Os dejo con el link oficial del anuncio y algunos posts de blogs amigos que lo explican mucho mejor de lo que yo haria ;-)
+
 https://blogs.vmware.com/vsphere/2018/08/under-the-hood-vsphere-6-7-update-1.html
 
 https://www.jorgedelacruz.es/2018/08/27/vmworld-vsphere-6-7-update-1-ha-sido-anunciado-en-el-vmworld-2018-us/
@@ -44,10 +46,6 @@ http://cloudvm.es/novedades-de-vsphere-6-7-update-1
 https://patriciocerda.com/vmworld-2018-lanzamiento-vsphere-6-7-update-1/
 
 https://www.dbigcloud.com/virtualizacion/316-vmworld-2018-novedades-vmware.html
-
-
-
-
 
 
 Un saludo!
