@@ -22,6 +22,7 @@ Como ya habréis leido por ahi, ayer en el [VMWorld USA 2018](https://www.vmworl
 
 ![novedades]({{ site.imagesposts2018 }}/08/vSphere67U1_features_blog.png)
 
+* Soporte para la migración desde vCenter 6.5U2
 * Funcionalidad completada en vSphere HTML5 Client
 * Mejoras en vSphere Client HTML5
 * Mejoras en la gestión de VCSA
