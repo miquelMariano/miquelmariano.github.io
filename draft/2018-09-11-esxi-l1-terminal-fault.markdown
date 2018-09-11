@@ -17,14 +17,11 @@ permalink: /l1/
 
 Buenos dias a tod@as!!
 
+Muchos de vosotros, os abreis dado cuenta que al actualizar vuestros hosts ESXi a la última versión os han aparecido unos misteriosos mensajes:
 
-https://galaxy.ansible.com/geerlingguy/awx/
+![warning1]({{ site.imagesposts2018 }}/09/esxi-warning1.png)
 
-http://khmel.org/?p=1245
-
-https://www.howtoforge.com/tutorial/centos-ansible-awx-installation/
-
-
+![warning2]({{ site.imagesposts2018 }}/09/esxi-warning2.png)
 
 
 Un saludo!
