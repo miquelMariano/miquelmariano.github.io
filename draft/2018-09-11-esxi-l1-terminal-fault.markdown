@@ -5,9 +5,11 @@ layout: post
 image: /assets/images/posts/2018/09/bug.jpg
 headerImage: true
 tag:
-- automation
-- ansible
-- devops
+- vmware
+- bug
+- vexpert
+- esxi
+- vsphere
 category: blog
 author: miquelMariano
 description: ESXi | L1 Terminal Fault or esx.problem.hyperthreading.unmitigated
