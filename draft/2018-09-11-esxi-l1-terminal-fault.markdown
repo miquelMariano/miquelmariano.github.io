@@ -23,6 +23,15 @@ Muchos de vosotros, os abreis dado cuenta que al actualizar vuestros hosts ESXi 
 
 ![warning2]({{ site.imagesposts2018 }}/09/esxi-warning2.png)
 
+Esto es debido al bug *[L1 Terminal Fault - VMM](https://kb.vmware.com/s/article/55806?src=af_5acfd7716582e&cid=70134000001YR6X)*
+
+> The L1 Terminal Fault (aka Foreshadow) bug is another speculative execution side channel attack  
+> that affects Intel Core processors and Intel Xeon processors only.
+
+Por suerte, VMWare sacó el 14 de agosto una serie de parches para tratar de mitigar este problema
+
+![tabla]({{ site.imagesposts2018 }}/09/tabla.png)
+
 
 Un saludo!
 
