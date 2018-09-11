@@ -17,7 +17,7 @@ hidden: false
 permalink: /l1/
 ---
 
-Buenos dias a tod@as!!
+Buenos días a tod@as!!
 
 Muchos de vosotros, os abreis dado cuenta que al actualizar vuestros hosts ESXi a la última versión os han aparecido unos misteriosos mensajes:
 
@@ -49,15 +49,15 @@ o
 
 Para habilitar el scheduler ESXi side-channel-aware tendremos que seguir los siguientes pasos en nuestro vSphere Client:
 
-- Conéctese al vCenter Server utilizando vSphere Web o vSphere Client.
-- Seleccione un host ESXi en el inventario.
+- Nos conectamos al vCenter Server utilizando vSphere Web o vSphere Client.
+- Seleccionamos un host ESXi en el inventario.
 - Pestaña Configurar.
-- En Sistema, haga clic en  Configuración avanzada del sistema .
-- Haga clic en el cuadro Filtro y buscamos VMkernel.Boot.hyperthreadingMitigation
-- Seleccionamos la configuración por nombre y haga clic en el   icono Editar
-- Cambie la opción de configuración a true (predeterminado: false).
-- Haga clic en  Aceptar .
-- Reinicie el host ESXi para que el cambio de configuración entre en vigencia.
+- En Sistema, hacemos clic en  Configuración avanzada del sistema .
+- Clic en el cuadro Filtro y buscamos VMkernel.Boot.hyperthreadingMitigation
+- Seleccionamos la configuración y haga clic en el icono Editar
+- Cambiamos la opción de configuración a true (predeterminado: false).
+- Clic en  Aceptar .
+- Reiniciamos el host ESXi para que el cambio de configuración entre en vigencia.
 
 ![habilitar]({{ site.imagesposts2018 }}/09/habilitar.png)
 
