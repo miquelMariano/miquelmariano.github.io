@@ -51,12 +51,11 @@ Para habilitar el scheduler ESXi side-channel-aware tendremos que seguir los sig
 
 - Conéctese al vCenter Server utilizando vSphere Web o vSphere Client.
 - Seleccione un host ESXi en el inventario.
-- Haga clic en la  pestaña Administrar  (5.5 / 6.0) o Configurar (6.5 / 6.7).
-- Haga clic en la   pestaña secundaria Configuración .
-- En el encabezado Sistema, haga clic en  Configuración avanzada del sistema .
-- Haga clic en el cuadro Filtro y busque VMkernel.Boot.hyperthreadingMitigation
-- Seleccione la configuración por nombre y haga clic en el   icono Editar lápiz.
-- Cambie la opción de configuración a verdadero (predeterminado: falso).
+- Pestaña Configurar.
+- En Sistema, haga clic en  Configuración avanzada del sistema .
+- Haga clic en el cuadro Filtro y buscamos VMkernel.Boot.hyperthreadingMitigation
+- Seleccionamos la configuración por nombre y haga clic en el   icono Editar
+- Cambie la opción de configuración a true (predeterminado: false).
 - Haga clic en  Aceptar .
 - Reinicie el host ESXi para que el cambio de configuración entre en vigencia.
 
