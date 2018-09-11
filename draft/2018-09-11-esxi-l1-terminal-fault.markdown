@@ -74,3 +74,6 @@ Un saludo!
 Miquel.
 
 
+*Bibliografia: https://vinfrastructure.it/2018/08/l1-terminal-fault-l1tf-vmware-vsphere-patches/
+
+
