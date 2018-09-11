@@ -32,8 +32,7 @@ El problema, es un error conocido documentado en la [KB55683](https://kb.vmware.
 
 El workarround que propone VMWare es cambiar el repositorio de descarga, por este:
 
-`https://vapp-updates.vmware.com/vai-catalog/valm/vmw/8d167796-34d5-4899-be0a-6daade4005a3/6.7.0.10000.latest/.
-
+`https://vapp-updates.vmware.com/vai-catalog/valm/vmw/8d167796-34d5-4899-be0a-6daade4005a3/6.7.0.10000.latest/.`
 
 ![vcsa3]({{ site.imagesposts2018 }}/10/vcsa3.png)
 ![vcsa4]({{ site.imagesposts2018 }}/10/vcsa4.png)
