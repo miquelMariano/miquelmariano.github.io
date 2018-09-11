@@ -1,5 +1,5 @@
 ---
-title: ESXi - L1 Terminal Fault or esx.problem.hyperthreading.unmitigated
+title: ESXi | L1 Terminal Fault or esx.problem.hyperthreading.unmitigated
 date: '2018-09-11 00:00:00'
 layout: post
 image: /assets/images/posts/2018/09/bug.jpg
@@ -12,8 +12,9 @@ tag:
 - vsphere
 category: blog
 author: miquelMariano
-description: ESXi - L1 Terminal Fault or esx.problem.hyperthreading.unmitigated
+description: ESXi | L1 Terminal Fault or esx.problem.hyperthreading.unmitigated
 hidden: false
+permalink: /l1/
 ---
 
 Buenos días a tod@as!!
