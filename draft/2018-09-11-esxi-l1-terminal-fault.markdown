@@ -63,7 +63,7 @@ Para habilitar el scheduler ESXi side-channel-aware tendremos que seguir los sig
 
 Una vez llegados a este punto y hemos conseguido eliminar este molesto mensaje, a mi personalmente me salta una pregunta
 
-¿Por qué esta remediación no está activa por defecto? 
+¿Por qué esta check no está activa por defecto? 
 
 El motivo principal parece ser el posible impacto en el rendimiento/capacidad. Parece ser que así como Spectre y Meltdown, el aplicar este parche podria tener alrededor de un 30% de penalización en cuanto a rendimiento. Para mas información sobre este punto, podeis consultar la [KB55767](https://kb.vmware.com/s/article/55767?src=af_5acfd7716582e&cid=70134000001YR6X)
 
