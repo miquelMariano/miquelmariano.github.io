@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: ESXi | L1 Terminal Fault or esx.problem.hyperthreading.unmitigated
 hidden: false
-permalink: /l1/
 ---
 
 Buenos días a tod@as!!!
