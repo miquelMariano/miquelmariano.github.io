@@ -37,6 +37,8 @@ El workarround que propone VMWare es cambiar el repositorio de descarga, por est
 ![vcsa3]({{ site.imagesposts2018 }}/10/vcsa3.png)
 ![vcsa4]({{ site.imagesposts2018 }}/10/vcsa4.png)
 
+Y ya podremos empezar la actualización de nuestro VCSA...
+
 Espero que os sea de utilidad
 
 Un saludo!
