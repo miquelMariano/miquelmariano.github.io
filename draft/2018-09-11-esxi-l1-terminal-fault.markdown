@@ -28,9 +28,13 @@ Esto es debido al bug *[L1 Terminal Fault - VMM](https://kb.vmware.com/s/article
 > The L1 Terminal Fault (aka Foreshadow) bug is another speculative execution side channel attack  
 > that affects Intel Core processors and Intel Xeon processors only.
 
-Por suerte, VMWare sacó el 14 de agosto una serie de parches para tratar de mitigar este problema
+VMWare sacó el 14 de agosto una [serie de parches:](https://www.vmware.com/security/advisories/VMSA-2018-0020.html?src=af_5acfd7716582e&cid=70134000001YR6X) 
 
 ![tabla]({{ site.imagesposts2018 }}/09/tabla.png)
+
+Estos parches, por defecto, NO mitigan el riesgo de ejecución de código. Para ello, tendremos que seguir la [KB55806](https://kb.vmware.com/s/article/55806)
+
+![3pasos]({{ site.imagesposts2018 }}/09/3pasos.png)
 
 
 Un saludo!
