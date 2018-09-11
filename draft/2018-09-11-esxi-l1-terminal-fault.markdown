@@ -65,7 +65,7 @@ Una vez llegados a este punto y hemos conseguido eliminar este molesto mensaje, 
 
 ¿Por qué esta check no está activa por defecto? 
 
-El motivo principal parece ser el posible impacto en el rendimiento/capacidad. Parece ser que así como Spectre y Meltdown, el aplicar este parche podria tener alrededor de un 30% de penalización en cuanto a rendimiento. Para mas información sobre este punto, podeis consultar la [KB55767](https://kb.vmware.com/s/article/55767?src=af_5acfd7716582e&cid=70134000001YR6X)
+El motivo principal parece ser el posible impacto en el rendimiento/capacidad. Parece ser que así como Spectre y Meltdown, el aplicar este parche podría tener alrededor de un 30% de penalización en cuanto a rendimiento. Para mas información sobre este punto, podeis consultar la [KB55767](https://kb.vmware.com/s/article/55767?src=af_5acfd7716582e&cid=70134000001YR6X)
 
 Espero que os pueda ser de utilidad
 
