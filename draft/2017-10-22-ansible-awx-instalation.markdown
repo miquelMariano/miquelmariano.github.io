@@ -18,6 +18,9 @@ permalink: /awx/
 Buenos dias a tod@as!!
 
 
+https://www.jorgedelacruz.es/2018/08/15/ansible-que-es-awx-instalacion-configuracion-playbooks-para-windows-y-linux-y-mucho-mas/
+
+
 https://galaxy.ansible.com/geerlingguy/awx/
 
 http://khmel.org/?p=1245
