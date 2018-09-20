@@ -40,7 +40,7 @@ La documentación del ciclo de vida del producto, así lo indica:
 >or bug fixes unless otherwise noted. This phase is intended for usage by customers operating in 
 >stable environments with systems that are operating under reasonably stable loads.”
 
-A parte de todo esto, hay que tener en cuenta que vSphere 5.5 vió la luz en 2013.y desde entonces ya han aparecido tres versiones más recientes del producto. La mayoria de las incidencias que recibirá hoy en dia VMWare tendrán que ver con las versiones mas recientes, por lo que es probable que  muchos ingenieros de soporte tengan mas agilidad en vSphere 6.x que en resolver problemas complejos en vSphere 5.5
+A parte de todo esto, hay que tener en cuenta que vSphere 5.5 vió la luz en 2013 y desde entonces ya han aparecido tres versiones más recientes del producto. La mayoria de las incidencias que recibirá hoy en dia VMWare tendrán que ver con las versiones mas recientes, por lo que es probable que  muchos ingenieros de soporte tengan mas agilidad en vSphere 6.x que en resolver problemas complejos en vSphere 5.5
 
 Así que ya lo sabeis, ha llegado la hora de actualizar vuestro entorno a vSphere 6.x
 
