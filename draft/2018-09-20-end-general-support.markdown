@@ -34,7 +34,8 @@ Tampoco se evolucionará más el producto, por lo tanto dejaremos de recibir act
 La documentación del ciclo de vida del producto, así lo indica:
 
 >"La orientación técnica está disponible principalmente a través del portal de autoayuda y no se 
->brinda asistencia telefónica. Los clientes también pueden abrir una solicitud de soporte en línea >para recibir soporte y soluciones para problemas de baja gravedad solo en configuraciones 
+>brinda asistencia telefónica. Los clientes también pueden abrir una solicitud de soporte en línea 
+>para recibir soporte y soluciones para problemas de baja gravedad solo en configuraciones 
 >compatibles. Durante la fase de Orientación técnica, VMware no ofrece nuevo soporte de hardware, 
 >actualizaciones de sistema operativo / cliente / invitado, nuevos parches de seguridad o 
 >corrección de errores a menos que se indique lo contrario. Esta fase está destinada al uso por 
