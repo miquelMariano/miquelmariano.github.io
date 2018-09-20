@@ -33,14 +33,12 @@ Tampoco se evolucionará más el producto, por lo tanto dejaremos de recibir act
 
 La documentación del ciclo de vida del producto, así lo indica:
 
->"La orientación técnica está disponible principalmente a través del portal de autoayuda y no se 
->brinda asistencia telefónica. Los clientes también pueden abrir una solicitud de soporte en línea 
->para recibir soporte y soluciones para problemas de baja gravedad solo en configuraciones 
->compatibles. Durante la fase de Orientación técnica, VMware no ofrece nuevo soporte de hardware, 
->actualizaciones de sistema operativo / cliente / invitado, nuevos parches de seguridad o 
->corrección de errores a menos que se indique lo contrario. Esta fase está destinada al uso por 
->parte de clientes que operan en entornos estables con sistemas que funcionan bajo cargas 
->razonablemente estables ".
+>“Technical Guidance is available primarily through the self-help portal and telephone support is 
+>not provided. Customers can also open a support request online to receive support and workarounds 
+>for low-severity issues on supported configurations only. During the Technical Guidance phase, 
+>VMware does not offer new hardware support, server/client/guest OS updates, new security patches 
+>or bug fixes unless otherwise noted. This phase is intended for usage by customers operating in 
+>stable environments with systems that are operating under reasonably stable loads.”
 
 A parte de todo esto, hay que tener en cuenta que vSphere 5.5 fue vió la luz en 2013.y desde entonces ya han aparecido tres versiones más recientes del producto. La mayoria de las incidencias que recibirá hoy en dia VMWare tendrán que ver con las versiones mas recientes, por lo que es probable que  muchos ingenieros de soporte tengan mas agilidad en vSphere 6.x que en resolver problemas complejos en vSphere 5.5
 
