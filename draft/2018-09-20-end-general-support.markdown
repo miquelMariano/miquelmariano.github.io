@@ -17,7 +17,7 @@ hidden: false
 permalink: /eol/
 ---
 
-Buenos dias a todos, como muchos ya sabréis, ayer 19 de septiembre de 2019 vSphere 5.5 se quedó fuera de la fase de "General Support"
+Buenos días a todos, como muchos ya sabréis, ayer 19 de septiembre de 2019 vSphere 5.5 se quedó fuera de la fase de "General Support"
 
 Muchos de nosotros, ya nos hemos preocupado de actualizar nuestros entornos a una versión 6.x, por miedo/preocupación en que nos afecten temas de compatibilidad o simplemente por seguir evolucionando nuestra infraestructura.
 
