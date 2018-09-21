@@ -7,9 +7,6 @@ headerImage: true
 tag:
 - vmware
 - vsphere
-- vexpert
-- devops
-- backtobasics
 category: blog
 author: miquelMariano
 description: End of General Support para vSphere 5.5
