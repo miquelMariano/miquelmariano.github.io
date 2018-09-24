@@ -54,6 +54,10 @@ esxcli storage vmfs unmap -l DATASTORE01
 
 ![esxtop1]({{ site.imagesposts2017 }}/07/esxtop1.png)
 
+También el `/var/log/hostd.log` podremos ver como va haciendo el unmap:
+
+![hostd-log]({{ site.imagesposts2017 }}/07/hostd-log.png)
+
 
 Para obtener esta vista en esxtop es necesario entrar en el menú de selección de columnas pusando `f` y seleccionar  solo las columnas `a` `o` `p`
 Los valores mostrados en la columna Delete es el nº de bloques que se van a eliminar. El valor de cada bloque en VMFS5 es de 1MB
