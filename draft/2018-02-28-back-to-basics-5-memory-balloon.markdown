@@ -21,7 +21,7 @@ Hace un par de dias, uno de mis alumnos en el curso [Administracion vSphere 6.7]
 
 Para todos aquellos que tengan alguna duda sobre que es y como funiona, aquí os dejo este post de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics)
 
-El globo de memoria ocurre cuando un host se está quedando sin memoria física disponible. Implica el uso de un controlador, denominado controlador de globo, instalado en el sistema operativo invitado (SO).
+Memoru balloon, es un fenómeno que ocurre cuando un host se está quedando sin memoria física disponible. Implica el uso de un controlador, denominado controlador de globo, instalado en el sistema operativo invitado (SO).
 
 Entonces, ¿cómo sucede esto?
 
@@ -38,7 +38,7 @@ Todo este proceso es invisible para el sistema operativo invitado, sin embargo, 
 Para evitar inflar, puede crear una "reserva de memoria" para la máquina virtual, garantizando una cantidad de memoria física. El globo puede conducir al intercambio, otra técnica de gestión de la memoria
 
 
-![balloon1]({{ site.imagesposts2018 }}/10/baloon1.png)
+![balloon1]({{ site.imagesposts2018 }}/10/balloon1.png)
 
 VMware actualizó vSphere HA en 2017
 
