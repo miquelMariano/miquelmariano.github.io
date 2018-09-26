@@ -1,6 +1,6 @@
 ---
 title: Back-to-basics 5 - Memory balloon
-date: '2018-10-02 00:00:00'
+date: '2018-10-03 00:00:00'
 layout: post
 image: /assets/images/posts/2018/10/balloon.jpeg
 headerImage: true
