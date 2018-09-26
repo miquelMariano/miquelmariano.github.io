@@ -1,5 +1,5 @@
 ---
-title: Back-to-basics 4 - Memory balloon
+title: Back-to-basics 5 - Memory balloon
 date: '2018-02-28 00:00:00'
 layout: post
 image: /assets/images/posts/2018/10/balloon.jpeg
@@ -17,7 +17,11 @@ hidden: false
 permalink: /balloon/
 ---
 
-Hace un par de dias, uno de mis alumnos en el curso [Administracion vSphere 6.7](https://www.ncora.com/formacion-tic/administracion-de-vsphere/administracion-vsphere-67-training-pack/) me preguntaba sobre el proceso "ballooning"
+Hace un par de dias, uno de mis alumnos en el curso [Administracion vSphere 6.7](https://www.ncora.com/formacion-tic/administracion-de-vsphere/administracion-vsphere-67-training-pack/) me preguntaba sobre el proceso "ballooning". 
+
+Para todos aquellos que tengan alguna duda sobre que es y como funiona, aquí os dejo este post de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics)
+
+
 
 
 ![ha-arch]({{ site.imagesposts2018 }}/06/ha-arch.jpg)
