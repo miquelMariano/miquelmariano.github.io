@@ -17,11 +17,11 @@ hidden: false
 permalink: /balloon/
 ---
 
-Hace un par de dias, uno de mis alumnos en el curso [Administracion vSphere 6.7](https://www.ncora.com/formacion-tic/administracion-de-vsphere/administracion-vsphere-67-training-pack/) me preguntaba sobre el proceso "ballooning". 
+Justo hoy, he recibido un correo de uno de mis alumnos en el curso [Administración vSphere 6.7](https://www.ncora.com/formacion-tic/administracion-de-vsphere/administracion-vsphere-67-training-pack/) preguntando sobre el proceso "ballooning". 
 
-Para todos aquellos que tengan alguna duda sobre que es y como funiona, aquí os dejo este post de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics)
+Para todos aquellos que tengan alguna duda sobre que es y como funciona, aquí os dejo este post de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics)
 
-Memory balloon, es un proceso que ocurre cuando un host se está quedando sin memoria física disponible. Para que esto ocurra, es necesario tener el driver balloon instalado en el SO dentro de cada VM. Este driver, forma parte de las VMWare tools, por lo que sólo tenemos que asegurarnos de que esten instaladas en todas nuestras VMs.
+Memory balloon, es un proceso que ocurre cuando un host se está quedando sin memoria física disponible. Para que esto ocurra, es necesario tener el driver balloon instalado en el SO dentro de cada VM. Este driver, forma parte de las VMWare tools, por lo que sólo tenemos que asegurarnos de que estén instaladas en todas nuestras VMs.
 
 ### Vale, pero ¿cómo funciona?
 
@@ -46,7 +46,7 @@ El contador `vmmemctl` es el que nos indica la cantidad de memoria que recupera 
 
 ![balloon3]({{ site.imagesposts2018 }}/10/balloon3.png)
 
-También con la herramienta `esxcli` tendremos mucha informacion de como se está comportando nuestro entorno
+También con la herramienta `esxcli` tendremos mucha información de como se está comportando nuestro entorno
 
 ![balloon2]({{ site.imagesposts2018 }}/10/balloon2.png)
 
@@ -58,7 +58,7 @@ También con la herramienta `esxcli` tendremos mucha informacion de como se est�
 
 **“MCTLMAX”**: the maximum amount of guest physical memory that the balloon driver can reclaim. Default is 65% of assigned memory.
 
-Ya para finalizar, comentar también que si bien no es lo ideal, en caso de tengais fuerte competencia en vuestro entorno por los recursos de memoria, podeis hacer servir las "reservas"
+Ya para finalizar, comentar también que si bien no es lo ideal, en caso de tengáis fuerte competencia en vuestro entorno por los recursos de memoria, podéis hacer servir las "reservas"
 
 Para evitar inflar/desinflar el driver balloon, puede crear una "reserva de memoria" para la máquina virtual, garantizando una cantidad de memoria física. 
 
