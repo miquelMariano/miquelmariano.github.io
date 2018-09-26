@@ -17,7 +17,7 @@ hidden: false
 permalink: /balloon/
 ---
 
-Justo hoy, he recibido un correo de uno de mis alumnos en el curso [Administración vSphere 6.7](https://www.ncora.com/formacion-tic/administracion-de-vsphere/administracion-vsphere-67-training-pack/) preguntando sobre el proceso "ballooning". 
+Hace un par de días, uno de mis alumnos en el curso [Administración vSphere 6.7](https://www.ncora.com/formacion-tic/administracion-de-vsphere/administracion-vsphere-67-training-pack/) me preguntaba sobre el proceso "ballooning". 
 
 Para todos aquellos que tengan alguna duda sobre que es y como funciona, aquí os dejo este post de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics)
 
