@@ -38,6 +38,15 @@ Este proceso de ballooning es una gran ventaja, ya que hace posible una utilizac
 Todo este proceso es completamente invisible para el sistema operativo que reside en la VM, sin embargo, puede afectar en el rendimiento. Un exceso de "globos" en el hipervisor (inflar y desinflar) puede afectar el rendimiento de nuestras máquinas y será tarea del administrador
 el detectar que esto no ocurra.
 
+### ¿Cómo controlar el uso del proceso ballooning?
+
+Como administradores, disponemos de algunas herramientas que nos da VMWare para controlar estos valores. Por ejemplo a través del propio performance monitor que tenemos en el vCenter
+
+El contador `vmmemctl` es el que nos indica la cantidad de memoria que recupera el driver balloon. Lo normal, si no hay competencia en vuestra infraestructura virtual, es que la métrica siempre esté a 0
+
+![balloon3]({{ site.imagesposts2018 }}/10/balloon3.png)
+
+También con la herramienta `esxcli` tendremos mucha informacion de como se está comportando nuestro entorno
 
 ![balloon2]({{ site.imagesposts2018 }}/10/balloon2.png)
 
@@ -49,15 +58,11 @@ el detectar que esto no ocurra.
 
 **“MCTLMAX”**: the maximum amount of guest physical memory that the balloon driver can reclaim. Default is 65% of assigned memory.
 
+Ya para finalizar, comentar también que si bien no es lo ideal, en caso de tengais fuerte competencia en vuestro entorno por los recursos de memoria, podeis hacer servir las "reservas"
 
-En todo caso, y como último recurso, siempre nos quedaran las "Reservas". Podremos
-Para evitar inflar, puede crear una "reserva de memoria" para la máquina virtual, garantizando una cantidad de memoria física. El globo puede conducir al intercambio, otra técnica de gestión de la memoria
+Para evitar inflar/desinflar el driver balloon, puede crear una "reserva de memoria" para la máquina virtual, garantizando una cantidad de memoria física. 
 
-
-
-
-VMware actualizó vSphere HA en 2017
-
+Espero que os sea de utilidad.
 
 Un saludo!
 
