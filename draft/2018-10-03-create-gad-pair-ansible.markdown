@@ -12,7 +12,7 @@ tag:
 - backtobasics
 category: blog
 author: miquelMariano
-description: Back-to-basics 5 - Memory balloon
+description: Playbook para crear réplica GAD
 hidden: false
 permalink: /gif/
 ---
