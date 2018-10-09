@@ -19,3 +19,13 @@ permalink: /update-cli/
 
 
 https://neosmart.net/wiki/upgrading-vsphere-esxi-from-the-command-line-automatically/
+
+![esxi-update]({{ site.imagesposts2018 }}/10/esxi-update.png)
+
+
+
+.
+
+
+
+..
