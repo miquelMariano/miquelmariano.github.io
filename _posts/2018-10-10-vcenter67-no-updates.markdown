@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: vCenter 6.7 no muestra actualizaciones disponibles
 hidden: false
-permalink: /update/
 ---
 
 Buenos dias a tod@as!!
