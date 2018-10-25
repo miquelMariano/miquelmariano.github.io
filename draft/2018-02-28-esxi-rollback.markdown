@@ -19,6 +19,10 @@ permalink: /rollback/
 
 http://www.virtubytes.com/2017/11/16/downgrade-esxi-6-5/
 
+tail -2 /*bootbank/boot.cfg`
+
+![rollback0]({{ site.imagesposts2018 }}/11/rollback0.png)
+
 ![rollback1]({{ site.imagesposts2018 }}/11/rollback1.png)
 ![rollback2]({{ site.imagesposts2018 }}/11/rollback2.png)
 ![rollback3]({{ site.imagesposts2018 }}/11/rollback3.png)
