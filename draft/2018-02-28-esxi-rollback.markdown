@@ -46,8 +46,25 @@ Como podemos ver aquí, el arranque principal contiene el código ESXi 6.5 y el 
 1. Poner nuestro esxi en "maintenance mode"
 
 ![rollback1]({{ site.imagesposts2018 }}/11/rollback1.png)
+
+2. Procederemos con el reinicio del host
+
 ![rollback2]({{ site.imagesposts2018 }}/11/rollback2.png)
 ![rollback3]({{ site.imagesposts2018 }}/11/rollback3.png)
+
+3. Durante el boot tendremos que pulsar `shift+R` para entrar en el modo recovery
+
 ![rollback4]({{ site.imagesposts2018 }}/11/rollback4.png)
+
+4. Nos aparecerá la información de las posibilidades que tenemos y deberemos pulsar "Y"
+
 ![rollback5]({{ site.imagesposts2018 }}/11/rollback5.png)
+
+5. Tras el reinicio, comprobaremos que la versión del ESXi es la previa a la que teniamos
 ![rollback6]({{ site.imagesposts2018 }}/11/rollback6.png)
+
+Espero que este pequeño procedimiento os sirva ;-)
+
+Un saludo!
+
+Miquel.
