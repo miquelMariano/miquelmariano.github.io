@@ -16,7 +16,7 @@ hidden: false
 permalink: /rollback/
 ---
 
-Buenos dias a tod@s.
+Buenos días a tod@s.
 
 En el post de hoy, os traigo una de esas cosas algo desconocidas y que podemos hacer con un ESXi. 
 
@@ -60,7 +60,7 @@ Esta acción va a ser permanente, es decir, una vez tirado el rollback ya no ten
 
 ![rollback5]({{ site.imagesposts2018 }}/11/rollback5.png)
 
-5 Tras el reinicio, comprobaremos que la versión del ESXi es la previa a la que teniamos.
+5 Tras el reinicio, comprobaremos que la versión del ESXi es la previa a la que teníamos.
 
 ![rollback6]({{ site.imagesposts2018 }}/11/rollback6.png)
 
