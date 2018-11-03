@@ -31,9 +31,15 @@ Antes de hacer rollaback en un ESXi deberemos tener en cuenta los siguientes asp
 * **Sistema de ficheros VMFS**VMFS6 se introdujo con vSphere 6.5. Las versiones anteriores de ESXi solo son compatibles con VMFS5. Si hacemos rollback de un servidor ESXi 6.5 o 6.7 a versiones anteriores y tenemos datastores en VMFS5, estos, no serán accesibles después del rollback.
 * **Versión de hardware de VM:** vSphere 6.5 también introdujo el virtual hardware versión 13 (versión 14 en vSphere 6.7). Por ejemplo, el virtual hardware versión 13 no es compatible con ESXi 6.0. Hacer rollback y quedarnos con VMs con virtual hardware superior a la versión del ESXi supondrá que esas VMs no podrán ser encendidas.
 
-tail -2 /*bootbank/boot.cfg`
+También es recomendable, antes de hacer cualquier actuación sobre un ESXi, tener un [backup](https://miquelmariano.github.io/2018/03/backup-restore-esxi-configuration/) consistente del mismo.
+
+Vamos al lio, antes de empezar, y para comprobar si nuestro ESXi puede hacer rollback a una versión anterior, deberemos ejecutar el siguiente comando:
+
+`tail -2 /*bootbank/boot.cfg`
 
 ![rollback0]({{ site.imagesposts2018 }}/11/rollback0.png)
+
+Como podemos ver aquí, el arranque principal contiene el código ESXi 6.5 y el arranque alternativo contiene el código ESXi 6.0.
 
 ![rollback1]({{ site.imagesposts2018 }}/11/rollback1.png)
 ![rollback2]({{ site.imagesposts2018 }}/11/rollback2.png)
