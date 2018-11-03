@@ -16,8 +16,6 @@ hidden: false
 permalink: /rollback/
 ---
 
-http://www.virtubytes.com/2017/11/16/downgrade-esxi-6-5/
-
 Buenos dias a tod@s.
 
 En el post de hoy, os traigo una de esas cosas algo desconocidas y que podemos hacer con un ESXi. 
