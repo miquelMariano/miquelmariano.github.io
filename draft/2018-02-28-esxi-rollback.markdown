@@ -35,7 +35,9 @@ También es recomendable, antes de hacer cualquier actuación sobre un ESXi, ten
 
 Vamos al lio, antes de empezar, y para comprobar si nuestro ESXi puede hacer rollback a una versión anterior, deberemos ejecutar el siguiente comando:
 
-`tail -2 /*bootbank/boot.cfg`
+```ssh
+tail -2 /*bootbank/boot.cfg
+```
 
 ![rollback0]({{ site.imagesposts2018 }}/11/rollback0.png)
 
