@@ -58,6 +58,8 @@ Como podemos ver aquí, el arranque principal contiene el código ESXi 6.5 y el 
 
 4. Nos aparecerá la información de las posibilidades que tenemos y deberemos pulsar "Y"
 
+Esta acción va a ser permanente, es decir, una vez tirado el rollback ya no tendremos opción de recuperar la versión mas reciente.
+
 ![rollback5]({{ site.imagesposts2018 }}/11/rollback5.png)
 
 5. Tras el reinicio, comprobaremos que la versión del ESXi es la previa a la que teniamos
