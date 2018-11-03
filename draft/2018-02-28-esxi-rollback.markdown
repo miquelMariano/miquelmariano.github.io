@@ -41,6 +41,8 @@ Vamos al lio, antes de empezar, y para comprobar si nuestro ESXi puede hacer rol
 
 Como podemos ver aquí, el arranque principal contiene el código ESXi 6.5 y el arranque alternativo contiene el código ESXi 6.0.
 
+1. Poner nuestro esxi en "maintenance mode"
+
 ![rollback1]({{ site.imagesposts2018 }}/11/rollback1.png)
 ![rollback2]({{ site.imagesposts2018 }}/11/rollback2.png)
 ![rollback3]({{ site.imagesposts2018 }}/11/rollback3.png)
