@@ -41,34 +41,34 @@ tail -2 /*bootbank/boot.cfg
 
 Como podemos ver aquí, el arranque principal contiene el código ESXi 6.5 y el arranque alternativo contiene el código ESXi 6.0.
 
-1. Poner nuestro esxi en "maintenance mode"
+1| Poner nuestro esxi en "maintenance mode"
 
 ![rollback1]({{ site.imagesposts2018 }}/11/rollback1.png)
 
-2. Procederemos con el reinicio del host
+2| Procederemos con el reinicio del host
 
 ![rollback2]({{ site.imagesposts2018 }}/11/rollback2.png)
 ![rollback3]({{ site.imagesposts2018 }}/11/rollback3.png)
 
-3. Durante el boot tendremos que pulsar `shift+R` para entrar en el modo recovery
+3| Durante el boot tendremos que pulsar `shift+R` para entrar en el modo recovery
 
 ![rollback4]({{ site.imagesposts2018 }}/11/rollback4.png)
 
-4. Nos aparecerá la información de las posibilidades que tenemos y deberemos pulsar "Y"
+4| Nos aparecerá la información de las posibilidades que tenemos y deberemos pulsar "Y"
 
 Esta acción va a ser permanente, es decir, una vez tirado el rollback ya no tendremos opción de recuperar la versión mas reciente.
 
 ![rollback5]({{ site.imagesposts2018 }}/11/rollback5.png)
 
-5. Tras el reinicio, comprobaremos que la versión del ESXi es la previa a la que teniamos.
+5| Tras el reinicio, comprobaremos que la versión del ESXi es la previa a la que teniamos.
 
 ![rollback6]({{ site.imagesposts2018 }}/11/rollback6.png)
 
-6. Deberemos conectar de nuevo nuestro ESXi al vCenter
+6| Deberemos conectar de nuevo nuestro ESXi al vCenter
 
 ![rollback7]({{ site.imagesposts2018 }}/11/rollback7.png)
 
-7. Y por último salir del "maintenance mode"
+7| Y por último salir del "maintenance mode"
 
 ![rollback8]({{ site.imagesposts2018 }}/11/rollback8.png)
 
