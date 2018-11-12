@@ -25,16 +25,19 @@ Dichas incompatibilidades se deben a algunos paquetes que vienen heredados de in
 
 La solución es bien sencilla y pasa por desinstalar estos paquetes.
 
-Pasos para desinstalar un paquete no compatible con ESXi 6.5 
 Para ello, utilizaremos el comando Esxcli de la siguiente manera.
 
 1. Buscaremos el nombre del paquete incompatible:
 
+```ssh
 esxcli software vib list | grep scsi-mpt3
+```
 
 2. Lo desinstalaremos con el siguiente comando:
 
+```ssh
 esxcli software vib remove -n scsi-mpt3sas
+```
 
 ![removevib2]({{ site.imagesposts2018 }}/11/removevib2.png)
 
@@ -42,8 +45,6 @@ Una vez desinstalado, ya podremos proceder a la actualización de nuestro servid
 
 Espero que sea de vuestro interés y no dudéis en dejar un comentario con vuestras dudas o sugerencias.
 
-Y si estáis interesados en poner en marcha un proyecto de vSphere en vuestra empresa, Ncora puede ayudaros. Contactad con el Ncora Team en hola@ncora.com.
-
 ¡Un abrazo!
 
-Miquel Mariano.
+Miquel.
