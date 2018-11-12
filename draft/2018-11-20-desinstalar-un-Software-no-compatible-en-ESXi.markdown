@@ -1,8 +1,8 @@
 ---
-title: Automatizando configuración de VMWare ESXi tras instalación
+title: Cómo desinstalar un software no compatible en ESXi
 date: '2018-02-28 00:00:00'
 layout: post
-image: /assets/images/posts/2018/05/esxi_auto.png
+image: /assets/images/posts/2018/11/esxi.png
 headerImage: true
 tag:
 - vmware
@@ -12,7 +12,7 @@ tag:
 - backtobasics
 category: blog
 author: miquelMariano
-description: Automatizando configuración de VMWare ESXi tras instalación
+description: Cómo desinstalar un software no compatible en ESXi
 hidden: false
 permalink: /removevib/
 ---
@@ -27,13 +27,13 @@ La solución es bien sencilla y pasa por desinstalar estos paquetes.
 
 Para ello, utilizaremos el comando Esxcli de la siguiente manera.
 
-1. Buscaremos el nombre del paquete incompatible:
+1| Buscaremos el nombre del paquete incompatible:
 
 ```ssh
 esxcli software vib list | grep scsi-mpt3
 ```
 
-2. Lo desinstalaremos con el siguiente comando:
+2| Lo desinstalaremos con el siguiente comando:
 
 ```ssh
 esxcli software vib remove -n scsi-mpt3sas
