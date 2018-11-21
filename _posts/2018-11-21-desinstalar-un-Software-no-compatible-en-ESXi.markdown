@@ -1,6 +1,6 @@
 ---
 title: Cómo desinstalar un software no compatible en ESXi
-date: '2018-11-20 00:00:00'
+date: '2018-11-21 00:00:00'
 layout: post
 image: /assets/images/posts/2018/11/esxi.png
 headerImage: true
@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: Cómo desinstalar un software no compatible en ESXi
 hidden: false
-permalink: /removevib/
 ---
 
 Últimamente me estoy encontrando con algunas incompatibilidades al intentar actualizar los ESXi de nuestros clientes a la versión 6.5.
