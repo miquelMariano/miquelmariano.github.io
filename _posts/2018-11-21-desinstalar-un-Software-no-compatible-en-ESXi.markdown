@@ -20,6 +20,10 @@ hidden: false
 
 Dichas incompatibilidades se deben a algunos paquetes que vienen heredados de instalaciones y versiones anteriores de ESXi y que no son compatibles con ESXi 6.5.
 
+```
+La actualización contiene el siguiente conjunto de VIB en conflicto
+```
+
 ![removevib1]({{ site.imagesposts2018 }}/11/removevib1.png)
 
 La solución es bien sencilla y pasa por desinstalar estos paquetes.
