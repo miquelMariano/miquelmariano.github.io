@@ -19,9 +19,13 @@ hidden: false
 Últimamente me estoy encontrando con algunas incompatibilidades al intentar actualizar los ESXi de nuestros clientes a la versión 6.5.
 
 Dichas incompatibilidades se deben a algunos paquetes que vienen heredados de instalaciones y versiones anteriores de ESXi y que no son compatibles con ESXi 6.5.
+En el Update Manager, nos aparecerá un mensaje del siguiente tipo:
 
 ```
 La actualización contiene el siguiente conjunto de VIB en conflicto
+
+
+Elimine los VIB en conflicto o utilice Image Builder para crear una imagen ISO de actualización personalizada que contenga versiones mas nuevas de los VIB en conflicto e intente actualizar nuevamente
 ```
 
 ![removevib1]({{ site.imagesposts2018 }}/11/removevib1.png)
