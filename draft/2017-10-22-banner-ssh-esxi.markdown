@@ -21,11 +21,9 @@ Buenos dias a tod@as!!
 http://www.enterprisedaddy.com/2016/05/configure-ssh-login-banner-for-esxi-host/
 
 
-https://galaxy.ansible.com/geerlingguy/awx/
+http://patorjk.com/software/taag/#p=testall&f=Arrows&t=miquelmariano.github.io
 
-http://khmel.org/?p=1245
-
-https://www.howtoforge.com/tutorial/centos-ansible-awx-installation/
+http://www.enterprisedaddy.com/2016/04/configure-login-banner-for-vsphere-web-client-6-0-update-2/
 
 
 
