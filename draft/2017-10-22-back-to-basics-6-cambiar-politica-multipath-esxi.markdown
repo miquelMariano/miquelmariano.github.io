@@ -20,9 +20,15 @@ permalink: /default/
 
 Buenos dias a tod@as!!
 
-En el post de hoy, vamos a ver 
+Siguiendo con la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), en el post de hoy veremos como cambiar la politica de multipathing de nuestros hosts ESXi.
 
-[back-to-basics](https://miquelmariano.github.io/tags/#backtobasics)
+```ssh
+# esxcli storage nmp satp set --default-psp=VMW_PSP_RR --satp=VMW_SATP_ALUA
+```
+
+
+
+Si
 
 https://kb.vmware.com/s/article/1017760
 
