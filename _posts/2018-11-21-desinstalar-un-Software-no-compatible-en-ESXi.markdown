@@ -8,8 +8,7 @@ tag:
 - vmware
 - vsphere
 - vexpert
-- devops
-- backtobasics
+- esxi
 category: blog
 author: miquelMariano
 description: Cómo desinstalar un software no compatible en ESXi
