@@ -34,11 +34,11 @@ esxcli storage nmp satp list
  
 >VMW_PSP_MRU for Most Recently Used mode
 >VMW_PSP_FIXED for Fixed mode
->ºVMW_PSP_RR for Round Robin mode
+>VMW_PSP_RR for Round Robin mode
 
-Si
+Por último, será necesario un reinicio para que los cambios surtan efecto.
 
-https://kb.vmware.com/s/article/1017760
+Encontrareis también toda la info en la [KB oficial de VMWare](https://kb.vmware.com/s/article/1017760)
 
 
 
