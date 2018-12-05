@@ -1,6 +1,6 @@
 ---
-title: Back-to-basics 6 - Cambiar politica multipath por defecto en hosts ESXi
-date: '2017-09-22 00:00:00'
+title: Back-to-basics 6 - Cambiar política multipath por defecto en hosts ESXi
+date: '2018-12-05 00:00:00'
 layout: post
 image: /assets/images/posts/2018/12/psa.png
 headerImage: true
@@ -13,16 +13,16 @@ tag:
 - storage
 category: blog
 author: miquelMariano
-description: Back-to-basics 6 - Cambiar politica multipath por defecto en hosts ESXi
+description: Back-to-basics 6 - Cambiar política multipath por defecto en hosts ESXi
 hidden: false
-permalink: /default/
+comments: true
 ---
 
-Buenos dias a tod@as!!
+Buenos días a tod@as!!
 
-Siguiendo con la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), en el post de hoy veremos como cambiar la politica predeterminada de multipathing de nuestros hosts ESXi.
+Siguiendo con la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), en el post de hoy veremos como cambiar la política predeterminada de multipathing de nuestros hosts ESXi.
 
-Por defecto, la politica predeterminada tras instalar un ESXi es "Fixed", por lo tando todos los datastores que tenga montados este ESXi (y los que se montarán a futuro), estarán con esta política.
+Por defecto, la política predeterminada tras instalar un ESXi es "Fixed", por lo tanto todos los datastores que tenga montados este ESXi (y los que se montarán a futuro), estarán con esta política.
 
 Cambiarlo, es una terea muy manual, ya que a través del vSphere Client tendremos que hacer el cambio en cada uno de los datastores. Imaginaos la faena en un entorno con varios ESXi y cada uno con varios datastores...
 
