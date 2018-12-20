@@ -1,0 +1,59 @@
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+
+<div class="cover-card table-cell table-middle">
+  {% if author.avatar %}
+  <a href="{{ site.url }}/">
+    <img src="{{ site.url }}{{ site.images }}/{{ author.avatar }}" alt="" class="avatar">
+  </a>
+  {% endif %}
+  <a href="{{ site.url }}/" class="author_name">{{ author.name }}</a>
+  <span class="author_job">{{ author.job }}</span>
+  <!--
+  <span class="author_bio mbm">{{ author.bio }}</span>
+  -->
+  <div id="typePad">
+        <p class="sentence">{{ author.bio1 }}</p>
+        <p class="sentence">{{ author.bio2 }}</p>
+        <p class="sentence">{{ author.bio3 }}</p>
+        <p class="sentence">{{ author.bio4 }}</p>
+        </div>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="{{ site.url }}/">home</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ site.url }}/archive/">blog</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ site.url }}/resume/">sobre mi</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ site.url }}/tags/">tags</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ site.url }}/vcap-experience/">VCAP6-DCV</a>
+      </li>
+      <li class="nav-item">
+        <link rel="stylesheet" href="{{ site.url }}/assets/supersearch/super-search.css">
+
+                 <a href="javascript:void(0)" title="or press 'ESC' to search" onclick="toggleSearch()"      class="search-btn">
+                   search
+                  </a>
+
+         <div class="super-search" id="js-super-search">
+          <input type="text" placeholder="Type here to search" class="super-search__input" id="js-super-search__input">
+          <ul class="super-search__results" id="js-super-search__results"></ul>
+         </div>
+
+         <script src="{{ site.url }}/assets/supersearch/super-search.js"></script>
+         <script>superSearch({searchFile: '{{ site.url }}/feed.xml'});
+         </script>
+      </li>
+    </ul>
+  </nav>
+  {% include social-links.html %}
+</div>
+
+<script type="text/javascript" src="https://rawgit.com/ndaidong/typewritter/master/dist/typewritter-effect.min.js"></script>
+<script type="text/javascript" src="/js/typewritter.js"></script>

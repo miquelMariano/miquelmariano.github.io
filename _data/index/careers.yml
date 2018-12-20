@@ -1,0 +1,32 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+- name: Ncora Information Technology
+  link: https://www.ncora.com/formacion/calendario-de-cursos/
+  date: Mar. 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Formador VMWare vSphere
+
+- name: Ncora Information Technology
+  link: http://www.ncora.com/
+  date: Dic. 2014 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Consultor TI
+
+- name: SM2 Software & Services Management
+  link: http://www.sm2baleares.es
+  date: Oct. 2013 - Dic. 2014
+  job: Responsable área virtualización VMWare
+
+- name: SM2 Software & Services Management
+  link: http://www.sm2baleares.es
+  date: Ene. 2011 - Oct. 2013
+  job: Administrador de sistemas
+
+- name: SM2 Software & Services Management
+  link: http://www.sm2baleares.es
+  date: Jun. 2007 - Ene. 2011
+  job: Técnico de sistemas y HelpDesk
+
+- name: SM2 Software & Services Management
+  link: http://www.sm2baleares.es
+  date: Abr. 2007 - Jun. 2007
+  job: Soporte & HelpDesk (Becario)

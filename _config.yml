@@ -1,0 +1,84 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Miquel Mariano
+email:
+description: A simple and awesome blog theme powered by jekyll.
+url: https://miquelMariano.github.io
+keywords: ["blog", "jekyll"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Madrid
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /:year/:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+
+
+images: /assets/images
+vcap_images: https://premiquelMariano.github.io/assets/images/vcap
+imagesposts2016: https://premiquelMariano.github.io/assets/images/posts/2016
+imagesposts2017: https://premiquelMariano.github.io/assets/images/posts/2017
+imagesposts2018: https://premiquelMariano.github.io/assets/images/posts/2018
+
+
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Miquel Mariano
+  avatar: avatar1.jpg
+  job: "Blog personal"
+#  bio: "Consultor TI en Ncora | VCP5/6-DCV | vExpert   Apasionado de la montaña | Bike | Trail | Run | Padre de Aina"
+  bio1: Consultor TI en Ncora 
+  bio2: VCAP6-DCV Deploy | VCP5/6-DCV | vExpert x3
+  bio3: Apasionado de la montaña | Bike | Trail | Run
+  bio4: Padre de Aina ♥
+  email: miquel.mariano@outlook.com
+  disqus-shortname: miquelmariano
+  twitter: miquelMariano
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 'UA-89683320-1'
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: miquelmariano
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: miquelmariano
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: ncoratv
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: miquelmariano
