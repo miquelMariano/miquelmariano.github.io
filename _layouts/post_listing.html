@@ -11,8 +11,8 @@ layout: default
       </span>
       {% if post.categories.size > 0 %}
       •
-      {% for cat in post.categories %}
-        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+      {% for tag in post.tag %}
+        <a class="post-cat" href="{{ site.url }}/tags/#{{ tag }}">{{ tag }}</a>
         {% unless forloop.last %}
         <span>/</span>
         {% endunless %}
