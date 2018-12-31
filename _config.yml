@@ -31,10 +31,10 @@ kramdown:
 
 
 images: /assets/images
-vcap_images: https://premiquelMariano.github.io/assets/images/vcap
-imagesposts2016: https://premiquelMariano.github.io/assets/images/posts/2016
-imagesposts2017: https://premiquelMariano.github.io/assets/images/posts/2017
-imagesposts2018: https://premiquelMariano.github.io/assets/images/posts/2018
+vcap_images: https://miquelMariano.github.io/assets/images/vcap
+imagesposts2016: https://miquelMariano.github.io/assets/images/posts/2016
+imagesposts2017: https://miquelMariano.github.io/assets/images/posts/2017
+imagesposts2018: https://miquelMariano.github.io/assets/images/posts/2018
 
 
 ###################################
