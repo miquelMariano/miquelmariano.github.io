@@ -34,29 +34,31 @@ layout: default
 
     </header>
 
-    {% if post.excerpt %}
+    {% if post.description %}
     <div class="post-description">
       <p>
-        {{ post.excerpt }}
+        {{ post.description }}
       </p>
     </div>
     {% endif %}
 
-    {% if post.image.feature %}
+<!--
+    {% if post.image %}
     <div class="post-image-feature">
       <img src=
       {% if post.image.feature contains 'http' %}
       "{{ post.image.feature }}"
       {% else %}
-      "{{ site.url }}/img/{{ post.image.feature }}"
+      "{{ site.url }}{{ post.image }}"
       {% endif %}
       alt="{{ post.title | escape }} feature image">
 
       {% if post.image.credit %}
       <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
       {% endif %}
-    </div><!-- /.image-wrap -->
+    </div>
     {% endif %}
+-->
 
 </section>
 {% endfor %}
