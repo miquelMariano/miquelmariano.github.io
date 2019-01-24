@@ -8,7 +8,7 @@ tag:
 - miscelanea
 category: blog
 author: miquelMariano
-description: Hola mundo! Mi primer post en el blog
+description: Este proyecto personal lleva en mi cabeza rondandome desde hace ya bastantes meses y no se si por pereza, falta de tiempo, miedo o una mezcla de todo hacía que no terminara de decidirme.
 hidden: false
 comments: true
 ---
