@@ -547,7 +547,7 @@ Se accederá al portal a través de un navegador web:
 
 http://ip_or_fqdn/#/login
 
-**Usuario:** admin **Pass**:admin
+**Usuario:** admin **Pass**:password
 {: .notice}
 
 
