@@ -105,6 +105,14 @@ Ver VMs con la nic e1000:
 get-vm | Get-NetworkAdapter | where {$_.type -match "e1000"} | select-object parent,networkname,name,type
 ```
 
+Búsqueda de VM por su MAC ADDRESS:
+
+```powershell
+Get-VM | Get-NetworkAdapter | Where-Object {$_.MacAddress -eq "00:50:56:ba:ca:5b"} | FL
+```
+
+
+
 Espero que os sea de utilidad.
 
 Si vosotros tenéis alguno que queráis compartir, por favor, dejado en los comentarios y lo incorporaremos a la lista.
