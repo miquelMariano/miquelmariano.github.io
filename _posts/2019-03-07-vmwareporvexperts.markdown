@@ -100,7 +100,7 @@ Al final tuvimos que conformarnos con [Duncan Epping](https://twitter.com/duncan
 
 #ModeIronicOFF
 
-Ahora en serio, es para nosotros todo un honor que Duncan haya aceptado nuestra propuesta mostrando su compromiso con la comunidad y con la parte solidaria del proyecto. Desde aquí mi mas sincero agradecimiento. Thx!!!
+Ahora en serio, es para nosotros todo un honor que Duncan haya aceptado nuestra propuesta, mostrando una vez más su compromiso con la comunidad y con la parte solidaria del proyecto. Desde aquí mi mas sincero agradecimiento. Thx!!!
 
 
 ### Publicación del libro
