@@ -43,7 +43,7 @@ Se trata del libro [#VMwareporvExperts](https://www.vmwareporvexperts.org), un l
 - Daniel Romero - [@drsromero](https://twitter.com/drsromero) - [https://www.dbigcloud.com/](https://www.dbigcloud.com/)
 - Federico Cinalli - [@FCinalliP](https://twitter.com/FCinalliP) - [https://federicocinalli.com](https://federicocinalli.com)
 
-Entre todos, hemos intentado diseñar un temario lo suficientemente amplio para abarcar casi todos los ámbitos relacionados con VMware. Al final creo que ha salido un contenido de lo mas variado
+Entre todos, hemos intentado diseñar un temario lo suficientemente amplio para abarcar casi todos los ámbitos relacionados con VMware. Al final creo que ha salido un contenido de lo más variado.
 
 ### Contenido del libro VMware por vExperts
 
