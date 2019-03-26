@@ -111,6 +111,10 @@ Búsqueda de VM por su MAC ADDRESS:
 Get-VM | Get-NetworkAdapter | Where-Object {$_.MacAddress -eq "00:50:56:ba:ca:5b"} | FL
 ```
 
+```powershell
+Get-VM | Get-HardDisk | Where-Object {$_.DiskType -like “Raw*”} | Select @{N=”VMName”;E={$_.Parent}},Name,DiskType,@{N=”LUN_ID”;E={$_.ScsiCanonicalName}},@{N=”VML_ID”;E={$_.DeviceName}},Filename,CapacityGB
+```
+
 
 
 Espero que os sea de utilidad.
