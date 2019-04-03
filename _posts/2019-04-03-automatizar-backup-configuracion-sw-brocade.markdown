@@ -14,6 +14,7 @@ category: blog
 author: miquelMariano
 description: Script bash para la automatización y programación periodica de backups en switches FC Brocade...
 hidden: false
+comments: true
 ---
 
 
@@ -21,7 +22,7 @@ Buenos días a tod@s!!!
 
 Hace ya tiempo, os enseñé [cómo exportar vuestra configuración en switches FC Brocade](https://miquelmariano.github.io/2017/10/backup-configuracion-sw-brocade)
 
-En esta ocasión, quiero dar un paso mas en esta tarea y automatizarla.
+En esta ocasión, quiero dar un paso más en esta tarea y automatizarla.
 
 Para realizar un bakcup de un sw Brocade, ya lo vimos en su dia:
 
@@ -39,7 +40,7 @@ Para equipos que deban administrar sistemas, instalando siempre los mismos progr
 
 ![expect]({{ site.imagesposts2019 }}/04/expect.png)
 
-A continuacion teneis el script, que interpreta los parámetros que pregunta el SW para poder pasarselos correctamente:
+A continuacion teneis el script, que interpreta los parámetros que pregunta el SW para poder pasárselos correctamente:
 
 ```ssh
 #!/usr/bin/expect
