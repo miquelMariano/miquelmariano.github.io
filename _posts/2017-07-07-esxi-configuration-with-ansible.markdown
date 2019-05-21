@@ -2,7 +2,7 @@
 title: Automatizar configuración de ESXi con Ansible
 date: '2017-07-07 00:00:00'
 layout: post
-image: /assets/images/posts/2017/01/ansible_logo.png
+image: /assets/images/posts/2017/01/ansible-esxi.jpg
 headerImage: true
 tag:
 - ansible
@@ -21,8 +21,6 @@ comments: true
 Muy buenos días amigos.
 
 En el post de hoy voy a enseñaros como podemos empezar a automatizar las configuraciones de nuestros ESXi.
-
-![ansible-esxi]({{ site.imagesposts2017 }}/07/ansible-esxi.jpg)
 
 **¿Por que automatizar?**
 
