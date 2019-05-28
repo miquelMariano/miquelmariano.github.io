@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: Back-to-basics 8 - Eliminar warning esxi al habilitar SSH
 hidden: false
-permalink: /basics11/
 ---
 
 Buenos días a tod@as!!
