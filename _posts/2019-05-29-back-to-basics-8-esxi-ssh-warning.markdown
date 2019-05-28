@@ -12,7 +12,7 @@ tag:
 - backtobasics
 category: blog
 author: miquelMariano
-description: En el post de hoy veremos como eliminar ese molesto warning cuando habilitamos el servicio SSH en un host ESXi...º
+description: En el post de hoy veremos como eliminar ese molesto warning cuando habilitamos el servicio SSH en un host ESXi...
 hidden: false
 comments: true
 ---
