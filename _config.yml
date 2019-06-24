@@ -25,14 +25,14 @@ description: "Hablando de virtualización, cloud y automatización entre otras c
 #bio3: Apasionado de la montaña | Bike | Trail | Run
 #bio4: Padre de Aina ♥
 baseurl: "/"
-url: "https://premiquelmariano.github.io"
+url: "https://miquelmariano.github.io"
 logo: "/assets/images/perfil.png"
 images: /assets/images
-vcap_images: https://premiquelMariano.github.io/assets/images/vcap
-imagesposts2016: https://premiquelMariano.github.io/assets/images/posts/2016
-imagesposts2017: https://premiquelMariano.github.io/assets/images/posts/2017
-imagesposts2018: https://premiquelMariano.github.io/assets/images/posts/2018
-imagesposts2019: https://premiquelMariano.github.io/assets/images/posts/2019
+vcap_images: https://miquelMariano.github.io/assets/images/vcap
+imagesposts2016: https://miquelMariano.github.io/assets/images/posts/2016
+imagesposts2017: https://miquelMariano.github.io/assets/images/posts/2017
+imagesposts2018: https://miquelMariano.github.io/assets/images/posts/2018
+imagesposts2019: https://miquelMariano.github.io/assets/images/posts/2019
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
@@ -42,7 +42,7 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: #"UA-2011187-2"
+google_analytics: "UA-89683320-1"
 disqus:
   shortname: "miquelmariano"
 twitter:
@@ -90,13 +90,13 @@ plugins:
   - jekyll-redirect-from
 
 # Collections
-collections:
-  inprogress:
-    output: true
-    permalink: /:collection/:path/   
-  test:
-    output: true
-    permalink: /:collection/:path/    
+#collections:
+#  inprogress:
+#    output: true
+#    permalink: /:collection/:path/   
+#  test:
+#    output: true
+#    permalink: /:collection/:path/    
 
 
 # Front Matter Defaults
@@ -110,21 +110,21 @@ defaults:
       comments: true
       share: true 
   # In progress defaults    
-  - scope:
-      path: "_inprogress"
-      type: inprogress
-    values:
-      layout: post
-      comments: true
-      share: true  
+#  - scope:
+#      path: "_inprogress"
+#      type: inprogress
+#    values:
+#      layout: post
+#      comments: true
+#      share: true  
   # Test defaults
-  - scope:
-      path: "_test"
-      type: test
-    values:
-      layout: post
-      comments: true
-      share: true         
+#  - scope:
+#      path: "_test"
+#      type: test
+#    values:
+#      layout: post
+#      comments: true
+#      share: true         
            
 # Site Author
 author:
