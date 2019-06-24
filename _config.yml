@@ -1,85 +1,165 @@
+# Welcome to Jekyll!
 #
-###################################
-# Site wide configuration
-####################################
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
 #
-title: Miquel Mariano
-email:
-description: A simple and awesome blog theme powered by jekyll.
-url: https://miquelMariano.github.io
-keywords: ["blog", "jekyll"]
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-#
-###################################
-# Jekyll configuration
-####################################
-#
-timezone:          Europe/Madrid
-markdown:          kramdown
-highlighter:       rouge
-excerpt_separator: <!--more-->
-permalink:         /:year/:month/:title
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+# theme: jekyll-theme-so-simple
+remote_theme: mmistakes/so-simple-theme
 
-#
-
-
+locale: en-US
+title: "Miquel Mariano"
+description: "Hablando de virtualización, cloud y automatización entre otras cosas..."
+#bio1: Consultor TI en Ncora 
+#bio2: VCAP6-DCV Deploy | VCP5/6-DCV | vExpert x4
+#bio3: Apasionado de la montaña | Bike | Trail | Run
+#bio4: Padre de Aina ♥
+baseurl: "/"
+url: "https://premiquelmariano.github.io"
+logo: "/assets/images/perfil.png"
 images: /assets/images
-vcap_images: https://miquelMariano.github.io/assets/images/vcap
-imagesposts2016: https://miquelMariano.github.io/assets/images/posts/2016
-imagesposts2017: https://miquelMariano.github.io/assets/images/posts/2017
-imagesposts2018: https://miquelMariano.github.io/assets/images/posts/2018
-imagesposts2019: https://miquelMariano.github.io/assets/images/posts/2019
+vcap_images: https://premiquelMariano.github.io/assets/images/vcap
+imagesposts2016: https://premiquelMariano.github.io/assets/images/posts/2016
+imagesposts2017: https://premiquelMariano.github.io/assets/images/posts/2017
+imagesposts2018: https://premiquelMariano.github.io/assets/images/posts/2018
+imagesposts2019: https://premiquelMariano.github.io/assets/images/posts/2019
+date_format: "%B %-d, %Y"
+read_time: true
+words_per_minute: 200
+mathjax: true
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+google_analytics: #"UA-2011187-2"
+disqus:
+  shortname: "miquelmariano"
+twitter:
+  username: "miquelmariano"
+google_site_verification: #"UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Search
+search_full_content: false
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# Collections
+collections:
+  inprogress:
+    output: true
+    permalink: /:collection/:path/   
+  test:
+    output: true
+    permalink: /:collection/:path/    
 
 
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: true
+      share: true 
+  # In progress defaults    
+  - scope:
+      path: "_inprogress"
+      type: inprogress
+    values:
+      layout: post
+      comments: true
+      share: true  
+  # Test defaults
+  - scope:
+      path: "_test"
+      type: test
+    values:
+      layout: post
+      comments: true
+      share: true         
+           
+# Site Author
+author:
   name: Miquel Mariano
-  avatar: avatar1.jpg
-  job: "Blog personal"
-#  bio: "Consultor TI en Ncora | VCP5/6-DCV | vExpert   Apasionado de la montaña | Bike | Trail | Run | Padre de Aina"
-  bio1: Consultor TI en Ncora 
-  bio2: VCAP6-DCV Deploy | VCP5/6-DCV | vExpert x4
-  bio3: Apasionado de la montaña | Bike | Trail | Run
-  bio4: Padre de Aina ♥
+  picture: /assets/images/perfil.png
   email: miquel.mariano@outlook.com
-  disqus-shortname: miquelmariano
-  twitter: miquelMariano
-  facebook: #username
-  google:
-    plus: #username
-    analytics: 'UA-89683320-1'
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: miquelmariano
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: miquelmariano
-  skype: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: ncoratv
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
-  reddit: #username
-  telegram: miquelmariano
+  twitter: mmistakes
+  links:
+    - title: Twitter
+      url: https://twitter.com/miquelmariano
+      icon: fab fa-twitter-square
+    - title: Instagram
+      url: https://instagram.com/miquelmarian0
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/miquelmariano
+      icon: fab fa-github-square
+    - title: LinkedIN
+      url: https://www.linkedin.com/in/miquelmariano/
+      icon: fab fa-linkedin
+
+# Footer Links
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/miquelmariano
+    icon: fab fa-twitter-square
+#  - title: Instagram
+#    url: https://instagram.com/mmistakes
+#    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/miquelmariano
+    icon: fab fa-github-square
+  - title: LinkedIN
+    url: https://www.linkedin.com/in/miquelmariano/
+    icon: fab fa-linkedin
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square

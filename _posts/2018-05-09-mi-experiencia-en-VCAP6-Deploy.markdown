@@ -9,12 +9,7 @@ tag:
 - vsphere
 - vexpert
 - vcap
-category: blog
-author: miquelMariano
-description: Mi experiencia con el VCAP6-DCV Deploy
-hidden: false
 permalink: /vcap-experience/
-comments: true
 ---
 
 Buenos días a tod@as!!

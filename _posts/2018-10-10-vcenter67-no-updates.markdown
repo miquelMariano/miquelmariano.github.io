@@ -10,11 +10,6 @@ tag:
 - vexpert
 - vsphere
 - vmware
-category: blog
-author: miquelMariano
-description: vCenter 6.7 no muestra actualizaciones disponibles
-hidden: false
-comments: true
 ---
 
 Buenos dias a tod@as!!

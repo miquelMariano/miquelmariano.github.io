@@ -9,11 +9,6 @@ tag:
 - automation
 - devops
 - windows
-category: blog
-author: miquelMariano
-description: Configuración de Windows para ser manejado con Ansible
-hidden: false
-comments: true
 ---
 
 Buenos dias queridos lectores!

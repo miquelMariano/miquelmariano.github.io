@@ -9,11 +9,6 @@ tag:
 - vsphere
 - vexpert
 - esxi
-category: blog
-author: miquelMariano
-description: Cómo desinstalar un software no compatible en ESXi
-hidden: false
-comments: true
 ---
 
 Últimamente me estoy encontrando con algunas incompatibilidades al intentar actualizar los ESXi de nuestros clientes a la versión 6.5.

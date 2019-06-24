@@ -11,11 +11,6 @@ tag:
 - drs
 - vexpert
 - powercli
-category: blog
-author: miquelMariano
-description: Migrar configuración de un vCenter a otro
-hidden: false
-comments: true
 ---
 
 En el post de hoy voy a mostraros como migrar las configuraciones de un vCenter a otro.

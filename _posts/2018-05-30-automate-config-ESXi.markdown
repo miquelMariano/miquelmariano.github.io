@@ -11,11 +11,6 @@ tag:
 - devops
 - esxi
 - automation
-category: blog
-author: miquelMariano
-description: Instalación y configuración desatendida de VMWare ESXi
-hidden: false
-comments: true
 ---
 
 Buenos dias a tod@as!!

@@ -7,11 +7,6 @@ headerImage: true
 tag:
 - ansible
 - automation
-category: blog
-author: miquelMariano
-description: Ansible - Ejecutar tarea sólo si la acción previa ha cambiado
-hidden: false
-comments: true
 ---
 
 Buenos dias a tod@as!

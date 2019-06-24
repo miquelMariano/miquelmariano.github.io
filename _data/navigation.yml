@@ -1,0 +1,29 @@
+# Site navigation links
+
+- title: Home
+  url: "https://premiquelmariano.github.io"
+
+- title: Posts
+  url: /posts/
+
+- title: Tags
+  url: /tags/
+
+- title: VCAP6-DCV Deploy
+  url: "https://premiquelmariano.github.io/vcap-experience/"
+
+- title: VMware por vExperts
+  url: "https://premiquelmariano.github.io/vmwareporvexperts/"
+
+- title: About
+  url: /about/  
+
+- title: Search
+  url: /search/
+  
+- title: In progress...
+  url: /inprogress/
+
+- title: TEST
+  url: /test/ 
+

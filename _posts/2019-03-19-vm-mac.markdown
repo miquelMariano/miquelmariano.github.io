@@ -9,11 +9,6 @@ tag:
 - automation
 - vsphere
 - vmware
-category: blog
-author: miquelMariano
-description: Procedimiento sencillo de como averiguar que MAC address tenia una VM tras, ésta, haber cambiado...
-hidden: false
-comments: true
 ---
 
 Buenos dias a todos!

@@ -10,11 +10,6 @@ tag:
 - vmworld
 - vcenter
 - esxi
-category: blog
-author: miquelMariano
-description: vSphere 6.7 U1 anunciado en el VMWorld USA
-hidden: false
-comments: true
 ---
 
 Buenos dias a tod@as!!

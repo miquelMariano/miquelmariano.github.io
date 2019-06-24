@@ -2,66 +2,40 @@
 layout: default
 ---
 
-<a class="btn" href= "{{ site.url }}/" >
-  Home
-</a>
-{% if page.image %}
-<div class="post-image-feature">
-  <img class="feature-image" src=
-  {% if page.image.feature contains 'https' or page.image.feature contains 'http' %}
-  "{{ page.image.feature }}"
-  {% else %}
-  "{{ site.url }}{{ page.image }}"
-  {% endif %}
-  alt="{{ page.title | escape }} feature image">
+<main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    {% include page-image.html %}
+    <div class="page-wrapper">
+      <header class="page-header">
+        {% assign title = page.title | markdownify | strip_html %}
+        {% if page.link %}
+          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+        {% endif %}
+      </header>
 
-  {% if page.image.credit %}
-  <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-</div><!-- /.image-wrap -->
-{% endif %}
+      <div class="page-sidebar">
+        {% include page-author.html %}
+        {% include page-categories.html %}
+        {% include page-tags.html %}
+      </div>
 
+      <div class="page-content">
+        <div class="e-content">
+          {{ content }}
+        </div>
 
-<div id="post">
-  <header class="post-header">
-    <h1 title="{{ page.title | escape }}">{{ page.title }}</h1>
-    <span class="post-meta">
-      <span class="post-date">
-        {{ page.date | date: "%-d %b %Y" | upcase }}
-      </span>
-      •
-      {% include read_time.html %}
-    </span>
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
 
-  </header>
+        {% if site.disqus.shortname %}
+          {% include disqus-comments.html %}
+        {% endif %}
 
-  <article class="post-content">
-    {{ content }}
+        {% include page-pagination.html %}
+      </div>
+    </div>
   </article>
-</div>
-
-<div class="share-buttons">
-  <h6>Share on: </h6>
-  <ul>
-    <li>
-      <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
-    </li>
-    <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
-    </li>
-    <li>
-      <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
-    </li>
-    <li>
-      <a href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}" class="hacker-news btn" title="Share on Hacker News"><i class="fa fa-hacker-news"></i><span> Hacker News</span></a>
-    </li>
-    <li>
-      <a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
-    </li>
-  </ul>
-</div><!-- end share-buttons -->
-
-{% if site.owner.disqus-shortname and page.comments == true %}
-<div id="disqus_thread"></div>
-{% include disqus.html %}
-{% endif %}
+</main>

@@ -6,11 +6,6 @@ image: /assets/images/posts/2017/11/ansible.png
 headerImage: false
 tag:
 - miscelanea
-category: blog
-author: miquelMariano
-description: 3er aniversario en el NcoraTeam
-hidden: false
-comments: true
 ---
 
 Buenos dias a tod@as!!

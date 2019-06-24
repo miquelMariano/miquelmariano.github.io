@@ -3,18 +3,12 @@ title: Cambiar cadena conexión de Veeam Backup
 date: '2019-04-24 00:00:00'
 layout: post
 image: /assets/images/posts/2019/04/veeam-logo.png
-headerImage: true
 tag:
 - vmware
 - vsphere
 - vexpert
 - veeam
 - backup
-category: blog
-author: miquelMariano
-description: En el post de hoy veremos como de forma fácil podemos cambiar la cadena de conexión a nuestro vCenter desde el Veeam Backup...
-hidden: false
-comments: true
 ---
 
 Buenos días a tod@as!!

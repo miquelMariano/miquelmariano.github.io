@@ -8,11 +8,6 @@ tag:
 - ansible
 - devops
 - automation
-category: blog
-author: miquelMariano
-description: Uso de condicionales con Ansible
-hidden: false
-comments: true
 o: "{{"
 c: "}}"
 ---

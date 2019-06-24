@@ -10,11 +10,6 @@ tag:
 - vexpert
 - automation
 - vcenter
-category: blog
-author: miquelMariano
-description: Instalar vCenter 6.7 via CLI
-hidden: false
-comments: true
 ---
 
 Buenos días a tod@s!!

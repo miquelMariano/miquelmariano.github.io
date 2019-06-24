@@ -10,11 +10,6 @@ tag:
 - esxi
 - vexpert
 - powercli
-category: blog
-author: miquelMariano
-description: Backup & Restore de la configuración de un host ESXi
-hidden: false
-comments: true
 ---
 
 Buenos dias a tod@as!!
