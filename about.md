@@ -26,7 +26,7 @@ También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.
 
 Podréis consultar mas información en mi perfil completo de [LinkedIN](https://www.linkedin.com/in/miquelmariano/)
 
-Ah, por cierto, también tengo libro, podreis encontrar toda la info sobre ["VMware por vExperts"](https://twitter.com/vmwarevexperts), el proyecto solidario y la url de descarga gratis desde [aquí](https://www.vmwareporvexperts.org>aquí)
+Ah, por cierto, también tengo libro, podreis encontrar toda la info sobre ["VMware por vExperts"](https://twitter.com/vmwarevexperts), el proyecto solidario y la url de descarga gratis desde [aquí](https://www.vmwareporvexperts.org)
 
 ![vExpert]({{ site.url }}{{ site.images }}/logo_vexpert_4.png){: .align-center}
 
