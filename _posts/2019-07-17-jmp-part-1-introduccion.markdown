@@ -14,7 +14,7 @@ permalink: /jmp-part1/
 
 ---
 
-Buenos dias a tod@s!!
+Buenos días a tod@s!!
 
 En la siguiente serie de posts, pretendo explicar durante las próximas semanas el paso a paso para instalar un entorno JMP (Just-in-Time Management Platform) utilizando VMware Horizon 7 Instant Clones + App Volumes + VMware UEM (User Environment Manager) 
 
@@ -23,8 +23,8 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - Part 3: Preparar Active Directory
 - Part 4: Instalación y configuración Connection Server
 - Part 5: Instalación y configuración Replica Server
-- Part 6: Intalación y configuración de Security Server
-- Part 7: Intalación y configuración de UAG
+- Part 6: Instalación y configuración de Security Server
+- Part 7: Instalación y configuración de UAG
 - Part 8: Instalación certificado (opcional)
 - Part 9: Preparar plantilla master para Instant Clone
 - Part 10: Configurar un pool de Instant Clone
@@ -41,17 +41,17 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 
 Han pasado ya muchos años desde que empezaron a aparecer las primeras tecnologías EUC, primero fué Citrix con su producto XenDesktop, después apareció View de VMware que poco a poco ha ido transformandose en Horizon View y ahora solo Horizon. 
 
-Con el paso del tiempo y las nuevas versiones han ido apareciendo nuevas características y funcionalidades que han ido mejorando la vida de los administradores pero siempre ha habido un aspecto que ha sido problemático, los usuarios, o mas bien, sus datos y su "experiencia de usuario".
+Con el paso del tiempo y las nuevas versiones han ido apareciendo nuevas características y funcionalidades que han ido mejorando la vida de los administradores pero siempre ha habido un aspecto que ha sido problemático, los usuarios, o más bien, sus datos y su "experiencia de usuario".
 
 A menudo, los usuarios quieren personalizar su escritorio, iconos, favoritos, y con el uso de Linked Clones + persistent disk + roaming profiles es fácil caer en problemas de ineficiencia en el almacenamiento, cuellos de botella o incluso el riesgo de corrupción de perfiles.
 
-La entrega de aplicaciones al escritorio mediante ThinApp o incluso aplicacioens alojadas en RDS también tiene una fuerte dependencia en la red y que no se produzcan latencias. 
+La entrega de aplicaciones al escritorio mediante ThinApp o incluso aplicaciones alojadas en RDS también tiene una fuerte dependencia en la red y que no se produzcan latencias. 
 
 Con todo esto y sin un método "potente" para poder escalar el aprovisionamiento dinámico de aplicaciones, al final, las organizaciones tienen que recurrir a la creación de múltiples plantillas, cada una con sus aplicaciones pre-instaladas para poder atender la demanda de cada "tipo" de usuario.
 
 Con la llegada de Horizon, en su versión 7.5, ha llegado también una nueva característica llamada JMP Integrated Workflow. En términos de marketing, JMP (Just-in-time Management Platform). Realmente, esta característica es la combinación de 3 productos dentro de la suit VMware Horizon Enterprise. Instant Clones, App Volumes y User Environment Manager (UEM)
 
-Lo que nos proporciona JMP, és una nueva metodología para proporcionar a los usuarios la experiencia de un escritorio persistente pero utilizando tecnología de escritorios volátiles (Instant Clones), entrega de aplicaciones en tiempo real (App Volumes) y gestión eficiende de los datos y perfiles de usuario (UEM)
+Lo que nos proporciona JMP, es una nueva metodología para proporcionar a los usuarios la experiencia de un escritorio persistente pero utilizando tecnología de escritorios volátiles (Instant Clones), entrega de aplicaciones en tiempo real (App Volumes) y gestión eficiende de los datos y perfiles de usuario (UEM)
 
 
 ![jmp1]({{ site.imagesposts2019 }}/07/jmp1.png){: .align-center}
