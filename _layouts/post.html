@@ -7,6 +7,17 @@ layout: default
     {% include page-image.html %}
     <div class="page-wrapper">
       <header class="page-header">
+
+   <!--Código para Google AdSense-->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-9965085090040944",
+          enable_page_level_ads: true
+        });
+   </script>
+   <!--Código para Google AdSense-->
+        
         {% assign title = page.title | markdownify | strip_html %}
         {% if page.link %}
           <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
