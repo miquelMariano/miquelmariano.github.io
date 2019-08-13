@@ -106,7 +106,7 @@ Y aqui va el código del playbook:
           - UpdateRollups
         reboot: yes
       when:
-          - install_updates == true
+          - install_updates == 'true'
 ```
 
 La salida será algo similar a esto:

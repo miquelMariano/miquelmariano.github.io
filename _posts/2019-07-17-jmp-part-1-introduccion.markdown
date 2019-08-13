@@ -60,7 +60,7 @@ Para mas información, VMware ha creado la [siguiente guía](https://techzone.vm
 
 El propósito de esta serie es crear un step-by-step para crear un entorno JMP completamente funcional y los componentes estarán basados en las siguientes versiones:
 
- - Horizon 7 Enterprise v7.8
+ - Horizon 7 Enterprise v7.9
  - App Volumes v2.17
  - UEM v9.8
  - SQL server express 2017
