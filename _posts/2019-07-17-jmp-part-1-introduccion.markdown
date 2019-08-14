@@ -19,7 +19,7 @@ Buenos días a tod@s!!
 En la siguiente serie de posts, pretendo explicar durante las próximas semanas el paso a paso para instalar un entorno JMP (Just-in-Time Management Platform) utilizando VMware Horizon 7 Instant Clones + App Volumes + VMware UEM (User Environment Manager) 
 
 - [Part 1: Introducción]({{ site.url }}/jmp-part1/)
-- Part 2: Preparar servidor SQL
+- [Part 2: Preparar servidor SQL]({{ site.url }}/jmp-part2/)
 - Part 3: Preparar Active Directory
 - Part 4: Instalación y configuración Connection Server
 - Part 5: Instalación y configuración Replica Server
