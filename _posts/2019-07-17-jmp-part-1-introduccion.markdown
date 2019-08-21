@@ -37,7 +37,7 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - Part 17: Instalación y configuración JMP Server
 - Part 18: Aprovisionamiento con JMP
 
-### Introducción
+# Introducción
 
 Han pasado ya muchos años desde que empezaron a aparecer las primeras tecnologías EUC, primero fué Citrix con su producto XenDesktop, después apareció View de VMware que poco a poco ha ido transformandose en Horizon View y ahora solo Horizon. 
 
