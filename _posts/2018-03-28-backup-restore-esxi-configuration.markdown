@@ -18,22 +18,37 @@ El post de hoy es corto, pero tremendamente útil si vamos a manipular a bajo ni
 
 Se trata de poder hacer de manera sencilla un backup de la configuración de un ESXi y en caso de necesidad, (esperemos que no) poder hacer la restauración.
 
-El método que aquí os enseño está basado en comandos PowerCLI y básicamente son dos pasos:
+El método que aquí os enseño está basado en la linea de comando del ESXi, por lo que necesitaremos conectarnos por SSH
 
-* Realizar el backup a un directorio externo de nuestro PC:
+* Realizar backup de la configuración:
 
-```powershell
-Get-VMHostFirmware -VMHost $host -BackupConfiguration -DestinationPath C:\HostBackups
+```ssh
+Gvim-cmd hostsvc/firmware/backup_config
 ```
 
-* Recuperar la configuración del ESXi en base al fichero de backup que previamente hemos extraido:
+La salida del comando nos indicará la ruta desde donde nos podremos descargar el fichero `http://IP_or_FQDN_ESXi/downloads/123456/configBundle-xx.xx.xx.xx.tgz`. También podremos encontrar el fichero en `/scratch/downloads`
+{: .notice}
 
-```powershell
-Set-VMHostFirmware -VMHost $Host -Restore -SourcePath c:\Hostbackups\backupfile.tgz -HostUser user -HostPassword password
+* Recuperar la configuración del ESXi:
+
+1 - Tendremos que poner el host en modo mantenimiento
+
+```ssh
+vim-cmd hostsvc/maintenance_mode_enter
 ```
 
-> Hay que decir que para hacer el restore necesitaremos tener el ESXi operativo, es decir, si por cualquier motivo el ESXi no 
-> arranca o no es accesible, deberemos reinstalaro y después hacer el Restore.
+2 - Copiamos el fichero de backup en el sistema de ficheros del ESXi mediante SCP (por ejemplo)
+
+3 - Ejecutamos el siguiente comando de recuperación
+
+```ssh
+vim-cmd hostsvc/firmware/restore_config 1 /tmp/configBundle.tgz
+```
+
+Para hacer un restore es necesario que el "build number" del ESXi coincida con el "build number" que tiene el fichero de backup. En caso de haber reinstalado el ESXi y que éste no sea el mismo, forzaremos la recuperación con la opción `1`
+{: .notice}
+
+Información extraida de la [KB oficial](https://kb.vmware.com/s/article/2042141?)
 
 Espero que os sea de utilidad.
 
