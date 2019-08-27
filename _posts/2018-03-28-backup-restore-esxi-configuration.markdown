@@ -20,7 +20,7 @@ Se trata de poder hacer de manera sencilla un backup de la configuración de un 
 
 El método que aquí os enseño está basado en la linea de comando del ESXi, por lo que necesitaremos conectarnos por SSH
 
-* Realizar backup de la configuración:
+# Realizar backup de la configuración:
 
 ```ssh
 Gvim-cmd hostsvc/firmware/backup_config
@@ -29,17 +29,17 @@ Gvim-cmd hostsvc/firmware/backup_config
 La salida del comando nos indicará la ruta desde donde nos podremos descargar el fichero `http://IP_or_FQDN_ESXi/downloads/123456/configBundle-xx.xx.xx.xx.tgz`. También podremos encontrar el fichero en `/scratch/downloads`
 {: .notice}
 
-* Recuperar la configuración del ESXi:
+# Recuperar la configuración del ESXi:
 
-1 - Tendremos que poner el host en modo mantenimiento
+### 1 - Tendremos que poner el host en modo mantenimiento
 
 ```ssh
 vim-cmd hostsvc/maintenance_mode_enter
 ```
 
-2 - Copiamos el fichero de backup en el sistema de ficheros del ESXi mediante SCP (por ejemplo)
+### 2 - Copiamos el fichero de backup en el sistema de ficheros del ESXi mediante SCP (por ejemplo)
 
-3 - Ejecutamos el siguiente comando de recuperación
+### 3 - Ejecutamos el siguiente comando de recuperación
 
 ```ssh
 vim-cmd hostsvc/firmware/restore_config 1 /tmp/configBundle.tgz
