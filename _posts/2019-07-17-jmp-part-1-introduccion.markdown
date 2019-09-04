@@ -21,7 +21,7 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - [Part 1: Introducción]({{ site.url }}/jmp-part1/)
 - [Part 2: Preparar servidor SQL]({{ site.url }}/jmp-part2/)
 - [Part 3: Preparar Active Directory]({{ site.url }}/jmp-part3/)
-- Part 4: Instalación y configuración Connection Server
+- [Part 4: Instalación y configuración Connection Server]({{ site.url }}/jmp-part4/)
 - Part 5: Instalación y configuración Replica Server
 - Part 6: Instalación y configuración de Security Server
 - Part 7: Instalación y configuración de UAG
