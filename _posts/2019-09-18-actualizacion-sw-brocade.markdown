@@ -1,6 +1,6 @@
 ---
 title: Actualización de firmware en switches Brocade FC
-date: '2017-09-18 00:00:00'
+date: '2019-09-18 00:00:00'
 layout: post
 image: /assets/images/posts/2017/10/brocade-logo.png
 tag:
