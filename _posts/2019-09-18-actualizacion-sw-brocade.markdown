@@ -11,8 +11,6 @@ tag:
 - fc
 ---
 
-Buenos días a tod@s!!!
-
 En el post de hoy veremos cómo realizar una actualización de firmware en nuestros switches Brocade de nuestra SAN.
 
 **IMPORTANTE** Hay que tener en cuenta que cualquier actualización de firmware en cualquier dispositivo en general es una operación que debe realizarse por personal cualificado. En el caso de nuestra SAN, una mala planificación en el proceso de actualización (no seguir el orden correcto, no comprobar la compatibilidad de nuestros dispositivos...) podría generar problemas graves en el acceso al almacenamiento, incluso provocar disrupción de servicio.
