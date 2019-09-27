@@ -10,11 +10,6 @@ tag:
 - vexpert
 - devops
 - backtobasics
-category: blog
-author: miquelMariano
-description: En este post vamos a ver los contadores mas importantes de CPU que nos podemos encontrar en cada VM de nuestro entorno.
-hidden: false
-comments: true
 ---
 
 Buenos dias a tod@as!!

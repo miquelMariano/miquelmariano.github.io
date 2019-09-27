@@ -10,11 +10,6 @@ tag:
 - vsphere
 - vmware
 - powercli
-category: blog
-author: miquelMariano
-description: Hoy, me gustaría compartir con vosotros una lista de commandos que podemos ejecutar sin necesidad de crear ningún script y que nos dan información muy valiosa de nuestro entorno vsphere
-hidden: false
-comments: true
 ---
 
 Buenos días a tod@s!!

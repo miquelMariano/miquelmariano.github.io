@@ -3,18 +3,12 @@ title: Comprobar actualizaciones de windows con Ansible
 date: '2019-05-08 00:00:00'
 layout: post
 image: /assets/images/posts/2019/05/ansible-win.png
-headerImage: true
 tag:
 - automation
 - devops
 - ansible
 - windows
 - updates
-category: blog
-author: miquelMariano
-description: En el post de os os enseñaré un interesante playbook que nos ayudará a comprobar de manera fácil el estado de las actualizaciones de nuestros servidores windows...
-hidden: false
-comments: true
 o: "{{"
 c: "}}"
 ---
@@ -112,7 +106,7 @@ Y aqui va el código del playbook:
           - UpdateRollups
         reboot: yes
       when:
-          - install_updates == true
+          - install_updates == 'true'
 ```
 
 La salida será algo similar a esto:
@@ -186,7 +180,7 @@ localhost                  : ok=2    changed=1    unreachable=0    failed=0
 
 Como habeis podido observar en el play 3, he añadido una parte de [notificaciones con telegram](https://miquelmariano.github.io/2017/08/ansible-telegram), que quedaria de la siguiente manera.
 
-![ansible-telegram]({{ site.imagesposts2019 }}/05/ansible-telegram.png)
+![ansible-telegram]({{ site.imagesposts2019 }}/05/ansible-telegram.png){: .align-center}
 
 
 Espero que os guste.

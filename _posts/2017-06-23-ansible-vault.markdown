@@ -9,11 +9,6 @@ tag:
 - ansible
 - devops
 - automation
-category: blog
-author: miquelMariano
-description: ansible-vault o como ocultar datos sensibles en nuestros ficheros Ansible
-hidden: false
-comments: true
 ---
 
 Siguiendo con temática [Ansible](https://miquelmariano.github.io/tags/#ansible), en el post de hoy vamos a ver la funcionalidad de ansible-vault.

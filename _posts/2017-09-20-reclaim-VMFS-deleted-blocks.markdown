@@ -9,11 +9,6 @@ tag:
 - storage
 - vmfs
 - esxcli
-category: blog
-author: miquelMariano
-description: Reclamar bloques eliminados en datastores VMFS
-hidden: false
-comments: true
 ---
 
 **Actualización 11/12/2018!** Para los que ya tengáis VMFS6, pasaros por [este post](https://www.jorgedelacruz.es/2018/12/10/vmware-vistazo-rapido-a-unmap-y-novedades-en-vsphere-6-7-reclamando-espacio-vacio-en-disco/) del gran Jorge de la Cruz.

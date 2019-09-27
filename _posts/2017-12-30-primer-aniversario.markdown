@@ -6,11 +6,6 @@ image: /assets/images/posts/2017/12/1aniversario.jpg
 headerImage: true
 tag:
 - miscelanea
-category: blog
-author: miquelMariano
-description: 1er aniversario como blogger!!
-hidden: false
-comments: true
 ---
 
 Cómo pasa el tiempo, ¿verdad?

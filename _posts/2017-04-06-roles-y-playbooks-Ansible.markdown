@@ -8,11 +8,6 @@ tag:
 - ansible
 - devops
 - automation
-category: blog
-author: miquelMariano
-description: ¿Como se usan los roles y playbooks en Ansible?
-hidden: false
-comments: true
 ---
 
 

@@ -11,11 +11,6 @@ tag:
 - devops
 - automation
 - powercli
-category: blog
-author: miquelMariano
-description: Programar export automático de RVTools
-hidden: false
-comments: true
 ---
 
 Por si todavía quedan vSphere admins que no sepan lo que son las RVTools, deciros que:

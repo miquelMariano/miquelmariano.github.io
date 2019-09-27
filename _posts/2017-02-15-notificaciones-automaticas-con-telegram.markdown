@@ -8,11 +8,6 @@ tag:
 - telegram
 - automation
 - devops
-category: blog
-author: miquelMariano
-description: Notificaciones automáticas con Telegram
-hidden: false
-comments: true
 ---
 
 Buenos días a tod@s!
