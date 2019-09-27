@@ -10,6 +10,11 @@ tag:
 - vexpert
 - devops
 - backtobasics
+category: blog
+author: miquelMariano
+description: Back-to-basics 4 - vSphere HA
+hidden: false
+comments: true
 ---
 
 Buenos dias a todos

@@ -8,6 +8,11 @@ tag:
 - windows
 - devops
 - ftp
+category: blog
+author: miquelMariano
+description: Xlight, un servidor FTP portable
+hidden: false
+comments: true
 ---
 
 Buenos días queridos lectores!!
@@ -26,16 +31,16 @@ Y la configuración es de lo mas sencillo:
 
 1) Ejecutamos el binario y creamos un nuevo virtual server
 
-![ftp1]({{ site.imagesposts2017 }}/08/ftp1.png){: .align-center}
+![ftp1]({{ site.imagesposts2017 }}/08/ftp1.png)
 
 2) Arrancamos en nuevo virtual server
 
-![ftp2]({{ site.imagesposts2017 }}/08/ftp2.png){: .align-center}
-![ftp3]({{ site.imagesposts2017 }}/08/ftp3.png){: .align-center}
+![ftp2]({{ site.imagesposts2017 }}/08/ftp2.png)
+![ftp3]({{ site.imagesposts2017 }}/08/ftp3.png)
 
 3) Crearemos un usuario para ese virtual server y listo.
 
-![ftp4]({{ site.imagesposts2017 }}/08/ftp4.png){: .align-center}
+![ftp4]({{ site.imagesposts2017 }}/08/ftp4.png)
 
 Por supuesto que la aplicación tiene muchas mas opciones y configuraciones avanzadas, pero para levantar un FTP server de manera temporal en un momento dado, estas pequeñas configuraciones serán mas que suficientes.
 

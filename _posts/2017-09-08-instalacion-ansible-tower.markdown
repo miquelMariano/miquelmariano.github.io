@@ -8,6 +8,11 @@ tag:
 - ansible
 - automation
 - devops
+category: blog
+author: miquelMariano
+description: Instalación Ansible Tower steb-by-step
+hidden: false
+comments: true
 ---
 
 Buenos días a tod@s!!!

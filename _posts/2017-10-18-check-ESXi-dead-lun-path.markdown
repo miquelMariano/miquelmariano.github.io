@@ -11,6 +11,11 @@ tag:
 - esxi
 - san
 - powercli
+category: blog
+author: miquelMariano
+description: Checkear dead path en ESXi
+hidden: false
+comments: true
 ---
 
 Buenos dias a tod@s!!

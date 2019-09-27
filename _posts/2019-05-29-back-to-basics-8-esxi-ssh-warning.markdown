@@ -3,13 +3,18 @@ title: Back-to-basics 8 - Eliminar warning ESXi al habilitar SSH
 date: '2019-05-29 00:00:00'
 layout: post
 image: /assets/images/posts/2019/05/ssh-logo.png
+headerImage: true
 tag:
 - vmware
 - vsphere
 - vexpert
 - devops
 - backtobasics
-
+category: blog
+author: miquelMariano
+description: En el post de hoy veremos como eliminar ese molesto warning cuando habilitamos el servicio SSH en un host ESXi...
+hidden: false
+comments: true
 ---
 
 Buenos días a tod@as!!

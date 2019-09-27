@@ -9,6 +9,11 @@ tag:
 - vsphere
 - vexpert
 - vcap
+category: blog
+author: miquelMariano
+description: Configuración y administración vSphere Auto Deploy en vSphere 6.0
+hidden: false
+comments: true
 ---
 
 Auto deploy usa [PXE](https://es.wikipedia.org/wiki/Preboot_Execution_Environment) para el despliegue de ESXi en una red. Cuanto un host se despliega mediante Auto deploy, la información de estado se carga en memoria durante el arranque. El estado, por defecto, no se almacena de forma permanente en el host.

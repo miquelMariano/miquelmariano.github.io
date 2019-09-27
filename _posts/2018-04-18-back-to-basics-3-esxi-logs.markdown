@@ -10,6 +10,11 @@ tag:
 - vexpert
 - devops
 - backtobasics
+category: blog
+author: miquelMariano
+description: Back-to-basics 2 - ESXi logs
+hidden: false
+comments: true
 ---
 
 Buenos dias a tod@as!!

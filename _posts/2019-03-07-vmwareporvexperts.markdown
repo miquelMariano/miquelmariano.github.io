@@ -11,7 +11,11 @@ tag:
 - vmware
 - vmwareporvexpert
 - libro
-permalink: /vmwareporvexperts/
+category: blog
+author: miquelMariano
+description: VMware por vExperts, el libro técnico que ha juntado a 14 blogers de habla hispana para un proyecto benéfico...
+hidden: false
+comments: true
 ---
 
 ***«Hay tres cosas que cada persona debería hacer durante su vida: plantar un árbol, tener un hijo y escribir un libro»***
@@ -20,7 +24,7 @@ Esta famosa cita, conocida por todos, y que en breve voy a tener la suerte de po
 
 Hoy vengo con un post autobombo, a hablar de un proyecto que tenemos entre manos y del cual me siento muy orgulloso de formar parte.
 
-![portada]({{ site.imagesposts2019 }}/03/portada.png){: .align-center}
+![portada]({{ site.imagesposts2019 }}/03/portada.png)
 
 Se trata del libro [#VMwareporvExperts](https://www.vmwareporvexperts.org), un libro técnico, de mas de 600 páginas, sobre todo el ecosistema VMWare y creado por 14 bloggers de habla hispana. Es un privilegio para mi, estar junto a tanto crack!!
 
@@ -74,7 +78,7 @@ El proyecto en si, tiene un objetivo solidario y es que todo lo que consigamos r
 - [Banani Project](http://www.amafestival.org/es/proyecto-banani)
 - [CEAFA Alzheimer organization](https://www.ceafa.es)
 
-![banani]({{ site.imagesposts2019 }}/03/CasaBanani.jpeg){: .align-center}
+![banani]({{ site.imagesposts2019 }}/03/CasaBanani.jpeg)
 
 La idea del proyecto, es que el libro sea en formato digital y 100% de libre descarga, sin registros. Es por ello, que hemos diseñado un sistema de sponsorización para que todas las empresas que estén interesadas, puedan unirse al proyecto. Muchos de los partners del ecosistema VMWare ya se han unido y esperamos que en los próximos días puedan confirmar más empresas su participación. Desde aquí agradezco enormemente el esfuerzo que están haciendo todas ellas.
 
@@ -82,7 +86,7 @@ La idea del proyecto, es que el libro sea en formato digital y 100% de libre des
 
 Hemos ideado un sistema de sponsorización basado en varios niveles que que, no solo los partners que giran alrededor del ecosistema VMware puedan participar, sinó que cualquier empresa interesada en el proyecto, pueda aportar su granito de arena.
 
-![sponsors](https://www.cenabit.com/wp-content/uploads/2019/03/sponsors.jpg){: .align-center}
+![sponsors](https://www.cenabit.com/wp-content/uploads/2019/03/sponsors.jpg)
 
 Estamos en la recta final, el contenido ya está terminado y el libro está en fase de revisión. Lo que necesitamos ahora es dar la máxima visibilidad posible al proyecto y que llegue no solo a gente interesada en aprender VMware en Español, también a potenciales Sponsors que se puedan sumar a la causa.
 

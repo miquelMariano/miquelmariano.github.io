@@ -10,6 +10,11 @@ tag:
 - vexpert
 - devops
 - backtobasics
+category: blog
+author: miquelMariano
+description: Back-to-basics 5 - Memory balloon
+hidden: false
+comments: true
 ---
 
 Hace un par de días, uno de mis alumnos en el curso [Administración vSphere 6.7](https://www.ncora.com/formacion-tic/administracion-de-vsphere/administracion-vsphere-67-training-pack/) me preguntaba sobre el proceso "ballooning". 

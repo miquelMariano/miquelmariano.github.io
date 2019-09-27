@@ -10,6 +10,11 @@ tag:
 - fabric
 - san
 - fc
+category: blog
+author: miquelMariano
+description: Script bash para la automatización y programación periodica de backups en switches FC Brocade...
+hidden: false
+comments: true
 ---
 
 

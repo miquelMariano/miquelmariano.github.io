@@ -5,6 +5,10 @@ date: '2018-12-20 00:00:00'
 layout: post
 tag:
 - miscelanea
+category: blog
+author: miquelMariano
+hidden: false
+comments: true
 ---
 
 Buenos dias a tod@as!!

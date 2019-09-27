@@ -10,6 +10,11 @@ tag:
 - vcenter
 - vcsa
 - vmfs
+category: blog
+author: miquelMariano
+description: Limitando nuestra vista sin necesidad de scroll para nuestra salida ESXTOP
+hidden: false
+comments: true
 ---
 
 Muy buenos días a tod@as, en el post de hoy os voy a mostrar una pequeña funcionalidad que tiene el comando esxtop y que me ha sido de mucha ayuda en mas de una ocasión.

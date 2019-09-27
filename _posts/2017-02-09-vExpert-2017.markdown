@@ -8,6 +8,11 @@ tag:
 - vexpert
 - vmware
 - devops
+category: blog
+author: miquelMariano
+description: vExpert
+hidden: false
+comments: true
 ---
 
 Ayer tuvo lugar el [anuncio de los nuevos VMWare vExpert 2017](https://blogs.vmware.com/vmtn/2017/02/vexpert-2017-award-announcement.html)

@@ -1,9 +1,6 @@
 ---
-layout: page
+layout: layout
 ---
 
-{{ content }}
-
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {% include posts-tag.html taxonomy=page.taxonomy %}
-</div>
+{% assign __ = site.data.languages[site.language] %}
+{% include tag.html %}

@@ -11,6 +11,11 @@ tag:
 - devops
 - backtobasics
 - licensing
+category: blog
+author: miquelMariano
+description: Back-to-basics 2 - Licenciamiento vSphere
+hidden: false
+comments: true
 ---
 
 Buenos dias a tod@as!!

@@ -11,6 +11,12 @@ tag:
 - devops
 - automation
 - powercli
+category: blog
+author: miquelMariano
+description: vAutodeploy, despliegue masivo de VMs con PowerCLI
+hidden: false
+permalink: /vAutodeploy/
+comments: true
 ---
 
 Hola a tod@s!

@@ -11,6 +11,11 @@ tag:
 - devops
 - ncorateam
 - ncoratv
+category: blog
+author: miquelMariano
+description: NcoraTeam | Miquel Mariano
+hidden: false
+comments: true
 ---
 
 Hoy os dejo con una entrevista que me hizo [@josepros](https://twitter.com/josepros) para el programa de [NcoraTV](https://www.youtube.com/channel/UCgOZpO7E3HEh0nHH2JSJOPA)

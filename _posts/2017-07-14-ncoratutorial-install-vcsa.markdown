@@ -10,6 +10,11 @@ tag:
 - vexpert
 - vcsa
 - ncoratv
+category: blog
+author: miquelMariano
+description: Ncora Tutorial ¿Cómo instalar vCenter Server Appliance 6.5?
+hidden: false
+comments: true
 ---
 
 Hola a tod@s!!

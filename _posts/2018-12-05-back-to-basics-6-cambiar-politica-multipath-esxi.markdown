@@ -11,6 +11,11 @@ tag:
 - devops
 - backtobasics
 - storage
+category: blog
+author: miquelMariano
+description: Back-to-basics 6 - Cambiar política multipath por defecto en hosts ESXi
+hidden: false
+comments: true
 ---
 
 Buenos días a tod@as!!
