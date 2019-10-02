@@ -1,5 +1,5 @@
 ---
-title: Creando un entorno JMP con VMware Horizon - Parte 3
+title: Creando un entorno JMP con VMware Horizon - Parte 3 - Preparar Active Directory
 date: '2019-08-21 00:00:00'
 layout: post
 image: /assets/images/posts/2019/07/horizon-logo.png

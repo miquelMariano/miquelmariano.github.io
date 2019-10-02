@@ -1,5 +1,5 @@
 ---
-title: Creando un entorno JMP con VMware Horizon - Parte 2
+title: Creando un entorno JMP con VMware Horizon - Parte 2 - Preparar servidor SQL
 date: '2019-08-13 00:00:00'
 layout: post
 image: /assets/images/posts/2019/07/horizon-logo.png

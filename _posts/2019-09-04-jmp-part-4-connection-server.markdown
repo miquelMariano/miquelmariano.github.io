@@ -1,5 +1,5 @@
 ---
-title: Creando un entorno JMP con VMware Horizon - Parte 4
+title: Creando un entorno JMP con VMware Horizon - Parte 4 - Instalación y configuración Connection Server
 date: '2019-09-03 00:00:00'
 layout: post
 image: /assets/images/posts/2019/07/horizon-logo.png
