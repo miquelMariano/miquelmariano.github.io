@@ -8,7 +8,6 @@ tag:
 - vsphere
 - vexpert
 - devops
-- backtobasics
 o: "{{"
 c: "}}"
 
