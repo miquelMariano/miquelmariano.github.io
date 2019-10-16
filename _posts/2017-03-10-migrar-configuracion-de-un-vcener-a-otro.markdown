@@ -59,8 +59,8 @@ Con los siguienes "modificadores" podremos indicar que queremos importar
 
 Ahi van los scripts:
 
-+ [Get-SourceSettings.ps1](https://miquelmariano.github.io/Set-SourceSettings)
-+ [Set-SourceSettings.ps1](https://miquelmariano.github.io/Set-SourceSettings)
++ [Get-SourceSettings.ps1](https://raw.githubusercontent.com/miquelMariano/vSphere-PowerCLI/master/vCenter-configuration-migrate/Get-SourceSettings.ps1)
++ [Set-SourceSettings.ps1](https://raw.githubusercontent.com/miquelMariano/vSphere-PowerCLI/master/vCenter-configuration-migrate/Set-SourceSettings.ps1)
 
 Espero que os sea de utilidad tanto como a mi y os pueda sacar de algún que otro apuro ;-)
  
