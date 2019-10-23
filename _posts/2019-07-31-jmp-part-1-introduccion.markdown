@@ -27,7 +27,7 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - Part 7: Instalación y configuración de UAG (opcional)
 - Part 8: Instalación certificado (opcional)
 - [Part 9: Preparar plantilla master para Instant Clone]({{ site.url }}/jmp-part4/)
-- Part 10: Configurar un pool de Instant Clone
+- [Part 10: Configurar un pool de Instant Clone]({{ site.url }}/jmp-part10/)
 - Part 11: Instalar App Volumes
 - Part 12: Configuración inicial App Volumes
 - Part 13: Crear nuestro primer App Stack
