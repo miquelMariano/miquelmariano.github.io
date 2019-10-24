@@ -739,11 +739,11 @@ vendors:
 css: assets/css
 js: assets/js
 images: assets/images
-vcap_images: https://premiquelMariano.github.io/assets/images/vcap
-imagesposts2016: https://premiquelMariano.github.io/assets/images/posts/2016
-imagesposts2017: https://premiquelMariano.github.io/assets/images/posts/2017
-imagesposts2018: https://premiquelMariano.github.io/assets/images/posts/2018
-imagesposts2019: https://premiquelMariano.github.io/assets/images/posts/2019
+#vcap_images: https://miquelMariano.github.io/assets/images/vcap
+imagesposts2016: https://miquelMariano.github.io/assets/images/posts/2016
+imagesposts2017: https://miquelMariano.github.io/assets/images/posts/2017
+imagesposts2018: https://miquelMariano.github.io/assets/images/posts/2018
+imagesposts2019: https://miquelMariano.github.io/assets/images/posts/2019
 
 # Theme version
 version: 5.1.1
