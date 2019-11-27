@@ -1,5 +1,5 @@
 ---
-title: Creando un entorno JMP con VMware Horizon - Parte 9 - Instalación y configuración de UAG
+title: Creando un entorno JMP con VMware Horizon - Parte 7 - Instalación y configuración de UAG
 date: '2019-11-27 00:00:00'
 layout: post
 image: /assets/images/posts/2019/07/horizon-logo.png
