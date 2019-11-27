@@ -24,7 +24,7 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - [Part 4: Instalación y configuración Connection Server]({{ site.url }}/jmp-part4/)
 - Part 5: Instalación y configuración Replica Server (opcional)
 - Part 6: Instalación y configuración de Security Server (opcional)
-- Part 7: Instalación y configuración de UAG (opcional)
+- [Part 7: Instalación y configuración de UAG (opcional)]({{ site.url }}/jmp-part7/)
 - Part 8: Instalación certificado (opcional)
 - [Part 9: Preparar plantilla master para Instant Clone]({{ site.url }}/jmp-part4/)
 - [Part 10: Configurar un pool de Instant Clone]({{ site.url }}/jmp-part10/)
