@@ -145,11 +145,11 @@ Ahora será el momento de registrar nuestro gateway en nuestro entorno Horizon:
 ![uag28]({{ site.imagesposts2019 }}/09/uag28.png){: .align-center}
 ![uag29]({{ site.imagesposts2019 }}/09/uag29.png){: .align-center}
 
-Y hasta aquí por hoy, en el próximo post veremos cómo crear nuestro primer Pool de Linked Clones
+Y hasta aquí por hoy.
 
 Espero que os sirva.
 
-Nos vemos en el próximo post: [Part 10: Configurar un pool de Instant Clone]({{ site.url }}/jmp-part10/)
+Nos vemos en el próximo post: [Part 8: Instalación certificado (opcional)]({{ site.url }}/jmp-part8/)
 
 Un saludo!
 
