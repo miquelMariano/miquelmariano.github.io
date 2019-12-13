@@ -15,7 +15,7 @@ tag:
 
 Buenos días a tod@as!!
 
-Siguiendo con la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), en el post de hoy veremos como cambiar la política predeterminada de multipathing de nuestros hosts ESXi.
+Siguiendo con la serie [back-to-basics](https://miquelmariano.github.io/tag/#backtobasics), en el post de hoy veremos como cambiar la política predeterminada de multipathing de nuestros hosts ESXi.
 
 Por defecto, la política predeterminada tras instalar un ESXi es "Fixed", por lo tanto todos los datastores que tenga montados este ESXi (y los que se montarán a futuro), estarán con esta política.
 

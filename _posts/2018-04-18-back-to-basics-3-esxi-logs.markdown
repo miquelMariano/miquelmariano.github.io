@@ -14,7 +14,7 @@ tag:
 
 Buenos dias a tod@as!!
 
-En el post de hoy, y siguiendo con la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), vamos a ver [donde se encuentran los principales logs de un entorno VMWare](https://kb.vmware.com/s/article/1021806)
+En el post de hoy, y siguiendo con la serie [back-to-basics](https://miquelmariano.github.io/tag/#backtobasics), vamos a ver [donde se encuentran los principales logs de un entorno VMWare](https://kb.vmware.com/s/article/1021806)
 
 Para mí, los mas interesantes son los de un host ESXi, ya que es desde donde podremos extraer la mayor información de lo que está pasando en en entorno. Ahí van los principales logs y donde los encontraremos.
 

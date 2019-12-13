@@ -14,7 +14,7 @@ tag:
 
 Buenos dias a tod@as!!
 
-En esta séptima entrada de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), me gustaria hablar un poco de los conadores de CPU mas importantes quen podemos encontrar en una máquina virtual.
+En esta séptima entrada de la serie [back-to-basics](https://miquelmariano.github.io/tag/#backtobasics), me gustaria hablar un poco de los conadores de CPU mas importantes quen podemos encontrar en una máquina virtual.
 
 Todo esto viene a raíz de un debate que tuvimos hace unas semanas el bueno de [Pablo](https://twitter.com/eclat2k) y yo.
 

@@ -17,7 +17,7 @@ Buenos dias a tod@as!!
 
 Incluso los administradores mas experimentados, a veces, se confunden con las peculiaridades de las licencias vSphere, las opciones disponibles y las características.
 
-En esta segunda entrada de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), me gustaria dar un repaso al licenciamiento vSphere. En este caso trataré de explicar las ediciones de VMware vSphere disponibles, sus características, diferencias, en versión 6.5 (lanzado en octubre de 2016).
+En esta segunda entrada de la serie [back-to-basics](https://miquelmariano.github.io/tag/#backtobasics), me gustaria dar un repaso al licenciamiento vSphere. En este caso trataré de explicar las ediciones de VMware vSphere disponibles, sus características, diferencias, en versión 6.5 (lanzado en octubre de 2016).
 
 # Aspectos a tener en cuenta
 Resaltemos las reglas principales a tener en cuenta al planear y comprar licencias de VMware vSphere 6.5.
