@@ -1,6 +1,6 @@
 ---
 title: Creando un entorno JMP con VMware Horizon - Parte 5 - Instalación y configuración Replica Server (opcional)
-date: '2019-10-02 00:00:00'
+date: '2019-12-13 00:00:00'
 layout: post
 image: /assets/images/posts/2019/07/horizon-logo.png
 tag:
