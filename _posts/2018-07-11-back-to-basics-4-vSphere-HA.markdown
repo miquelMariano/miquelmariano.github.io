@@ -14,7 +14,7 @@ tag:
 
 Buenos dias a todos
 
-Continuando con la serie [back-to-basics](https://miquelmariano.github.io/tag/#backtobasics), en esta ocasión vamos a hablar sobre vSphere HA.
+Continuando con la serie [back-to-basics](https://miquelmariano.github.io/tag/#/backtobasics), en esta ocasión vamos a hablar sobre vSphere HA.
 
 VMware introdujo por primera vez vSphere HA, creo recordar, en Virtual Infrastructure 3, allá por el 2006 y lo ha seguido desarrollando y mejorando con el paso del tiempo.
 

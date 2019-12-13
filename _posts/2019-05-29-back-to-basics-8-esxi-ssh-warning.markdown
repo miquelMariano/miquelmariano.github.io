@@ -14,7 +14,7 @@ tag:
 
 Buenos días a tod@as!!
 
-Siguiendo con la serie [back-to-basics](https://miquelmariano.github.io/tag/#backtobasics), en el post de hoy veremos como eliminar ese molesto warning que se activa al habilitar SSH a nuestros ESXi.
+Siguiendo con la serie [back-to-basics](https://miquelmariano.github.io/tag/#/backtobasics), en el post de hoy veremos como eliminar ese molesto warning que se activa al habilitar SSH a nuestros ESXi.
 
 Os habréis dado cuenta, que hal habilitar SSH en un host ESXi, os aparece esta alarma:
 
