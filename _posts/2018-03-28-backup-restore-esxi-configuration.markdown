@@ -23,7 +23,7 @@ El método que aquí os enseño está basado en la linea de comando del ESXi, po
 # Realizar backup de la configuración:
 
 ```ssh
-Gvim-cmd hostsvc/firmware/backup_config
+vim-cmd hostsvc/firmware/backup_config
 ```
 
 La salida del comando nos indicará la ruta desde donde nos podremos descargar el fichero `http://IP_or_FQDN_ESXi/downloads/123456/configBundle-xx.xx.xx.xx.tgz`. También podremos encontrar el fichero en `/scratch/downloads`
