@@ -22,17 +22,17 @@ En lo profesional, cuento con mas de 10 años de experiencia en el ámbito de si
 
 He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https://www.certmetrics.com/vmware/public/transcript.aspx?transcript=H66R1JVC114EQYC8) y en estos últimos 4 años, VMWare me ha nombrado [vExpert](https://vexpert.vmware.com/directory/753)
 
-![vExpert]({{ site.url }}/{{ site.images }}/logo_vexpert_4.png){: .align-center}{:height="30%" width="30%"}
-
-![vcap6-deploy]({{ site.url }}/{{ site.images }}/logo_vcap6_deploy.png){: .align-center}{:height="30%" width="30%"} | ![vcap6-design]({{ site.url }}/{{ site.images }}/logo_vcap6_design.png){: .align-center}{:height="30%" width="30%"}
+![vcap6-deploy]({{ site.url }}/{{ site.images }}/logo_vcap6_deploy.png){: .align-center}{:height="50%" width="50%"} | ![vcap6-design]({{ site.url }}/{{ site.images }}/logo_vcap6_design.png){: .align-center}{:height="50%" width="50%"}
 
 ![vcap]({{ site.url }}/{{ site.images }}/logo_vcix6.png){: .align-center}{:height="30%" width="30%"}
 
+![vExpert]({{ site.url }}/{{ site.images }}/logo_vexpert_4.png){: .align-center}{:height="30%" width="30%"}
+
 También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS)
 
-![hds]({{ site.url }}/{{ site.images }}/logo_hds.png){: .align-center}
-
 ![content]({{ site.url }}/{{ site.images }}/logo_hds_content.png){: .align-center} | ![vspg]({{ site.url }}/{{ site.images }}/logo_hds_vspg.png){: .align-center}
+
+![hds]({{ site.url }}/{{ site.images }}/logo_hds.png){: .align-center}
 
 Podréis consultar mas información en mi perfil completo de [LinkedIN](https://www.linkedin.com/in/miquelmariano/)
 
