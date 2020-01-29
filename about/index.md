@@ -22,7 +22,7 @@ En lo profesional, cuento con mas de 10 años de experiencia en el ámbito de si
 
 He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https://www.certmetrics.com/vmware/public/transcript.aspx?transcript=H66R1JVC114EQYC8) y en estos últimos 4 años, VMWare me ha nombrado [vExpert](https://vexpert.vmware.com/directory/753)
 
-![vExpert]({{ site.url }}/{{ site.images }}/logo_vexpert_4.png){: .align-center}
+![vExpert]({{ site.url }}/{{ site.images }}/logo_vexpert_4.png){: .align-center}{:height="50%" width="50%"}
 
 ![vcap]({{ site.url }}/{{ site.images }}/logo_vcap6_deploy.png){: .align-center}
 
