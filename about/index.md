@@ -38,5 +38,7 @@ Podréis consultar mas información en mi perfil completo de [LinkedIN](https://
 
 Ah, por cierto, también tengo libro, podreis encontrar toda la info sobre ["VMware por vExperts"](https://twitter.com/vmwarevexperts), el proyecto solidario y la url de descarga gratis desde [aquí](https://www.vmwareporvexperts.org)
 
+![portada]({{ site.imagesposts2019 }}/03/portada.png){: .align-center}
+
 
 
