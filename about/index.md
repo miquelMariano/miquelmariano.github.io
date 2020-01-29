@@ -28,6 +28,8 @@ He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https:/
 
 ![vcap]({{ site.url }}/{{ site.images }}/logo_vcap6_design.png){: .align-center}
 
+![vcap]({{ site.url }}/{{ site.images }}/logo_vcix6.png){: .align-center}
+
 También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS)
 
 Podréis consultar mas información en mi perfil completo de [LinkedIN](https://www.linkedin.com/in/miquelmariano/)
