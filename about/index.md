@@ -22,15 +22,17 @@ En lo profesional, cuento con mas de 10 años de experiencia en el ámbito de si
 
 He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https://www.certmetrics.com/vmware/public/transcript.aspx?transcript=H66R1JVC114EQYC8) y en estos últimos 4 años, VMWare me ha nombrado [vExpert](https://vexpert.vmware.com/directory/753)
 
+![vExpert]({{ site.url }}/{{ site.images }}/logo_vexpert_4.png){: .align-center}
+
+![vcap]({{ site.url }}/{{ site.images }}/logo_vcap6_deploy.png){: .align-center}
+
+![vcap]({{ site.url }}/{{ site.images }}/logo_vcap6_design.png){: .align-center}
+
 También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS)
 
 Podréis consultar mas información en mi perfil completo de [LinkedIN](https://www.linkedin.com/in/miquelmariano/)
 
 Ah, por cierto, también tengo libro, podreis encontrar toda la info sobre ["VMware por vExperts"](https://twitter.com/vmwarevexperts), el proyecto solidario y la url de descarga gratis desde [aquí](https://www.vmwareporvexperts.org)
-
-![vExpert]({{ site.url }}/{{ site.images }}/logo_vexpert_4.png){: .align-center}
-
-![vcap]({{ site.url }}/{{ site.images }}/logo_vcap6.jpg){: .align-center}
 
 ![hds]({{ site.url }}/{{ site.images }}/logo_hds.png){: .align-center}
 
