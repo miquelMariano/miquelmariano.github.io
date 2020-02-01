@@ -39,6 +39,8 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 
 Partiremos de la base de que ya hemos elegido nuestro SO base (generalmente un SO cliente) y que ya lo tenemos instalado en nuestra VM que nos servirá como plantilla master.
 
+Os recomiendo, que repaseis i sigais [este documento de best practices](https://techzone.vmware.com/creating-optimized-windows-image-vmware-horizon-virtual-desktop#1150978) para crear vuestra plantilla base.
+
 Como en esta serie de posts estamos tratando de explicar el paso a paso para crear un entorno JMP, necesitaremos instalar varios agentes en nuestra plantilla:
 
 - VMware Tools
