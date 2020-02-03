@@ -106,7 +106,7 @@ El despliegue es relativamente sencillo y simplemente seguiremos el wizard de im
 Una vez finalizada la instalación, accederemos a nuestro UAG desde la siguiente URL
 
 ```
-https://uag.demo.corp/admin/index.html#/Login
+https://uag.demo.corp:9443/admin/index.html#/Login
 ```
 ![uag16]({{ site.imagesposts2019 }}/09/uag16.png){: .align-center}
 
