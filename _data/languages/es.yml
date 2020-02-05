@@ -14,14 +14,15 @@ menu:
   home: Inicio
   archives: Archivo
   categories: Categories
-  tags: Tags
+  tags: Etiquetas
   about: Sobre mí
   search: Buscador
   schedule: Schedule
   sitemap: Sitemap
   commonweal: Commonweal 404
-  vmwareporvexperts: vExpert
-  vcap: VCAP6
+  vmwareporvexperts: Libro
+  deploy: VCAP6-Deploy
+  design: VCAP6-Design
 
 sidebar:
   overview: Visión general

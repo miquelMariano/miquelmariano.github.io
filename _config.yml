@@ -123,7 +123,8 @@ menu:
   archives: /archives/
   tags: /tags/
   vmwareporvexperts: /vmwareporvexperts/
-  vcap: /vcap-experience/
+  deploy: /vcap-experience/
+  design: /vcap-design-experience/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
