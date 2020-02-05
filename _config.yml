@@ -145,7 +145,8 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   vmwareporvexperts: book
-  vcap: university
+  deploy: university
+  design: university
   commonweal: heartbeat
 
 
