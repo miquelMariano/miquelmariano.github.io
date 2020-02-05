@@ -12,8 +12,6 @@ tag:
 permalink: /vcap-design-experience/
 ---
 
-Buenos días a tod@as!!
-
 Como algunos ya sabeis, el pasado martes tenia en mi calendario marcado a fuego el examen de certificación [VMware Certified Advanced Professional 6.5 – Data Center Virtualization Design](https://www.vmware.com/education-services/certification/vcap6-5-dcv-design-exam.html)
 
 Esta certificación, junto con la que [ya conseguí el año pasado](https://miquelmariano.github.io/vcap-experience/) hace que complete el nivel "Advenced Professional" y así conseguir el reconocimiento de "Implementation Expert"
