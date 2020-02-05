@@ -70,7 +70,7 @@ counter:
   archive_posts:
     zero: No posts.
     one: 1 post.
-    other: "%d posts in total."
+    other: "%d posts en total."
 
 state:
   posts: posts
@@ -84,12 +84,12 @@ search:
 cheers:
   um: Um..
   ok: OK
-  nice: Nice
+  nice: Bien
   good: Good
   great: Great
   excellent: Excellent
 
-keep_on: Keep on posting.
+keep_on: Disfruten del contenido.
 
 symbol:
   comma: ', '
