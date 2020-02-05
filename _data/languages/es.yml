@@ -60,7 +60,7 @@ counter:
   tag_cloud:
     zero: No tags
     one: 1 tag in total
-    other: "%d tags in total"
+    other: "%d etiquetas en total"
 
   categories:
     zero: No categories
