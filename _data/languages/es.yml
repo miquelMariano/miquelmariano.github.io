@@ -12,11 +12,11 @@ author: Autor
 
 menu:
   home: Inicio
-  archives: Archives
+  archives: Archivo
   categories: Categories
   tags: Tags
-  about: About
-  search: Search
+  about: Sobre mí
+  search: Buscador
   schedule: Schedule
   sitemap: Sitemap
   commonweal: Commonweal 404
@@ -24,8 +24,8 @@ menu:
   vcap: VCAP6
 
 sidebar:
-  overview: Overview
-  toc: Table of Contents
+  overview: Visión general
+  toc: Tabla de contenidos
 
 post:
   created: Post created
