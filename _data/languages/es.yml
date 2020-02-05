@@ -5,8 +5,8 @@ title:
   schedule: Schedule
   archives: Archives
   categories: Categories
-  tags: Tags
-  about: About
+  tags: Etiquetas
+  about: Sobre mí
 
 author: Autor
 
@@ -70,10 +70,10 @@ counter:
   archive_posts:
     zero: No posts.
     one: 1 post.
-    other: "%d posts en total."
+    other: "%d entradas en total."
 
 state:
-  posts: posts
+  posts: entradas
   pages: pages
   tags: tags
   categories: categories
