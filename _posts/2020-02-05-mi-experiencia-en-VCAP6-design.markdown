@@ -1,6 +1,6 @@
 ---
 title: Mi experiencia con el VCAP6-DCV Design
-date: '2020-01-20 00:00:00'
+date: '2020-02-05 00:00:00'
 layout: post
 image: /assets/images/posts/2018/05/vcap6.png
 headerImage: true
