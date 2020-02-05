@@ -79,7 +79,7 @@ state:
   categories: categories
 
 search:
-  placeholder: Searching...
+  placeholder: Buscando...
 
 cheers:
   um: Um..
