@@ -27,7 +27,7 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - [Part 9: Preparar plantilla master para Instant Clone]({{ site.url }}/jmp-part9/)
 - [Part 10: Configurar un pool de Instant Clone]({{ site.url }}/jmp-part10/)
 - [Part 11: Instalar App Volumes]({{ site.url }}/jmp-part11/)
-- Part 12: Configuración inicial App Volumes
+- [Part 12: Configuración inicial App Volumes]({{ site.url }}/jmp-part12/)
 - Part 13: Crear nuestro primer App Stack
 - Part 14: Trabajando con Writable Volumes
 - Part 15: User Environment Manager Installation
