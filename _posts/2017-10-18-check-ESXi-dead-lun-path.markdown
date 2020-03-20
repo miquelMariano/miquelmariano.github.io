@@ -15,7 +15,7 @@ tag:
 
 Buenos dias a tod@s!!
 
-En el post de hoy os voy a mostrar la manera que he ideado para poder monitorizar el estado de los paths de los datastores VMFS en nuestros ESXi. Se trata del siguiente [script de PowerCLI](https://github.com/miquelMariano/esxi-dead-lun-path)
+En el post de hoy os voy a mostrar la manera que he ideado para poder monitorizar el estado de los paths de los datastores VMFS en nuestros ESXi. Se trata del siguiente [script de PowerCLI](https://github.com/miquelMariano/prtg-scripts/blob/master/vmware/vmware_check_dead_lun_path.ps1)
 
 La configuración del script es de lo mas sencilla, simplemente deberemos de cambiar las variables del apartado `GLOBAL VARS`
 
