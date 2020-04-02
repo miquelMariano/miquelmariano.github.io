@@ -16,7 +16,7 @@ tag:
 
 En el post de hoy pretendo recoger de forma fácil todos los requerimientos a nivel de conectividad que necesita un entorno Horizon 7
 
-[![horizon7-ports]({{ site.imagesposts2020 }}/04/horizon7-ports.png){: .align-center}](https://techzone.vmware.com/sites/default/files/Horizon%207%20Network%20Ports%201%20-%20All%20Connection%20Types%20and%20All%20Display%20Protocols.png)
+![horizon7-ports]({{ site.imagesposts2020 }}/04/horizon7-ports.png){: .align-center}
 
 Toda la información aquí expuesta ha sido sacada de la guia oficial [Network Ports in VMware Horizon 7](https://techzone.vmware.com/resource/network-ports-vmware-horizon-7)
 
