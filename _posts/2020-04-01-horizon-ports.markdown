@@ -31,7 +31,7 @@ Toda la información aquí expuesta ha sido sacada de la guia oficial [Network P
 |Horizon Client       |Horizon Agent			 |4172	   |TCP	y UDP  |PCoIP			  	   |
 |Horizon Client       |Horizon Agent			 |3389	   |TCP		   |RDP				  	   |
 |Horizon Client       |Horizon Agent			 |9427	   |TCP		   |CDR (client drive redirection)	y MMR (multimedia redirection)		  |
-|Horizon Client       |Horizon Agent			 |3211	   |TCP		   |Redirección USB	  	   |
+|Horizon Client       |Horizon Agent			 |32111	   |TCP		   |Redirección USB	  	   |
 |Navegador Web        |Horizon Agent			 |8443	   |TCP		   |Horizon 7 HTML Access  |
 
 ###	Conexión externa
@@ -43,7 +43,7 @@ Toda la información aquí expuesta ha sido sacada de la guia oficial [Network P
 |Horizon Client       |UAG o Security server	 |4172	   |TCP	y UDP  |PCoIP			  	   |
 |Horizon Client       |Horizon Agent			 |3389	   |TCP		   |RDP				  	   |
 |Horizon Client       |Horizon Agent			 |9427	   |TCP		   |CDR (client drive redirection)	y MMR (multimedia redirection)		  |
-|Horizon Client       |Horizon Agent			 |3211	   |TCP		   |Redirección USB	  	   |
+|Horizon Client       |Horizon Agent			 |32111	   |TCP		   |Redirección USB	  	   |
 |Navegador Web        |Horizon Agent			 |8443	   |TCP		   |Horizon 7 HTML Access  |
 
 #	Horizon Connection Server
@@ -54,7 +54,7 @@ Toda la información aquí expuesta ha sido sacada de la guia oficial [Network P
 |Horizon Connection Server|Horizon Agent			 |4172	   |TCP	y UDP  |PCoIP			  	   |
 |Horizon Connection Server|Horizon Agent			 |3389	   |TCP		   |RDP				  	   |
 |Horizon Connection Server|Horizon Agent			 |9427	   |TCP		   |CDR (client drive redirection)	y MMR (multimedia redirection)		  |
-|Horizon Connection Server|Horizon Agent			 |3211	   |TCP		   |Redirección USB	  	   |
+|Horizon Connection Server|Horizon Agent			 |32111	   |TCP		   |Redirección USB	  	   |
 |Horizon Connection Server|Horizon Agent			 |8443	   |TCP		   |Horizon 7 HTML Access  |
 |Horizon Connection Server|vCenter Server			 |443	   |TCP		   |SOAP				   |
 |Horizon Connection Server|BBDD (eventos)			 |1443	   |TCP		   |Microsoft SQL Server   |
@@ -83,7 +83,7 @@ Toda la información aquí expuesta ha sido sacada de la guia oficial [Network P
 |Unified Access Gateway	  |Horizon Agent			 |4172	   |TCP	y UDP  |PCoIP			  	   |
 |Unified Access Gateway	  |Horizon Agent			 |3389	   |TCP		   |RDP				  	   |
 |Unified Access Gateway	  |Horizon Agent			 |9427	   |TCP		   |CDR (client drive redirection)	y MMR (multimedia redirection)		  |
-|Unified Access Gateway	  |Horizon Agent			 |3211	   |TCP		   |Redirección USB	  	   |
+|Unified Access Gateway	  |Horizon Agent			 |32111	   |TCP		   |Redirección USB	  	   |
 
 # 	App Volumes
 
