@@ -12,8 +12,6 @@ tag:
 - backtobasics
 ---
 
-Buenos dias a tod@as!!
-
 Por suerte, VMWare ha mejorado mucho versión a versión en cuanto a almacenamiento y ya no es tan frecuente ver errores o inestabilidades en un ESXi si se le quita bruscamente su almacenamiento. Ha habido mucha mejora en cómo los ESXi se comportan ante un APD (All path down) o eventos PDL (Permanent Device Lost) pero aún se ve algún que otro caso de tener que reiniciar un host ESXi tras eliminar de forma incorrecta un datastore.
 
 En esta nueva entrada de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), me gustaría enseñaros el procedimiento correcto para desmontar un datastore VMFS.
