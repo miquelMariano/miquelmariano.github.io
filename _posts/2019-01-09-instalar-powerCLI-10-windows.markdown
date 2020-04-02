@@ -49,7 +49,7 @@ Descargamos PowerShell Core desde [aquí](https://github.com/PowerShell/PowerShe
 
 ### 2) Instalación PowerCLI 11.1
 
-Nos descargamos modulos PowerCLI en ubicación local. En mi caso me he creado una carpeta en C:\PS6 y el comando es el siguiente:
+Nos descargamos modulos PowerCLI en ubicación local. En mi caso me he creado una carpeta en C:\PS y el comando es el siguiente:
 
 ```powershell
 Save-Module -Name VMware.PowerCLI -Path <path>
