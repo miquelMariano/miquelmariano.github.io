@@ -85,6 +85,24 @@ Toda la información aquí expuesta ha sido sacada de la guia oficial [Network P
 |Unified Access Gateway	  |Horizon Agent			 |9427	   |TCP		   |CDR (client drive redirection)	y MMR (multimedia redirection)		  |
 |Unified Access Gateway	  |Horizon Agent			 |32111	   |TCP		   |Redirección USB	  	   |
 
+#	Security server
+
+| Origen    		      |  Destino    			 |Puerto   |Protocolo  |Descripción    		   |
+|:-----------------------:|:------------------------:|:-------:|:---------:|:---------------------:|
+|Security Server 		  |Horizon Connection Server |500	   |UDP		   |Negociación IPSEC  	   |
+|Security Server 		  |Horizon Connection Server |		   |ESP		   |IP Protocol 50  	   |
+|Security Server 		  |Horizon Connection Server |4500	   |UDP		   |Negociación IPSEC  	   |
+|Security Server 		  |Horizon Connection Server |8009	   |TCP		   |Negociación IPSEC  	   |
+|Security Server 		  |Horizon Connection Server |4001	   |TCP		   |Trafico JMS  		   |
+|Security Server 		  |Horizon Connection Server |4002	   |TCP		   |Trafico JMS SSL  	   |
+|Security Server		  |Horizon Agent			 |22443	   |TCP	y UDP  |Blast Extreme     	   |
+|Security server 		  |Horizon Agent			 |4172	   |TCP	y UDP  |PCoIP			  	   |
+|Security Server	 	  |Horizon Agent			 |3389	   |TCP		   |RDP				  	   |
+|Security Server 	 	  |Horizon Agent			 |9427	   |TCP		   |CDR (client drive redirection)	y MMR (multimedia redirection)		  |
+|Security server 		  |Horizon Agent			 |32111	   |TCP		   |Redirección USB	  	   |
+
+
+
 # 	App Volumes
 
 | Origen    		      |  Destino    			 |Puerto   |Protocolo  |Descripción    		   |
