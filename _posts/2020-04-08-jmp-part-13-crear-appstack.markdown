@@ -14,7 +14,7 @@ permalink: /jmp-part13/
 
 ---
 
-Si habeis seguido la serie con atención, en este punto ya tendreis [instalado]({{ site.url }}/jmp-part11/) y [configurado]({{ site.url }}/jmp-part12/) vuestro entorno con App Volumes.
+Si habéis seguido la serie con atención, en este punto ya tendréis [instalado]({{ site.url }}/jmp-part11/) y [configurado]({{ site.url }}/jmp-part12/) vuestro entorno con App Volumes.
 
 - [Part 1: Introducción]({{ site.url }}/jmp-part1/)
 - [Part 2: Preparar servidor SQL]({{ site.url }}/jmp-part2/)
