@@ -1,6 +1,6 @@
 ---
 title: Creando un entorno JMP con VMware Horizon - Parte 13 - Crear nuestro primer App Stack
-date: '2020-04-20 00:00:00'
+date: '2020-04-08 00:00:00'
 layout: post
 image: /assets/images/posts/2019/07/horizon-logo.png
 tag:
