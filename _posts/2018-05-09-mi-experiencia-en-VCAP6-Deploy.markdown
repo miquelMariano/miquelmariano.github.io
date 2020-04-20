@@ -70,7 +70,7 @@ Aunque os los encontrareis en el escritorio del laboratorio el dia del examen, n
 
 A parte de material comentado previamente, también es muy importante la práctica. Practicar, practicar, practicar y mas practicar. Hay que tener cierta soltura con el laboratorio y las diferentes interfaces de administración que dispone vSphere. Tendremos "poco" tiempo y esta agilidad sobre el lab será fundamental para ir avanzando.
 
-A mi personalmente, me ha ayudado muchísimo la formación. Pero no como alumno, desde hace mas de 1 año soy instructuctor del curso [Administración de vSphere 6.5](https://www.ncora.com/formacion/administracion-de-vsphere/administracion-vsphere-65-training-pack/) que ofrecemos desde Ncora de forma trimestral y sin duda, el tener que prepararme continuamente este curso, ha sido fundamental para contrarestar la falta de horas de estudio.
+A mi personalmente, me ha ayudado muchísimo la formación. Pero no como alumno, desde hace mas de 1 año soy instructuctor del curso [Administración de vSphere 6.5](https://www.ncora.com) que ofrecemos desde Ncora de forma trimestral y sin duda, el tener que prepararme continuamente este curso, ha sido fundamental para contrarestar la falta de horas de estudio.
 
 ### El dia "D"
 

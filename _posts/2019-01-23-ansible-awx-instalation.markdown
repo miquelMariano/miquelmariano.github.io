@@ -1,6 +1,6 @@
 ---
 title: Ansible AWX - Part 1 - Instalación
-date: '2019-01-22 00:00:00'
+date: '2019-01-23 00:00:00'
 layout: post
 image: /assets/images/posts/2019/01/awx-logo.png
 headerImage: true
@@ -16,7 +16,7 @@ Hace unos meses, el gran Jorge de la Cruz, [publicó en su blog un post](https:/
 
 En esta ocasión, a mi me gustaria profundizar un poco mas y ver el paso a paso de cómo seria la instalación sobre CentOS 7, por ejemplo.
 
-Ansible AWX es la versión open source de Ansible Tower, una interfaz gráfica para manejar Ansible de forma cómoda y mas amigable. Ya hablé de Tower hace tiempo [aquí](https://miquelmariano.github.io/2017/09/instalacion-ansible-tower)
+Ansible AWX es la versión open source de Ansible Tower, una interfaz gráfica para manejar Ansible de forma cómoda y mas amigable. Ya hablé de Tower hace tiempo [aquí](https://miquelmariano.github.io/2017/09/08/instalacion-ansible-tower/)
 
 ### 1) Requisitos del servidor
 
