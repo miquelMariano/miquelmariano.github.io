@@ -10,7 +10,7 @@ tag:
 
 Cómo pasa el tiempo, ¿verdad?
 
-Parece que era ayer cuando escribia mi [primera entrada](https://miquelmariano.github.io/2016/12/hello-world/) en este blog, y ya han pasado 365 días!!!
+Parece que era ayer cuando escribia mi [primera entrada](https://miquelmariano.github.io/2016/12/30/hello-world/) en este blog, y ya han pasado 365 días!!!
 
 Ha sido un año repleto de proyectos, buenas experiencias y buenas risas (también algún que otro quebradero de cabeza, pero eso ya cuenta como anéctoda), y todo ello, gracias al #NcoraTeam, la gran família profesional de la que tengo el honor de formar parte desde hace ya mas de 3 años.
 
@@ -18,11 +18,11 @@ Los posts publicados este año, básicamente han sido notas y experiencias reale
 
 Ordenados de mayor a menor número de visitas, estos han sido los posts TOP:
 
-1. [Notificaciones automáticas con Telegram](https://miquelmariano.github.io/2017/02/notificaciones-automaticas-con-telegram/)
-2. [Configuración de Windows para ser manejado con Ansible](https://miquelmariano.github.io/2017/05/ansible-windows-managed-nodes/)
-3. [¿Como se usan los roles y playbooks en Ansible?](https://miquelmariano.github.io/2017/04/roles-y-playbooks-Ansible/)
-4. [Programar export automático de RVTools](https://miquelmariano.github.io/2017/04/programar-export-rvtools/)
-5. [Programar backup automático en VCSA 6.5](https://miquelmariano.github.io/2017/08/backup-vcsa65-automatizado/)
+1. [Notificaciones automáticas con Telegram](https://miquelmariano.github.io/2017/02/15/notificaciones-automaticas-con-telegram/)
+2. [Configuración de Windows para ser manejado con Ansible](https://miquelmariano.github.io/2017/05/17/ansible-windows-managed-nodes/)
+3. [¿Como se usan los roles y playbooks en Ansible?](https://miquelmariano.github.io/2017/04/06/roles-y-playbooks-Ansible/)
+4. [Programar export automático de RVTools](https://miquelmariano.github.io/2017/04/17/programar-export-rvtools/)
+5. [Programar backup automático en VCSA 6.5](https://miquelmariano.github.io/2017/08/25/backup-vcsa65-automatizado/)
 
 Como simpre, muy agradecido a todos mis lectores y a toda la divulgación que le dais en vuestras RRSS.
 
