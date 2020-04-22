@@ -15,7 +15,7 @@ c: "}}"
 
 Buenos dias a tod@as!!
 
-Hace ya tiempo, [en este post](https://miquelmariano.github.io/2017/05/ansible-windows-managed-nodes), vimos como configurar nuestros servidores windows para ser manejados con Ansible.
+Hace ya tiempo, [en este post](https://miquelmariano.github.io/2017/05/17/ansible-windows-managed-nodes/), vimos como configurar nuestros servidores windows para ser manejados con Ansible.
 
 Hoy os voy a compartir un playbook que he ideado para poder comprobar fácilmente el estado de las actualizaciones de windows en nuestros servidores windows.
 
@@ -27,7 +27,7 @@ formacion-dc01
 formacion-dc02
 ```
 
-También es importante añadir las credenciales, tal como explicaba en el [post anterior](https://miquelmariano.github.io/2017/05/ansible-windows-managed-nodes)
+También es importante añadir las credenciales, tal como explicaba en el [post anterior](https://miquelmariano.github.io/2017/05/17/ansible-windows-managed-nodes/)
 
 ```
 [root@ansible01 /etc/ansible]# cat inventory/group_vars/dc.yml

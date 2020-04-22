@@ -15,7 +15,7 @@ tag:
 
 Buenos días a tod@s!!!
 
-Hace ya tiempo, os enseñé [cómo exportar vuestra configuración en switches FC Brocade](https://miquelmariano.github.io/2017/10/backup-configuracion-sw-brocade)
+Hace ya tiempo, os enseñé [cómo exportar vuestra configuración en switches FC Brocade](https://miquelmariano.github.io/2017/10/04/backup-configuracion-sw-brocade/)
 
 En esta ocasión, quiero dar un paso más en esta tarea y automatizarla.
 
