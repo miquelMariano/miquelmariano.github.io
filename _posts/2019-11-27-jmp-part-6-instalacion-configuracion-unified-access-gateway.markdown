@@ -149,7 +149,7 @@ Y hasta aquí por hoy.
 
 Espero que os sirva.
 
-Nos vemos en el próximo post: [Part 8: Instalación certificado (opcional)]({{ site.url }}/jmp-part8/)
+En el próximo post veremos cómo dotar de alta disponibilidad a nuestro UAG > [Part 7: Configuración de UAG en HA]({{ site.url }}/jmp-part7/)
 
 Un saludo!
 

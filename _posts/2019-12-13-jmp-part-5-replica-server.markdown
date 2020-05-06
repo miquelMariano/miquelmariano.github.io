@@ -140,7 +140,7 @@ Una vez terminada la configuración y tengamos nuestro clúster activo, ya nos p
 
 Espero que os sirva.
 
-Nos vemos en el próximo post: [Part 6: Instalación y configuración de Security Server]({{ site.url }}/jmp-part6/)
+Nos vemos en el próximo post: [Part 6: Instalación y configuración de UAG (opcional)]({{ site.url }}/jmp-part6/)
 
 Un saludo!
 
