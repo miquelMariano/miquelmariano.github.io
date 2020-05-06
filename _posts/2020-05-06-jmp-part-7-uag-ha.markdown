@@ -1,5 +1,5 @@
 ---
-title: Creando un entorno JMP con VMware Horizon - Parte 7.1 - Configuración de UAG en HA
+title: Creando un entorno JMP con VMware Horizon - Parte 7 - Configuración de UAG en HA
 date: '2020-05-06 00:00:00'
 layout: post
 image: /assets/images/posts/2019/07/horizon-logo.png
