@@ -44,7 +44,7 @@ Lo primero que tendremos que hacer para dotar nuestro UAG de alta disponibilidad
 
 Para ello, podremos seguir los pasos descritos en la [Part 7: Instalación y configuración de UAG]({{ site.url }}/jmp-part7/)
 
-![uag-ha01]({{ site.imagesposts2020 }}/02/uag-ha01.png){: .align-center}
+![uag-ha01]({{ site.imagesposts2020 }}/05/uag-ha01.png){: .align-center}
 
 # Configuración del nuevo UAG
 
@@ -52,21 +52,21 @@ Una vez realizado el despliegue, para no tener que realizar la configuración de
 
 Haremos la exportación de la config:
 
-![uag-ha02]({{ site.imagesposts2020 }}/02/uag-ha02.png){: .align-center}
+![uag-ha02]({{ site.imagesposts2020 }}/05/uag-ha02.png){: .align-center}
 
 Desde el nuevo UAG, realizaremos la importación del fichero .json que acabamos de exportar:
 
-![uag-ha03]({{ site.imagesposts2020 }}/02/uag-ha03.png){: .align-center}
+![uag-ha03]({{ site.imagesposts2020 }}/05/uag-ha03.png){: .align-center}
 
 Evidentemente, con este import, la configuración será idéntica, y deberemos de revisar las URLs para cambiar a la IP correcta correspondiente al nuevo UAG.
 
-![uag-ha04]({{ site.imagesposts2020 }}/02/uag-ha04.png){: .align-center}
+![uag-ha04]({{ site.imagesposts2020 }}/05/uag-ha04.png){: .align-center}
 
-![uag-ha05]({{ site.imagesposts2020 }}/02/uag-ha05.png){: .align-center}
+![uag-ha05]({{ site.imagesposts2020 }}/05/uag-ha05.png){: .align-center}
 
 En el apartado de configuración del sistema, cambiaremos también el nombre de la instancia:
 
-![uag-ha05-1]({{ site.imagesposts2020 }}/02/uag-ha05-1.png){: .align-center}
+![uag-ha05-1]({{ site.imagesposts2020 }}/05/uag-ha05-1.png){: .align-center}
 
 # Configuración de virtual IP y HA
 
@@ -74,17 +74,17 @@ Con los 2 UAGs ya instalados y configurados, pasaremos a la configuración de la
 
 En el apartado de Configuración avanzada > Configuración de Alta disponibilidad:
 
-![uag-ha06]({{ site.imagesposts2020 }}/02/uag-ha06.png){: .align-center}
+![uag-ha06]({{ site.imagesposts2020 }}/05/uag-ha06.png){: .align-center}
 
 Habilitamos el modo de Alta disponibilidad, añadiremos la VIP y definiremos un ID de grupo (esta configuración debe ser idéntica en ambos nodos)
 
-![uag-ha07]({{ site.imagesposts2020 }}/02/uag-ha07.png){: .align-center}
+![uag-ha07]({{ site.imagesposts2020 }}/05/uag-ha07.png){: .align-center}
 
 Si comparamos ambos UAGs, observamos que la configuración de HA se habrán configurado cómo "Principal" y "Copia de seguridad"
 
-![uag-ha08]({{ site.imagesposts2020 }}/02/uag-ha08.png){: .align-center}
+![uag-ha08]({{ site.imagesposts2020 }}/05/uag-ha08.png){: .align-center}
 
-![uag-ha09]({{ site.imagesposts2020 }}/02/uag-ha09.png){: .align-center}
+![uag-ha09]({{ site.imagesposts2020 }}/05/uag-ha09.png){: .align-center}
 
 # Pruebas de HA
 
@@ -92,13 +92,13 @@ Para probar que la configuración realizada está funcionando correctamente y qu
 
 En las siguientes capturas, vemos que el UAG02 es realmente el que está activo y el que tiene la VIP levantada.
 
-![uag-ha10]({{ site.imagesposts2020 }}/02/uag-ha10.png){: .align-center}
+![uag-ha10]({{ site.imagesposts2020 }}/05/uag-ha10.png){: .align-center}
 
-![uag-ha11]({{ site.imagesposts2020 }}/02/uag-ha11.png){: .align-center}
+![uag-ha11]({{ site.imagesposts2020 }}/05/uag-ha11.png){: .align-center}
 
 Si apagamos el UAG02, observamos que la VIP pasa a estar levantada en el UAG01 y el ping no se ha perdido en ningún momento.
 
-![uag-ha12]({{ site.imagesposts2020 }}/02/uag-ha12.png){: .align-center}
+![uag-ha12]({{ site.imagesposts2020 }}/05/uag-ha12.png){: .align-center}
 
 Y hasta aquí por hoy. Espero que os haya gustado.
 
