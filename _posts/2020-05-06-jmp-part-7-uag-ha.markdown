@@ -10,7 +10,7 @@ tag:
 - euc
 - desktop
 - mobility
-permalink: /jmp-part7-1/
+permalink: /jmp-part7/
 
 ---
 
@@ -23,9 +23,8 @@ Os dejo a continuación el índice de toda la serie:
 - [Part 3: Preparar Active Directory]({{ site.url }}/jmp-part3/)
 - [Part 4: Instalación y configuración Connection Server]({{ site.url }}/jmp-part4/)
 - [Part 5: Instalación y configuración Replica Server (opcional)]({{ site.url }}/jmp-part5/)
-- Part 6: Instalación y configuración de Security Server (opcional)
-- [Part 7: Instalación y configuración de UAG (opcional)]({{ site.url }}/jmp-part7/)
-		- [Part 7.1: Configuración de UAG en HA]({{ site.url }}/jmp-part7-1/)
+- [Part 6: Instalación y configuración de UAG (opcional)]({{ site.url }}/jmp-part6/)
+- [Part 7: Configuración de UAG en HA]({{ site.url }}/jmp-part7/)
 - Part 8: Instalación certificado (opcional)
 - [Part 9: Preparar plantilla master para Instant Clone]({{ site.url }}/jmp-part9/)
 - [Part 10: Configurar un pool de Instant Clone]({{ site.url }}/jmp-part10/)
@@ -42,7 +41,7 @@ Os dejo a continuación el índice de toda la serie:
 
 Lo primero que tendremos que hacer para dotar nuestro UAG de alta disponibilidad, será desplegar otra instancia de Unified Access Gateway
 
-Para ello, podremos seguir los pasos descritos en la [Part 7: Instalación y configuración de UAG]({{ site.url }}/jmp-part7/)
+Para ello, podremos seguir los pasos descritos en la [Part 7: Instalación y configuración de UAG]({{ site.url }}/jmp-part6/)
 
 ![uag-ha01]({{ site.imagesposts2020 }}/05/uag-ha01.png){: .align-center}
 
