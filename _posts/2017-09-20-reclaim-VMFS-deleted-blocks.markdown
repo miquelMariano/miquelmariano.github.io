@@ -63,6 +63,8 @@ Como habréis podido deducir, el reclamado de espacio se tiene que ejecutar sobr
 ```ssh
 #!/bin/sh
 for datastore in `esxcli storage filesystem list | grep "NUESTRO_DATASTORE_VMFS" | awk -F " " '{print $2}'`; do
+  d=$(date +%Y-%m-%d_%H:%M)
+  echo "$d"
   echo "Performing UNMAP on $datastore ..."
   esxcli storage vmfs unmap -l $datastore
 done
