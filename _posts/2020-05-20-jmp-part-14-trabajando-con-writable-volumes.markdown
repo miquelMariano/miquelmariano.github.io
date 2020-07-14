@@ -30,7 +30,7 @@ Siguiendo con la serie de posts sobre VMware Horizon 7 y JMP, hoy vamos a seguir
 - [Part 12: Configuración inicial App Volumes]({{ site.url }}/jmp-part12/)
 - [Part 13: Crear nuestro primer App Stack]({{ site.url }}/jmp-part13/)
 - [Part 14: Trabajando con Writable Volumes]({{ site.url }}/jmp-part14/)
-- Part 15: User Environment Manager Installation
+- [Part 15: Instalación Dynamic Environment Manager]({{ site.url }}/jmp-part14/)
 - Part 16: Primeros pasos con UEM
 - Part 17: Instalación y configuración JMP Server
 - Part 18: Aprovisionamiento con JMP
