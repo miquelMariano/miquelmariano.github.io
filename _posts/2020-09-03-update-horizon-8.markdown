@@ -15,6 +15,8 @@ tag:
 
 Buenos días a todos, recientemente se ha publicado la nueva versión de Horizon 8 y en este post me gustaria enseñaros cómo es el proceso de actualización.
 
+![horizon8]({{ site.imagesposts2020 }}/08/horizon8.png){: .align-center}
+
 Lo primero que tendremos que verificar es el "update path" y consultar en la [guía de compatibilidad](https://www.vmware.com/resources/compatibility/sim/interop_matrix.php) a ver si desde nuestra versión actual es posible actualizar a Horzion 8
 ![update01]({{ site.imagesposts2020 }}/08/update01.png){: .align-center}
 
