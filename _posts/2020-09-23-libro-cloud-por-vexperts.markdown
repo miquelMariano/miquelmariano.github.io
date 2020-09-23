@@ -125,6 +125,8 @@ Contactad con nosotros si estais interesados y quereis participar. Toda ayuda se
 
 28/09/2020, esta es la fecha. Estar atentos a nuestras RRSS, que ahi publicaremos toda la información y la URL de descarga.
 
+No dejeis de segir a [@vmwarevexperts](https://twitter.com/vmwarevexperts) en twitter ;-)
+
 
 Gracias por leernos y compartir!
 
