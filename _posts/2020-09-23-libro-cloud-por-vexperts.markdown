@@ -114,7 +114,7 @@ Os recomiendo que veais [el video de Ousman Umar](https://www.youtube.com/watch?
 
 Seguimos en busca de sponsors que se quieran unir a la causa, el año pasado conseguimos mas de 28.000€, sabemos que el liston está alto, pero todavia hay tiempo.
 
-Empresas como [OVHcloud](https://www.ovh.es/), [Kio Networks](https://www.kionetworks.com/), [Veeam](https://www.veeam.com/es), [Adistec](https://adistec.com/), [IPM Ricoh](https://www.ipm.es/), [Altaro](https://www.altaro.com/) ya han confirmado su participación
+Empresas como [OVHcloud](https://www.ovh.es/), [Kio Networks](https://www.kionetworks.com/), [Veeam](https://www.veeam.com/es), [Adistec](https://adistec.com/), [IPM Ricoh](https://www.ipm.es/), [Altaro](https://www.altaro.com/), [2Ksystems](https://www.2ksystems.com/) ya han confirmado su participación
 
 Contactad con nosotros si estais interesados y quereis participar. Toda ayuda será muy bienvenida.
 
