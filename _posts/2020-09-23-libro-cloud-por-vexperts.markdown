@@ -17,7 +17,7 @@ Se acerca el día. Queda menos de una semana para que vea la luz la segunda edic
 
 En la primera edición conseguimos mas de 18k descargas y cerca de 28k € para asociaciones benéficas y esperamos que en esta segunda edicición mejorar nuestros propios números.
 
-En esta ocasion el libro se llamará Cloud por vExperts y es que hemos querido enfocar el temario un poco más a tecnologías cloud.
+En esta ocasion el libro se llamará [Cloud por vExperts](https://www.librodelosvexpert.org/) y es que hemos querido enfocar el temario un poco más a tecnologías cloud.
 
 ![portada]({{ site.imagesposts2020 }}/09/portada-cloud-por-vexperts.png){: .align-center}
 
