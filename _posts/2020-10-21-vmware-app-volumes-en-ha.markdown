@@ -12,7 +12,7 @@ tag:
 - mobility
 ---
 
-Hace ya varios meses, en la serie [Creando un entorno JMP con VMware Horizon]({{ site.url }}/jmp-part1/) vimos cómo hacer la configuración e instalalación de [App Volumes]({{ site.url }}/jmp-part11/). En este post, veremos la configuración para dotar al sistema de HA y eliminar ese temido [SPOF](https://es.wikipedia.org/wiki/Single_point_of_failure)
+Hace ya varios meses, en la serie [Creando un entorno JMP con VMware Horizon]({{ site.url }}/jmp-part1/) vimos cómo hacer la configuración e instalación de [App Volumes]({{ site.url }}/jmp-part11/). En este post, veremos la configuración para dotar al sistema de HA y eliminar ese temido [SPOF](https://es.wikipedia.org/wiki/Single_point_of_failure)
 
 Es lógico, que para montar nuestro App Volumes Manager en alta disponibilidad primeramente tengamos nuestra BBDD en un servidor independiente, fuera del propio App Volumes Manager. En [este post](https://miquelmariano.github.io/jmp-part11/) explicábamos la parte de nuestro servidor SQL.
 
@@ -65,7 +65,7 @@ Para ello, deberemos editar nuestra plantilla maestra y editar la siguiente clav
 
 Por defecto nos aparecerá la clave Manager1, la cual configuraremos la virtual IP del balanceador.
 
-No seria necesario configurar mas managers, pero a mi me gusta dejar también configurados las IPs de cada uno de los servidores por si en algun momento el balanceador deja de funcionar
+No seria necesario configurar mas managers, pero a mi me gusta dejar también configurados las IPs de cada uno de los servidores por si en algún momento el balanceador deja de funcionar
 
 ![appvolumes-install-14]({{ site.imagesposts2020 }}/10/appvolumes-install-14.png){: .align-center} 
 
