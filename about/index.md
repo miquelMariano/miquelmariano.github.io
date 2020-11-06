@@ -30,7 +30,7 @@ He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https:/
 
 También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS)
 
-![content]({{ site.url }}/{{ site.images }}/logo_hds_content.png){: .align-center} | ![vspg]({{ site.url }}/{{ site.images }}/logo_hds_vspg.png){: .align-center}
+![content]({{ site.url }}/{{ site.images }}/logo_hds_content.png){: .align-center} | ![vspg]({{ site.url }}/{{ site.images }}/logo_hds_vspg.png){: .align-center} | ![vspg_2020]({{ site.url }}/{{ site.images }}/logo_hds_vspg_2020.png){: .align-center}
 
 ![hds]({{ site.url }}/{{ site.images }}/HitachiVantara_Qualified_Professional_Installation_2020.png){: .align-center}
 
