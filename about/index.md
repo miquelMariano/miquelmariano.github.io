@@ -32,7 +32,7 @@ También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.
 
 ![content]({{ site.url }}/{{ site.images }}/logo_hds_content.png){: .align-center} | ![vspg]({{ site.url }}/{{ site.images }}/logo_hds_vspg.png){: .align-center}
 
-![hds]({{ site.url }}/{{ site.images }}/logo_hds.png){: .align-center}
+![hds]({{ site.url }}/{{ site.images }}/HitachiVantara_Qualified_Professional_Installation_2020.png){: .align-center}
 
 Podréis consultar mas información en mi perfil completo de [LinkedIN](https://www.linkedin.com/in/miquelmariano/)
 
