@@ -112,9 +112,9 @@ tower-cli config
 
 Podreis encontrar información extensa sobre la configuración de Tower CLI en [este post](http://yallalabs.com/devops/how-to-install-configure-tower-cli-tool-ansible-tower-awx/)
 
-## Backup de la configuración
+## Backup de la configuración (puede tardar unos minutos)
 ```
-tower-cli receive --tower-host http://192.168.6.156 --all >  /tmp/test.json
+time tower-cli receive --tower-host http://192.168.6.156 --all >  /tmp/test.json
 ```
 
 ## Restore de la configuración
