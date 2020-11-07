@@ -22,7 +22,7 @@ yum install -y epel-release
 
 ## Instalar pre-requisitos de Ansible AWX:
 ```
-yum install -y git gcc gcc-c++ nodejs gettext device-mapper-persistent-data lvm2 bzip2 python-pip yum-utils ansible
+yum install -y git gcc gcc-c++ nodejs gettext device-mapper-persistent-data lvm2 bzip2 python-pip yum-utils ansible python3
 ```
 
 ## Instalar Docker CE (Comunity Edition):
