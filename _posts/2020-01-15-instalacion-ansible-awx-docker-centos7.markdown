@@ -103,7 +103,7 @@ En [este enlace](https://github.com/ansible/awx/blob/devel/DATA_MIGRATION.md
 
 ## Instalación y configuración de Tower CLI
 ```
-pip install ansible-tower-cli
+pip3 install ansible-tower-cli
 tower-cli config username admin
 tower-cli config password password
 tower-cli config verify_ssl False
