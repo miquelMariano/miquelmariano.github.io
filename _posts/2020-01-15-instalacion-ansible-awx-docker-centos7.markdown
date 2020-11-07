@@ -22,7 +22,7 @@ yum install -y epel-release
 
 ## Instalar pre-requisitos de Ansible AWX:
 ```
-yum install -y git gcc gcc-c++ nodejs gettext device-mapper-persistent-data lvm2 bzip2 python-pip yum-utils ansible python3
+yum install -y git gcc gcc-c++ nodejs gettext device-mapper-persistent-data lvm2 bzip2 python-pip yum-utils ansible python3 libselinux-python3 python36-docker
 ```
 
 ## Instalar Docker CE (Comunity Edition):
@@ -34,7 +34,7 @@ systemctl enable --now docker.service
 
 ## Instalar Docker-Compose
 ```
-pip install docker-compose
+pip3 install docker-compose
 ```
 
 En caso de que recibamos algún tipo de error y no se instale correctamente, deberemos instalar una versión anterior, probar con el siguiente comando:
