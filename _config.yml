@@ -122,7 +122,7 @@ menu:
   about: /about/
   archives: /archives/
   tags: /tags/
-  vmwareporvexperts: /vmwareporvexperts/
+  #vmwareporvexperts: /vmwareporvexperts/
   librodelosvexperts: https://miquelmariano.github.io/2020/09/23/libro-cloud-por-vexperts/
   deploy: /vcap-experience/
   design: /vcap-design-experience/
