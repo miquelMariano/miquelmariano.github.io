@@ -44,6 +44,7 @@ El instalador para la management console es el mismo que utilizamos para instala
 ![dem-primeros-pasos-04]({{ site.imagesposts2020 }}/12/dem-primeros-pasos-04.png){: .align-center}
 ![dem-primeros-pasos-05]({{ site.imagesposts2020 }}/12/dem-primeros-pasos-05.png){: .align-center}
 ![dem-primeros-pasos-06]({{ site.imagesposts2020 }}/12/dem-primeros-pasos-06.png){: .align-center}
+![dem-primeros-pasos-06-1]({{ site.imagesposts2020 }}/12/dem-primeros-pasos-06-1.png){: .align-center}
 
 # Configuración inicial
 
