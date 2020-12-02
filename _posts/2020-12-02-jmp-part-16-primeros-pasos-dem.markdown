@@ -1,5 +1,5 @@
 ---
-title: Creando un entorno JMP con VMware Horizon - Primeros pasos con DEM
+title: Creando un entorno JMP con VMware Horizon - Parte 16 - Primeros pasos con DEM
 date: '2020-12-02 00:00:00'
 layout: post
 image: /assets/images/posts/2019/07/horizon-logo.png
