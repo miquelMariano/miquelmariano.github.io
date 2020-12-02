@@ -30,7 +30,7 @@ En el capítulo de hoy, continuaremos con la parte de configuración de nuestro 
 - [Part 13: Crear nuestro primer App Stack]({{ site.url }}/jmp-part13/)
 - [Part 14: Trabajando con Writable Volumes]({{ site.url }}/jmp-part14/)
 - [Part 15: Instalación Dynamic Environment Manager]({{ site.url }}/jmp-part15/)
-- Part 16: Primeros pasos con DEM
+- [Part 16: Primeros pasos con DEM]({{ site.url }}/jmp-part16/)
 
 # Configuración inicial de App Volumes
 
