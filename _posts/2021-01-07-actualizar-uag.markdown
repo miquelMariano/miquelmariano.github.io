@@ -14,9 +14,9 @@ tag:
 
 El componente UAG es quizás uno de los componentes mas fáciles de actualizar de nuestra plataforma de VMware Horizon. Hace ya tiempo, en [este post](https://miquelmariano.github.io/jmp-part6/), ya vimos como hacer su instalación y configuración.
 
-El "proceso" de actualización, es básicamente desplegar un nuevo appliance en última versión e importar la configuración existente. ¿Fácil, no?
+El "proceso" de actualización, es básicamente desplegar un nuevo appliance en última versión e importar la configuración existente. Fácil, ¿no?
 
-Vamos a lio...
+Vamos a lío...
 
 # Actualizar Unified Access Gateway
 
@@ -43,7 +43,7 @@ Desplegaremos nuestros nuevos UAG igual que hacemos con cualquier otro appliance
 ![update-uag-10]({{ site.imagesposts2021 }}/01/update-uag-10.png){: .align-center}
 ![update-uag-11]({{ site.imagesposts2021 }}/01/update-uag-11.png){: .align-center}
 
-Una vez tengamos desplegado nuestro nuevo UAG y antes de arrancarlo, deberemos exportal la configuración del UAG el cual vamos a substituir.
+Una vez tengamos desplegado nuestro nuevo UAG y antes de arrancarlo, deberemos exportar la configuración del UAG el cual vamos a substituir.
 
 Configurar manualmente > Exportar la configuración de Unified Access Gateway
 
