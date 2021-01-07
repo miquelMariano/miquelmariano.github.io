@@ -64,7 +64,7 @@ Encendemos el nuevo UAG, hacemos login y nos dirigimos a la opción de "Importar
 
 Si queremos mantener la misma IP, será necesario hacer el cambio. Éste es el único parámetro que no importaremos con el fichero, el restro, estará tal cual al UAG original.
 
-![update-uag-20]({{ site.imagesposts2020 }}/01/update-uag-20.png){: .align-center}
+![update-uag-20]({{ site.imagesposts2021 }}/01/update-uag-20.png){: .align-center}
 
 Verificamos los parámetros y que los servicios están OK
 
