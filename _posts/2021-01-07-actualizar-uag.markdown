@@ -22,7 +22,7 @@ Vamos a lio...
 
 Desde el portal de [my.vmware](my.vmware.com), nos descargaremos la última versión disponible en formato .ova
 
-![update-uag-00]({{ site.imagesposts2020 }}/01/update-uag-00.png){: .align-center}
+![update-uag-00]({{ site.imagesposts2021 }}/01/update-uag-00.png){: .align-center}
 
 Es importante que repasemos la [matriz de interoperabilidad de productos VMware](https://www.vmware.com/resources/compatibility/sim/interop_matrix.php), desde aquí, podremos ver qué versión de UAG es compatible con nuestro entorno horizon y el "Upgrade Path" a seguir.
 
@@ -31,6 +31,7 @@ En mi caso, partimos de unos UAG en versión 3.6
 ![update-uag-01]({{ site.imagesposts2021 }}/11/update-uag-01.png){: .align-center}
 
 Desplegaremos nuestros nuevos UAG igual que hacemos con cualquier otro appliance en formato .ova y seguimos el asistente.
+
 ![update-uag-02]({{ site.imagesposts2021 }}/01/update-uag-02.png){: .align-center}
 ![update-uag-03]({{ site.imagesposts2021 }}/01/update-uag-03.png){: .align-center}
 ![update-uag-04]({{ site.imagesposts2021 }}/01/update-uag-04.png){: .align-center}
@@ -54,8 +55,8 @@ Antes de endender el nuevo UAG y ahora que tenemos la configuración exportada, 
 ![update-uag-15]({{ site.imagesposts2021 }}/01/update-uag-15.png){: .align-center}
 
 Encendemos el nuevo UAG, hacemos login y nos dirigimos a la opción de "Importar configuración" para hacer la importación del fichero .json que previamente hemos exportado
-![update-uag-14]({{ site.imagesposts2021 }}/01/update-uag-14.png){: .align-center}
 
+![update-uag-14]({{ site.imagesposts2021 }}/01/update-uag-14.png){: .align-center}
 ![update-uag-16]({{ site.imagesposts2021 }}/01/update-uag-16.png){: .align-center}
 ![update-uag-17]({{ site.imagesposts2021 }}/01/update-uag-17.png){: .align-center}
 ![update-uag-18]({{ site.imagesposts2021 }}/01/update-uag-18.png){: .align-center}
@@ -66,16 +67,17 @@ Si queremos mantener la misma IP, será necesario hacer el cambio. Éste es el �
 ![update-uag-20]({{ site.imagesposts2020 }}/01/update-uag-20.png){: .align-center}
 
 Verificamos los parámetros y que los servicios están OK
+
 ![update-uag-21]({{ site.imagesposts2021 }}/01/update-uag-21.png){: .align-center}
 ![update-uag-22]({{ site.imagesposts2021 }}/01/update-uag-22.png){: .align-center}
 
 En el Horizon Administrator, tendremos que cambiar nuestro nuevo UAG. Será tan fácil como eliminar el registro actual que aparecerá con error y añadir el nuevo UAG
+
 ![update-uag-23]({{ site.imagesposts2021 }}/01/update-uag-23.png){: .align-center}
 ![update-uag-24]({{ site.imagesposts2021 }}/01/update-uag-24.png){: .align-center}
 ![update-uag-25]({{ site.imagesposts2021 }}/01/update-uag-25.png){: .align-center}
 ![update-uag-26]({{ site.imagesposts2021 }}/01/update-uag-26.png){: .align-center}
 ![update-uag-27]({{ site.imagesposts2021 }}/01/update-uag-27.png){: .align-center}
-
 
 Espero que os sirva.
 
