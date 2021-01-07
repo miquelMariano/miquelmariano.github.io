@@ -28,7 +28,7 @@ Es importante que repasemos la [matriz de interoperabilidad de productos VMware]
 
 En mi caso, partimos de unos UAG en versión 3.6
 
-![update-uag-01]({{ site.imagesposts2021 }}/11/update-uag-01.png){: .align-center}
+![update-uag-01]({{ site.imagesposts2021 }}/01/update-uag-01.png){: .align-center}
 
 Desplegaremos nuestros nuevos UAG igual que hacemos con cualquier otro appliance en formato .ova y seguimos el asistente.
 
