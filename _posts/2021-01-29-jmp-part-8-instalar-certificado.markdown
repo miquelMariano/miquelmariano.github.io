@@ -14,7 +14,7 @@ tag:
 
 Hoy vamos a ver cómo generar un certificado en una entidad certificadora pública e instalarlo en nuestros Horizon Connection Server y nuestros UAGs.
 
-Este post forma parte de la serie sobre Horizon y aquí os dejo el índice
+Este post forma parte de la serie sobre Horizon y aquí os dejo el índice:
 
 - [Part 1: Introducción]({{ site.url }}/jmp-part1/)
 - [Part 2: Preparar servidor SQL]({{ site.url }}/jmp-part2/)
@@ -154,16 +154,16 @@ Finalmente, comprobaremos que el servidor nos está presentando el nuevo certifi
 
 La instalación en los UAGs es relativamente más sencilla que en los conections, ya que lo haremos desde el mismo portal de administración y entraremos en el apartado de certificado TLS:
 
-![certificado-uag-01]({{ site.imagesposts2020 }}/01/certificado-uag-01.png){: .align-center}
+![certificado-uag-01]({{ site.imagesposts2021 }}/01/certificado-uag-01.png){: .align-center}
 
 Marcaremos los dos check para que el certificado se presente tanto en la interfaz pública cómo en el portal de administración
 
-![certificado-uag-02]({{ site.imagesposts2020 }}/01/certificado-uag-02.png){: .align-center}
+![certificado-uag-02]({{ site.imagesposts2021 }}/01/certificado-uag-02.png){: .align-center}
 
 Una vez instalado, refrescaremos nuestro navegador y comprobaremos que nos está presentando ya el nuevo certificado instalado.
 
-![certificado-uag-03]({{ site.imagesposts2020 }}/01/certificado-uag-03.png){: .align-center}
-![certificado-uag-04]({{ site.imagesposts2020 }}/01/certificado-uag-04.png){: .align-center}
+![certificado-uag-03]({{ site.imagesposts2021 }}/01/certificado-uag-03.png){: .align-center}
+![certificado-uag-04]({{ site.imagesposts2021 }}/01/certificado-uag-04.png){: .align-center}
 
 
 Espero que os sirva.
