@@ -21,13 +21,13 @@ En lo profesional, cuento con mas de 13 años de experiencia en el ámbito de si
 - Automatización con Ansible, scripting con PowerCLI, bash, …
 - Monitorización con PRTG Network Monitor
 
-He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https://www.certmetrics.com/vmware/public/transcript.aspx?transcript=H66R1JVC114EQYC8) y en estos últimos 5 años, VMWare me ha nombrado [vExpert](https://vexpert.vmware.com/directory/753)
+He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https://www.certmetrics.com/vmware/public/transcript.aspx?transcript=H66R1JVC114EQYC8) y en estos últimos 6 años, VMWare me ha nombrado [vExpert](https://vexpert.vmware.com/directory/753)
 
 ![vcap6-deploy]({{ site.url }}/{{ site.images }}/logo_vcap6_deploy.png){: .align-center}{:height="50%" width="50%"} | ![vcap6-design]({{ site.url }}/{{ site.images }}/logo_vcap6_design.png){: .align-center}{:height="50%" width="50%"}
 
 ![vcap]({{ site.url }}/{{ site.images }}/logo_vcix6.png){: .align-center}{:height="30%" width="30%"} | ![vsan-specialist]({{ site.url }}/{{ site.images }}/logo_vsan_specialist2020.png){: .align-center}{:height="30%" width="30%"}
 
-![vExpert5]({{ site.url }}/{{ site.images }}/logo_vexpert_5.png){: .align-center}{:height="50%" width="50%"} | ![vExpert2020]({{ site.url }}/{{ site.images }}/logo_vexpert_2020.png){: .align-center}{:height="50%" width="50%"}
+![vExpert6]({{ site.url }}/{{ site.images }}/logo_vexpert_6.png){: .align-center}{:height="50%" width="50%"} | ![vExpert2021]({{ site.url }}/{{ site.images }}/logo_vexpert_2021.png){: .align-center}{:height="50%" width="50%"}
 
 También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS)
 
