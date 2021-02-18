@@ -10,6 +10,7 @@ tag:
 - euc
 - desktop
 - mobility
+permalink: /jmp-part8/
 ---
 
 Hoy vamos a ver cómo generar un certificado en una entidad certificadora pública e instalarlo en nuestros Horizon Connection Server y nuestros UAGs.
