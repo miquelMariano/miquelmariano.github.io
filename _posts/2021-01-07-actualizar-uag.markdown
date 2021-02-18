@@ -20,7 +20,7 @@ Vamos a lío...
 
 # Actualizar Unified Access Gateway
 
-Desde el portal de [my.vmware](my.vmware.com), nos descargaremos la última versión disponible en formato .ova
+Desde el portal de [my.vmware](https://my.vmware.com/), nos descargaremos la última versión disponible en formato .ova
 
 ![update-uag-00]({{ site.imagesposts2021 }}/01/update-uag-00.png){: .align-center}
 
