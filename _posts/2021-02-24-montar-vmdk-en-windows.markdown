@@ -1,6 +1,6 @@
 ---
 title: Montar disco virtual .vmdk como unidad local en windows
-date: '2021-02-22 00:00:00'
+date: '2021-02-24 00:00:00'
 layout: post
 tag:
 - vmware
