@@ -27,7 +27,7 @@ He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https:/
 
 ![vcap]({{ site.url }}/{{ site.images }}/logo_vcix6.png){: .align-center}{:height="30%" width="30%"} | ![vsan-specialist]({{ site.url }}/{{ site.images }}/logo_vsan_specialist2020.png){: .align-center}{:height="30%" width="30%"}
 
-![vExpert6]({{ site.url }}/{{ site.images }}/logo_vexpert_6.png){: .align-center}{:height="50%" width="50%"} | ![vExpert2021]({{ site.url }}/{{ site.images }}/logo_vexpert_2021.png){: .align-center}{:height="50%" width="50%"}
+![vExpert6]({{ site.url }}/{{ site.images }}/logo_vexpert_6.png){: .align-center}{:height="50%" width="50%"} | ![vExpert2021]({{ site.url }}/{{ site.images }}/logo_vexpert_2021.png){: .align-center}{:height="50%" width="50%"} | ![vExpertEUC2021]({{ site.url }}/{{ site.images }}/logo_vexperteuc_2021.png){: .align-center}{:height="50%" width="50%"}
 
 También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS)
 
