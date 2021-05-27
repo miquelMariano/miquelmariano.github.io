@@ -22,7 +22,7 @@ Tras mas de 1 año desde la [primera entrada]({{ site.url }}/jmp-part1/) de esta
 - [Part 5: Instalación y configuración Replica Server (opcional)]({{ site.url }}/jmp-part5/)
 - [Part 6: Instalación y configuración de UAG (opcional)]({{ site.url }}/jmp-part6/)
 - [Part 7: Configuración de UAG en HA]({{ site.url }}/jmp-part7/)
-- Part 8: Instalación certificado (opcional)
+- [Part 8: Instalación certificado (opcional)]({{ site.url }}/jmp-part8/)
 - [Part 9: Preparar plantilla master para Instant Clone]({{ site.url }}/jmp-part9/)
 - [Part 10: Configurar un pool de Instant Clone]({{ site.url }}/jmp-part10/)
 - [Part 11: Instalar App Volumes]({{ site.url }}/jmp-part11/)
