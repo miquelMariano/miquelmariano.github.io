@@ -13,7 +13,7 @@ Buenos dias a todos. En el post de hoy veremos cómo actualizar nuestro vCenter 
 
 # Actualizar nuestro VMware vCenter 6.7 a la última versión 7.0U2b
 
-Lo primero quen haremos será descargar la iso correspondiente a la última versión desde el portal de [my.vmware](my.vmware.com)
+Lo primero quen haremos será descargar la iso correspondiente a la última versión desde el portal de [my.vmware](https://my.vmware.com/)
 
 ![update-vcenter-00]({{ site.imagesposts2021 }}/06/update-vcenter-00.png){: .align-center}
 
