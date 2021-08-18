@@ -32,6 +32,8 @@ En el capítulo de hoy, continuaremos con la parte de configuración de nuestro 
 - [Part 15: Instalación Dynamic Environment Manager]({{ site.url }}/jmp-part15/)
 - [Part 16: Primeros pasos con DEM]({{ site.url }}/jmp-part16/)
 
+- [Bonus 1: Gestión de perfiles con Microsoft FSLogix](https://miquelmariano.github.io/2021/08/18/gestion-de-perfiles-con-fslogix/)
+
 # Configuración inicial de App Volumes
 
 Si habéis seguido el proceso de [Instalar App Volumes]({{ site.url }}/jmp-part11/), la primera vez que os conectéis al App Volumes Manager, aparecerá el wizard de configuración inicial:

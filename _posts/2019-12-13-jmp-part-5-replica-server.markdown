@@ -33,6 +33,8 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - [Part 15: Instalación Dynamic Environment Manager]({{ site.url }}/jmp-part15/)
 - [Part 16: Primeros pasos con DEM]({{ site.url }}/jmp-part16/)
 
+- [Bonus 1: Gestión de perfiles con Microsoft FSLogix](https://miquelmariano.github.io/2021/08/18/gestion-de-perfiles-con-fslogix/)
+
 # Instalación de un Réplica Server
 
 Para la instalación de un Replica server, utilizaremos el mismo instalador que ya utilizamos para instalar el [primer Connection server]({{ site.url }}/jmp-part4/)

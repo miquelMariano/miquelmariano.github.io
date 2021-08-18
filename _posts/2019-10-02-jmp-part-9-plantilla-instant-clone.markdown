@@ -33,6 +33,8 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - [Part 15: Instalación Dynamic Environment Manager]({{ site.url }}/jmp-part15/)
 - [Part 16: Primeros pasos con DEM]({{ site.url }}/jmp-part16/)
 
+- [Bonus 1: Gestión de perfiles con Microsoft FSLogix](https://miquelmariano.github.io/2021/08/18/gestion-de-perfiles-con-fslogix/)
+
 # Preparar plantilla master para Instant Clone
 
 Partiremos de la base de que ya hemos elegido nuestro SO base (generalmente un SO cliente) y que ya lo tenemos instalado en nuestra VM que nos servirá como plantilla master.

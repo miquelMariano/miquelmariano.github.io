@@ -34,6 +34,8 @@ Este post forma parte de la serie sobre Horizon y aquí os dejo el índice:
 - [Part 15: Instalación Dynamic Environment Manager]({{ site.url }}/jmp-part15/)
 - [Part 16: Primeros pasos con DEM]({{ site.url }}/jmp-part16/)
 
+- [Bonus 1: Gestión de perfiles con Microsoft FSLogix](https://miquelmariano.github.io/2021/08/18/gestion-de-perfiles-con-fslogix/)
+
 # Crear certificado SSL wildcard con OpenSSL
 
 A continuación veremos el procedimiento a seguir para generar un certificado SSL wildcard emitido por una entidad certificadora pública. GoDaddy por ejemplo

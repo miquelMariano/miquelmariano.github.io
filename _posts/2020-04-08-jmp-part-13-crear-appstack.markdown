@@ -33,6 +33,8 @@ Si habéis seguido la serie con atención, en este punto ya tendréis [instalado
 - [Part 15: Instalación Dynamic Environment Manager]({{ site.url }}/jmp-part15/)
 - [Part 16: Primeros pasos con DEM]({{ site.url }}/jmp-part16/)
 
+- [Bonus 1: Gestión de perfiles con Microsoft FSLogix](https://miquelmariano.github.io/2021/08/18/gestion-de-perfiles-con-fslogix/)
+
 Es el momento ahora de ver cómo se crea nuestro primer AppStack.
 
 Un AppStack es un disco, generalmente un .vmdk, de sólo lectura que contiene una o múltiples aplicaciones ya instaladas. Estos AppStack los podremos asignar a usuarios, unidades organizativas (OU), cuantas de equipo, etc, etc.. con el fin de permitir la entrega y uso de estas aplicaciones a nuestros usuarios finales.

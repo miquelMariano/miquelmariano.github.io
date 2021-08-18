@@ -35,6 +35,8 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - [Part 15: Instalación Dynamic Environment Manager]({{ site.url }}/jmp-part15/)
 - [Part 16: Primeros pasos con DEM]({{ site.url }}/jmp-part16/)
 
+- [Bonus 1: Gestión de perfiles con Microsoft FSLogix](https://miquelmariano.github.io/2021/08/18/gestion-de-perfiles-con-fslogix/)
+
 # Preparar Active Directory
 
 Para que nuestro entorno funcione correctamente, necesitaremos de almenos 2 usuarios que tendrán funciones diferentes:

@@ -32,6 +32,8 @@ En la siguiente serie de posts, pretendo explicar durante las próximas semanas 
 - [Part 15: Instalación Dynamic Environment Manager]({{ site.url }}/jmp-part15/)
 - [Part 16: Primeros pasos con DEM]({{ site.url }}/jmp-part16/)
 
+- [Bonus 1: Gestión de perfiles con Microsoft FSLogix](https://miquelmariano.github.io/2021/08/18/gestion-de-perfiles-con-fslogix/)
+
 En el post de hoy, hablaremos de VMware App Volumes
 
 # ¿Que es App Volumes?
