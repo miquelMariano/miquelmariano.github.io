@@ -13,6 +13,8 @@ tag:
 - fslogix
 ---
 
+En el post hablaremos de FSLogix, una herramienta que nos ayudará a gestionar de manera mas eficiente el perfil de nuestros usuarios en entornos VDI no persistentes.
+
 # Que es FSLogix?
 
 Cogiendo la definición oficial de la [documentación de Microsoft](https://docs.microsoft.com/en-us/fslogix/overview)
