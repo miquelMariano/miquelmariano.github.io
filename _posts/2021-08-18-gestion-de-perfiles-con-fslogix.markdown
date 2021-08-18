@@ -27,7 +27,7 @@ Dicho de otra manera. FSLogix, es una solución de gestión de perfiles de usuar
 
 Me he encontrado por ahi este maravilloso diagrama que me parece que explica a la perfección en que lugar queda FSLogix
 
-![fslogix-schema]({{ site.imagesposts2021 }}/04/fslogix-schema.png){: .align-center}
+![fslogix-schema]({{ site.imagesposts2021 }}/08/fslogix-schema.png){: .align-center}
 
 Básicamente, con FSLogix capturaremos los datos de usuario (Escritorio, Mis Documentos, Descargas, etc etc...) y también la configuración, el AppData del usuario.
 
