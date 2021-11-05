@@ -245,7 +245,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: /assets/images/perfil2019-redondo.png
+avatar: /assets/images/perfil2021-redondo.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -357,7 +357,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: /assets/images/perfil2019-redondo.png
+  image: /assets/images/perfil2021-redondo.png
 
 
 # Code Highlight theme
