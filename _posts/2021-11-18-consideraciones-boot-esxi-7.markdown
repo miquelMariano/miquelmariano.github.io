@@ -52,11 +52,11 @@ Las tarjetas SD o dispositivos USB suelen tener gran latencia, lo que genera gra
 
 2. En las próximas versiones, la única configuración admitida con SD o USB será con unidades de 8Gb + un dispositivo de almacenamiento persistente conectado localmente para la partición ESX-OSDATA.
 
-3. En cualquier caso, si se utiliza finalmente SD o USB como medio de arranque, hay que seguir estas instrucciones para reducir la cantidad de IOPS enviadas.
+3. En cualquier caso, si se utiliza finalmente SD o USB como medio de arranque, hay que seguir estas instrucciones para reducir la cantidad de IOPS enviadas:
 
-* [Habilitar ToolsRamDisk](https://kb.vmware.com/s/article/83376)
-* [Configurar /scratch en almacenamiento persistente](https://kb.vmware.com/s/article/1033696)
-* [Configurar ESXi Dump Collector](https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.install.doc/GUID-85D78165-E590-42CF-80AC-E78CBA307232.html)
+[Habilitar ToolsRamDisk](https://kb.vmware.com/s/article/83376)
+[Configurar /scratch en almacenamiento persistente](https://kb.vmware.com/s/article/1033696)
+[Configurar ESXi Dump Collector](https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.install.doc/GUID-85D78165-E590-42CF-80AC-E78CBA307232.html)
 
 4. Asegurarse de que nuestros ESXi están actualizados a la versión vSphere 7.0 U2c o superior para evitar el error ["/bootbank" missing](https://kb.vmware.com/s/article/83963)
 
