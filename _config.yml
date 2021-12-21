@@ -125,8 +125,9 @@ menu:
   tags: /tags/
   #vmwareporvexperts: /vmwareporvexperts/
   librodelosvexperts: https://miquelmariano.github.io/2020/09/23/libro-cloud-por-vexperts/
-  deploy: /vcap-experience/
-  design: /vcap-design-experience/
+  vcix: https://miquelmariano.github.io/tag/#/vcix6
+  #deploy: /vcap-experience/
+  #design: /vcap-design-experience/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 

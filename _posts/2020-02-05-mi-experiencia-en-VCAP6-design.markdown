@@ -9,6 +9,7 @@ tag:
 - vsphere
 - vexpert
 - vcap
+- vcix6
 permalink: /vcap-design-experience/
 ---
 

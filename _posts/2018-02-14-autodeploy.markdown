@@ -8,7 +8,6 @@ tag:
 - vmware
 - vsphere
 - vexpert
-- vcap
 ---
 
 Auto deploy usa [PXE](https://es.wikipedia.org/wiki/Preboot_Execution_Environment) para el despliegue de ESXi en una red. Cuanto un host se despliega mediante Auto deploy, la información de estado se carga en memoria durante el arranque. El estado, por defecto, no se almacena de forma permanente en el host.
