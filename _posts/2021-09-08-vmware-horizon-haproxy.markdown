@@ -166,7 +166,7 @@ mv /etc/keepalived/keepalived.conf /etc/keepalived/keepalived-original.conf
 
 Y crearemos un nuevo fichero de configuración similar a este:
 
-**Nodo MSTER: PhotonLB-01**
+**Nodo MASTER: PhotonLB-01**
 
 ```ssh
 ! Configuration File for keepalived PhotonLB-01
@@ -442,6 +442,16 @@ También otro comando interesante es el que vacia el log, por si tenemos muchos 
 ```ssh
 journalctl --rotate
 journalctl --vacuum-time=1s
+```
+
+```ssh
+clear
+journalctl --rotate
+journalctl --vacuum-time=1s
+systemctl restart keepalived
+sleep 5
+journalctl -r |grep Keepalived_vrrp
+ip --brief add
 ```
 
 Y hasta aquí el post de hoy.
