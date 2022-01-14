@@ -51,7 +51,7 @@ El despliegue de la OVA es muy sencillo y solo tendremos que seguir el asistente
 
 Por defecto, la ova de PhotonOS está configurada para coger IP por DHCP y SSH está habilitado en el arranque.
 
-Nos conectaremos por SSH a la IP que nos ha proporcionado y accederemos con las credenciales por defecto (admin/changeme). La primera vez que hagamos login nos pedirá cambiar la contraseña.
+Nos conectaremos por SSH a la IP que nos ha proporcionado y accederemos con las credenciales por defecto (root/changeme). La primera vez que hagamos login nos pedirá cambiar la contraseña.
 
 ![changeme]({{ site.imagesposts2021 }}/09/changeme.png){: .align-center}
 
