@@ -1,6 +1,6 @@
 ---
 title: Determinar maestro de estema en un entorno VMware
-date: '2021-12-21 00:00:00'
+date: '2000-12-21 00:00:00'
 layout: post
 image: /assets/images/posts/2018/12/ssh-banner.jpg
 tag:
