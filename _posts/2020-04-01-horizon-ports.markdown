@@ -1,5 +1,5 @@
 ---
-title: Puertos TCP y UDP utilizados por Horizon 7
+title: Puertos TCP y UDP utilizados por VMware Horizon
 date: '2020-04-01 00:00:00'
 layout: post
 image: /assets/images/posts/2019/07/horizon-logo.png
@@ -18,11 +18,11 @@ En el post de hoy pretendo recoger de forma fácil todos los requerimientos a ni
 
 ![horizon7-ports]({{ site.imagesposts2020 }}/04/horizon7-ports.png){: .align-center}
 
-Toda la información aquí expuesta ha sido sacada de la guia oficial [Network Ports in VMware Horizon 7](https://techzone.vmware.com/resource/network-ports-vmware-horizon-7)
+Toda la información aquí expuesta ha sido sacada de la guia oficial [Network Ports in VMware Horizon 7](https://techzone.vmware.com/resource/network-ports-vmware-horizon)
 
 # 	Conexiones cliente
 
-###	Conexión interna
+###	[Conexión interna](https://techzone.vmware.com/resource/network-ports-vmware-horizon#internal-connection)
 
 | Origen    	      |  Destino    			 |Puerto   |Protocolo  |Descripción    		   |
 |:-------------------:|:------------------------:|:-------:|:---------:|:---------------------:|
@@ -34,16 +34,17 @@ Toda la información aquí expuesta ha sido sacada de la guia oficial [Network P
 |Horizon Client       |Horizon Agent			 |32111	   |TCP		   |Redirección USB	  	   |
 |Navegador Web        |Horizon Agent			 |8443	   |TCP		   |Horizon 7 HTML Access  |
 
-###	Conexión externa
+###	[Conexión externa](https://techzone.vmware.com/resource/network-ports-vmware-horizon#external-connection)
 
 | Origen    	      |  Destino    			 |Puerto   |Protocolo  |Descripción    		   |
 |:-------------------:|:------------------------:|:-------:|:---------:|:---------------------:|
 |Horizon Client       |UAG o Security server	 |443	   |TCP	y UDP  |Login	       	  	   |
 |Horizon Client       |UAG o Security server	 |8443	   |TCP	y UDP  |Blast Extreme     	   |
 |Horizon Client       |UAG o Security server	 |4172	   |TCP	y UDP  |PCoIP			  	   |
-|Navegador Web        |Horizon Agent			 |8443	   |TCP		   |Horizon 7 HTML Access  |
+|Navegador Web        |UAG o Security server	 |8443 	   |TCP		   |Horizon 7 HTML Access  |
+|Navegador Web        |UAG o Security server	 |8443 	   |TCP		   |Horizon 7 HTML Access  |
 
-#	Horizon Connection Server
+#	[Horizon Connection Server](https://techzone.vmware.com/resource/network-ports-vmware-horizon#horizon-connection-server)
 
 | Origen    		      |  Destino    			 |Puerto   |Protocolo  |Descripción    		   |
 |:-----------------------:|:------------------------:|:-------:|:---------:|:---------------------:|
@@ -71,7 +72,7 @@ Toda la información aquí expuesta ha sido sacada de la guia oficial [Network P
 |View Composer			  |vCenter server 			 |443	   |TCP		   |SOAP			   	   |
 |View Composer			  |ESXi						 |902	   |TCP		   |SOAP			   	   |
 
-#	Unified Access Gateway
+#	[Unified Access Gateway](https://techzone.vmware.com/resource/network-ports-vmware-horizon#unified-access-gateway)
 
 | Origen    		      |  Destino    			 |Puerto   |Protocolo  |Descripción    		   |
 |:-----------------------:|:------------------------:|:-------:|:---------:|:---------------------:|
