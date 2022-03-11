@@ -14,7 +14,7 @@ tag:
 
 ---
 
-En el post de hoy pretendo recoger de forma fácil todos los requerimientos a nivel de conectividad que necesita un entorno Horizon 7
+En el post de hoy pretendo recoger de forma fácil todos los requerimientos a nivel de conectividad que necesita un entorno VMware Horizon
 
 ![horizon7-ports]({{ site.imagesposts2020 }}/04/horizon7-ports.png){: .align-center}
 
