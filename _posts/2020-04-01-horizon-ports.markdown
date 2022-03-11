@@ -38,12 +38,9 @@ Toda la información aquí expuesta ha sido sacada de la guia oficial [Network P
 
 | Origen    	      |  Destino    			 |Puerto   |Protocolo  |Descripción    		   |
 |:-------------------:|:------------------------:|:-------:|:---------:|:---------------------:|
-|Horizon Client       |UAG o Security server	 |443	   |TCP		   |Login	       	  	   |
+|Horizon Client       |UAG o Security server	 |443	   |TCP	y UDP  |Login	       	  	   |
 |Horizon Client       |UAG o Security server	 |8443	   |TCP	y UDP  |Blast Extreme     	   |
 |Horizon Client       |UAG o Security server	 |4172	   |TCP	y UDP  |PCoIP			  	   |
-|Horizon Client       |Horizon Agent			 |3389	   |TCP		   |RDP				  	   |
-|Horizon Client       |Horizon Agent			 |9427	   |TCP		   |CDR (client drive redirection)	y MMR (multimedia redirection)		  |
-|Horizon Client       |Horizon Agent			 |32111	   |TCP		   |Redirección USB	  	   |
 |Navegador Web        |Horizon Agent			 |8443	   |TCP		   |Horizon 7 HTML Access  |
 
 #	Horizon Connection Server
