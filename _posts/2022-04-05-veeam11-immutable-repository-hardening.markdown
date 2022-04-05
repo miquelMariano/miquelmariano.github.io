@@ -1,5 +1,5 @@
 ---
-title: Repositorio immutable en Veeam 11
+title: Repositorio immutable con Veeam Backup & Replication 11
 date: '2022-04-05 00:00:00'
 layout: post
 tag:
