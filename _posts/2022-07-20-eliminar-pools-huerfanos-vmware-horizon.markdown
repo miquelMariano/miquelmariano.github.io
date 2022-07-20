@@ -182,6 +182,6 @@ Espero que os sirva.
 
 Un saludo!
 
-Miquel.
+Miquel
 
 
