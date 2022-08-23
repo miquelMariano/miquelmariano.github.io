@@ -156,7 +156,7 @@ Asignaremos permisos al usuario local creado previamente con los siguientes coma
 
 ```ssh
 # sudo chown -R localveeam:localveeam /mnt/veeamrepo01/
-# sudo chmod 700 /mnt/veeamrepo
+# sudo chmod 700 /mnt/veeamrepo01
 ```
 
 ![veeam-immutable-repository-32]({{ site.imagesposts2022 }}/04/veeam-immutable-repository-32.png){: .align-center}
