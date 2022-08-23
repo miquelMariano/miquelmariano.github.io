@@ -97,8 +97,8 @@ Este usuario se usará para el *Veeam Transport Service* poder montar el reposit
 Creamos una nueva cuenta de la siguiente manera:
 
 ```ssh
-# sudo useradd locveeam --create-home -s /bin/bash
-# sudo passwd locveeam
+# sudo useradd localveeam --create-home -s /bin/bash
+# sudo passwd localveeam
 ```
 
 ![veeam-immutable-repository-24]({{ site.imagesposts2022 }}/04/veeam-immutable-repository-24.png){: .align-center}
