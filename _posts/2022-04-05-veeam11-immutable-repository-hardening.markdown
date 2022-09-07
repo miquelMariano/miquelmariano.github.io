@@ -8,7 +8,7 @@ tag:
 - vexpert
 - veeam
 - ramsonware
-- inmutable
+- immutable
 ---
 
 Con la nueva versión de [Veeam Backup & Replication 11](https://www.veeam.com/veeam_backup_11_0_release_notes_rn.pdf) viene incluida una nueva funcionalidad que nos permite hacer inmutables los backups de nuestro entorno utilizando un 'Hardened Repository' montado sobre un sistema linux.

@@ -8,7 +8,7 @@ tag:
 - vexpert
 - veeam
 - ramsonware
-- inmutable
+- immutable
 ---
 
 Semanas atrás, publiqué un post en donde se explicaba [como montar repositorios immutables con Veeam 11](https://miquelmariano.github.io/2022/04/05/veeam11-immutable-repository-hardening/).
