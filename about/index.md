@@ -30,10 +30,13 @@ He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https:/
 ![vExpert6]({{ site.url }}/{{ site.images }}/logo_vexpert_6.png){: .align-center}{:height="50%" width="50%"} | ![vExpert2021]({{ site.url }}/{{ site.images }}/logo_vexpert_2021.png){: .align-center}{:height="50%" width="50%"} | ![vExpertEUC2021]({{ site.url }}/{{ site.images }}/logo_vexperteuc_2021.png){: .align-center}{:height="50%" width="50%"}
 
 También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS)
+y [Cohesity](https://www.credly.com/badges/df339812-ee00-4d29-936e-cb7e904fee86?source=linked_in_profile)
 
 ![content]({{ site.url }}/{{ site.images }}/logo_hds_content.png){: .align-center} | ![vspg]({{ site.url }}/{{ site.images }}/logo_hds_vspg.png){: .align-center} | ![vspg_2020]({{ site.url }}/{{ site.images }}/logo_hds_vspg_2020.png){: .align-center}
 
 ![hds]({{ site.url }}/{{ site.images }}/HitachiVantara_Qualified_Professional_Installation_2020.png){: .align-center}
+
+![Cohesity-Accreditation-Badges_Installation]({{ site.url }}/{{ site.images }}/logo-Cohesity-Accreditation-Badges_Installation_150dpi.png){: .align-center}
 
 Podréis consultar mas información en mi perfil completo de [LinkedIN](https://www.linkedin.com/in/miquelmariano/)
 
