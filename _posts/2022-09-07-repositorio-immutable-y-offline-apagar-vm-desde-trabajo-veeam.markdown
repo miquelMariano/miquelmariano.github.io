@@ -21,11 +21,20 @@ Pero antes de nada, os recomiendo que actualiceis vuestra versión de PowerCLI a
 
 Vamos al lio ;-)
 
-El script lo podreis encontrar [aquí](https://raw.githubusercontent.com/miquelMariano/vSphere-PowerCLI/master/start-stop-vm/start-stop-vm.ps1)
+El script lo podreis encontrar [aquí](https://raw.githubusercontent.com/miquelMariano/vSphere-PowerCLI/master/start-stop-vm/start-stop-vm.ps1) y es muy fácil de utilizar, simplemente pasando por parámetro ciertas variables nos servirá para encender o apagar cualquier VM.
+
+Por ejemplo:
+```
+.\start-stop-vm.ps1 -vCenter "172.16.99.111" -vCenteruser "administrator@vsphere.local" -vm "HB-VeeamImmutable-Semanal-OF"  -status "off"
+.\start-stop-vm.ps1 -vCenter "172.16.99.111" -vCenteruser "administrator@vsphere.local" -vm "HB-VeeamImmutable-Semanal-OF"  -status "on"
+```
+
 
 Simplemente editaremos nuestros backups con destino al repositorio immutable y configuraremos el script tanto antes como después del procesamiento del job.
 
-![immutable-offline-01]({{ site.imagesposts2022 }}/09/immutable-offline-01.png){: .align-center}
+![immutable-offline-01]({{ site.imagesposts2022 }}/11/immutable-offline-01.png){: .align-center}
+
+`"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '172.16.99.111' -vCenteruser 'administrator@vsphere.local' -vm 'HB-VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"
 
 Antes:
 `C:\scripts\start-stop-vm.ps1 -vCenter "192.168.33.90" -vCenteruser "veeam_user@vsphere.local" -vm "SRVIMMUTABLE01"  -status "on"`
@@ -35,7 +44,7 @@ Después
 
 Y ya con esto, podremos ver en los logs como se ejecuta el script y nos arranca/apaga la VM que tiene el repositorio immutable
 
-![immutable-offline-02]({{ site.imagesposts2022 }}/09/immutable-offline-02.png){: .align-center}
+![immutable-offline-02]({{ site.imagesposts2022 }}/11/immutable-offline-02.png){: .align-center}
 
 Y ahora que habeis llegado hasta aquí, os recomiendo que os paseis por todos los posts relacionados con los [Repositorios Immutables de Veeam](https://miquelmariano.github.io/tag/#/immutable) que ya tenemos publicados en este blog
 
