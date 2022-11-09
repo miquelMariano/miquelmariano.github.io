@@ -15,25 +15,25 @@ Hace varios meses, en [este post](https://miquelmariano.github.io/2022/04/05/vee
 
 Hoy vengo a dar una vuelta de tuerca más a este asunto y veremos como a demás de hacer el repositorio immutable lo podemos dejar offline mientras no tengamos trabajos de protección en ejecución.
 
-Para ello, configuraremos unos scripts pre y post ejecución del trabajo de backup que lo que harán será arrancar y apagar la VM que tiene el repositorio immutable.
+Para ello, configuraremos unos scripts pre y post ejecución del trabajo de backup que lo que harán será arrancar y apagar la VM que tiene el repositorio immutable, y por lo tanto, que sea accesible durante la ventana de backup.
 
-Pero antes de nada, os recomiendo que actualiceis vuestra versión de PowerCLI a la última disponible. En [este post](https://miquelmariano.github.io/2019/01/09/instalar-powerCLI-10-windows/) explico como hacerlo.
+Antes de nada, os recomiendo que actualiceis vuestra versión de PowerCLI a la última disponible. En [este post](https://miquelmariano.github.io/2019/01/09/instalar-powerCLI-10-windows/) explico como hacerlo.
 
-Vamos al lio ;-)
+Vamos al lío ;-)
 
-El script lo podreis encontrar [aquí](https://raw.githubusercontent.com/miquelMariano/vSphere-PowerCLI/master/start-stop-vm/start-stop-vm.ps1) y es muy fácil de utilizar, simplemente pasando por parámetro ciertas variables nos servirá para encender o apagar cualquier VM.
+El script lo podréis encontrar [aquí](https://raw.githubusercontent.com/miquelMariano/vSphere-PowerCLI/master/start-stop-vm/start-stop-vm.ps1) y es muy fácil de utilizar, simplemente pasando por parámetro ciertas variables nos servirá para encender o apagar cualquier VM de nuestro entorno.
 
-Para usarlo, seria por ejemplo:
+Para usarlo, sería por ejemplo:
 ```
-.\start-stop-vm.ps1 -vCenter "10.0.0.100" -vCenteruser "administrator@vsphere.local" -vm "VeeamImmutable-Semanal-OF"  -status "off"
-.\start-stop-vm.ps1 -vCenter "10.0.0.100" -vCenteruser "administrator@vsphere.local" -vm "VeeamImmutable-Semanal-OF"  -status "on"
+.\start-stop-vm.ps1 -vCenter "10.0.0.100" -vCenteruser "administrator@vsphere.local" -vm "VeeamImmutable-Semanal"  -status "off"
+.\start-stop-vm.ps1 -vCenter "10.0.0.100" -vCenteruser "administrator@vsphere.local" -vm "VeeamImmutable-Semanal"  -status "on"
 ```
 
 Para configurar la parte Veeam, simplemente editaremos nuestros backups con destino al repositorio immutable y configuraremos el script tanto antes como después del procesamiento del job.
 
 ![immutable-offline-01]({{ site.imagesposts2022 }}/11/immutable-offline-01.png){: .align-center}
 
-Cabe comentar que veeam por defecto usa powershell 5 y por lo tanto será necesario indicar en la configuración que utilice powershell 7
+Cabe comentar que veeam por defecto usa powershell 5 y, por lo tanto, será necesario indicar en la configuración que utilice powershell 7
 
 Antes:
 `"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"`
@@ -41,7 +41,7 @@ Antes:
 Después
 `"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"`
 
-Y ya con esto, podremos ver en los logs y en el vCenter como se ejecuta el script y nos arranca/apaga la VM que tiene el repositorio immutable
+Ya con esto, podremos ver en los logs y en el vCenter como se ejecuta el script y nos arranca/apaga la VM que tiene el repositorio immutable
 
 ![immutable-offline-02]({{ site.imagesposts2022 }}/11/immutable-offline-02.png){: .align-center}
 
@@ -50,7 +50,7 @@ Y ya con esto, podremos ver en los logs y en el vCenter como se ejecuta el scrip
 En caso de recibir algún error, recordaros que los logs de Veeam se guardan aquí:
 `C:\ProgramData\Veeam\Backup\Jobname\Job.Jobname.log`
 
-Finalmente, y ya que habeis llegado hasta aquí, os recomiendo que os paseis por todos los posts relacionados con los [Repositorios Immutables de Veeam](https://miquelmariano.github.io/tag/#/immutable) que ya tenemos publicados en este blog
+Finalmente, y ya que habéis llegado hasta aquí, os recomiendo que os paséis por todos los posts relacionados con los [Repositorios Immutables de Veeam](https://miquelmariano.github.io/tag/#/immutable) que ya tenemos publicados en este blog
 
 Muchas gracias por leerme
 
