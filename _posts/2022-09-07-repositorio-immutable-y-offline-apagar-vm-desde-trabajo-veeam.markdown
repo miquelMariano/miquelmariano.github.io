@@ -34,7 +34,6 @@ Para configurar la parte Veeam, simplemente editaremos nuestros backups con dest
 ![immutable-offline-01]({{ site.imagesposts2022 }}/11/immutable-offline-01.png){: .align-center}
 
 Cabe comentar que veeam por defecto usa powershell 5 y por lo tanto será necesario indicar en la configuración que utilice powershell 7
-{: .alert .alert-info .text-justify}
 
 Antes:
 `"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"`
@@ -46,8 +45,11 @@ Y ya con esto, podremos ver en los logs como se ejecuta el script y nos arranca/
 
 ![immutable-offline-02]({{ site.imagesposts2022 }}/11/immutable-offline-02.png){: .align-center}
 
-Y ahora que habeis llegado hasta aquí, os recomiendo que os paseis por todos los posts relacionados con los [Repositorios Immutables de Veeam](https://miquelmariano.github.io/tag/#/immutable) que ya tenemos publicados en este blog
+En caso de recibir algún error, recordaros que los logs de Veeam se guardan aquí:
+`C:\ProgramData\Veeam\Backup\Jobname\Job.Jobname.log`
 
-Muchas gracias
+Finalmente, y ya que habeis llegado hasta aquí, os recomiendo que os paseis por todos los posts relacionados con los [Repositorios Immutables de Veeam](https://miquelmariano.github.io/tag/#/immutable) que ya tenemos publicados en este blog
+
+Muchas gracias por leerme
 
 Un saludo!!!
