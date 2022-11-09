@@ -41,9 +41,11 @@ Antes:
 Después
 `"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"`
 
-Y ya con esto, podremos ver en los logs como se ejecuta el script y nos arranca/apaga la VM que tiene el repositorio immutable
+Y ya con esto, podremos ver en los logs y en el vCenter como se ejecuta el script y nos arranca/apaga la VM que tiene el repositorio immutable
 
 ![immutable-offline-02]({{ site.imagesposts2022 }}/11/immutable-offline-02.png){: .align-center}
+
+![immutable-offline-03]({{ site.imagesposts2022 }}/11/immutable-offline-03.png){: .align-center}
 
 En caso de recibir algún error, recordaros que los logs de Veeam se guardan aquí:
 `C:\ProgramData\Veeam\Backup\Jobname\Job.Jobname.log`
