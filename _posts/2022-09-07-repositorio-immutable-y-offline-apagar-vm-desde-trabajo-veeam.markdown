@@ -23,24 +23,24 @@ Vamos al lio ;-)
 
 El script lo podreis encontrar [aquí](https://raw.githubusercontent.com/miquelMariano/vSphere-PowerCLI/master/start-stop-vm/start-stop-vm.ps1) y es muy fácil de utilizar, simplemente pasando por parámetro ciertas variables nos servirá para encender o apagar cualquier VM.
 
-Por ejemplo:
+Para usarlo, seria por ejemplo:
 ```
-.\start-stop-vm.ps1 -vCenter "172.16.99.111" -vCenteruser "administrator@vsphere.local" -vm "HB-VeeamImmutable-Semanal-OF"  -status "off"
-.\start-stop-vm.ps1 -vCenter "172.16.99.111" -vCenteruser "administrator@vsphere.local" -vm "HB-VeeamImmutable-Semanal-OF"  -status "on"
+.\start-stop-vm.ps1 -vCenter "10.0.0.100" -vCenteruser "administrator@vsphere.local" -vm "VeeamImmutable-Semanal-OF"  -status "off"
+.\start-stop-vm.ps1 -vCenter "10.0.0.100" -vCenteruser "administrator@vsphere.local" -vm "VeeamImmutable-Semanal-OF"  -status "on"
 ```
 
-
-Simplemente editaremos nuestros backups con destino al repositorio immutable y configuraremos el script tanto antes como después del procesamiento del job.
+Para configurar la parte Veeam, simplemente editaremos nuestros backups con destino al repositorio immutable y configuraremos el script tanto antes como después del procesamiento del job.
 
 ![immutable-offline-01]({{ site.imagesposts2022 }}/11/immutable-offline-01.png){: .align-center}
 
-`"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '172.16.99.111' -vCenteruser 'administrator@vsphere.local' -vm 'HB-VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"
+Cabe comentar que veeam por defecto usa powershell 5 y por lo tanto será necesario indicar en la configuración que utilice powershell 7
+{: .alert .alert-info .text-justify}
 
 Antes:
-`C:\scripts\start-stop-vm.ps1 -vCenter "192.168.33.90" -vCenteruser "veeam_user@vsphere.local" -vm "SRVIMMUTABLE01"  -status "on"`
+`"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"`
 
 Después
-`C:\scripts\start-stop-vm.ps1 -vCenter "192.168.33.90" -vCenteruser "veam_user@vsphere.local" -vm "SRVIMMUTABLE01"  -status "off"`
+`"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"`
 
 Y ya con esto, podremos ver en los logs como se ejecuta el script y nos arranca/apaga la VM que tiene el repositorio immutable
 
