@@ -36,10 +36,12 @@ Para configurar la parte Veeam, simplemente editaremos nuestros backups con dest
 Cabe comentar que veeam por defecto usa powershell 5 y, por lo tanto, será necesario indicar en la configuración que utilice powershell 7
 
 Antes:
-`"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"`
+```"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"
+```
 
 Después
-`"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"`
+```"C:\Program Files\PowerShell\7\pwsh.exe" -ExecutionPolicy ByPass -Command " & c:\encora\scripts\start-stop-vm.ps1 -vCenter '10.0.0.100' -vCenteruser 'administrator@vsphere.local' -vm 'VeeamImmutable-Semanal-OF'  -status 'on' -ErrorAction Stop"
+```
 
 Ya con esto, podremos ver en los logs y en el vCenter como se ejecuta el script y nos arranca/apaga la VM que tiene el repositorio immutable
 
