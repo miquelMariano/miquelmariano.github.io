@@ -83,7 +83,7 @@ Finalmente, es probable que tengamos que configurar PowerCLI para que ignore los
 
 
 ```powershell
-Set-PowerCLIConfiguration -InvalidCertificateAction:Ignore
+Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false
 ```
 
 Y si ha ido todo bien, con el comando `connect-viserver <vcenter-ip>` ya nos podremos conectar a nuestro entorno.
