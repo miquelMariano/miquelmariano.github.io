@@ -35,8 +35,6 @@ El presente documento pretende servir de guía para la configuración y posterio
 
 ##### Lo primero que se tiene que actualizar es el VM Hardware, seleccionando el "actualizar para coincidir con el host" veremos las opciones disponibles
 
-#### Añadimos los correspondientes Baseline a los objetos seleccionados
-
 ![lc3]({{ site.imagesposts2023 }}/01/lifecycle03.png)
 
 #### En el caso de querer actualizar el componente de inmediato, seleccionaremos actualizar para coincidir con el host
