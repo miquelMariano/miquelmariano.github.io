@@ -1,5 +1,5 @@
 ---
-title: Back-to-basics 11 - Actualización HW virtual y VMWare Tools con LifeCycle Manager
+title: Back-to-basics 12 - Actualización HW virtual y VMWare Tools con LifeCycle Manager
 date: '2023-01-19 00:00:00'
 layout: post
 image: /assets/images/posts/2017/10/updatemanager.png
