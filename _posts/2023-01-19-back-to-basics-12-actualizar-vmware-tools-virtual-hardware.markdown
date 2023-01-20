@@ -15,7 +15,7 @@ tag:
 - backtobasics
 ---
 
-Buenos dias a tod@as!!!
+Buenos dias a tod@as!!
 
 Hoy traigo una pequeña actualización al post [Actualización HW virtual y VMWare Tools con vSphere Update Manager](https://miquelmariano.github.io/2017/12/13/update-manager/) que tanto se ha usado en los últimos años. Lo hemos adaptándolo a las nuevas versiones de vSphere, cliente HTML5, cambio de nomenclatura a LifeCycle Manager, etc etc y de paso, incluirlo en la serie [back to basics](https://miquelmariano.github.io/tag/#/backtobasics), que hacia tiempo que no actualizaba ;-)
 
