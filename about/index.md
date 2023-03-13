@@ -37,7 +37,9 @@ y [Cohesity](https://www.credly.com/badges/df339812-ee00-4d29-936e-cb7e904fee86?
 
 ![hds]({{ site.url }}/{{ site.images }}/HitachiVantara_Qualified_Professional_Installation_2020.png){: .align-center}
 
-![Cohesity-Accreditation-Badges_Installation]({{ site.url }}/{{ site.images }}/logo-Cohesity-Accreditation-Badges_Installation_150dpi.png){: .align-center}
+![Cohesity-Accreditation-Badges_Installation]({{ site.url }}/{{ site.images }}/logo-Cohesity-Accreditation-Badges_Installation_150dpi.png){: .align-center} | ![Cohesity-Accreditation-Badges_Installation]({{ site.url }}/{{ site.images }}/logo-Cohesity-Accreditation-Badges_Data_Protection_Implementation_150dpi.png){: .align-center} 
+
+
 
 Podréis consultar mas información en mi perfil completo de [LinkedIN](https://www.linkedin.com/in/miquelmariano/)
 
