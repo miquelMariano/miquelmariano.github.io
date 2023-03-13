@@ -22,7 +22,7 @@ En lo profesional, cuento con mas de 15 años de experiencia en el ámbito de si
 - Automatización con Ansible, scripting con PowerCLI, bash, …
 - Monitorización con PRTG Network Monitor
 
-He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https://www.certmetrics.com/vmware/public/transcript.aspx?transcript=H66R1JVC114EQYC8) y en estos últimos 7 años, VMWare me ha nombrado [vExpert](https://vexpert.vmware.com/directory/753)
+He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https://www.certmetrics.com/vmware/public/transcript.aspx?transcript=H66R1JVC114EQYC8) y en estos últimos 8 años, VMWare me ha nombrado [vExpert](https://vexpert.vmware.com/directory/753)
 
 ![vcap6-deploy]({{ site.url }}/{{ site.images }}/logo_vcap6_deploy.png){: .align-center}{:height="50%" width="50%"} | ![vcap6-design]({{ site.url }}/{{ site.images }}/logo_vcap6_design.png){: .align-center}{:height="50%" width="50%"}
 
@@ -30,15 +30,18 @@ He tenido la suerte de poder sacarme algunas [certificaciones de VMWare](https:/
 
 ![vExpert6]({{ site.url }}/{{ site.images }}/logo_vexpert_6.png){: .align-center}{:height="50%" width="50%"} | ![vExpert2021]({{ site.url }}/{{ site.images }}/logo_vexpert_2021.png){: .align-center}{:height="50%" width="50%"} | ![vExpertEUC2021]({{ site.url }}/{{ site.images }}/logo_vexperteuc_2021.png){: .align-center}{:height="50%" width="50%"}
 
-También poseo algunas de las [certificaciones profesionales de Hitachi Vantara.](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS)
-y [Cohesity](https://www.credly.com/badges/df339812-ee00-4d29-936e-cb7e904fee86?source=linked_in_profile)
+Poseo algunas de las [certificaciones profesionales de Hitachi Vantara.](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS)
 
 ![content]({{ site.url }}/{{ site.images }}/logo_hds_content.png){: .align-center} | ![vspg]({{ site.url }}/{{ site.images }}/logo_hds_vspg.png){: .align-center} | ![vspg_2020]({{ site.url }}/{{ site.images }}/logo_hds_vspg_2020.png){: .align-center}
 
 ![hds]({{ site.url }}/{{ site.images }}/HitachiVantara_Qualified_Professional_Installation_2020.png){: .align-center}
 
-![Cohesity-Accreditation-Badges_Installation]({{ site.url }}/{{ site.images }}/logo-Cohesity-Accreditation-Badges_Installation_150dpi.png){: .align-center} | ![Cohesity-Accreditation-Badges_Installation]({{ site.url }}/{{ site.images }}/logo-Cohesity-Accreditation-Badges_Data_Protection_Implementation_150dpi.png){: .align-center} 
+Y también algunas certificaciones de Cohesity:
 
+-  [Installation Professional](https://www.credly.com/badges/df339812-ee00-4d29-936e-cb7e904fee86)
+-  [Data Protect Inplementation Professional](https://www.credly.com/badges/379b3d0b-7213-4300-9302-f2502c242d69)
+
+![Cohesity-Accreditation-Badges_Installation]({{ site.url }}/{{ site.images }}/logo-Cohesity-Accreditation-Badges_Installation_150dpi.png){: .align-center} | ![Cohesity-Accreditation-Badges_Installation]({{ site.url }}/{{ site.images }}/logo-Cohesity-Accreditation-Badges_Data_Protection_Implementation_150dpi.png){: .align-center} 
 
 
 Podréis consultar mas información en mi perfil completo de [LinkedIN](https://www.linkedin.com/in/miquelmariano/)
