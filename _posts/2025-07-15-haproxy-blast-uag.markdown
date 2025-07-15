@@ -1,0 +1,20 @@
+---
+title: Configuración HAproxy para balancear sesiones Blast a los UAG
+date: '2025-07-15 00:00:00'
+layout: post
+image: /assets/images/posts/2018/12/ssh-banner.jpg
+tag:
+- euc
+- vmware
+- vexpert
+- haproxy
+- pothonos
+- keepalived
+- haproxy
+- loadbalancer
+- ha
+---
+
+- [Part 1: VMware Horizon/AppVolumes Load Balancer con HAProxy y Keepalived sobre PhotonOS](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/)
+- [Part 2: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](https://miquelmariano.github.io/2021/12/21/vmware-horizon-load-balancer-haproxy-avanzado/)
+- [Part 3: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](hhttps://miquelmariano.github.io/2025/07/15/haproxy-blast-uag/)
