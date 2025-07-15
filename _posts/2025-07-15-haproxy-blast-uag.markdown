@@ -21,4 +21,4 @@ tag:
 
 Para que mentalmente os podais hacer una idea de lo que vamos a hacer, os dejo con el siguiente esquema:
 
-![Horizon8-architecture-design-v2]({{ site.imagesposts2025 }}/07/Horizon8-Architecture-design.png){: .align-center}
+![Horizon8-architecture-design-v2]({{ site.imagesposts2025 }}/07/Horizon8-Architecture-design-v2.png){: .align-center}
