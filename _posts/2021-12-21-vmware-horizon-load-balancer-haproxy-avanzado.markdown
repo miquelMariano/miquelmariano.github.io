@@ -10,7 +10,6 @@ tag:
 - haproxy
 - pothonos
 - keepalived
-- haproxy
 - loadbalancer
 - ha
 ---
