@@ -17,7 +17,7 @@ tag:
 
 - [Part 1: VMware Horizon/AppVolumes Load Balancer con HAProxy y Keepalived sobre PhotonOS](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/)
 - [Part 2: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](https://miquelmariano.github.io/2021/12/21/vmware-horizon-load-balancer-haproxy-avanzado/)
-- [Part 3: Configuración HAproxy para balancear sesiones Blast a los UAG](hhttps://miquelmariano.github.io/2025/07/15/haproxy-blast-uag/)
+- [Part 3: Configuración HAproxy para balancear sesiones Blast a los UAG](https://miquelmariano.github.io/2025/07/15/haproxy-blast-uag/)
 
 Tiempo atrás [escribí una entrada](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/) en la que hablaba sobre balancear nuestros servicios de Horizon Connection Server y App Volumes con HAProxy y Keepalived sobre una VM Photon OS.
 
