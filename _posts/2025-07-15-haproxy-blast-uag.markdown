@@ -191,7 +191,8 @@ backend uag-backend-8443
 
 Con todo esto, nuestro portal de estadísticas mostrará algo simila a esto:
 
-
 ![haproxy]({{ site.imagesposts2025 }}/07/haproxy.png){: .align-center}
 
+Un saludo!
 
+Miquel.
