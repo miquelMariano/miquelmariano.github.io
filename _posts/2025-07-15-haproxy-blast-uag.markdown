@@ -26,6 +26,8 @@ En este diseño, la cosa se complica, ya que no solo interviene el puerto 443 pa
 
 Antes de nada, os recomiendo encarecidamente que os paseis por [post oficial](https://techzone.omnissa.com/resource/understand-and-troubleshoot-horizon-connections#internal-connections) en donde se explican los conceptos básicos de cómo funciona horizon.
 
+En [este otro post](https://thevirtualhorizon.com/2024/06/17/omnissa-horizon-load-balancing-overview/) también he encontrado teoria muy valiosa para terminar de configurar todo
+
 Lo primero que deberemos entender es que el flujo de conexión a Horizon lo componen:
 
 - Protocolo primario: Básicamente el que nos permite la autenticación a nuestro entorno Horizon y la asignación del escritorio
