@@ -31,13 +31,15 @@ Lo primero que deberemos entender es que el flujo de conexión a Horizon lo comp
 - Protocolo primario: Básicamente el que nos permite la autenticación a nuestro entorno Horizon y la asignación del escritorio
 - Protocolo secundario: Ahí entra en juego el protocolo de visualización. Blast o PCoIP
 
-![Protocolo-primario-secundario]({{ site.imagesposts2025 }}/07/protocolo-primario-secundario.png){: .align-center}
+![Protocolo-primario-secundario]({{ site.imagesposts2025 }}/07/protocolo-primario-secundario1.png){: .align-center}
 
 Entendiendo esto, es básico que nuestro balanceador redirija todas las peticiones de la misma sesión al mismo backend, ya que de lo contrario los UAGs cortarán la conexión.
 
 En el siguiente diagrama se ve todo algo mas visual:
 
-![diagrama-conexion-externa]({{ site.imagesposts2025 }}/07/diagrama-conexion-externa.png){: .align-center}
+![diagrama-conexion-externa]({{ site.imagesposts2025 }}/07/diagrama-conexion-externa1.png){: .align-center}
+
+
 
 
 
