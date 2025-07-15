@@ -77,6 +77,12 @@ COMMIT
 ```
 Con esta parte lista, nos iremos ya a la configuración de HAproxy > `/etc/haproxy/haproxy-original.cfg`
 
+Recordar que la configuración debe ser idéntica en ambos nodos y que los cambios surtirán efecto tras el reinicio del servicio:
+
+```ssh
+systemctl start haproxy
+```
+
 > **_NOTA:_** Añadimos la pareja de servidores HAProxy para mantener la tabla de persistencia entre los nodos del cluster
 
 ```ssh
