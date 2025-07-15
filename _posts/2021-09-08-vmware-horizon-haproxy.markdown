@@ -112,15 +112,16 @@ net.ipv4.ip_nonlocal_bind = 1
 
 Finalmente, necesitaremos configurar iptables para permitir el acceso http/https. `/etc/systemd/scripts/ip4save`
 
-> **_NOTA:_** Añadiremos también el puerto 8404 para configurar el acceso al portal de estadísticas de HAProxy. Lo veremos mas adelante.
+> **_NOTA:_** Añadiremos también el puerto 8404 para configurar el acceso al portal de estadísticas de HAProxy. Lo veremos mas adelante. También el puerto 8443 por si a futuro queremos balancear el protocolo de visualización Blast
 
-Añadiremos estas 4 lineas:
+Añadiremos estas 5 lineas:
 
 ```ssh
 -A INPUT -p icmp -m icmp --icmp-type 8 -j ACCEPT
 -A INPUT -p tcp --dport 80 -j ACCEPT
 -A INPUT -p tcp --dport 443 -j ACCEPT
 -A INPUT -p tcp --dport 8404 -j ACCEPT
+-A INPUT -p tcp --dport 8443 -j ACCEPT
 ```
 
 Quedando un fichero similar a este:
@@ -141,6 +142,7 @@ Quedando un fichero similar a este:
 -A INPUT -p tcp --dport 80 -j ACCEPT
 -A INPUT -p tcp --dport 443 -j ACCEPT
 -A INPUT -p tcp --dport 8404 -j ACCEPT
+-A INPUT -p tcp --dport 8443 -j ACCEPT
 -A OUTPUT -j ACCEPT
 COMMIT
 ```
