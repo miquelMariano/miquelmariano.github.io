@@ -54,10 +54,7 @@ El corazón tecnológico del hipervisor HPE VME dentro de VM Essentials es KVM
 
 KVM es una tecnología de virtualización de código abierto integrada en el kernel de Linux. Transforma un host Linux en un hipervisor, permitiendo que múltiples sistemas operativos (VMs) se ejecuten de forma segura.
 
-**HVM hypervisor** 
-En el contexto de Morpheus, y por extensión del hipervisor HPE VME, se utiliza el término HVM Cluster. 
-
-HVM es hipervisor que simula todo el hardware necesario para el sistema operativo invitado. Morpheus VM Essentials le añade la capa de gestión empresarial necesaria:
+**HVM** es hipervisor que simula todo el hardware necesario para el sistema operativo invitado. Morpheus VM Essentials le añade la capa de gestión empresarial necesaria:
   - **Alta Disponibilidad (HA)**: Reinicio automático de VMs en otros hosts en caso de fallo.
   - **Migración en Vivo***: Traslado de VMs entre hosts sin tiempo de inactividad.
   - **Colocación de Cargas de Trabajo Distribuidas**: Equilibrio de recursos a nivel de clúster.
