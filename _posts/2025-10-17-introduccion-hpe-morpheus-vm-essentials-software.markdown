@@ -94,6 +94,8 @@ Ofrece a las empresas un camino hacia la eficiencia de costes, la flexibilidad t
 
 En [Encora](https://encora.es/) somos especialistas en virtualización y servicios IT de calidad. Si quieres saber mas sobre VM Essentials [contáctanos](https://encora.es/hablamos/) y charlamos ;-)
 
+![logo_encora](https://encora.es/wp-content/uploads/elementor/thumbs/Isologo-Encora-Azul-qnmtbwtv9jkegh1meyoybyq78g5zf2vo4c5wyvfpr4.png){: .align-center}
+
 Un saludo
 
 Miquel.
