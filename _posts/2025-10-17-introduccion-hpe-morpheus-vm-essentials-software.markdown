@@ -29,10 +29,6 @@ Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Esse
 - [Parte 9 - Migración de VMs desde vSphere](https://miquelmariano.github.io)
 - [Parte 10 - Comandos útiles](https://miquelmariano.github.io)
 
-
-![HPE_Morpheus_VM_Essentials_01]({{ site.imagesposts2025 }}/10/hpe_morpheus_01.jpg){: .align-center}
-
-
 # Introducción a Morpheus y VM Essentials: La Adquisición Estratégica de HPE
 Morpheus Data fue, antes de su adquisición, un galardonado líder en el sector de la Orquestación de Nube Privada e Híbrida (Cloud Management Platform o CMP). Su plataforma permitía a las empresas transformar infraestructuras de virtualización existentes, como VMware y KVM, en verdaderas nubes privadas con capacidades de autoservicio y automatización.
 
@@ -44,6 +40,8 @@ HPE Morpheus VM Essentials es una solución de software de virtualización dise�
   1. HPE VME Hypervisor (basado en KVM): Un hipervisor propio que incluye gestión de clústeres de nivel empresarial, alta disponibilidad, migración en vivo y protección de datos.
   2. Capacidades de Gestión de Morpheus: Permite a los clientes aprovisionar y gestionar máquinas virtuales (VM) en su propio hipervisor HPE VME y en clústeres VMware ESXi™ existentes desde una única interfaz intuitiva.
 Esta dualidad es clave: no solo proporciona una nueva pila de virtualización con el hipervisor VME, sino que también ofrece una capa de gestión unificada, facilitando la transición y la operación multi-hipervisor.
+
+![HPE_Morpheus_VM_Essentials_01]({{ site.imagesposts2025 }}/10/hpe_morpheus_01.jpg){: .align-center}
 
 # Tecnología KVM y la Virtualización HVM
 El corazón tecnológico del hipervisor HPE VME dentro de VM Essentials es KVM 
