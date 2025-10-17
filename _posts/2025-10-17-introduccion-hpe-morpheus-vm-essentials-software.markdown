@@ -30,33 +30,38 @@ Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Esse
 - [Parte 10 - Comandos útiles](https://miquelmariano.github.io)
 
 # Introducción a Morpheus y VM Essentials: La Adquisición Estratégica de HPE
-Morpheus Data fue, antes de su adquisición, un galardonado líder en el sector de la Orquestación de Nube Privada e Híbrida (Cloud Management Platform o CMP). Su plataforma permitía a las empresas transformar infraestructuras de virtualización existentes, como VMware y KVM, en verdaderas nubes privadas con capacidades de autoservicio y automatización.
 
-*La Compra de Morpheus por Parte de HPE*
-En un movimiento estratégico para reforzar su portafolio de CloudOps, HPE adquirió Morpheus Data (el acuerdo se anunció alrededor de agosto de 2024).
+Morpheus Data fue, antes de su adquisición, un galardonado líder en el sector de la orquestación de nube privada e híbrida. Su plataforma permitía a las empresas transformar infraestructuras de virtualización existentes, como VMware y KVM, en verdaderas nubes privadas con capacidades de autoservicio y automatización.
+
+**La Compra de Morpheus por Parte de HPE**
+
+En un movimiento estratégico para reforzar su portafolio de CloudOps, HPE adquirió Morpheus Data (el acuerdo se anunció en agosto de 2024).
+
 La tecnología de Morpheus se ha convertido en la piedra angular de la nueva suite de software de HPE, que incluye HPE Morpheus Enterprise Software (para una gestión integral de la nube) y, de forma más específica para la virtualización, HPE Morpheus VM Essentials Software.
 
-HPE Morpheus VM Essentials es una solución de software de virtualización diseñada para ofrecer a los clientes una alternativa de bajo coste y sin lock-in (dependencia de proveedor) a las soluciones de virtualización tradicionales. Esta solución combina:
-  1. HPE VME Hypervisor (basado en KVM): Un hipervisor propio que incluye gestión de clústeres de nivel empresarial, alta disponibilidad, migración en vivo y protección de datos.
-  2. Capacidades de Gestión de Morpheus: Permite a los clientes aprovisionar y gestionar máquinas virtuales (VM) en su propio hipervisor HPE VME y en clústeres VMware ESXi™ existentes desde una única interfaz intuitiva.
+**HPE Morpheus VM Essentials** es una solución de software de virtualización diseñada para ofrecer a los clientes una alternativa de bajo coste y sin lock-in (dependencia de proveedor) a las soluciones de virtualización tradicionales. Esta solución combina:
+  - HPE VME Hypervisor (basado en KVM): Un hipervisor propio que incluye gestión de clústeres de nivel enterprise, alta disponibilidad, migración en vivo y protección de datos.
+  -  Capacidades de Gestión de Morpheus: Permite a los clientes aprovisionar y gestionar máquinas virtuales en su propio hipervisor HPE VME y en clústeres VMware ESXi™ existentes desde una única interfaz intuitiva.
+
 Esta dualidad es clave: no solo proporciona una nueva pila de virtualización con el hipervisor VME, sino que también ofrece una capa de gestión unificada, facilitando la transición y la operación multi-hipervisor.
 
 ![HPE_Morpheus_VM_Essentials_01]({{ site.imagesposts2025 }}/10/hpe_morpheus_01.jpg){: .align-center}
 
 # Tecnología KVM y la Virtualización HVM
+
 El corazón tecnológico del hipervisor HPE VME dentro de VM Essentials es KVM 
 
 KVM es una tecnología de virtualización de código abierto integrada en el kernel de Linux. Transforma un host Linux en un hipervisor, permitiendo que múltiples sistemas operativos (VMs) se ejecuten de forma segura.
 
-HVM hypervisor 
+**HVM hypervisor** 
+
 En el contexto de Morpheus, y por extensión del hipervisor HPE VME, se utiliza el término HVM Cluster. 
 
 HVM es hipervisor que simula todo el hardware necesario para el sistema operativo invitado. Morpheus VM Essentials le añade la capa de gestión empresarial necesaria:
-  • Alta Disponibilidad (HA): Reinicio automático de VMs en otros hosts en caso de fallo.
-  • Migración en Vivo: Traslado de VMs entre hosts sin tiempo de inactividad.
-  • Colocación de Cargas de Trabajo Distribuidas: Equilibrio de recursos a nivel de clúster.
+  - Alta Disponibilidad (HA): Reinicio automático de VMs en otros hosts en caso de fallo.
+  - Migración en Vivo: Traslado de VMs entre hosts sin tiempo de inactividad.
+  - Colocación de Cargas de Trabajo Distribuidas: Equilibrio de recursos a nivel de clúster.
 Al adoptar KVM y empaquetarlo con Morpheus, HPE ofrece una alternativa robusta, agnóstica y open-source que reduce drásticamente los costes de licencia.
-
 
 ![HPE_Morpheus_VM_Essentials_02]({{ site.imagesposts2025 }}/10/hpe_morpheus_02.jpg){: .align-center}
 
@@ -64,12 +69,11 @@ Al adoptar KVM y empaquetarlo con Morpheus, HPE ofrece una alternativa robusta, 
 HPE Morpheus VM Essentials se posiciona directamente en el segmento de mercado de Virtualización Empresarial y Gestión de la Nube Privada e Híbrida.
 
 El enfoque principal de VM Essentials es proporcionar una alternativa viable y rentable a la virtualización tradicional, especialmente para aquellas organizaciones que buscan:
-  • Reducir los costes de licencia de máquinas virtuales, que se han disparado en los últimos años.
-  • Eliminar la dependencia (vendor lock-in) de un único proveedor de hipervisor.
-  • Simplificar la gestión a través de una única interfaz que abarque tanto los hosts KVM (VME) como los hosts VMware.
-  • Modernizar la infraestructura de nube privada con capacidades de autoservicio as-a-service.
+  - Reducir los costes de licencia de máquinas virtuales, que se han disparado en los últimos años.
+  - Eliminar la dependencia (vendor lock-in) de un único proveedor de hipervisor.
+  - Simplificar la gestión a través de una única interfaz que abarque tanto los hosts KVM (VME) como los hosts VMware.
+  - Modernizar la infraestructura de nube privada con capacidades de autoservicio as-a-service.
 VM Essentials es particularmente atractivo para las medianas y grandes empresas que tienen una inversión significativa en VMware pero están evaluando una estrategia de migración gradual o de entornos multi-hipervisor para obtener mayor eficiencia financiera y operativa. 
-
 
 ![HPE_Morpheus_VM_Essentials_03]({{ site.imagesposts2025 }}/10/hpe_morpheus_03.jpg){: .align-center}
 
@@ -79,8 +83,8 @@ La adquisición de Morpheus Data y el lanzamiento de VM Essentials se entiende m
 Tras la compra, Broadcom modificó significativamente el modelo de licenciamiento de VMware, a menudo resultando en un aumento drástico de los costes para muchos clientes empresariales. Este cambio ha generado una fuerte insatisfacción y ha impulsado a las organizaciones a buscar activamente alternativas para sus cargas de trabajo virtualizadas.
 
 HPE ha capitalizado directamente esta situación. Morpheus VM Essentials se presenta como una solución para la migración y la coexistencia que permite a los clientes:
-  1. Reducir el TCO: HPE afirma que su solución puede reducir los costes de licencia de VM hasta en un 90% y el Coste Total de Propiedad (Total Cost of Ownership - TCO) hasta 2,5 veces en comparación con otras soluciones.
-  2. Ofrecer un Camino de Salida (y de Convivencia): Al ser una plataforma de gestión unificada, permite a los clientes seguir utilizando sus clústeres VMware existentes mientras introducen gradualmente el hipervisor HPE VME para nuevas cargas de trabajo o migran las existentes, eliminando el riesgo de una migración abrupta y total.
+  - Reducir el TCO: HPE afirma que su solución puede reducir los costes de licencia de VM hasta en un 90% y el Coste Total de Propiedad (Total Cost of Ownership - TCO) hasta 2,5 veces en comparación con otras soluciones.
+  - Ofrecer un Camino de Salida (y de Convivencia): Al ser una plataforma de gestión unificada, permite a los clientes seguir utilizando sus clústeres VMware existentes mientras introducen gradualmente el hipervisor HPE VME para nuevas cargas de trabajo o migran las existentes, eliminando el riesgo de una migración abrupta y total.
 
 En esencia, HPE Morpheus VM Essentials es la respuesta estratégica y agresiva de HPE al monopolio histórico de VMware en el mercado de virtualización. Representa un desafío directo a Broadcom al ofrecer una arquitectura abierta y una pila de virtualización basada en KVM con un motor de gestión cloud maduro (Morpheus), todo ello con un modelo de costes diseñado para el ahorro.
 
