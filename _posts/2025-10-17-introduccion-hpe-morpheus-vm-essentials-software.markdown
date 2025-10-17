@@ -42,7 +42,7 @@ La tecnología de Morpheus se ha convertido en la piedra angular de la nueva sui
 
 **HPE Morpheus VM Essentials** es una solución de software de virtualización diseñada para ofrecer a los clientes una alternativa de bajo coste y sin lock-in (dependencia de proveedor) a las soluciones de virtualización tradicionales. Esta solución combina:
   - **HPE VME Hypervisor (basado en KVM)**: Un hipervisor propio que incluye gestión de clústeres de nivel enterprise, alta disponibilidad, migración en vivo y protección de datos.
-  - **Capacidades de Gestión de Morpheus**: Permite a los clientes aprovisionar y gestionar máquinas virtuales en su propio hipervisor HPE VME y en clústeres VMware ESXi™ existentes desde una única interfaz intuitiva.
+  - **Capacidades de Gestión de Morpheus**: Permite a los clientes aprovisionar y gestionar máquinas virtuales en su propio hipervisor HPE VME y en clústeres VMware ESXi existentes desde una única interfaz intuitiva.
 
 Esta dualidad es clave: no solo proporciona una nueva pila de virtualización con el hipervisor VME, sino que también ofrece una capa de gestión unificada, facilitando la transición y la operación multi-hipervisor.
 
