@@ -1,5 +1,5 @@
 ---
-title: Part 1 - Introducción Morpheus VM Essentials
+title: Part 1 - Introducción a HPE Morpheus VM Essentials software
 date: '2025-07-15 00:00:00'
 layout: post
 published: true
@@ -13,12 +13,11 @@ tag:
 - ha
 ---
 
-#HPE Morpheus VM Essentials: La Alternativa de Virtualización y Gestión Híbrida de HPE
+# HPE Morpheus VM Essentials: La Alternativa de Virtualización y Gestión Híbrida de HPE
 
 En el cambiante panorama de las infraestructuras virtuales, las organizaciones buscan constantemente soluciones que ofrezcan flexibilidad, control de costes y agilidad. HPE ha respondido a esta demanda con el lanzamiento de HPE Morpheus VM Essentials Software, una solución de virtualización y gestión unificada que ha surgido como una alternativa estratégica en un mercado dominado en los últimos años por Vmware (ahora Broadcom). Esta oferta es el resultado de una importante adquisición que ha redefinido la propuesta de nube privada de HPE.
 
 Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Essentials. Es por eso que me he decidido a publicar una serie de posts e intentar explorar todas las posibilidades que nos ofrece.
-
 
 - [Parte 1 - Introducción a Morpheus VM Essentials](https://miquelmariano.github.io)
 - [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io)
@@ -35,192 +34,58 @@ Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Esse
 ![HPE_Morpheus_VM_Essentials_01]({{ site.imagesposts2025 }}/10/hpe_morpheus_01.jpg){: .align-center}
 
 
+# Introducción a Morpheus y VM Essentials: La Adquisición Estratégica de HPE
+Morpheus Data fue, antes de su adquisición, un galardonado líder en el sector de la Orquestación de Nube Privada e Híbrida (Cloud Management Platform o CMP). Su plataforma permitía a las empresas transformar infraestructuras de virtualización existentes, como VMware y KVM, en verdaderas nubes privadas con capacidades de autoservicio y automatización.
 
+*La Compra de Morpheus por Parte de HPE*
+En un movimiento estratégico para reforzar su portafolio de CloudOps, HPE adquirió Morpheus Data (el acuerdo se anunció alrededor de agosto de 2024).
+La tecnología de Morpheus se ha convertido en la piedra angular de la nueva suite de software de HPE, que incluye HPE Morpheus Enterprise Software (para una gestión integral de la nube) y, de forma más específica para la virtualización, HPE Morpheus VM Essentials Software.
+
+HPE Morpheus VM Essentials es una solución de software de virtualización diseñada para ofrecer a los clientes una alternativa de bajo coste y sin lock-in (dependencia de proveedor) a las soluciones de virtualización tradicionales. Esta solución combina:
+  1. HPE VME Hypervisor (basado en KVM): Un hipervisor propio que incluye gestión de clústeres de nivel empresarial, alta disponibilidad, migración en vivo y protección de datos.
+  2. Capacidades de Gestión de Morpheus: Permite a los clientes aprovisionar y gestionar máquinas virtuales (VM) en su propio hipervisor HPE VME y en clústeres VMware ESXi™ existentes desde una única interfaz intuitiva.
+Esta dualidad es clave: no solo proporciona una nueva pila de virtualización con el hipervisor VME, sino que también ofrece una capa de gestión unificada, facilitando la transición y la operación multi-hipervisor.
+
+# Tecnología KVM y la Virtualización HVM
+El corazón tecnológico del hipervisor HPE VME dentro de VM Essentials es KVM 
+
+KVM es una tecnología de virtualización de código abierto integrada en el kernel de Linux. Transforma un host Linux en un hipervisor, permitiendo que múltiples sistemas operativos (VMs) se ejecuten de forma segura.
+
+HVM hypervisor 
+En el contexto de Morpheus, y por extensión del hipervisor HPE VME, se utiliza el término HVM Cluster. 
+
+HVM es hipervisor que simula todo el hardware necesario para el sistema operativo invitado. Morpheus VM Essentials le añade la capa de gestión empresarial necesaria:
+  • Alta Disponibilidad (HA): Reinicio automático de VMs en otros hosts en caso de fallo.
+  • Migración en Vivo: Traslado de VMs entre hosts sin tiempo de inactividad.
+  • Colocación de Cargas de Trabajo Distribuidas: Equilibrio de recursos a nivel de clúster.
+Al adoptar KVM y empaquetarlo con Morpheus, HPE ofrece una alternativa robusta, agnóstica y open-source que reduce drásticamente los costes de licencia.
 
 
 ![HPE_Morpheus_VM_Essentials_02]({{ site.imagesposts2025 }}/10/hpe_morpheus_02.jpg){: .align-center}
+
+# Segmento de Mercado y la Lucha por la Nube Privada
+HPE Morpheus VM Essentials se posiciona directamente en el segmento de mercado de Virtualización Empresarial y Gestión de la Nube Privada e Híbrida.
+
+El enfoque principal de VM Essentials es proporcionar una alternativa viable y rentable a la virtualización tradicional, especialmente para aquellas organizaciones que buscan:
+  • Reducir los costes de licencia de máquinas virtuales, que se han disparado en los últimos años.
+  • Eliminar la dependencia (vendor lock-in) de un único proveedor de hipervisor.
+  • Simplificar la gestión a través de una única interfaz que abarque tanto los hosts KVM (VME) como los hosts VMware.
+  • Modernizar la infraestructura de nube privada con capacidades de autoservicio as-a-service.
+VM Essentials es particularmente atractivo para las medianas y grandes empresas que tienen una inversión significativa en VMware pero están evaluando una estrategia de migración gradual o de entornos multi-hipervisor para obtener mayor eficiencia financiera y operativa. 
+
+
 ![HPE_Morpheus_VM_Essentials_03]({{ site.imagesposts2025 }}/10/hpe_morpheus_03.jpg){: .align-center}
 
+# Competencia con Broadcom (VMware)
+La adquisición de Morpheus Data y el lanzamiento de VM Essentials se entiende mejor en el contexto de la adquisición de VMware por parte de Broadcom y los subsiguientes cambios en su modelo de licencia y precios.
 
-- [Part 1: VMware Horizon/AppVolumes Load Balancer con HAProxy y Keepalived sobre PhotonOS](https://miquelmariano.github.io)
-- [Part 2: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](https://miquelmariano.github.io/2021/12/21/vmware-horizon-load-balancer-haproxy-avanzado/)
-- [Part 3: Configuración HAproxy para balancear sesiones Blast a los UAG](https://miquelmariano.github.io/2025/07/15/haproxy-blast-uag/)
+Tras la compra, Broadcom modificó significativamente el modelo de licenciamiento de VMware, a menudo resultando en un aumento drástico de los costes para muchos clientes empresariales. Este cambio ha generado una fuerte insatisfacción y ha impulsado a las organizaciones a buscar activamente alternativas para sus cargas de trabajo virtualizadas.
 
-Siguiendo con la serie de posts sobre [HAproxy](https://miquelmariano.github.io/tag/#/haproxy), hoy quiero centrarme en la parte de balanceo externo pasando por los UAG.
+HPE ha capitalizado directamente esta situación. Morpheus VM Essentials se presenta como una solución para la migración y la coexistencia que permite a los clientes:
+  1. Reducir el TCO: HPE afirma que su solución puede reducir los costes de licencia de VM hasta en un 90% y el Coste Total de Propiedad (Total Cost of Ownership - TCO) hasta 2,5 veces en comparación con otras soluciones.
+  2. Ofrecer un Camino de Salida (y de Convivencia): Al ser una plataforma de gestión unificada, permite a los clientes seguir utilizando sus clústeres VMware existentes mientras introducen gradualmente el hipervisor HPE VME para nuevas cargas de trabajo o migran las existentes, eliminando el riesgo de una migración abrupta y total.
 
-En este diseño, la cosa se complica, ya que no solo interviene el puerto 443 para hacer login, sinó también el protocolo de visualización Blast por el 8443
+En esencia, HPE Morpheus VM Essentials es la respuesta estratégica y agresiva de HPE al monopolio histórico de VMware en el mercado de virtualización. Representa un desafío directo a Broadcom al ofrecer una arquitectura abierta y una pila de virtualización basada en KVM con un motor de gestión cloud maduro (Morpheus), todo ello con un modelo de costes diseñado para el ahorro.
 
-![Horizon8-architecture-design-v2]({{ site.imagesposts2025 }}/07/Horizon8-Architecture-design-v2.png){: .align-center}
-
-Antes de nada, os recomiendo encarecidamente que os paseis por [post oficial](https://techzone.omnissa.com/resource/understand-and-troubleshoot-horizon-connections#internal-connections) en donde se explican los conceptos básicos de cómo funciona horizon.
-
-En [este otro post](https://thevirtualhorizon.com/2024/06/17/omnissa-horizon-load-balancing-overview/) también he encontrado teoria muy valiosa para terminar de configurar todo
-
-Lo primero que deberemos entender es que el flujo de conexión a Horizon lo componen:
-
-- Protocolo primario: Básicamente el que nos permite la autenticación a nuestro entorno Horizon y la asignación del escritorio
-- Protocolo secundario: Ahí entra en juego el protocolo de visualización. Blast o PCoIP
-
-![Protocolo-primario-secundario]({{ site.imagesposts2025 }}/07/protocolo-primario-secundario1.png){: .align-center}
-
-Entendiendo esto, es básico que nuestro balanceador redirija todas las peticiones de la misma sesión al mismo backend, ya que de lo contrario los UAGs cortarán la conexión.
-
-En el siguiente diagrama se ve todo algo mas visual:
-
-![diagrama-conexion-externa]({{ site.imagesposts2025 }}/07/diagrama-conexion-externa1.png){: .align-center}
-
-Vamos allá con la configuración de HAproxy.
-
-El despliegue de PhotonOS lo expliqué ya en [este post](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/)
-
-Lo primero que haremos, será editar nuestro fichero iptables para permitir el acceso por Blast. `/etc/systemd/scripts/ip4save`
-
-Añadiremos la siguiente línea a nuestro fichero:
-
-```ssh
--A INPUT -p tcp --dport 8443 -j ACCEPT
-```
-
-Quedando un fichero similar a este:
-
-```ssh
-# init
-*filter
-:INPUT DROP [0:0]
-:FORWARD DROP [0:0]
-:OUTPUT DROP [0:0]
-# Allow local-only connections
--A INPUT -i lo -j ACCEPT
--A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
-#keep commented till upgrade issues are sorted
-#-A INPUT -j LOG --log-prefix "FIREWALL:INPUT "
--A INPUT -p tcp -m tcp --dport 22 -j ACCEPT
--A INPUT -p icmp -m icmp --icmp-type 8 -j ACCEPT
--A INPUT -p tcp --dport 80 -j ACCEPT
--A INPUT -p tcp --dport 443 -j ACCEPT
--A INPUT -p tcp --dport 8404 -j ACCEPT
--A INPUT -p tcp --dport 8443 -j ACCEPT
--A OUTPUT -j ACCEPT
-COMMIT
-```
-Con esta parte lista, nos iremos ya a la configuración de HAproxy > `/etc/haproxy/haproxy-original.cfg`
-
-Recordar que la configuración debe ser idéntica en ambos nodos y que los cambios surtirán efecto tras el reinicio del servicio:
-
-```ssh
-systemctl start haproxy
-```
-
-> **_NOTA:_** Añadimos la pareja de servidores HAProxy para mantener la tabla de persistencia entre los nodos del cluster
-
-```ssh
-#peers to syncronize stick-tables
-  peers haproxy_cluster
-    peer HAPROXYDMZ01 192.168.195.12:1024
-    peer HAPROXYDMZ02 192.168.195.13:1024
-```
-
-> **_NOTA:_** En el bloque de frontend definiremos unas ACL para poder redirigir el trafico al puerto correspondiente dependiendo del destino.
-
-```ssh
-  #ACLs to identify destination port
-  acl is_443 dst_port 443
-  acl is_8443 dst_port 8443
-
-  #Use specific backend depending destination port
-  use_backend uag-backend-443 if is_443
-  use_backend uag-backend-8443 if is_8443
-```
-
-> **_NOTA:_** En ambos backend, tanto 443 como 8443 definiremos estas 2 lineas lo que nos permitirá la persistencia de las sesiones y que las tablas se sincronicen entre ambos nodos del cluster HAproxy
-
-```ssh
-stick-table type ip size 200k expire 30m peers haproxy_cluster 
-stick on src 
-```
-Finalmente, el fichero completo deberia quedar algo similar a esto:
-
-```ssh
-# HAProxy configuration
-
-#Global definitions
-global
-  chroot /var/lib/haproxy
-  stats socket /var/lib/haproxy/stats
-  daemon
-
-#peers to syncronize stick-tables
-  peers haproxy_cluster
-    peer HAPROXYDMZ01 192.168.195.12:1024
-    peer HAPROXYDMZ02 192.168.195.13:1024
-
-defaults
-  timeout connect 5s
-  timeout client 30s
-  timeout server 30s
-
-### Statistics & Admin configuration ###
-userlist stats-auth
-  group admin   users admin
-  user admin insecure-password LetMeIn
-  group ro users stats
-  user stats insecure-password ReadOnly
-frontend stats-http8404
-  mode http
-  bind *:8404
-  default_backend statistics
-backend statistics
-  mode http
-  stats enable
-  stats show-legends
-  stats show-node
-  stats refresh 30s
-  acl AUTH http_auth(stats-auth)
-  acl AUTH_ADMIN http_auth_group(stats-auth) admin
-  stats http-request auth unless AUTH
-  stats admin if AUTH_ADMIN
-  stats uri /stats
-  server HAPROXYDMZ01 192.168.195.12:8404 weight 1 check inter 30s fastinter 2s downinter 5s rise 3 fall 3
-  server HAPROXYDMZ02 192.168.195.13:8404 weight 1 check inter 30s fastinter 2s downinter 5s rise 3 fall 3
-
-######
-
-### UAG ###
-
-frontend uag-entrada
-  mode tcp
-  bind 192.168.195.15:443
-  bind 192.168.195.15:8443
-
-  #ACLs to identify destination port
-  acl is_443 dst_port 443
-  acl is_8443 dst_port 8443
-
-  #Use specific backend depending destination port
-  use_backend uag-backend-443 if is_443
-  use_backend uag-backend-8443 if is_8443
-
-backend uag-backend-443
-  mode tcp
-  balance source 
-  stick-table type ip size 200k expire 30m peers haproxy_cluster 
-  stick on src 
-  server UAG01_443 192.168.195.10:443 weight 1 check inter 30s fastinter 2s downinter 5s rise 3 fall 3
-  server UAG02_443 192.168.195.11:443 weight 1 check inter 30s fastinter 2s downinter 5s rise 3 fall 3
-
-backend uag-backend-8443
-  mode tcp
-  balance source # Balanceo basado en la IP de origen
-  stick-table type ip size 200k expire 30m peers haproxy_cluster 
-  stick on src 
-  server UAG01_8443 192.168.195.10:8443 weight 1 check inter 30s fastinter 2s downinter 5s rise 3 fall 3
-  server UAG02_8443 192.168.195.11:8443 weight 1 check inter 30s fastinter 2s downinter 5s rise 3 fall 3
-  ```
-
-Con todo esto, nuestro portal de estadísticas mostrará algo simila a esto:
-
-![haproxy]({{ site.imagesposts2025 }}/07/haproxy.png){: .align-center}
-
-Un saludo!
-
-Miquel.
+## Conclusión
+HPE Morpheus VM Essentials Software no es solo un nuevo hipervisor; es una plataforma que combina la solidez de la tecnología KVM  con las avanzadas capacidades de orquestación de la nube de Morpheus. Su llegada al mercado, impulsada por la compra de Morpheus por parte de HPE y en clara competencia con los movimientos de Broadcom/VMware, marca un punto de inflexión. Ofrece a las empresas un camino hacia la eficiencia de costes, la flexibilidad tecnológica y la gestión simplificada de sus entornos de nube híbrida, posicionando a HPE como un actor clave en la redefinición de la infraestructura de TI moderna.
