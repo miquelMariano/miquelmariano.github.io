@@ -56,7 +56,7 @@ KVM es una tecnología de virtualización de código abierto integrada en el ker
 
 **HVM** es hipervisor que simula todo el hardware necesario para el sistema operativo invitado. Morpheus VM Essentials le añade la capa de gestión empresarial necesaria:
   - **Alta Disponibilidad (HA)**: Reinicio automático de VMs en otros hosts en caso de fallo.
-  - **Migración en Vivo***: Traslado de VMs entre hosts sin tiempo de inactividad.
+  - **Migración en Vivo**: Traslado de VMs entre hosts sin tiempo de inactividad.
   - **Colocación de Cargas de Trabajo Distribuidas**: Equilibrio de recursos a nivel de clúster.
 Al adoptar KVM y empaquetarlo con Morpheus, HPE ofrece una alternativa robusta, agnóstica y open-source que reduce drásticamente los costes de licencia.
 
