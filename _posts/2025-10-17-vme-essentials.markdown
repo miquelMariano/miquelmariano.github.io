@@ -2,6 +2,7 @@
 title: Part 1 - Introducción Morpheus VM Essentials
 date: '2025-07-15 00:00:00'
 layout: post
+published: false
 image: /assets/images/posts/2018/12/ssh-banner.jpg
 tag:
 - euc
