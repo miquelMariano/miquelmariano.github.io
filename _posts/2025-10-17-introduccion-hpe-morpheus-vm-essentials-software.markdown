@@ -68,14 +68,15 @@ HPE Morpheus VM Essentials se posicionan directamente en el segmento de mercado 
 El enfoque principal de VM Essentials es proporcionar una alternativa viable y rentable a la virtualización tradicional, especialmente para aquellas organizaciones que buscan:
   - Reducir los costes de licencia de máquinas virtuales, que se han disparado en los últimos años.
   - Eliminar la dependencia (vendor lock-in) de un único proveedor de hipervisor.
-  - Simplificar la gestión a través de una única interfaz que abarque tanto los hosts KVM (VME) como los hosts VMware.
+  - Simplificar la gestión a través de una única interfaz que abarque tanto los hosts KVM (VME) como los hosts VMware ESXi.
   - Modernizar la infraestructura de nube privada con capacidades de autoservicio as-a-service.
+
 VM Essentials es particularmente atractivo para las medianas y grandes empresas que tienen una inversión significativa en VMware pero están evaluando una estrategia de migración gradual o de entornos multi-hipervisor para obtener mayor eficiencia financiera y operativa. 
 
 ![HPE_Morpheus_VM_Essentials_03]({{ site.imagesposts2025 }}/10/hpe_morpheus_03.jpg){: .align-center}
 
 # Competencia con Broadcom (VMware)
-La adquisición de Morpheus Data y el lanzamiento de VM Essentials se entiende mejor en el contexto de la adquisición de VMware por parte de Broadcom y los subsiguientes cambios en su modelo de licencia y precios.
+La adquisición de Morpheus Data y el lanzamiento de VM Essentials se entiende mejor en el contexto de la adquisición de VMware por parte de Broadcom y los siguientes cambios en su modelo de licencia y precios.
 
 Tras la compra, Broadcom modificó significativamente el modelo de licenciamiento de VMware, a menudo resultando en un aumento drástico de los costes para muchos clientes empresariales. Este cambio ha generado una fuerte insatisfacción y ha impulsado a las organizaciones a buscar activamente alternativas para sus cargas de trabajo virtualizadas.
 
