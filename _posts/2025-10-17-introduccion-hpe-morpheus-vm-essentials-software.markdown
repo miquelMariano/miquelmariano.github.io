@@ -18,16 +18,16 @@ En el cambiante panorama de las infraestructuras virtuales, las organizaciones b
 
 Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Essentials. Es por eso que me he decidido a publicar una serie de posts e intentar explorar todas las posibilidades que nos ofrece.
 
-- [Parte 1 - Introducción a HPE Morpheus VM Essentials software](https://miquelmariano.github.io)
-- [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io)
-- [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io)
-- [Parte 4 - Configuración inicial](https://miquelmariano.github.io)
-- [Parte 5 - Creación cluster Ceph](https://miquelmariano.github.io)
-- [Parte 6 - Desplegar nuestra primera VM](https://miquelmariano.github.io)
-- [Parte 7 - Backups](https://miquelmariano.github.io)
-- [Parte 8 - Pruebas de HA](https://miquelmariano.github.io)
-- [Parte 9 - Migración de VMs desde vSphere](https://miquelmariano.github.io)
-- [Parte 10 - Comandos útiles](https://miquelmariano.github.io)
+- [Parte 1 - Introducción a HPE Morpheus VM Essentials software](https://miquelmariano.github.io/2025/10/17/introduccion-hpe-morpheus-vm-essentials-software/)
+- [Parte 2 - Instalación VM Essentials software]
+- [Parte 3 - Instalación VME Manager]
+- [Parte 4 - Configuración inicial]
+- [Parte 5 - Creación cluster Ceph]
+- [Parte 6 - Desplegar nuestra primera VM]
+- [Parte 7 - Backups]
+- [Parte 8 - Pruebas de HA]
+- [Parte 9 - Migración de VMs desde vSphere]
+- [Parte 10 - Comandos útiles]
 
 # Introducción a Morpheus y VM Essentials: La Adquisición Estratégica de HPE
 
