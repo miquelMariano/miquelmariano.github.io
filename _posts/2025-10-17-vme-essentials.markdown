@@ -1,9 +1,8 @@
 ---
 title: Part 1 - Introducción a HPE Morpheus VM Essentials software
-date: '2025-07-15 00:00:00'
+date: '2025-10-17 00:00:00'
 layout: post
 published: true
-image: /assets/images/posts/2018/12/ssh-banner.jpg
 tag:
 - kvm
 - hpe
