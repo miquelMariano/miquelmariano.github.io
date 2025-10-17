@@ -2,20 +2,47 @@
 title: Part 1 - Introducción Morpheus VM Essentials
 date: '2025-07-15 00:00:00'
 layout: post
-published: false
+published: true
 image: /assets/images/posts/2018/12/ssh-banner.jpg
 tag:
-- euc
-- vmware
-- vexpert
-- haproxy
-- pothonos
-- keepalived
-- loadbalancer
+- kvm
+- hpe
+- vme
+- cloud
+- morpheus
 - ha
 ---
 
-- [Part 1: VMware Horizon/AppVolumes Load Balancer con HAProxy y Keepalived sobre PhotonOS](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/)
+#HPE Morpheus VM Essentials: La Alternativa de Virtualización y Gestión Híbrida de HPE
+
+En el cambiante panorama de las infraestructuras virtuales, las organizaciones buscan constantemente soluciones que ofrezcan flexibilidad, control de costes y agilidad. HPE ha respondido a esta demanda con el lanzamiento de HPE Morpheus VM Essentials Software, una solución de virtualización y gestión unificada que ha surgido como una alternativa estratégica en un mercado dominado en los últimos años por Vmware (ahora Broadcom). Esta oferta es el resultado de una importante adquisición que ha redefinido la propuesta de nube privada de HPE.
+
+Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Essentials. Es por eso que me he decidido a publicar una serie de posts e intentar explorar todas las posibilidades que nos ofrece.
+
+
+[Parte 1 - Introducción a Morpheus VM Essentials](https://miquelmariano.github.io)
+[Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io)
+[Parte 3 - Instalación VME Manager](https://miquelmariano.github.io)
+[Parte 4 - Configuración inicial](https://miquelmariano.github.io)
+[Parte 5 - Creación cluster Ceph](https://miquelmariano.github.io)
+[Parte 6 - Desplegar nuestra primera VM](https://miquelmariano.github.io)
+[Parte 7 - Backups](https://miquelmariano.github.io)
+[Parte 8 - Pruebas de HA](https://miquelmariano.github.io)
+[Parte 9 - Migración de VMs desde vSphere](https://miquelmariano.github.io)
+[Parte 10 - Comandos útiles](https://miquelmariano.github.io)
+
+
+![HPE_Morpheus_VM_Essentials_01]({{ site.imagesposts2025 }}/10/hpe_morpheus_01.jpg){: .align-center}
+
+
+
+
+
+![HPE_Morpheus_VM_Essentials_02]({{ site.imagesposts2025 }}/10/hpe_morpheus_02.jpg){: .align-center}
+![HPE_Morpheus_VM_Essentials_03]({{ site.imagesposts2025 }}/10/hpe_morpheus_03.jpg){: .align-center}
+
+
+- [Part 1: VMware Horizon/AppVolumes Load Balancer con HAProxy y Keepalived sobre PhotonOS](https://miquelmariano.github.io)
 - [Part 2: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](https://miquelmariano.github.io/2021/12/21/vmware-horizon-load-balancer-haproxy-avanzado/)
 - [Part 3: Configuración HAproxy para balancear sesiones Blast a los UAG](https://miquelmariano.github.io/2025/07/15/haproxy-blast-uag/)
 
