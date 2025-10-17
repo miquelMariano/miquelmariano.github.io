@@ -1,5 +1,5 @@
 ---
-title: Part 1 - Introducción a HPE Morpheus VM Essentials software
+title: Introducción a HPE Morpheus VM Essentials software - Parte 1
 date: '2025-10-17 00:00:00'
 layout: post
 published: true
@@ -18,7 +18,7 @@ En el cambiante panorama de las infraestructuras virtuales, las organizaciones b
 
 Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Essentials. Es por eso que me he decidido a publicar una serie de posts e intentar explorar todas las posibilidades que nos ofrece.
 
-- [Parte 1 - Introducción a Morpheus VM Essentials](https://miquelmariano.github.io)
+- [Parte 1 - Introducción a HPE Morpheus VM Essentials software](https://miquelmariano.github.io)
 - [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io)
 - [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io)
 - [Parte 4 - Configuración inicial](https://miquelmariano.github.io)
