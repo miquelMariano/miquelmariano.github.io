@@ -92,7 +92,7 @@ Su llegada al mercado, impulsada por la compra de Morpheus por parte de HPE y en
 Ofrece a las empresas un camino hacia la eficiencia de costes, la flexibilidad tecnológica y la gestión simplificada de sus entornos de nube híbrida, posicionando a HPE como un actor clave en la redefinición de la infraestructura de TI moderna.
 
 
-En [Encora](https://encora.es/) somos especialistas en virtualización y servicios IT de calidad. Si quieres saber mas sobre VM Essentials [conáctanos] (https://encora.es/hablamos/) y charlamos ;-)
+En [Encora](https://encora.es/) somos especialistas en virtualización y servicios IT de calidad. Si quieres saber mas sobre VM Essentials [contáctanos](https://encora.es/hablamos/) y charlamos ;-)
 
 Un saludo
 
