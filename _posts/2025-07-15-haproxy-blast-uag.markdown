@@ -1,8 +1,13 @@
 ---
 title: Configuración HAproxy para balancear sesiones Blast a los UAG
+subtitle: 
 date: '2025-07-15 00:00:00'
 layout: post
-image: /assets/images/posts/2018/12/ssh-banner.jpg
+thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2025//07/diagrama-conexion-externa1.png
+cover-img: https://premiquelmariano.github.io/assets/images/fondos/01.jpg
+share-img: https://miquelmariano.github.io/assets/images/posts/2025//07/diagrama-conexion-externa1.png
+published: true
+author: Miquel Mariano
 tag:
 - euc
 - vmware
