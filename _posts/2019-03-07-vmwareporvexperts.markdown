@@ -19,7 +19,7 @@ permalink: /vmwareporvexperts/
 ---
 
 {: .box-success}
-Descarga eBook [aquí](https://miquelmariano.github.io/assets/VMware-por-vExperts-libro.pdf) 
+Descarga eBook [aquí](https://drive.google.com/drive/folders/1gTWuEAMN503ytNiWRtFePVRD8KZOEe18) 
 
 ***«Hay tres cosas que cada persona debería hacer durante su vida: plantar un árbol, tener un hijo y escribir un libro»***
 

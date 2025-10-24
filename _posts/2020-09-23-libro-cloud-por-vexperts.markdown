@@ -19,7 +19,7 @@ permalink: /cloudporvexperts/
 ---
 
 {: .box-success}
-Descarga eBook [aquí](https://miquelmariano.github.io/assets/CloudPorvExperts_2020.pdf) 
+Descarga eBook [aquí](https://drive.google.com/drive/folders/1xGM-jVAoeR8RHlbLYXKXR2IRzqVI1kFf) 
 
 Se acerca el día. Queda menos de una semana para que vea la luz la segunda edición de [#VMwareporvExperts](https://www.vmwareporvexperts.org).
 
