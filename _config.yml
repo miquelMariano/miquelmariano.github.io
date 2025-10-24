@@ -22,10 +22,10 @@ author: Miquel Mariano
 navbar-links:
   Sobre mí: "aboutme"
   Etiquetas: "tags"
-  Libros:
+  eBooks:
     - VMware por vExperts: "vmwareporvexperts"
     - Cloud por vExperts: "2020-09-23-libro-cloud-por-vexperts"
-  VCIX: "tags/#/vcix6"
+  VCIX: "/tags/#vcix6"
 
 ################
 # --- Logo --- #
