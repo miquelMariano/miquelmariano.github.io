@@ -1,0 +1,25 @@
+---
+title: vExpert 2023
+layout: post
+date: 2023-02-21 00:14:00
+image: /assets/images/logo_vexpert2018.png
+cover-img: https://premiquelmariano.github.io/assets/images/fondos/10.jpg
+headerImage: true
+tag:
+- vexpert
+- vmware
+- devops
+---
+
+Un año mas, y ya son unos cuantos, VMware [me ha nombrado](https://vexpert.vmware.com/directory/753) nuevamente vExpert
+
+Para mí es un orgullo formar parte de [este grupo](https://vexpert.vmware.com/directory) entre tanto crack.
+
+Quiero dar la enhorabuena a todos los [agraciados](https://vexpert.vmware.com/directory), y mi enorme agradecimiento a VMware y a toda la vComunity
+
+Enhorabuena a todos.
+
+Un abrazo!
+
+Miquel.
+

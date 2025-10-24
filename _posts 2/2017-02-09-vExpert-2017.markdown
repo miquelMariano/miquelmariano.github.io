@@ -1,0 +1,26 @@
+---
+title: vExpert 2017
+layout: post
+date: 2017-02-09 00:14:00
+image: /assets/images/posts/2017/02/logo_vexpert2017.png
+headerImage: true
+tag:
+- vexpert
+- vmware
+- devops
+---
+
+Ayer tuvo lugar el [anuncio de los nuevos VMWare vExpert 2017](https://blogs.vmware.com/vmtn/2017/02/vexpert-2017-award-announcement.html)
+
+Como sabéis, el título de vExpert no es ninguna certificación técnica ni nada por el estilo. Mas bien es un reconocimiento que VMWare otorga a todas aquellas personas que ya sea a través de RRSS, blogs, foros, grupos VMUG, etc, etc, etc, se encarga de evangelizar la marca, compartiendo conocimientos, experiencia....
+
+Este año, y por segundo año consecutivo, he tenido el placer de ser incluido de nuevo en la lista.
+
+Dar la enhorabuena a mis compañeros de [@ncora](https://twitter.com/ncora) [@josepros](https://twitter.com/josepros), [@dmarquina](https://twitter.com/dmarquina), [@ricardibanez](https://twitter.com/ricardibanez) y a todos los compañeros del gremio que tan duro trabajan durante todo el año :)
+
+Enhorabuena a todos.
+
+Un abrazo!
+
+Miquel.
+
