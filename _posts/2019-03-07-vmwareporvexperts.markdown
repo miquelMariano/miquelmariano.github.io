@@ -1,9 +1,13 @@
 ---
-title: VMware por vExperts, el libro definitivo sobre virtualización
+title: VMware por vExprerts
+subtitle: El libro definitivo sobre virtualización
 date: '2019-03-07 00:00:00'
 layout: post
-image: /assets/images/posts/2019/03/front.png
-headerImage: true
+thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2019/03/portada.png
+cover-img: https://premiquelmariano.github.io/assets/images/fondos/02.jpg
+share-img: https://miquelmariano.github.io/assets/images/posts/2019/03/portada.png
+published: true
+author: Miquel Mariano
 tag:
 - vexpert
 - automation
@@ -13,6 +17,9 @@ tag:
 - libro
 permalink: /vmwareporvexperts/
 ---
+
+{: .box-success}
+Descarga eBook [aquí](https://miquelmariano.github.io/assets/VMware-por-vExperts-libro.pdf) 
 
 ***«Hay tres cosas que cada persona debería hacer durante su vida: plantar un árbol, tener un hijo y escribir un libro»***
 

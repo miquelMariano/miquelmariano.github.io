@@ -24,7 +24,7 @@ navbar-links:
   Etiquetas: "tags"
   eBooks:
     - VMware por vExperts: "vmwareporvexperts"
-    - Cloud por vExperts: "2020-09-23-libro-cloud-por-vexperts"
+    - Cloud por vExperts: "cloudporvexperts"
   VCAP Design and Deploy: "/tags/#vcix6"
 
 ################
