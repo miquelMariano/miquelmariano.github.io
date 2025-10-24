@@ -25,7 +25,7 @@ navbar-links:
   eBooks:
     - VMware por vExperts: "vmwareporvexperts"
     - Cloud por vExperts: "cloudporvexperts"
-  VCAP Desing & Deploy: "tags/#/vcix6"
+  VCAP Desing & Deploy: "tags/#vcix6"
 
 ################
 # --- Logo --- #
