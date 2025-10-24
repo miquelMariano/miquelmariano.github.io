@@ -2,7 +2,6 @@
 title: Script para apagar/encender VM repositorio immutable Veeam
 date: '2022-11-09 00:00:00'
 layout: post
-cover-img: https://premiquelmariano.github.io/assets/images/fondos/02.jpg
 tag:
 - vmware
 - vsphere
