@@ -1,9 +1,13 @@
 ---
-title: Cloud por vExperts, segunda edición
+title: Cloud por vExperts
+subtitle: Segunda edición
 date: '2020-09-23 00:00:00'
 layout: post
-image: /assets/images/posts/2019/03/front.png
-headerImage: true
+thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2020/09/portada-cloud-por-vexperts.png
+cover-img: https://premiquelmariano.github.io/assets/images/fondos/03.jpg
+share-img: https://miquelmariano.github.io/assets/images/posts/2020/09/portada-cloud-por-vexperts.png
+published: true
+author: Miquel Mariano
 tag:
 - vexpert
 - automation
@@ -11,7 +15,11 @@ tag:
 - vmware
 - vmwareporvexpert
 - libro
+permalink: /cloudporvexperts/
 ---
+
+{: .box-success}
+Descarga eBook [aquí](https://miquelmariano.github.io/assets/CloudPorvExperts_2020.pdf) 
 
 Se acerca el día. Queda menos de una semana para que vea la luz la segunda edición de [#VMwareporvExperts](https://www.vmwareporvexperts.org).
 
