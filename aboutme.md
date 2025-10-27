@@ -46,6 +46,6 @@ Y también algunas certificaciones de Cohesity:
 
 Podréis consultar mas información en mi perfil completo de [LinkedIN](https://www.linkedin.com/in/miquelmariano/)
 
-Ah, por cierto, también tengo libro, 2 concretamente, podreis encontrar toda la info sobre ["VMware por vExperts"](https://twitter.com/vmwarevexperts), ["Cloud por vExperts"](https://www.librodelosvexpert.org/) y los proyectos solidarios en la web de cada libro.
+Ah, por cierto, también tengo libro, 2 concretamente, podreis encontrar toda la info sobre ["VMware por vExperts"](https://miquelmariano.github.io/vmwareporvexperts/), ["Cloud por vExperts"](https://miquelmariano.github.io/cloudporvexperts/) y los proyectos solidarios en la web de cada libro.
 
 ![portada]({{ site.imagesposts2019 }}/03/portada.png){: .align-center} | ![portada2]({{ site.imagesposts2020 }}/09/portada-cloud-por-vexperts.png){: .align-center}
