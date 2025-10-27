@@ -54,7 +54,7 @@ La tecnología de Morpheus se ha convertido en la piedra angular de la nueva sui
 
 Esta dualidad es clave: no solo proporciona una nueva pila de virtualización con el hipervisor VME, sino que también ofrece una capa de gestión unificada, facilitando la transición y la operación multi-hipervisor.
 
-![HPE_Morpheus_VM_Essentials_01]({{ site.imagesposts2025 }}/10/hpe_morpheus_01.jpg){: .align-center}
+![HPE_Morpheus_VM_Essentials_01]({{ site.imagesposts2025 }}/10/hpe_morpheus_01.jpg){: .mx-auto.d-block :}
 
 # Tecnología KVM y la virtualización HVM
 
@@ -68,7 +68,7 @@ KVM es una tecnología de virtualización de código abierto integrada en el ker
   - **Colocación de cargas de trabajo distribuidas**: Equilibrio de recursos a nivel de clúster.
 Al adoptar KVM y empaquetarlo con Morpheus, HPE ofrece una alternativa robusta, agnóstica y open-source que reduce drásticamente los costes de licencia.
 
-![HPE_Morpheus_VM_Essentials_02]({{ site.imagesposts2025 }}/10/hpe_morpheus_02.jpg){: .align-center}
+![HPE_Morpheus_VM_Essentials_02]({{ site.imagesposts2025 }}/10/hpe_morpheus_02.jpg){: .mx-auto.d-block :}
 
 # Segmento de mercado y la lucha por la nube privada
 HPE Morpheus VM Essentials se posicionan directamente en el segmento de mercado de Virtualización enterprise y gestión de la nube privada e híbrida.
@@ -81,7 +81,7 @@ El enfoque principal de VM Essentials es proporcionar una alternativa viable y r
 
 VM Essentials es particularmente atractivo para las medianas y grandes empresas que tienen una inversión significativa en VMware pero están evaluando una estrategia de migración gradual o de entornos multi-hipervisor para obtener mayor eficiencia financiera y operativa. 
 
-![HPE_Morpheus_VM_Essentials_03]({{ site.imagesposts2025 }}/10/hpe_morpheus_03.jpg){: .align-center}
+![HPE_Morpheus_VM_Essentials_03]({{ site.imagesposts2025 }}/10/hpe_morpheus_03.jpg){: .mx-auto.d-block :}
 
 # Competencia con broadcom (VMware)
 La adquisición de Morpheus Data y el lanzamiento de VM Essentials se entiende mejor en el contexto de la adquisición de VMware por parte de Broadcom y los siguientes cambios en su modelo de licencia y precios.
@@ -102,7 +102,7 @@ Ofrece a las empresas un camino hacia la eficiencia de costes, la flexibilidad t
 
 En [Encora](https://encora.es/) somos especialistas en virtualización y servicios IT de calidad. Si quieres saber mas sobre VM Essentials [contáctanos](https://encora.es/hablamos/) y charlamos ;-)
 
-![logo_encora](https://encora.es/wp-content/uploads/elementor/thumbs/Isologo-Encora-Azul-qnmtbwtv9jkegh1meyoybyq78g5zf2vo4c5wyvfpr4.png){: .align-center}
+![logo_encora](https://encora.es/wp-content/uploads/elementor/thumbs/Isologo-Encora-Azul-qnmtbwtv9jkegh1meyoybyq78g5zf2vo4c5wyvfpr4.png){: .mx-auto.d-block :}
 
 Un saludo
 
