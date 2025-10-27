@@ -25,7 +25,7 @@ Esta oferta es el resultado de una importante adquisición que ha redefinido la 
 Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Essentials y es por eso que me he decidido a publicar una serie de posts e intentar explorar todas las posibilidades que nos ofrece.
 
 <details markdown="1">
-<summary>**Ver toda la serie**</summary>
+<summary>VER TODA LA SERIE DE POSTS</summary>
 - [Parte 1 - Introducción a HPE Morpheus VM Essentials software](https://miquelmariano.github.io/2025/10/17/introduccion-hpe-morpheus-vm-essentials-software/)
 - [Parte 2 - Instalación VM Essentials software]
 - [Parte 3 - Instalación VME Manager]
