@@ -42,7 +42,7 @@ Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Esse
 
 Morpheus Data fue, antes de su adquisición, un galardonado líder en el sector de la orquestación de nube privada e híbrida. Su plataforma permitía a las empresas transformar infraestructuras de virtualización existentes, como VMware y KVM, en verdaderas nubes privadas con capacidades de autoservicio y automatización.
 
-**La compra de Morpheus por Pprte de HPE**
+**La compra de Morpheus por Parte de HPE**
 
 En un movimiento estratégico para reforzar su portafolio de CloudOps, HPE adquirió Morpheus Data (el acuerdo se anunció en agosto de 2024).
 
