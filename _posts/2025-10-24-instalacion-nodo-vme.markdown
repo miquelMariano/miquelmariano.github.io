@@ -48,7 +48,7 @@ El instalador unificado es la HVM_install_xxxxxxxxx.iso
 ![Descarga]({{ site.imagesposts2025 }}/10/download_iso.png){: .mx-auto.d-block :}
 
 {: .box-warning}
-**Warning:** En caso de que no podamos acceder a la descarga, revisar que nuestro perfil de usuario está completo y que los campos no campos no contengan carácteres extraños o acentos. https://auth.hpe.com/profile/UserProfile
+**Warning:** En caso de que no podamos acceder a la descarga, revisar que nuestro perfil de usuario está completo y que los campos no contengan carácteres extraños o acentos. https://auth.hpe.com/profile/UserProfile
 
 # Instalación
 
