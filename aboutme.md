@@ -4,7 +4,7 @@ title: Sobre mí
 subtitle: VCIX-DCV 2020 | vSAN Specialist 2020 | vExpert x7 | Nutanix NCP-MCI | vExpert EUC 2021 | Co-autor VMware por vExperts & Cloud por vExperts
 ---
 
-Hola, me llamo Miquel Mariano Ramis y actualmente soy Consultor TI en [ENCORA](http://encora.es)
+Hola, me llamo Miquel Mariano Ramis y actualmente soy el responsable de la unidad de negocio de infraestructura en [ENCORA](http://encora.es)
 
 A parte de la tecnología, me encanta el deporte al aire libre. Aunque viva en una isla como Mallorca, soy mas de montaña que de playa, así que es fácil encontrarme por el monte haciendo MTB, corriendo o simplemente practicando algo de senderismo.
 
