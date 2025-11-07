@@ -17,11 +17,17 @@ tag:
 - ha
 ---
 
+Para la instalación del VME Manager disponemos de 2 opciones:
+- La que veremos hoy, que consiste en desplegar la instancia sobre un nodo de HVM
+- [Instalar el software del Manager sobre una máquina Ubuntu 24 ya sea en otro entorno de virtualización o incluso en físico](https://miquelmariano.github.io/pdte)
+
+Aprovecho para recordar que este post está incluido en la serie sobre HPE VM Essentials
+
 <details markdown="1">
 <summary>VER TODA LA SERIE DE POSTS</summary>
 - [Parte 1 - Introducción a HPE Morpheus VM Essentials software](https://miquelmariano.github.io/2025/10/17/introduccion-hpe-morpheus-vm-essentials-software/)
 - [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io/2025/10/17/instalacion-nodo-vme/)
-- [Parte 3 - Instalación VME Manager]
+- [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io/2025/11/07/instalacion-manager)
 - [Parte 4 - Configuración inicial]
 - [Parte 5 - Creación cluster Ceph]
 - [Parte 6 - Desplegar nuestra primera VM]
@@ -30,10 +36,6 @@ tag:
 - [Parte 9 - Migración de VMs desde vSphere]
 - [Parte 10 - Comandos útiles]
 </details>
-
-Para la instalación del VME Manager disponemos de 2 opciones:
-- La que veremos hoy, que consiste en desplegar la instancia sobre un nodo de HVM
-- [Instalar el software del Manager sobre una máquina Ubuntu 24 ya sea en otro entorno de virtualización o incluso en físico](https://miquelmariano.github.io/pdte)
 
 La opción de instalar el Manager sobre un entorno VME es la preferida y recomendada y para ello necesitaremos descargar la ISO con el software del portal de HPE
 
