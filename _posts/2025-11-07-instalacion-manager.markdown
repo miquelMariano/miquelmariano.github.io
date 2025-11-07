@@ -1,7 +1,7 @@
 ---
 title: Procedimiento instalación VME Manager
 subtitle: Parte 3
-date: '2025-11-04 00:00:00'
+date: '2025-11-07 00:00:00'
 layout: post
 thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2025/11/manager2.png
 cover-img: https://miquelmariano.github.io/assets/images/fondos/09.jpg
