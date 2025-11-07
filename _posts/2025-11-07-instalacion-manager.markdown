@@ -17,6 +17,14 @@ tag:
 - ha
 ---
 
+# HPE VM Essentials Manager
+
+El HPE VM Essentials Manager es el "cerebro" detrás de de la solución basada en KVM de HPE. Su misión es hacer la vida de los administradores más fácil.
+
+El Manager, nos implementar y gestionar clústeres de manera sencilla, ofreciendo funcionalidades clave como la migración en vivo (vMotion) de máquinas virtuales entre hosts sin parada, la distribución dinámica de cargas de trabajo (DRS) y la recuperación automática de fallos si un host cae (HA). Además, facilita el aprovisionamiento de nuevas cargas de trabajo mediante plantillas y una profunda integración con entornos VMware vCenter. Es la herramienta central para mantener tu entorno virtualizado funcionando sin problemas.
+
+![HPE_Morpheus_VM_Essentials_Manager_overview]({{ site.imagesposts2025 }}/11/manager-overview.png){: .mx-auto.d-block :}
+
 Para la instalación del VME Manager disponemos de 2 opciones:
 - La que veremos hoy, que consiste en desplegar la instancia sobre un nodo de HVM
 - [Instalar manualmente el software del Manager sobre una máquina Ubuntu 24 ya sea en otro entorno de virtualización o incluso en físico](https://miquelmariano.github.io/pdte)
