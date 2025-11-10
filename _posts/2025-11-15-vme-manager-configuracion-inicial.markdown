@@ -18,6 +18,10 @@ tag:
 permalink: /borrador/
 ---
 
+{: .box-warning}
+Antes de empezar, es importante decir que tanto manager como nodos resuelvan deben resolverse mutuamente por DNS, por lo que deberemos crear las correspondientes entradas en el servidor DNS o en su defecto, editar el fichero de hosts tanto de los nodos como el manager
+
+
 # HPE VM Essentials Manager
 
 El HPE VM Essentials Manager es el "cerebro" detrás de de la solución basada en KVM de HPE. Su misión es hacer la vida de los administradores más fácil.
@@ -30,8 +34,7 @@ Para la instalación del VME Manager disponemos de 2 opciones:
 - Opción 1: La que veremos hoy, que consiste en desplegar la instancia sobre un nodo de HVM
 - Opción 2 (Pdte. publicar): [Instalar manualmente el software del Manager sobre una máquina Ubuntu 24 ya sea en otro entorno de virtualización o incluso en físico](https://miquelmariano.github.io/pdte)
 
-{: .box-warning}
-Os recuerdo que este post está incluido en la serie sobre HPE VM Essentials
+
 
 <details markdown="1">
 <summary>VER TODA LA SERIE DE POSTS</summary>
