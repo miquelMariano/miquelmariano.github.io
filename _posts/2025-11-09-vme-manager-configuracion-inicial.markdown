@@ -6,7 +6,7 @@ layout: post
 thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2025/11/manager2.png
 cover-img: https://miquelmariano.github.io/assets/images/fondos/10.jpg
 share-img: https://miquelmariano.github.io/assets/images/posts/2025/11/manager2.png
-published: true
+published: false
 author: Miquel Mariano
 tag:
 - kvm
