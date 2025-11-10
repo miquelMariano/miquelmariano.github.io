@@ -46,7 +46,7 @@ Os recuerdo que este post está incluido en la serie sobre HPE VM Essentials
 - [Parte 10 - Comandos útiles]
 </details>
 
-La opción de instalar el Manager sobre un entorno VME es la preferida y recomendada y para ello necesitaremos descargar la ISO con el software del portal de HPE
+La opción de instalar el Manager sobre un entorno VME es la preferida y recomendada y para ello necesitaremos descargar la ISO con el software del [portal de HPE](https://myenterpriselicense.hpe.com/cwp-ui/product-download-info/HPE_VME_EVAL/-/sw360_eval_customer?&)
 
 ![HPE_Morpheus_VM_Essentials_Manager_install_0]({{ site.imagesposts2025 }}/11/manager0.png){: .mx-auto.d-block :}
 
