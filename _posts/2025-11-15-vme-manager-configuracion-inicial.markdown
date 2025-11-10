@@ -15,6 +15,7 @@ tag:
 - cloud
 - morpheus
 - ha
+permalink: /borrador/
 ---
 
 # HPE VM Essentials Manager
