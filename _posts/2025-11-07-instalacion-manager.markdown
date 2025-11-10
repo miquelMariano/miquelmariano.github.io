@@ -27,7 +27,7 @@ El Manager, nos permite implementar y gestionar clústeres de manera sencilla, o
 
 Para la instalación del VME Manager disponemos de 2 opciones:
 - Opción 1: La que veremos hoy, que consiste en desplegar la instancia sobre un nodo de HVM
-- Opción 2: [Instalar manualmente el software del Manager sobre una máquina Ubuntu 24 ya sea en otro entorno de virtualización o incluso en físico](https://miquelmariano.github.io/pdte)
+- Opción 2 (Pdte. publicar): [Instalar manualmente el software del Manager sobre una máquina Ubuntu 24 ya sea en otro entorno de virtualización o incluso en físico](https://miquelmariano.github.io/pdte)
 
 {: .box-warning}
 Os recuerdo que este post está incluido en la serie sobre HPE VM Essentials
