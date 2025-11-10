@@ -1,7 +1,7 @@
 ---
 title: VM Essentiasls Configuración inicial y primeros pasos
 subtitle: Parte 4
-date: '2025-11-15 00:00:00'
+date: '2025-11-09 00:00:00'
 layout: post
 thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2025/11/manager2.png
 cover-img: https://miquelmariano.github.io/assets/images/fondos/10.jpg
