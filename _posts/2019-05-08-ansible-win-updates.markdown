@@ -178,7 +178,7 @@ localhost                  : ok=2    changed=1    unreachable=0    failed=0
 [root@ansible01 /etc/ansible]#
 ```
 
-Como habeis podido observar en el play 3, he añadido una parte de [notificaciones con telegram](https://miquelmariano.github.io/2017/08/11/ansible-telegram), que quedaria de la siguiente manera.
+Como habeis podido observar en el play 3, he añadido una parte de [notificaciones con telegram](https://miquelmariano.github.io/ansible-telegram), que quedaria de la siguiente manera.
 
 ![ansible-telegram]({{ site.imagesposts2019 }}/05/ansible-telegram.png){: .align-center}
 

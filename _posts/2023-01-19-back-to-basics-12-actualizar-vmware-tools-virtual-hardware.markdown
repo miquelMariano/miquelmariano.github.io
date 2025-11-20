@@ -17,7 +17,7 @@ tag:
 
 Buenos dias a tod@as!!
 
-Hoy traigo una pequeña actualización al post [Actualización HW virtual y VMWare Tools con vSphere Update Manager](https://miquelmariano.github.io/2017/12/13/update-manager/) que tanto se ha usado en los últimos años. Lo hemos adaptándolo a las nuevas versiones de vSphere, cliente HTML5, cambio de nomenclatura a LifeCycle Manager, etc etc y de paso, incluirlo en la serie [back to basics](https://miquelmariano.github.io/tag/#/backtobasics), que hacia tiempo que no actualizaba ;-)
+Hoy traigo una pequeña actualización al post [Actualización HW virtual y VMWare Tools con vSphere Update Manager](https://miquelmariano.github.io/2017/12/13/update-manager/) que tanto se ha usado en los últimos años. Lo hemos adaptándolo a las nuevas versiones de vSphere, cliente HTML5, cambio de nomenclatura a LifeCycle Manager, etc etc y de paso, incluirlo en la serie [back to basics](https://miquelmariano.github.io/tags/#/backtobasics), que hacia tiempo que no actualizaba ;-)
 
 También aprovecho para mencionar a mi compi [Ibón](https://www.linkedin.com/in/ibon-lizana-cob-086793153/) que me ha ayudado en la actualización
 

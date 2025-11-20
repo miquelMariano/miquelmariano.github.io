@@ -15,7 +15,7 @@ Buenos días a tod@s!
 
 El otro dia me enteré que desde la versión 2.2 de Ansible, es posible [integrar notificaciones con Telegram](https://docs.ansible.com/ansible/telegram_module.html)
 
-Para ello, solo necesitamos disponer de un chatbot, que [en su día ya vimos como crear.](https://miquelmariano.github.io/2017/02/notificaciones-automaticas-con-telegram/)
+Para ello, solo necesitamos disponer de un chatbot, que [en su día ya vimos como crear.](https://miquelmariano.github.io/notificaciones-automaticas-con-telegram/)
 
 La integración en un playbook seria con el siguiente código:
 
