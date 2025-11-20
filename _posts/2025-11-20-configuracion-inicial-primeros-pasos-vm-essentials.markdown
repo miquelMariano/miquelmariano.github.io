@@ -19,14 +19,14 @@ tag:
 
 La serie sobre VM Essentials ya va cogiendo forma poco a poco y en este nuevo post, vamos a ver la configuración y primeros pasos dentro de VM Essentials manager.
 
-Recordemos que venimos de [hacer una instalación desde 0](https://miquelmariano.github.io/2025/11/08/instalacion-manager/)
+Recordemos que venimos de [hacer una instalación desde 0](https://miquelmariano.github.io/instalacion-manager/)
 
 <details markdown="1">
 <summary>VER TODA LA SERIE DE POSTS</summary>
-- [Parte 1 - Introducción a HPE Morpheus VM Essentials software](https://miquelmariano.github.io/2025/10/17/introduccion-hpe-morpheus-vm-essentials-software/)
-- [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io/2025/10/17/instalacion-nodo-vme/)
-- [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io/2025/11/07/instalacion-manager/)
-- [Parte 4 - Configuración inicial](https://miquelmariano.github.io/2025/11/20/configuracion-inicial-primeros-pasos-vm-essentials)
+- [Parte 1 - Introducción a HPE Morpheus VM Essentials software](https://miquelmariano.github.io/introduccion-hpe-morpheus-vm-essentials-software/)
+- [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io/instalacion-nodo-vme/)
+- [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io/instalacion-manager/)
+- [Parte 4 - Configuración inicial](https://miquelmariano.github.io/configuracion-inicial-primeros-pasos-vm-essentials)
 - [Parte 5 - Creación cluster Ceph]
 - [Parte 6 - Desplegar nuestra primera VM]
 - [Parte 7 - Backups]
