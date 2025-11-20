@@ -266,7 +266,8 @@ date_format: "%d/%m/%Y"
 timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year/:month/:day/:title/
+permalink: /:title/ #ocultar fecha en la URL para que no de sensación de viejo
+#permalink: /:year/:month/:day/:title/
 paginate: 25
 
 kramdown:
