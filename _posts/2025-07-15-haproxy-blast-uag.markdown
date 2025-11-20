@@ -23,7 +23,7 @@ tag:
 - [Part 2: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](https://miquelmariano.github.io/2021/12/21/vmware-horizon-load-balancer-haproxy-avanzado/)
 - [Part 3: Configuración HAproxy para balancear sesiones Blast a los UAG](https://miquelmariano.github.io/2025/07/15/haproxy-blast-uag/)
 
-Siguiendo con la serie de posts sobre [HAproxy](https://miquelmariano.github.io/tag/#/haproxy), hoy quiero centrarme en la parte de balanceo externo pasando por los UAG.
+Siguiendo con la serie de posts sobre [HAproxy](https://miquelmariano.github.io/tags/#/haproxy), hoy quiero centrarme en la parte de balanceo externo pasando por los UAG.
 
 En este diseño, la cosa se complica, ya que no solo interviene el puerto 443 para hacer login, sinó también el protocolo de visualización Blast por el 8443
 
