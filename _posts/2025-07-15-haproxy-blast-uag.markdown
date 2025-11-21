@@ -48,7 +48,7 @@ En el siguiente diagrama se ve todo algo mas visual:
 
 Vamos allá con la configuración de HAproxy.
 
-El despliegue de PhotonOS lo expliqué ya en [este post](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/)
+El despliegue de PhotonOS lo expliqué ya en [este post](https://miquelmariano.github.io/vmware-horizon-haproxy/)
 
 Lo primero que haremos, será editar nuestro fichero iptables para permitir el acceso por Blast. `/etc/systemd/scripts/ip4save`
 
