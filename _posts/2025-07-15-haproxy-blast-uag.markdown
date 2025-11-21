@@ -19,9 +19,9 @@ tag:
 - ha
 ---
 
-- [Part 1: VMware Horizon/AppVolumes Load Balancer con HAProxy y Keepalived sobre PhotonOS](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/)
-- [Part 2: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](https://miquelmariano.github.io/2021/12/21/vmware-horizon-load-balancer-haproxy-avanzado/)
-- [Part 3: Configuración HAproxy para balancear sesiones Blast a los UAG](https://miquelmariano.github.io/2025/07/15/haproxy-blast-uag/)
+- [Part 1: VMware Horizon/AppVolumes Load Balancer con HAProxy y Keepalived sobre PhotonOS](https://miquelmariano.github.io/vmware-horizon-haproxy/)
+- [Part 2: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](https://miquelmariano.github.io//vmware-horizon-load-balancer-haproxy-avanzado/)
+- [Part 3: Configuración HAproxy para balancear sesiones Blast a los UAG](https://miquelmariano.github.io/haproxy-blast-uag/)
 
 Siguiendo con la serie de posts sobre [HAproxy](https://miquelmariano.github.io/tags/#/haproxy), hoy quiero centrarme en la parte de balanceo externo pasando por los UAG.
 
