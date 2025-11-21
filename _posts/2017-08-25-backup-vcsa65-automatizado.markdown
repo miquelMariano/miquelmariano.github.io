@@ -15,7 +15,7 @@ tag:
 
 Buenos dias a tod@s!!
 
-Hace varias semanas, publicamos un [#NcoraTutorial](https://miquelmariano.github.io/2017/03/backup-restore-vCenter-65/) sobre como hacer un backup de la configuración de un vCenter Appliance 6.5
+Hace varias semanas, publicamos un [#NcoraTutorial](https://miquelmariano.github.io/backup-restore-vCenter-65/) sobre como hacer un backup de la configuración de un vCenter Appliance 6.5
 
 En aquella ocasión, el procedimiento era algo manual ya que se hacia a través de la propia GUI de la administración del appliance.
 
@@ -36,7 +36,7 @@ chmod g-rxw /usr/local/bin/vCSA-Backup.sh
 chmod o-rxw /usr/local/bin/vCSA-Backup.sh
 ```
 
-2) Copiaremos el código del [script](https://miquelmariano.github.io/vCSA-Backup) en nuestro fichero
+2) Copiaremos el código del script en nuestro fichero
 
 3) Realizamos el primer backup
 
