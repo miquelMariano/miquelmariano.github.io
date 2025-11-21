@@ -11,7 +11,7 @@ tag:
 - immutable
 ---
 
-Semanas atrás, publiqué un post en donde se explicaba [como montar repositorios immutables con Veeam 11](https://miquelmariano.github.io/2022/04/05/veeam11-immutable-repository-hardening/).
+Semanas atrás, publiqué un post en donde se explicaba [como montar repositorios immutables con Veeam 11](https://miquelmariano.github.io/veeam11-immutable-repository-hardening/).
 En el post de hoy, vamos a ver de forma sencilla como extender una partición cuando el sistema de ficheros es xfs y, por lo tanto, extender un repositorio immutable. Vamos a ello ;-)
 
 - Como paso previo, lo primero que tendremos que hacer es ampliar nuestro disco. Ya bien desde nuestro vCenter en caso de ser un disco virtual o desde nuestro sistema de almacenamiento en caso de utilizar discos RDM.

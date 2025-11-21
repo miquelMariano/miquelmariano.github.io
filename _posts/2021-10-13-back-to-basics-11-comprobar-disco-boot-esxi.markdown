@@ -13,7 +13,7 @@ En el dia de hoy os traigo un pequeño manual para comprobar cual es el disco de
 
 ![esxi-boot]({{ site.imagesposts2021 }}/10/esxi-boot.png){: .align-center}
 
-Este post, forma parte de la serie [back to basics](https://miquelmariano.github.io/tag/#/backtobasics), que hacia tiempo que no actualizaba ;-)
+Este post, forma parte de la serie [back to basics](https://miquelmariano.github.io/tags/#/backtobasics), que hacia tiempo que no actualizaba ;-)
 
 # 1. Habilitamos el servicio SSH en nuestro servidor ESXi
 
