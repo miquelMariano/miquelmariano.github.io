@@ -1,6 +1,6 @@
 ---
 title: Script para apagar/encender VM repositorio immutable Veeam
-date: '2022-11-09 00:00:00'
+date: '2022-11-07 00:00:00'
 layout: post
 tag:
 - vmware
@@ -11,13 +11,13 @@ tag:
 - immutable
 ---
 
-Hace varios meses, en [este post](https://miquelmariano.github.io/2022/04/05/veeam11-immutable-repository-hardening/) vimos como instalar y configurar un repositorio immutable con la nueva versión de Veeam 11.
+Hace varios meses, en [este post](https://miquelmariano.github.io/veeam11-immutable-repository-hardening/) vimos como instalar y configurar un repositorio immutable con la nueva versión de Veeam 11.
 
 Hoy vengo a dar una vuelta de tuerca más a este asunto y veremos como a demás de hacer el repositorio immutable lo podemos dejar offline mientras no tengamos trabajos de protección en ejecución.
 
 Para ello, configuraremos unos scripts pre y post ejecución del trabajo de backup que lo que harán será arrancar y apagar la VM que tiene el repositorio immutable, y por lo tanto, que sea accesible durante la ventana de backup.
 
-Antes de nada, os recomiendo que actualiceis vuestra versión de PowerCLI a la última disponible. En [este post](https://miquelmariano.github.io/2019/01/09/instalar-powerCLI-10-windows/) explico como hacerlo.
+Antes de nada, os recomiendo que actualiceis vuestra versión de PowerCLI a la última disponible. En [este post](https://miquelmariano.github.io/instalar-powerCLI-10-windows/) explico como hacerlo.
 
 Vamos al lío ;-)
 
@@ -52,7 +52,7 @@ Ya con esto, podremos ver en los logs y en el vCenter como se ejecuta el script 
 En caso de recibir algún error, recordaros que los logs de Veeam se guardan aquí:
 `C:\ProgramData\Veeam\Backup\Jobname\Job.Jobname.log`
 
-Finalmente, y ya que habéis llegado hasta aquí, os recomiendo que os paséis por todos los posts relacionados con los [Repositorios Immutables de Veeam](https://miquelmariano.github.io/tag/#/immutable) que ya tenemos publicados en este blog
+Finalmente, y ya que habéis llegado hasta aquí, os recomiendo que os paséis por todos los posts relacionados con los [Repositorios Immutables de Veeam](https://miquelmariano.github.io/tags/#/immutable) que ya tenemos publicados en este blog
 
 Muchas gracias por leerme
 
