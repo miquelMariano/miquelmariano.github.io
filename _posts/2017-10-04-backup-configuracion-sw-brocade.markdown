@@ -46,6 +46,6 @@ Un saludo
 
 Miquel.
 
-P.D. Los que me conoceis, sabeis que no me suelo conformar con "hacer" las cosas "manualmente", así que en breve, os enseñaré [cómo automatizar esta tarea](https://miquelmariano.github.io/2019/04/automatizar-backup-configuracion-sw-brocade) y que periodicamente se ejecute un backup de nuestra configuración ;-)
+P.D. Los que me conoceis, sabeis que no me suelo conformar con "hacer" las cosas "manualmente", así que en breve, os enseñaré [cómo automatizar esta tarea](https://miquelmariano.github.io/automatizar-backup-configuracion-sw-brocade) y que periodicamente se ejecute un backup de nuestra configuración ;-)
 
 

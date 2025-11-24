@@ -13,7 +13,7 @@ tag:
 
 Buenos días a tod@s.
 
-Hace ya tiempo, [publiqué un post](https://miquelmariano.github.io/2018/05/02/update-esxi-offline-bundle/) en dónde mostraba como actualizar la versión de nuestros ESXi
+Hace ya tiempo, [publiqué un post](https://miquelmariano.github.io/update-esxi-offline-bundle/) en dónde mostraba como actualizar la versión de nuestros ESXi
 
 Dándole vueltas al tema, me di cuenta de que este procedimiento era muy útil para actualizar la versión de nuestros servidores ESXi, pero que no especificaba cómo actualizar nuestro ESXi sin cambiar a una versión superior.
 
