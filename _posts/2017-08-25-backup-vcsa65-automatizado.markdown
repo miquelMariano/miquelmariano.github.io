@@ -19,7 +19,7 @@ Hace varias semanas, publicamos un [#NcoraTutorial](https://miquelmariano.github
 
 En aquella ocasión, el procedimiento era algo manual ya que se hacia a través de la propia GUI de la administración del appliance.
 
-En esta ocasión, veremos como podemos automatizar ese procedimiento y hacer backup de forma periódica de nuestro VCSA 6.5 usando un [FTP externo](https://miquelmariano.github.io/2017/07/xlight-FTP/)
+En esta ocasión, veremos como podemos automatizar ese procedimiento y hacer backup de forma periódica de nuestro VCSA 6.5 usando un [FTP externo](https://miquelmariano.github.io/xlight-FTP/)
 
 
 1) Nos conectamos por SSH a nuestro VCSA 6.5 y crearemos/configuraremos el fichero que contendrá el código. Se podrá ubicar en la ruta que creamos conveniente, en mi caso `/usr/local/bin`.

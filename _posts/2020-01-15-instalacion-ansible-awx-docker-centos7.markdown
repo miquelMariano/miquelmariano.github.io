@@ -9,7 +9,7 @@ tag:
 - awx
 ---
 
-Buenos días a tod@os. Hace ya bastante tiempo, [escribí un post](https://miquelmariano.github.io/2019/01/23/ansible-awx-instalation/) en dónde contaba cómo instalar AWX sobre Centos 7, utilizando paquetes RPM.
+Buenos días a tod@os. Hace ya bastante tiempo, [escribí un post](https://miquelmariano.github.io/ansible-awx-instalation/) en dónde contaba cómo instalar AWX sobre Centos 7, utilizando paquetes RPM.
 
 El proyecto Ansible AWX está en constante evolución y es por eso que continuamente es necesario actualizar nuestro entorno. No hay mas que echar un vistazo a todas las [releases](https://github.com/ansible/awx/releases) para darse cuenta de lo rápido que evoluciona.
 
