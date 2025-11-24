@@ -53,7 +53,7 @@ En este caso, el comando a utilizar es el siguiente:
 Para saber cual es el "Image Profile" podreis ejecutar el comando:
 `esxcli software sources profile list -d <full_path_to_offline_bundle>`
 Si aún así os encontrais con dependencias, os recomiendo pasaros por este post [Cómo desinstalar un software no compatible en ESXi](
-https://miquelmariano.github.io/2018/11/21/desinstalar-un-Software-no-compatible-en-ESXi/)
+https://miquelmariano.github.io/desinstalar-un-Software-no-compatible-en-ESXi/)
 {: .notice}
 
 ## 5| Verificar que el host se ha actualizado correctamente.
