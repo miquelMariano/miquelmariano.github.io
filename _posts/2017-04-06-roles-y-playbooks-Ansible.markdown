@@ -11,7 +11,7 @@ tag:
 ---
 
 
-Queridos lectores del blog, como lo prometido es deuda, aquí tenéis la continuación de mi último post, [Ansible for dummies](https://miquelmariano.github.io/2017/01/ansible-for-dummies).
+Queridos lectores del blog, como lo prometido es deuda, aquí tenéis la continuación de mi último post, [Ansible for dummies](https://miquelmariano.github.io/ansible-for-dummies).
 
 En esta ocasión, vamos a profundizar un poco más en la utilización de playbooks y roles para ser mas ágiles en el control de la configuración de nuestra granja de servidores.
 

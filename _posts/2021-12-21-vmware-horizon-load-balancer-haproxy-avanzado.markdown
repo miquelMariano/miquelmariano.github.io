@@ -14,13 +14,13 @@ tag:
 - ha
 ---
 
-- [Part 1: VMware Horizon/AppVolumes Load Balancer con HAProxy y Keepalived sobre PhotonOS](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/)
-- [Part 2: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](https://miquelmariano.github.io/2021/12/21/vmware-horizon-load-balancer-haproxy-avanzado/)
-- [Part 3: Configuración HAproxy para balancear sesiones Blast a los UAG](https://miquelmariano.github.io/2025/07/15/haproxy-blast-uag/)
+- [Part 1: VMware Horizon/AppVolumes Load Balancer con HAProxy y Keepalived sobre PhotonOS](https://miquelmariano.github.io/vmware-horizon-haproxy/)
+- [Part 2: Monitorización avanzada del estado de Horizon Conection Server para balanceo de carga con HAproxy y keepalived](https://miquelmariano.github.io/vmware-horizon-load-balancer-haproxy-avanzado/)
+- [Part 3: Configuración HAproxy para balancear sesiones Blast a los UAG](https://miquelmariano.github.io/haproxy-blast-uag/)
 
-Tiempo atrás [escribí una entrada](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/) en la que hablaba sobre balancear nuestros servicios de Horizon Connection Server y App Volumes con HAProxy y Keepalived sobre una VM Photon OS.
+Tiempo atrás [escribí una entrada](https://miquelmariano.github.io/vmware-horizon-haproxy/) en la que hablaba sobre balancear nuestros servicios de Horizon Connection Server y App Volumes con HAProxy y Keepalived sobre una VM Photon OS.
 
-En el post de hoy, quiero dar una vuelta de tuerca más a esta arquitectura para monitorizar de forma más exhaustiva si los servicios por detrás del balanceador (HAproxy) están o no realmente disponibles. En el [post original](https://miquelmariano.github.io/2021/09/08/vmware-horizon-haproxy/) hacíamos una comprobación muy básica del estado de los connection servers o app volumes manager y solo comprobábamos si el servidor web contestaba o no.
+En el post de hoy, quiero dar una vuelta de tuerca más a esta arquitectura para monitorizar de forma más exhaustiva si los servicios por detrás del balanceador (HAproxy) están o no realmente disponibles. En el [post original](https://miquelmariano.github.io/vmware-horizon-haproxy/) hacíamos una comprobación muy básica del estado de los connection servers o app volumes manager y solo comprobábamos si el servidor web contestaba o no.
 
 Esto nos puede llevar a una situación no deseada, ya que desde el Horizon Administrator es posible deshabilitar un Connection Server de manera administrativa. El servidor web sigue levantado y, por lo tanto, HAProxy le sigue enviando peticiones, con el consiguiente "deny" del connection server.
 

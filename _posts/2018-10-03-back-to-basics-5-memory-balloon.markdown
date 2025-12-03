@@ -12,9 +12,9 @@ tag:
 - backtobasics
 ---
 
-Hace un par de días, uno de mis alumnos en el curso [Administración vSphere 6.7](https://www.ncora.com/) me preguntaba sobre el proceso "ballooning". 
+Hace un par de días, uno de mis alumnos en el curso **Administración vSphere 6.7** me preguntaba sobre el proceso "ballooning". 
 
-Para todos aquellos que tengan alguna duda sobre que es y como funciona, aquí os dejo estre post, dentro de la serie [back-to-basics](https://miquelmariano.github.io/tag/#/backtobasics)
+Para todos aquellos que tengan alguna duda sobre que es y como funciona, aquí os dejo estre post, dentro de la serie [back-to-basics](https://miquelmariano.github.io/tags/#/backtobasics)
 
 Memory balloon, es un proceso que ocurre cuando un host se está quedando sin memoria física disponible. Para que esto ocurra, es necesario tener el driver balloon instalado en el SO dentro de cada VM. Este driver, forma parte de las VMWare tools, por lo que sólo tenemos que asegurarnos de que estén instaladas en todas nuestras VMs.
 

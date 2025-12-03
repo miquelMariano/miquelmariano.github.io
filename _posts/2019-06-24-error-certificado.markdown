@@ -12,7 +12,7 @@ tag:
 
 Buenos dias a tod@as!!
 
-Como sabéis, [la versión 5.5 de vSphere está fuera de soporte desde el pasado septiembre](https://miquelmariano.github.io/2018/09/20/end-general-support/), así que es tiempo de migrar nuestros entornos a una versión superior y soportada.
+Como sabéis, [la versión 5.5 de vSphere está fuera de soporte desde el pasado septiembre](https://miquelmariano.github.io/end-general-support/), así que es tiempo de migrar nuestros entornos a una versión superior y soportada.
 
 Llevo ya un par de actualizaciones en varios clientes de VCSA 5.5 a VCSA 6.5 y en la mayoria de los casos me he encontrado con un error de certificado durante el proceso de actualización:
 

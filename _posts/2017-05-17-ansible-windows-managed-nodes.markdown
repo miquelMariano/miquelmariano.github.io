@@ -87,7 +87,7 @@ $ nsible -m win_updates -a 'category_names=SecurityUpdates' -i inventory/servers
 $ ansible -m win_updates -a 'category_names=CriticalUpdates' -i inventory/servers windows
 ```
 
-...o através de nuestros [playbooks y roles](https://miquelmariano.github.io/2017/04/roles-y-playbooks-Ansible/) pada dotar a nuestras tareas de mas complejidad
+...o através de nuestros [playbooks y roles](https://miquelmariano.github.io/roles-y-playbooks-Ansible/) pada dotar a nuestras tareas de mas complejidad
 
 Recordad que hay una [extensa lista](http://docs.ansible.com/ansible/list_of_windows_modules.html) de módulos para windows que nos simplificarán mucho la vida a la hora de administrar nuestra granja.
 

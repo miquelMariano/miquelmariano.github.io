@@ -26,7 +26,7 @@ Este fichero de configuración kickstart puede estar disponible en múltiples ub
 * Unidad flash USB * Dispositivo CD / DVD
 * ...
 
-En este caso, y aprovechando que [ya sabemos cómo montarnos nuestro propio servidor FTP portable](https://miquelmariano.github.io//2017/07/xlight-FTP/) utilizaremos el método por FTP.
+En este caso, y aprovechando que [ya sabemos cómo montarnos nuestro propio servidor FTP portable](https://miquelmariano.github.io/xlight-FTP/) utilizaremos el método por FTP.
 
 En primer lugar, necesitaremos un fichero de configuración. En mi caso, lo he llamado ks.cfg
 

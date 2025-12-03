@@ -34,7 +34,7 @@ S.ficheros          Tamaño Usados  Disp Uso% Montado en
 [root@miquel-ansible01 /tmp]# yum install -y epel-release
 ```
 
-+ [Tener ansible core instalado](https://miquelmariano.github.io/2017/01/ansible-for-dummies/)
++ [Tener ansible core instalado](https://miquelmariano.github.io/ansible-for-dummies/)
 + Descargar la fuente del paquete desde [Ansible](https://releases.ansible.com/ansible-tower/setup-bundle/)
 
 ```ssh

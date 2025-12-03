@@ -14,7 +14,7 @@ tag:
 
 Buenos días a tod@s!!
 
-Como sabéis, VCSA se puede [implementar a través de GUI](https://miquelmariano.github.io/2017/07/ncoratutorial-install-vcsa/) sin demasiadas complicaciones desde máquinas Windows, Linux o incluso MAC.
+Como sabéis, VCSA se puede [implementar a través de GUI](https://miquelmariano.github.io/ncoratutorial-install-vcsa/) sin demasiadas complicaciones desde máquinas Windows, Linux o incluso MAC.
 
 El objetivo del post de hoy es ver cómo podemos desplegar un vCenter en versión 6.7 (6.5 también sigue en mismo procedimiento) de forma desatendida a través de la linea de comandos CLI.
 

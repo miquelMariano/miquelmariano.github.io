@@ -17,7 +17,7 @@ tag:
 
 Buenos dias a tod@as!!
 
-Hoy traigo una pequeña actualización al post [Actualización HW virtual y VMWare Tools con vSphere Update Manager](https://miquelmariano.github.io/2017/12/13/update-manager/) que tanto se ha usado en los últimos años. Lo hemos adaptándolo a las nuevas versiones de vSphere, cliente HTML5, cambio de nomenclatura a LifeCycle Manager, etc etc y de paso, incluirlo en la serie [back to basics](https://miquelmariano.github.io/tag/#/backtobasics), que hacia tiempo que no actualizaba ;-)
+Hoy traigo una pequeña actualización al post [Actualización HW virtual y VMWare Tools con vSphere Update Manager](https://miquelmariano.github.io/update-manager/) que tanto se ha usado en los últimos años. Lo hemos adaptándolo a las nuevas versiones de vSphere, cliente HTML5, cambio de nomenclatura a LifeCycle Manager, etc etc y de paso, incluirlo en la serie [back to basics](https://miquelmariano.github.io/tags/#/backtobasics), que hacia tiempo que no actualizaba ;-)
 
 También aprovecho para mencionar a mi compi [Ibón](https://www.linkedin.com/in/ibon-lizana-cob-086793153/) que me ha ayudado en la actualización
 
@@ -102,7 +102,7 @@ El presente documento pretende servir de guía para la configuración y posterio
 
 ![lc17]({{ site.imagesposts2023 }}/01/lifecycle17.png)
 
-Os dejo por aquí el [proceso de instalción de PowerCLI sobre windows](https://miquelmariano.github.io/2019/01/09/instalar-powerCLI-10-windows/)
+Os dejo por aquí el [proceso de instalción de PowerCLI sobre windows](https://miquelmariano.github.io/instalar-powerCLI-10-windows/)
 
 Espero que os sea de utilidad.
 

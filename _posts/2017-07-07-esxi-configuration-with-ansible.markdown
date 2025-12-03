@@ -25,7 +25,7 @@ Así pues, con Ansible, nos aseguramos de que, aunque en nuestra plataforma solo
 
 **Manejar ESXi con Ansible**
 
-En uno de mis [antiguos posts](https://miquelmariano.github.io/2017/01/ansible-for-dummies/) ya explicaba como generar una clave SSH y copiarla a los servidores que queramos controlar, pero al tratarse de ESXi, el procedimiento cambia un poco. Simplemente, desde el servidor donde tenemos instalado Ansible, copiaremos la clave SSH a nuestros ESXi con el siguiente comando:
+En uno de mis [antiguos posts](https://miquelmariano.github.io/ansible-for-dummies/) ya explicaba como generar una clave SSH y copiarla a los servidores que queramos controlar, pero al tratarse de ESXi, el procedimiento cambia un poco. Simplemente, desde el servidor donde tenemos instalado Ansible, copiaremos la clave SSH a nuestros ESXi con el siguiente comando:
 
 ```
 $ cat /root/.ssh/id_rsa.pub | ssh root@esxi05.ncora.local \ 'cat >> /etc/ssh/keys-root/authorized_keys'

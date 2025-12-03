@@ -71,7 +71,7 @@ Una vez arrancado y configurado el servicio auto deploy, el proximo paso es desp
 
 En mi caso, estoy utilizando un Windows 2016 R2 para levantar los servicios de DHCP y TFTP.
 
-Lo primero, configuraremos el servicio TFTP. Estoy utilizando WinAgent TFTP Server como servidor, es gratis y se puede descargar desde [aquí.](undionly.kpxe.vmw-hardwired)
+Lo primero, configuraremos el servicio TFTP. Estoy utilizando WinAgent TFTP Server como servidor, es gratis y se puede descargar desde [aquí.](https://download.cnet.com/winagents-tftp-server/3000-2160_4-10891024.html)
 
 Instalamos el TFTP server y arrancamos la aplicación.
 
@@ -134,7 +134,7 @@ Get-DeployCommand
 
 Lo primero que haremos, será subir la iso de ESXi. 
 
-> Podremos descargar la versión offline de ESXi desde el portal de [My VMWare](https://my.vmware.com)
+> Podremos descargar la versión offline de ESXi desde el portal de [My VMWare](https://support.broadcom.com)
 
 Conectamos con nuestro vcenter
 

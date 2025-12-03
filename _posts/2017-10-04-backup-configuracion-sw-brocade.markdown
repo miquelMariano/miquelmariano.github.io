@@ -20,7 +20,7 @@ Para ello los switch Brocade ofrecen la posibilidad de hacer backup mediante scp
 
 En este ejemplo utilizaremos un FTP como repositorio para guardar el backup:
 
-Si no teneis ningún servidor FTP en vuestra infraestructura, os animo que visiteis [este post](https://miquelmariano.github.io/2017/07/28/xlight-FTP) donde explico como montar uno "portable"
+Si no teneis ningún servidor FTP en vuestra infraestructura, os animo que visiteis [este post](https://miquelmariano.github.io/xlight-FTP) donde explico como montar uno "portable"
 {: .notice}
 
 ```ssh
@@ -46,6 +46,6 @@ Un saludo
 
 Miquel.
 
-P.D. Los que me conoceis, sabeis que no me suelo conformar con "hacer" las cosas "manualmente", así que en breve, os enseñaré [cómo automatizar esta tarea](https://miquelmariano.github.io/2019/04/automatizar-backup-configuracion-sw-brocade) y que periodicamente se ejecute un backup de nuestra configuración ;-)
+P.D. Los que me conoceis, sabeis que no me suelo conformar con "hacer" las cosas "manualmente", así que en breve, os enseñaré [cómo automatizar esta tarea](https://miquelmariano.github.io/automatizar-backup-configuracion-sw-brocade) y que periodicamente se ejecute un backup de nuestra configuración ;-)
 
 

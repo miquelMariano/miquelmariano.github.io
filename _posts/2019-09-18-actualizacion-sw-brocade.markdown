@@ -16,13 +16,13 @@ En el post de hoy veremos cómo realizar una actualización de firmware en nuest
 **IMPORTANTE** Hay que tener en cuenta que cualquier actualización de firmware en cualquier dispositivo en general es una operación que debe realizarse por personal cualificado. En el caso de nuestra SAN, una mala planificación en el proceso de actualización (no seguir el orden correcto, no comprobar la compatibilidad de nuestros dispositivos...) podría generar problemas graves en el acceso al almacenamiento, incluso provocar disrupción de servicio.
 {: .notice}
 
-Como comentaba anteriormente, la actualización de firmware debe realizarse por personal cualificado, y en cualquier caso, [hacer un backup de la configuración antes de comenzar](https://miquelmariano.github.io/2017/10/04/backup-configuracion-sw-brocade/)
+Como comentaba anteriormente, la actualización de firmware debe realizarse por personal cualificado, y en cualquier caso, [hacer un backup de la configuración antes de comenzar](https://miquelmariano.github.io/backup-configuracion-sw-brocade/)
 
 # Preparar repositorio FTP con el firmware
 
 La mejor opción para cargar el firmware en los switches es hacerlo por FTP, de esta manera nos evitamos el desplazamiento para tener que poner un USB (que es otra forma de cargar el firmware)
 
-Hace tiempo, [publiqué un post para montar un pequeño FTP portable](https://miquelmariano.github.io/2017/07/28/xlight-FTP/). Es el momento de ponerlo en práctica :-)
+Hace tiempo, [publiqué un post para montar un pequeño FTP portable](https://miquelmariano.github.io/xlight-FTP/). Es el momento de ponerlo en práctica :-)
 
 ![ftp1]({{ site.imagesposts2019 }}/09/ftp1.png){: .align-center}
 

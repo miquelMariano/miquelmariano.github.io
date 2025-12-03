@@ -17,7 +17,7 @@ Hoy quiero compartir con todos vosotros un script en PowerCLI que he escrito par
 
 # VMware PowerCLI para horizon
 
-Hace ya tiempo, compartí un procedimiento de [cómo instalar y configurar VMware PowerCLI](https://miquelmariano.github.io/2019/01/09/instalar-powerCLI-10-windows/). A dia de hoy ya vamos por la versión 7 de powershell y la versión 12 de PowerCLI, pero el procedimiento sigue siendo válido.
+Hace ya tiempo, compartí un procedimiento de [cómo instalar y configurar VMware PowerCLI](https://miquelmariano.github.io/instalar-powerCLI-10-windows/). A dia de hoy ya vamos por la versión 7 de powershell y la versión 12 de PowerCLI, pero el procedimiento sigue siendo válido.
 
 Una vez tengamos PowerShell instalado y los módulos también instalados, podremos comprobar que ya está disponible
 
