@@ -21,10 +21,10 @@ Seguimos con la serie de posts sobre VM Essentials
 
 <details markdown="1">
 <summary>VER TODA LA SERIE DE POSTS</summary>
-- [Parte 1 - Introducción a HPE Morpheus VM Essentials software](https://miquelmariano.github.io/2025/10/17/introduccion-hpe-morpheus-vm-essentials-software/)
-- [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io/2025/10/17/instalacion-nodo-vme/)
-- [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io/2025/11/07/instalacion-manager/)
-- [Parte 4 - Configuración inicial](https://miquelmariano.github.io/2025/11/20/configuracion-inicial-primeros-pasos-vm-essentials)
+- [Parte 1 - Introducción a HPE Morpheus VM Essentials software](https://miquelmariano.github.io/introduccion-hpe-morpheus-vm-essentials-software/)
+- [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io/instalacion-nodo-vme/)
+- [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io/instalacion-manager/)
+- [Parte 4 - Configuración inicial](https://miquelmariano.github.io/configuracion-inicial-primeros-pasos-vm-essentials)
 - [Parte 5 - Creación cluster Ceph](https://miquelmariano.github.io/cluster-ceph/)
 - [Parte 6 - Desplegar nuestra primera VM]
 - [Parte 7 - Backups]
@@ -62,7 +62,7 @@ En un futuro se espera poder seleccionar mas discos.
 
 # Laboratorio
 
-En este laboratorio tenemos como base 3 nodos VME [aquí teneis el post para su instalación](https://miquelmariano.github.io/2025/10/17/instalacion-nodo-vme/).
+En este laboratorio tenemos como base 3 nodos VME [aquí teneis el post para su instalación](https://miquelmariano.github.io/instalacion-nodo-vme/).
 Y cada uno de ellos con un disco adicional de 150Gb que será el que nos aportará la capacidad al cluster Ceph
 
 ![HPE_Morpheus_VM_Essentials_ceph-cluster-01]({{ site.imagesposts2025 }}/12/ceph-01.png){: .mx-auto.d-block :}
