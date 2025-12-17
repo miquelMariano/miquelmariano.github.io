@@ -48,7 +48,7 @@ La gran ventaja de Ceph es su capacidad para ofrecer tres interfaces de almacena
 - Almacenamiento por Bloques: Discos virtuales para máquinas virtuales o contenedores (a través de RBD).
 - Sistema de Archivos: Un sistema de archivos POSIX compatible (a través de CephFS).
 
-Esto lo convierte en la elección predilecta para infraestructuras de virtualización (como Proxmox o OpenStack) y entornos de cloud computing que requieren flexibilidad, rendimiento y una solidez a prueba de fallos. Es, básicamente, un sistema de almacenamiento que sabe hacer de todo y no se rompe fácilmente.
+Esto lo convierte en la elección predilecta para infraestructuras de virtualización y entornos de cloud computing que requieren flexibilidad, rendimiento y una solidez a prueba de fallos. 
 
 ![HPE_Morpheus_VM_Essentials_ceph-cluster-00]({{ site.imagesposts2025 }}/12/ceph-00.png){: .mx-auto.d-block :}
 
