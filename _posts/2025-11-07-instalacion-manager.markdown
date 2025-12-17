@@ -38,7 +38,7 @@ Os recuerdo que este post está incluido en la serie sobre HPE VM Essentials
 - [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io/instalacion-nodo-vme/)
 - [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io/instalacion-manager/)
 - [Parte 4 - Configuración inicial](https://miquelmariano.github.io/configuracion-inicial-primeros-pasos-vm-essentials)
-- [Parte 5 - Creación cluster Ceph]
+- [Parte 5 - Creación cluster Ceph](https://miquelmariano.github.io/cluster-ceph/)
 - [Parte 6 - Desplegar nuestra primera VM]
 - [Parte 7 - Backups]
 - [Parte 8 - Pruebas de HA]
