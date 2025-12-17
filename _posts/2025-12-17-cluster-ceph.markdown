@@ -1,7 +1,7 @@
 ---
 title: Cluster Ceph en HPE VM Essentials
 subtitle: Parte 5
-date: '2025-12-16 00:00:00'
+date: '2025-12-17 00:00:00'
 layout: post
 thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2025/12/ceph-00.png
 cover-img: https://miquelmariano.github.io/assets/images/fondos/01.jpg
@@ -25,7 +25,7 @@ Hoy seguimos con la serie sobre VM Essentials y hablaremos sobre sobe almacenami
 - [Parte 2 - Instalación VM Essentials software](https://miquelmariano.github.io/2025/10/17/instalacion-nodo-vme/)
 - [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io/2025/11/07/instalacion-manager/)
 - [Parte 4 - Configuración inicial](https://miquelmariano.github.io/2025/11/20/configuracion-inicial-primeros-pasos-vm-essentials)
-- [Parte 5 - Creación cluster Ceph]
+- [Parte 5 - Creación cluster Ceph](https://miquelmariano.github.io/cluster-ceph/)
 - [Parte 6 - Desplegar nuestra primera VM]
 - [Parte 7 - Backups]
 - [Parte 8 - Pruebas de HA]
