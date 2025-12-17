@@ -17,7 +17,7 @@ tag:
 - ha
 ---
 
-Hoy seguimos con la serie sobre VM Essentials y hablaremos sobre sobe almacenamiento Ceph y como utilizar la hiperconvergencia en un entorno VME
+Seguimos con la serie de posts sobre VM Essentials
 
 <details markdown="1">
 <summary>VER TODA LA SERIE DE POSTS</summary>
@@ -33,8 +33,9 @@ Hoy seguimos con la serie sobre VM Essentials y hablaremos sobre sobe almacenami
 - [Parte 10 - Comandos útiles]
 </details>
 
- # Qué es un Cluster Ceph
- # Documentación
+Hoy hablaremos sobre almacenamiento Ceph y como utilizar la hiperconvergencia en un entorno VME, pero
+
+ # ¿Qué es un Cluster Ceph?
 
 Un cluster Ceph es una avanzada plataforma de almacenamiento distribuido y de código abierto (Software-Defined Storage o SDS) que transforma servidores commodity en una única y masiva fuente de datos. Su diseño se enfoca en la escalabilidad horizontal (maneja fácilmente petabytes de datos) y en la tolerancia a fallos, eliminando cualquier punto único de fallo.
 
