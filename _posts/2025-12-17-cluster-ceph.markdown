@@ -34,6 +34,7 @@ Hoy seguimos con la serie sobre VM Essentials y hablaremos sobre sobe almacenami
 </details>
 
  # Qué es un Cluster Ceph
+ # Documentación
 
 Un cluster Ceph es una avanzada plataforma de almacenamiento distribuido y de código abierto (Software-Defined Storage o SDS) que transforma servidores commodity en una única y masiva fuente de datos. Su diseño se enfoca en la escalabilidad horizontal (maneja fácilmente petabytes de datos) y en la tolerancia a fallos, eliminando cualquier punto único de fallo.
 
