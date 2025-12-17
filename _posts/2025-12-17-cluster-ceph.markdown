@@ -79,6 +79,9 @@ Arrancamos el asistente para agregar nuevo cluster de HVM
 
 En este punto, en el desplegable seleccionaremos la opción de cluster HCI Ceph y añadiremos los 3 hosts mínimos necesarios para su creación.
 
+{: .box-warning}
+**Nota:** Aquí es importante que el "Dispositivo de datos", en mi caso /dev/sdb esté disponible en los 3 nodos, ya que será el disco que utilizará ceph para formar el cluster
+
 ![HPE_Morpheus_VM_Essentials_ceph-cluster-06]({{ site.imagesposts2025 }}/12/ceph-06.png){: .mx-auto.d-block :}
 
 ![HPE_Morpheus_VM_Essentials_ceph-cluster-07]({{ site.imagesposts2025 }}/12/ceph-07.png){: .mx-auto.d-block :}
