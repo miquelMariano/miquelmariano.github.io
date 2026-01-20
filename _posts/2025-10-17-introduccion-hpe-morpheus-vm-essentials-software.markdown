@@ -31,7 +31,7 @@ Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Esse
 - [Parte 3 - Instalación VME Manager](https://miquelmariano.github.io/instalacion-manager/)
 - [Parte 4 - Configuración inicial](https://miquelmariano.github.io/configuracion-inicial-primeros-pasos-vm-essentials)
 - [Parte 5 - Creación cluster Ceph](https://miquelmariano.github.io/cluster-ceph/)
-- [Parte 6 - Desplegar nuestra primera VM]
+- [Parte 6 - Desplegar nuestra primera VM](https://miquelmariano.github.io/primera-vm-en-vmessentials/)
 - [Parte 7 - Backups]
 - [Parte 8 - Pruebas de HA]
 - [Parte 9 - Migración de VMs desde vSphere]
