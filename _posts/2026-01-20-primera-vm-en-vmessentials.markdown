@@ -83,23 +83,23 @@ Veréis que no aparece ningún disco, eso es debido a que los drivers SCSI todav
 ![HPE_Morpheus_VM_Essentials_primera-vm-18]({{ site.imagesposts2026 }}/01/primera-vm-18.png){: .mx-auto.d-block :}
 ![HPE_Morpheus_VM_Essentials_primera-vm-19]({{ site.imagesposts2026 }}/01/primera-vm-19.png){: .mx-auto.d-block :}
 ![HPE_Morpheus_VM_Essentials_primera-vm-20]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
-![HPE_Morpheus_VM_Essentials_primera-vm-21]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-21]({{ site.imagesposts2026 }}/01/primera-vm-21.png){: .mx-auto.d-block :}
 
 Y ya tendríamos nuestro Windows Server instalado y arrancado.
 
-![HPE_Morpheus_VM_Essentials_primera-vm-22]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
-![HPE_Morpheus_VM_Essentials_primera-vm-23]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-22]({{ site.imagesposts2026 }}/01/primera-vm-22.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-23]({{ site.imagesposts2026 }}/01/primera-vm-23.png){: .mx-auto.d-block :}
 
 Finalmente, para que todo sea 100% funcional y dejar la instalación finalizada, tocará instalar las VirtIO. Aquí se incluyen todos los drivers y binarios necesarios para que se reconozca todo el hardware virtual que le está provisionando VM Essentials.
 
-![HPE_Morpheus_VM_Essentials_primera-vm-24]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
-![HPE_Morpheus_VM_Essentials_primera-vm-25]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
-![HPE_Morpheus_VM_Essentials_primera-vm-26]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
-![HPE_Morpheus_VM_Essentials_primera-vm-27]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
-![HPE_Morpheus_VM_Essentials_primera-vm-28]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
-![HPE_Morpheus_VM_Essentials_primera-vm-29]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
-![HPE_Morpheus_VM_Essentials_primera-vm-20]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
-![HPE_Morpheus_VM_Essentials_primera-vm-31]({{ site.imagesposts2026 }}/01/primera-vm-20.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-24]({{ site.imagesposts2026 }}/01/primera-vm-24.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-25]({{ site.imagesposts2026 }}/01/primera-vm-25.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-26]({{ site.imagesposts2026 }}/01/primera-vm-26.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-27]({{ site.imagesposts2026 }}/01/primera-vm-27.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-28]({{ site.imagesposts2026 }}/01/primera-vm-28.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-29]({{ site.imagesposts2026 }}/01/primera-vm-29.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-20]({{ site.imagesposts2026 }}/01/primera-vm-30.png){: .mx-auto.d-block :}
+![HPE_Morpheus_VM_Essentials_primera-vm-31]({{ site.imagesposts2026 }}/01/primera-vm-31.png){: .mx-auto.d-block :}
 
 Y hasta aquí por hoy, en entorno ya va cogiendo forma poco a poco y ya tenemos nuestra primera VM desplegada.
 
