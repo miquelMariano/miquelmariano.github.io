@@ -21,7 +21,7 @@ Este lanzamiento marca uno de los mayores cambios en el producto con la introduc
 # Puntos clave de Veeam v13
 
 1. Nuevo enfoque: appliance Linux (Veeam Software Appliance)
-- Veeam deja gradualmente la necesidad de Windows Server para el backup core, ofreciendo una appliance Linux preconfigurada y endurecida (JeOS) para mayor seguridad y simplicidad. 
+- Veeam deja gradualmente la necesidad de Windows Server para el backup core, ofreciendo una appliance Linux preconfigurada y "hardenizada" para mayor seguridad y simplicidad. 
 - Se distribuye en ISO y OVA para entornos físicos y virtuales. 
 
 2. Seguridad reforzada
@@ -42,7 +42,7 @@ Este lanzamiento marca uno de los mayores cambios en el producto con la introduc
 
 # Despliegue virtual appliance en vSphere
 
-En apartado no hay mucho misterio. Deberemos descargarnos la OVA desde el portal de soporte de Veeam y haremos la implementación a través del vCenter como cualquier otro tipo de OVA
+En este apartado no hay mucho misterio. Deberemos descargarnos la OVA desde el portal de soporte de Veeam y haremos la implementación a través del vCenter como cualquier otro tipo de OVA
 
 ![Despliegue-veeam-virtual-appliance-01]({{ site.imagesposts2026 }}/02/veeam-ova-01.png){: .mx-auto.d-block :}
 
@@ -82,14 +82,14 @@ Configuración NTP.
 
 ![Configuracion-veeam-virtual-appliance-07]({{ site.imagesposts2026 }}/02/veeam-install-07.png){: .mx-auto.d-block :}
 
-Especificaremos una contraseña para el usuario `veeamadmin`quien será de momento el único administrador de la plataforma.
+Especificaremos una contraseña para el usuario `veeamadmin` quien será de momento el único administrador de la plataforma.
 También será obligatorio configurar un MFA, por ejemplo, con Microsoft Authenticator u otro generador de tokens OTP
 
 ![Configuracion-veeam-virtual-appliance-08]({{ site.imagesposts2026 }}/02/veeam-install-08.png){: .mx-auto.d-block :}
 
 ![Configuracion-veeam-virtual-appliance-09]({{ site.imagesposts2026 }}/02/veeam-install-09.png){: .mx-auto.d-block :}
 
-El usuario `veamso`es un usuario privilegiado, que si bien no es administrador de la plataforma, es quien debe auditar y aprobar ciertas tareas que se hagan en la plataforma.
+El usuario `veamso` és un usuario privilegiado, que si bien no es administrador de la plataforma, es quien debe auditar y aprobar ciertas tareas que se hagan en la plataforma.
 Le configuraremos también una contraseña
 
 ![Configuracion-veeam-virtual-appliance-10]({{ site.imagesposts2026 }}/02/veeam-install-10.png){: .mx-auto.d-block :}
