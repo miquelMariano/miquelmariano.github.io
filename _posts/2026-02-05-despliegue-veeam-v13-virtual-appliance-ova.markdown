@@ -14,7 +14,7 @@ tag:
 - ramsonware
 ---
 
-Cómo muchos ya sabréis, el pasado mes de septiembre Veeam lanzó la versión 13 de su producto estrella Veeam Backup & Replication.
+Cómo muchos ya sabréis, el pasado mes de septiembre, Veeam lanzó la versión 13 de su producto estrella Veeam Backup & Replication.
 
 Este lanzamiento marca uno de los mayores cambios en el producto con la introducción de una versión appliance basada en Linux como forma principal de despliegue, además de la opción tradicional Windows.
 
