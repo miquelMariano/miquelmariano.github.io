@@ -1,7 +1,7 @@
 ---
 title: Gestión de actualizaciones en HPE VM Essentials
 subtitle: Procedimiento actualización del manager y nodos HVM
-date: '2026-03- 00:00:00'
+date: '2026-03-06 00:00:00'
 layout: post
 thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2026/02/updates-01.png
 cover-img: https://miquelmariano.github.io/assets/images/fondos/04.jpg
