@@ -36,6 +36,7 @@ Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Esse
 - [Parte 8 - Pruebas de HA]
 - [Parte 9 - Migración de VMs desde vSphere]
 - [Parte 10 - Comandos útiles]
+- [Parte 11 - Gestión de actualizaciones en HPE VM Essentials](https://miquelmariano.github.io/actualizaciones-vme-manager-y-nodos-hvm)
 </details>
 
 # Introducción a Morpheus y VM Essentials: La adquisición estratégica de HPE
