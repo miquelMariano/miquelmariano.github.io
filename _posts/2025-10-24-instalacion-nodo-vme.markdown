@@ -29,6 +29,7 @@ tag:
 - [Parte 8 - Pruebas de HA]
 - [Parte 9 - Migración de VMs desde vSphere]
 - [Parte 10 - Comandos útiles]
+- [Parte 11 - Gestión de actualizaciones en HPE VM Essentials](https://miquelmariano.github.io/actualizaciones-vme-manager-y-nodos-hvm)
 </details>
 
 # Nuevo instalador unificado
