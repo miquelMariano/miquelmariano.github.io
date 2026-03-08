@@ -43,7 +43,7 @@ Desde hace varias semanas estoy haciendo un poco de I+D sobre Morpheus y VM Esse
 
 Morpheus Data fue, antes de su adquisición, un galardonado líder en el sector de la orquestación de nube privada e híbrida. Su plataforma permitía a las empresas transformar infraestructuras de virtualización existentes, como VMware y KVM, en verdaderas nubes privadas con capacidades de autoservicio y automatización.
 
-**La compra de Morpheus por Parte de HPE**
+**La compra de Morpheus por parte de HPE**
 
 En un movimiento estratégico para reforzar su portafolio de CloudOps, HPE adquirió Morpheus Data (el acuerdo se anunció en agosto de 2024).
 
@@ -95,7 +95,7 @@ HPE ha capitalizado directamente esta situación. Morpheus VM Essentials se pres
 
 En esencia, **HPE Morpheus VM Essentials** es la respuesta estratégica y agresiva de HPE al monopolio histórico de VMware en el mercado de virtualización. Representa un desafío directo a Broadcom al ofrecer una arquitectura abierta y una pila de virtualización basada en KVM con un motor de gestión cloud maduro (Morpheus), todo ello con un modelo de costes diseñado para el ahorro.
 
-## Conclusión
+# Conclusión
 HPE Morpheus VM Essentials Software no es solo un nuevo hipervisor; es una plataforma que combina la solidez de la tecnología KVM  con las avanzadas capacidades de orquestación de la nube de Morpheus. 
 Su llegada al mercado, impulsada por la compra de Morpheus por parte de HPE y en clara competencia con los movimientos de Broadcom/VMware, marca un punto de inflexión. 
 Ofrece a las empresas un camino hacia la eficiencia de costes, la flexibilidad tecnológica y la gestión simplificada de sus entornos de nube híbrida, posicionando a HPE como un actor clave en la redefinición de la infraestructura de TI moderna.
@@ -103,7 +103,7 @@ Ofrece a las empresas un camino hacia la eficiencia de costes, la flexibilidad t
 
 En [Encora](https://encora.es/) somos especialistas en virtualización y servicios IT de calidad. Si quieres saber mas sobre VM Essentials [contáctanos](https://encora.es/hablamos/) y charlamos ;-)
 
-![logo_encora](https://encora.es/wp-content/uploads/elementor/thumbs/Isologo-Encora-Azul-qnmtbwtv9jkegh1meyoybyq78g5zf2vo4c5wyvfpr4.png){: .mx-auto.d-block :}
+![Encora - Especialistas en virtualización](https://encora.es/wp-content/uploads/elementor/thumbs/Isologo-Encora-Azul-qnmtbwtv9jkegh1meyoybyq78g5zf2vo4c5wyvfpr4.png){: .mx-auto.d-block :}
 
 Un saludo
 
