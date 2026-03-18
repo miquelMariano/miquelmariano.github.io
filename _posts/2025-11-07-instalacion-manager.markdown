@@ -44,6 +44,7 @@ Os recuerdo que este post está incluido en la serie sobre HPE VM Essentials
 - [Parte 8 - Pruebas de HA]
 - [Parte 9 - Migración de VMs desde vSphere]
 - [Parte 10 - Comandos útiles]
+- [Parte 11 - Gestión de actualizaciones en HPE VM Essentials](https://miquelmariano.github.io/actualizaciones-vme-manager-y-nodos-hvm)
 </details>
 
 La opción de instalar el Manager sobre un entorno VME es la preferida y recomendada y para ello necesitaremos descargar la ISO con el software del [portal de HPE](https://myenterpriselicense.hpe.com/cwp-ui/product-download-info/HPE_VME_EVAL/-/sw360_eval_customer?&)

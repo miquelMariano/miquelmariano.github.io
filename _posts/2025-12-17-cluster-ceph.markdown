@@ -31,6 +31,7 @@ Seguimos con la serie de posts sobre VM Essentials
 - [Parte 8 - Pruebas de HA]
 - [Parte 9 - Migración de VMs desde vSphere]
 - [Parte 10 - Comandos útiles]
+- [Parte 11 - Gestión de actualizaciones en HPE VM Essentials](https://miquelmariano.github.io/actualizaciones-vme-manager-y-nodos-hvm)
 </details>
 
 Hoy hablaremos sobre almacenamiento Ceph y como utilizar la hiperconvergencia en un entorno VME, pero **¿Qué es un Cluster Ceph?**
