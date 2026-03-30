@@ -119,24 +119,24 @@ Le daremos un nombre, una retención en días y asignaremos la programación que
 ## Crear la definición del Backup
 Con el Job creado, deberemos crear la definición del backup propiamente dicho. Para eso vamos de nuevo al menú Backups » Add y seguimos el asistente de tres pasos:
 
-### Paso 1: Select Source
 Seleccionaremos como origen una instancia de VME (HVM).
+
 ![vme-backups-10]({{ site.imagesposts2026 }}/03/vme-backups-10.png){: .mx-auto.d-block :}
 
 ![vme-backups-11]({{ site.imagesposts2026 }}/03/vme-backups-11.png){: .mx-auto.d-block :}
 
-### Paso 2: Name/Type
 Seleccionamos la instancia concreta y le damos un nombre descriptivo al backup.
+
 ![vme-backups-12]({{ site.imagesposts2026 }}/03/vme-backups-12.png){: .mx-auto.d-block :}
 
-
-### Paso 3: Asignar al Job
 En este último paso definimos el tipo de backup, el repositorio de almacenamiento (S3) y lo añadimos al Job que hemos definido previamente.
+
 ![vme-backups-13]({{ site.imagesposts2026 }}/03/vme-backups-13.png){: .mx-auto.d-block :}
 
 ![vme-backups-14]({{ site.imagesposts2026 }}/03/vme-backups-14.png){: .mx-auto.d-block :}
 
 Finalmente, para comprobar que lo hemos definido correctamente lo haremos desde la pestaña Backups de la propia instancia
+
 ![vme-backups-15]({{ site.imagesposts2026 }}/03/vme-backups-15.png){: .mx-auto.d-block :}
 
 También desde este mismo menú de la instancia podremos ejecutar el backup sin esperar a la programación
