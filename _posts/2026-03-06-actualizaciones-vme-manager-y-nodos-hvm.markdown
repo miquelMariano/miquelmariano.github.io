@@ -34,7 +34,7 @@ Vamos a seguir con la serie de posts sobre HPE VM Essentials. En esta ocasión v
 - [Parte 11 - Gestión de actualizaciones en HPE VM Essentials](https://miquelmariano.github.io/actualizaciones-vme-manager-y-nodos-hvm)
 </details>
 
-Antes de empezar, es altamente recomendable revisar el upgrade path entre versiones. Esto lo podremos encontrar en la documentación oficial del producto, [aquí](https://support.hpe.com/hpesc/public/docDisplay?docId=sd00007027en_us&page=GUID-B7279DC1-CAB8-4172-8874-29A0FE86C772.html)
+Antes de empezar, es altamente recomendable revisar el upgrade path entre versiones. Esto lo podremos encontrar en la documentación oficial del producto, [aquí](https://support.hpe.com/hpesc/public/docDisplay?docId=sd00007332en_us&page=GUID-94742592-9C85-4F2E-83F2-E68404A73F3B.html)
 
 En mi caso, pretendo subir de la versión 8.0.10 a la 8.0.11
 
