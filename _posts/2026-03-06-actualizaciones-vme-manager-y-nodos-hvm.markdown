@@ -29,7 +29,7 @@ Vamos a seguir con la serie de posts sobre HPE VM Essentials. En esta ocasión v
 - [Parte 6 - Desplegar nuestra primera VM](https://miquelmariano.github.io/primera-vm-en-vmessentials/)
 - [Parte 7 - Backups](https://miquelmariano.github.io/backups-en-vm-essentials/)
 - [Parte 8 - Pruebas de HA](https://miquelmariano.github.io/ha-en-vm-essentials/)
-- [Parte 9 - Migración de VMs desde vSphere]
+- [Parte 9 - Migración de VMs desde vSphere](https://miquelmariano.github.io/migracion-vsphere-vme/)
 - [Parte 10 - Comandos útiles]
 - [Parte 11 - Gestión de actualizaciones en HPE VM Essentials](https://miquelmariano.github.io/actualizaciones-vme-manager-y-nodos-hvm)
 </details>
