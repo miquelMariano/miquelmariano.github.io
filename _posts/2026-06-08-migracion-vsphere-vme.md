@@ -3,9 +3,9 @@ title: Migración de VMs Windows desde vSphere a HPE VM Essentials
 subtitle: Migración nativa con planes de migración de VME
 date: '2026-06-08 00:00:00'
 layout: post
-thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2026/04/ha-01.png
+thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2026/06/native-migration-10.png
 cover-img: https://miquelmariano.github.io/assets/images/fondos/07.jpg
-share-img: https://miquelmariano.github.io/assets/images/posts/2026/04/ha-01.png
+share-img: https://miquelmariano.github.io/assets/images/posts/2026/06/native-migration-10.png
 published: true
 author: Miquel Mariano
 tag:
