@@ -164,11 +164,11 @@ Al lanzar el job, podemos ver cómo Veeam despliega automáticamente los workers
 
 Un par de cosas a tener en mente antes de lanzaros a producción:
 
-- Ceph no está soportado: A dia de hoy, las VMs con discos en Ceph no pueden hacer backup. Si tenéis VMs que "nacieron" en Ceph y las habéis migrado a otro tipo de almacenamiento, el backup funcionará sin problemas. Pero si el disco original sigue siendo Ceph, fallará.
+- **Ceph no está soportado**: A dia de hoy, las VMs con discos en Ceph no pueden hacer backup. Si tenéis VMs que "nacieron" en Ceph y las habéis migrado a otro tipo de almacenamiento, el backup funcionará sin problemas. Pero si el disco original sigue siendo Ceph, fallará.
 
-- FQDN completo siempre: al registrar el VME Manager, usad siempre el FQDN completo. Es un detalle pequeño que puede ahorraros un buen rato de troubleshooting.
+- **FQDN completo siempre**: al registrar el VME Manager, usad siempre el FQDN completo. Es un detalle pequeño que puede ahorraros un buen rato de troubleshooting.
 
-- Los workers son efímeros: no os extrañe ver VMs apareciendo y desapareciendo en vuestro cluster durante los jobs. Es el comportamiento esperado.
+- **Los workers son efímeros**: no os extrañe ver VMs apareciendo y desapareciendo en vuestro cluster durante los jobs. Es el comportamiento esperado.
 
 En resumen, la integración funciona muy bien para entornos productivos con VME. El hecho de que el workflow sea idéntico al de otros hipervisores basados en KVM hace que la curva de aprendizaje sea prácticamente cero para quien ya usa Veeam.
 
