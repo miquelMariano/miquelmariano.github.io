@@ -27,9 +27,11 @@ Seguimos con la serie de posts sobre VM Essentials
 - [Parte 4 - Configuración inicial](https://miquelmariano.github.io/configuracion-inicial-primeros-pasos-vm-essentials)
 - [Parte 5 - Creación cluster Ceph](https://miquelmariano.github.io/cluster-ceph/)
 - [Parte 6 - Desplegar nuestra primera VM](https://miquelmariano.github.io/primera-vm-en-vmessentials/)
-- [Parte 7 - Backups](https://miquelmariano.github.io/backups-en-vm-essentials/)
+- [Parte 7 - Backups nativos](https://miquelmariano.github.io/backups-en-vm-essentials/)
+- [Parte 7.1 - Backups con Veeam v13](https://miquelmariano.github.io/backup-vme-con-veeam/)
 - [Parte 8 - Pruebas de HA](https://miquelmariano.github.io/ha-en-vm-essentials/)
 - [Parte 9 - Migración de VMs desde vSphere](https://miquelmariano.github.io/migracion-vsphere-vme/)
+- [Parte 9.1 - Migración con Veeam](https://miquelmariano.github.io/migracion-vsphere-vme-veeam/)
 - [Parte 10 - Comandos útiles]
 - [Parte 11 - Gestión de actualizaciones en HPE VM Essentials](https://miquelmariano.github.io/actualizaciones-vme-manager-y-nodos-hvm)
 </details>
