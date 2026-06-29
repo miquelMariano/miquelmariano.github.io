@@ -43,14 +43,15 @@ Este plugin lleva un tiempo en beta y he tenido la suerte de probarlo en mi labo
 
 # ¿Qué es el Veeam Plug-in for HPE VM Essentials?
 
-El plugin es un componente adicional que se instala sobre el servidor de Veeam Backup & Replication y que extiende sus capacidades para proteger máquinas virtuales que corren sobre el hipervisor KVM de HPE VM Essentials.
+El plugin es un componente adicional que se instala sobre el servidor de **Veeam Backup & Replication** y que extiende sus capacidades para proteger máquinas virtuales que corren sobre el hipervisor KVM de HPE VM Essentials.
 
-Sin este plugin, Veeam simplemente no puede descubrir ni proteger los recursos de VME. Es importante tener esto claro: **no viene incluido en el instalador principal de Veeam, hay que descargarlo e instalarlo por separado.**
+Sin este plugin, Veeam simplemente no puede descubrir ni proteger los recursos de VME. 
+Es importante tener esto claro: **no viene incluido en el instalador principal de Veeam, hay que descargarlo e instalarlo por separado.**
 
 La arquitectura es sencilla y se basa en dos componentes principales:
 
 - **Plugin module**: Se instala directamente sobre el servidor de Veeam B&R. No requiere un appliance adicional. Es quien gestiona la integración, coordina los checkpoints y orquesta los jobs de backup y restore.
-- **Workers**: Son VMs Linux ligeras que actúan como proxies para el movimiento de datos. Veeam las despliega y destruye automáticamente en cada nodo del cluster VME durante la ejecución de los jobs.
+- **Workers**: Son VMs Linux ligeras que actúan como proxies para el movimiento de datos. Veeam las despliega y gestiona automáticamente en cada nodo del cluster VME durante la ejecución de los jobs.
 
 ![veeam13-vme-00]({{ site.imagesposts2026 }}/06/veeams13-vme-00.jpg){: .mx-auto.d-block :}
 
@@ -66,7 +67,7 @@ Antes de empezar, conviene tener en cuenta los requisitos de plataforma. Según 
 
 El plugin está disponible tanto para instalaciones Windows como para el nuevo virtual appliance Linux de Veeam v13. En mi caso lo he probado sobre el appliance Linux.
 
-Lo primero es descargar el binario ```.bndl (para Linux) o el .exe (para Windows) desde el portal de descargas de Veeam, en la sección **Additional Downloads** de la página de My Products.
+Lo primero es descargar el binario `.bndl` (para Linux) o el `.exe` (para Windows) desde el portal de descargas de Veeam, en la sección **Additional Downloads** de la página de My Products.
 Una vez descargado, la instalación es muy directa:
 
 ![veeam13-vme-01]({{ site.imagesposts2026 }}/06/veeams13-vme-01.png){: .mx-auto.d-block :}
