@@ -110,7 +110,7 @@ Si todo va bien, veremos HPE Morpheus VM Essentials disponible en nuestra Backup
 
 Los workers son el componente que hace el trabajo pesado: se encargan del movimiento de datos, la compresión y el cifrado. 
 
-Veeam los despliega automáticamente en cada nodo del cluster durante los jobs y los elimina al terminar.
+Veeam los despliega automáticamente en cada nodo del cluster durante los jobs y los apaga al terminar.
 
 Para configurarlos, iremos a **Backup Infrastructure > Backup Proxies > Add Proxy > HPE Morpheus VM Essentials worker**
 
@@ -145,7 +145,7 @@ Seleccionamos las VMs que queremos proteger:
 
 ![veeam13-vme-24]({{ site.imagesposts2026 }}/06/veeams13-vme-24.png){: .mx-auto.d-block :}
 
-Configuramos el repositorio de destino. En mi caso utilizo un repositorio local, aunque la integración es totalmente compatible con HPE StoreOnce u otros targets certificados por Veeam.
+Configuramos el repositorio de destino. En mi caso utilizo un repositorio local, aunque la integración es totalmente compatible cualquier target certificados por Veeam.
 
 ![veeam13-vme-25]({{ site.imagesposts2026 }}/06/veeams13-vme-25.png){: .mx-auto.d-block :}
 
