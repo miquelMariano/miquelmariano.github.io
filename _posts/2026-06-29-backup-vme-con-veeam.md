@@ -173,5 +173,7 @@ Un par de cosas a tener en mente antes de lanzaros a producción:
 En resumen, la integración funciona muy bien para entornos productivos con VME. El hecho de que el workflow sea idéntico al de otros hipervisores basados en KVM hace que la curva de aprendizaje sea prácticamente cero para quien ya usa Veeam.
 
 Nos vemos en el próximo post ;-)
+
 Un saludo
+
 Miquel.
