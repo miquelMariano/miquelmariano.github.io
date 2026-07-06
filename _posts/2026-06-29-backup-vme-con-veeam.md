@@ -24,7 +24,7 @@ Hoy damos un paso más y vemos cómo proteger nuestras máquinas virtuales que c
 
 Este plugin lleva un tiempo en beta y he tenido la suerte de probarlo en mi laboratorio. Ahora que ya está en producción, es el momento de contaros cómo funciona.
 
-details>
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>

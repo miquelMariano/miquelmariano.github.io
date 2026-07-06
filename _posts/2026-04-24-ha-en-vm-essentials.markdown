@@ -19,7 +19,7 @@ tag:
  
 Vamos a ver en el post de hoy como HPE VM Essentials dispone nativamente de un mecanismo de alta disponibilidad o HA para poder dar alta resilencia a nuestros servicios en caso de una falla hardware en alguno de los nodos.
 
-details>
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>

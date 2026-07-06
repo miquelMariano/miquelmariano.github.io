@@ -21,7 +21,7 @@ Seguimos avanzando con la serie de posts sobre HPE VM Essentials, y es que, una 
 
 En este post vamos a ver cómo HPE VM Essentials implementa de forma nativa herramientas de backup tanto para el VME Manager como para las propias VMs alojadas en la infraestructura.
 
-details>
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>

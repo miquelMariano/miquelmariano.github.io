@@ -32,7 +32,7 @@ Para la instalación del VME Manager disponemos de 2 opciones:
 {: .box-warning}
 Os recuerdo que este post está incluido en la serie sobre HPE VM Essentials
 
-details>
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>

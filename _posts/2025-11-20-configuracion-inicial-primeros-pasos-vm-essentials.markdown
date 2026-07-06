@@ -21,7 +21,7 @@ La serie sobre VM Essentials ya va cogiendo forma poco a poco y en este nuevo po
 
 Recordemos que venimos de [hacer una instalación desde 0](https://miquelmariano.github.io/instalacion-manager/)
 
-details>
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>

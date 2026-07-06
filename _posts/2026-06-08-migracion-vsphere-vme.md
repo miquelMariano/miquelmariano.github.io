@@ -23,7 +23,7 @@ Como veremos, el proceso requiere una preparación previa en origen que es impre
 
 > ⚠️ **OJO**: El trabajo de migración apaga automáticamente la VM origen. Tenerlo en cuenta a la hora de planificar la ventana de mantenimiento.
 
-details>
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>

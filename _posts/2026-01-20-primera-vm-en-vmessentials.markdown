@@ -21,7 +21,7 @@ Arrancamos el año en el blog con una nueva entrada en la serie sobre VM Essenti
 
 Aprovecho para recordar el índice de toda la serie.
 
-details>
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>

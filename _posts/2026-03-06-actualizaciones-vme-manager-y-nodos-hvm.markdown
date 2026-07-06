@@ -19,7 +19,7 @@ tag:
 
 Vamos a seguir con la serie de posts sobre HPE VM Essentials. En esta ocasión vamos a ver el procedimiento para llevar a cabo la actualización de nuestro entorno VME
 
-details>
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>

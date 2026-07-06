@@ -19,7 +19,7 @@ tag:
 
 Seguimos con la serie de posts sobre VM Essentials
 
-details>
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>
