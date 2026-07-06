@@ -17,6 +17,7 @@ tag:
 - ha
 ---
 
+<details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
 
 <ul>
