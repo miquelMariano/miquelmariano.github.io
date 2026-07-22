@@ -3,9 +3,9 @@ title: Migración de VMs Windows desde vSphere con Veeam
 subtitle: Parte 9.1 - Full VM Restore to HPE Morpheus VM Essentials
 date: '2026-07-20 00:00:00'
 layout: post
-thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2026/04/ha-01.png
+thumbnail-img: https://miquelmariano.github.io/assets/images/posts/2026/07/restore-veeam-01.png
 cover-img: https://miquelmariano.github.io/assets/images/fondos/08.jpg
-share-img: https://miquelmariano.github.io/assets/images/posts/2026/04/ha-01.png
+share-img: https://miquelmariano.github.io/assets/images/posts/2026/07/restore-veeam-01.png
 published: true
 author: Miquel Mariano
 tag:
@@ -22,7 +22,7 @@ En el [post anterior](https://miquelmariano.github.io/migracion-vsphere-vme/) vi
 
 La idea es aprovechar Veeam como vehículo de transporte. En lugar de usar el migration tool nativo, [realizamos un backup](https://miquelmariano.github.io/backup-vme-con-veeam/) de la VM en origen y la restauramos directamente sobre HPE VME mediante la opción **Full VM Restore to HPE Morpheus VM Essentials**. El resultado es el mismo, pero el proceso nos da más control y la posibilidad de partir de un punto de restauración limpio y consistente.
 
-> ⚠️ **OJO**: Los pasos de preparación previa (inyección de drivers VirtIO) son **exactamente los mismos** que en la [migración nativa]https://miquelmariano.github.io/migracion-vsphere-vme/. Sin estos pasos, la VM no arrancará en KVM independientemente del método de migración que usemos.
+> ⚠️ **OJO**: Los pasos de preparación previa (inyección de drivers VirtIO) son **exactamente los mismos** que en la [migración nativa](https://miquelmariano.github.io/migracion-vsphere-vme/). Sin estos pasos, la VM no arrancará en KVM independientemente del método de migración que usemos.
 
 <details>
 <summary>VER TODA LA SERIE DE POSTS</summary>
