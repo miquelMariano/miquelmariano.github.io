@@ -70,7 +70,7 @@ Lo que haremos es inyectar estos drivers directamente en la imagen del sistema o
 
 ## Descargar el ISO de VirtIO
 
-La última versión la encontraréis [aquí:](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.285-1/)
+La última versión la encontraréis [aquí:](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.285-1/) o directamente [en el repo oficial de github](https://github.com/virtio-win/virtio-win-pkg-scripts)
 
 Nos descargaremos el último fichero .iso y lo subiremos a un datastore de nuestro entorno vSphere para montarla como CD-ROM en la VM.
 
