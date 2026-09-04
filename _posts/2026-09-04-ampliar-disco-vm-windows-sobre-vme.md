@@ -18,7 +18,7 @@ tag:
 - veeam
 ---
 
-En este procedimiento vamos a ver el paso a paso para poder ampliar el disco y la unidad C en una máquina virtual Windows en caliente y sin ningún tipo de parada de servicio.
+En este procedimiento vamos a ver el paso a paso para poder ampliar el disco y la unidad C: en una máquina virtual Windows en caliente y sin ningún tipo de parada de servicio.
 
 <details>
 <summary>VER TODA LA SERIE DE POSTS SOBRE VME</summary>
@@ -54,15 +54,15 @@ En este procedimiento vamos a ver el paso a paso para poder ampliar el disco y l
 
 En este ejemplo partimos de una VM con un disco de 30Gb en el que para ampliarlo seleccionaremos el botón de "Reconfigure" desde el menú "Actions"
 
-![ampliar-disco-windows-01]({{ site.imagesposts2026 }}/07/ampliar-disco-windows-01.png){: .mx-auto.d-block :}
+![ampliar-disco-windows-01]({{ site.imagesposts2026 }}/09/ampliar-disco-windows-01.png){: .mx-auto.d-block :}
 
 Añadiremos el nuevo tamaño sin modificar ningún otro parámetro
 
-![ampliar-disco-windows-02]({{ site.imagesposts2026 }}/07/ampliar-disco-windows-02.png){: .mx-auto.d-block :}
+![ampliar-disco-windows-02]({{ site.imagesposts2026 }}/09/ampliar-disco-windows-02.png){: .mx-auto.d-block :}
 
 En la pestaña "history" podremos comprobar que la tarea se ha realizado correctamente
 
-![ampliar-disco-windows-03]({{ site.imagesposts2026 }}/07/ampliar-disco-windows-03.png){: .mx-auto.d-block :}
+![ampliar-disco-windows-03]({{ site.imagesposts2026 }}/09/ampliar-disco-windows-03.png){: .mx-auto.d-block :}
 
 # Ampliar unidad C
 
@@ -70,7 +70,7 @@ Con el disco ampliado podemos validar que nuestro windows ha detectado correctam
 
 Tambien vemos que entre la unidad C y el nuevo espacio se ha quedado la partición de recuperación de windows
 
-![ampliar-disco-windows-04]({{ site.imagesposts2026 }}/07/ampliar-disco-windows-04.png){: .mx-auto.d-block :}
+![ampliar-disco-windows-04]({{ site.imagesposts2026 }}/09/ampliar-disco-windows-04.png){: .mx-auto.d-block :}
 
 La partición de recuperación de windows no se puede desplazar nativamente con la herramienta de diskpart por lo que en la mayoria de casos podemos optar por eliminarla.
 
@@ -83,11 +83,11 @@ La partición de recuperación de windows no se puede desplazar nativamente con 
 - Fuerza la eliminación de la partición de recuperación: `delete partition override`
 - Sal de Diskpart: `exit`
 
-![ampliar-disco-windows-05]({{ site.imagesposts2026 }}/07/ampliar-disco-windows-05.png){: .mx-auto.d-block :}
+![ampliar-disco-windows-05]({{ site.imagesposts2026 }}/09/ampliar-disco-windows-05.png){: .mx-auto.d-block :}
 
 Una vez eliminada la partición de recuperación y teniendo el espacio libre contiguo a C: podremos proceder a la ampliación de la unidad
 
-![ampliar-disco-windows-06]({{ site.imagesposts2026 }}/07/ampliar-disco-windows-06.png){: .mx-auto.d-block :}
+![ampliar-disco-windows-06]({{ site.imagesposts2026 }}/09/ampliar-disco-windows-06.png){: .mx-auto.d-block :}
 
 Nos vemos en el próximo post ;-)
 
