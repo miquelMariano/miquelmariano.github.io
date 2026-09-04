@@ -25,7 +25,7 @@ La idea es aprovechar Veeam como vehículo de transporte. En lugar de usar el mi
 > ⚠️ **OJO**: Los pasos de preparación previa (inyección de drivers VirtIO) son **exactamente los mismos** que en la [migración nativa](https://miquelmariano.github.io/migracion-vsphere-vme/). Sin estos pasos, la VM no arrancará en KVM independientemente del método de migración que usemos.
 
 <details>
-<summary>VER TODA LA SERIE DE POSTS</summary>
+<summary>VER TODA LA SERIE DE POSTS SOBRE VME</summary>
 
 <ul>
   <li><a href="https://miquelmariano.github.io/introduccion-hpe-morpheus-vm-essentials-software/">Parte 1 - Introducción a HPE Morpheus VM Essentials software</a></li>
@@ -34,10 +34,13 @@ La idea es aprovechar Veeam como vehículo de transporte. En lugar de usar el mi
   <li><a href="https://miquelmariano.github.io/configuracion-inicial-primeros-pasos-vm-essentials">Parte 4 - Configuración inicial</a></li>
   <li><a href="https://miquelmariano.github.io/cluster-ceph/">Parte 5 - Creación cluster Ceph</a></li>
   <li><a href="https://miquelmariano.github.io/primera-vm-en-vmessentials/">Parte 6 - Desplegar nuestra primera VM</a></li>
-  <li><a href="https://miquelmariano.github.io/backups-en-vm-essentials/">Parte 7 - Backups nativos</a>
-    <ul>
-      <li><a href="https://miquelmariano.github.io/backup-vme-con-veeam/">Parte 7.1 - Backups con Veeam v13</a></li>
+  <ul>
+      <li><a href="https://miquelmariano.github.io/ampliar-disco-vm-windows-sobre-vme/">Parte 6.1 - Ampliar disco en servidor Windows</a></li>
     </ul>
+  <li><a href="https://miquelmariano.github.io/backups-en-vm-essentials/">Parte 7 - Backups nativos</a>
+  <ul>
+      <li><a href="https://miquelmariano.github.io/backup-vme-con-veeam/">Parte 7.1 - Backups con Veeam v13</a></li>
+  </ul>  
   </li>
   <li><a href="https://miquelmariano.github.io/ha-en-vm-essentials/">Parte 8 - Pruebas de HA</a></li>
   <li><a href="https://miquelmariano.github.io/migracion-vsphere-vme/">Parte 9 - Migración de VMs desde vSphere</a>
@@ -50,8 +53,6 @@ La idea es aprovechar Veeam como vehículo de transporte. En lugar de usar el mi
 </ul>
 
 </details>
-
----
 
 # Requisitos previos y preparación de la VM
 

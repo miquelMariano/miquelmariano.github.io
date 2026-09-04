@@ -18,7 +18,7 @@ tag:
 - veeam
 ---
 
-En este procedimiento vamos a ver el paso a paso para poder ampliar el disco y la unidad C: en una máquina virtual Windows en caliente y sin ningún tipo de parada de servicio.
+En este procedimiento vamos a ver el paso a paso para poder ampliar el disco y la unidad **C:** en una máquina virtual Windows en caliente y sin ningún tipo de parada de servicio.
 
 <details>
 <summary>VER TODA LA SERIE DE POSTS SOBRE VME</summary>

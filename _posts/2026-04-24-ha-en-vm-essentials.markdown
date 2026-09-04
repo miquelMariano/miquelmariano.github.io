@@ -20,7 +20,7 @@ tag:
 Vamos a ver en el post de hoy como HPE VM Essentials dispone nativamente de un mecanismo de alta disponibilidad o HA para poder dar alta resilencia a nuestros servicios en caso de una falla hardware en alguno de los nodos.
 
 <details>
-<summary>VER TODA LA SERIE DE POSTS</summary>
+<summary>VER TODA LA SERIE DE POSTS SOBRE VME</summary>
 
 <ul>
   <li><a href="https://miquelmariano.github.io/introduccion-hpe-morpheus-vm-essentials-software/">Parte 1 - Introducción a HPE Morpheus VM Essentials software</a></li>
@@ -29,10 +29,13 @@ Vamos a ver en el post de hoy como HPE VM Essentials dispone nativamente de un m
   <li><a href="https://miquelmariano.github.io/configuracion-inicial-primeros-pasos-vm-essentials">Parte 4 - Configuración inicial</a></li>
   <li><a href="https://miquelmariano.github.io/cluster-ceph/">Parte 5 - Creación cluster Ceph</a></li>
   <li><a href="https://miquelmariano.github.io/primera-vm-en-vmessentials/">Parte 6 - Desplegar nuestra primera VM</a></li>
-  <li><a href="https://miquelmariano.github.io/backups-en-vm-essentials/">Parte 7 - Backups nativos</a>
-    <ul>
-      <li><a href="https://miquelmariano.github.io/backup-vme-con-veeam/">Parte 7.1 - Backups con Veeam v13</a></li>
+  <ul>
+      <li><a href="https://miquelmariano.github.io/ampliar-disco-vm-windows-sobre-vme/">Parte 6.1 - Ampliar disco en servidor Windows</a></li>
     </ul>
+  <li><a href="https://miquelmariano.github.io/backups-en-vm-essentials/">Parte 7 - Backups nativos</a>
+  <ul>
+      <li><a href="https://miquelmariano.github.io/backup-vme-con-veeam/">Parte 7.1 - Backups con Veeam v13</a></li>
+  </ul>  
   </li>
   <li><a href="https://miquelmariano.github.io/ha-en-vm-essentials/">Parte 8 - Pruebas de HA</a></li>
   <li><a href="https://miquelmariano.github.io/migracion-vsphere-vme/">Parte 9 - Migración de VMs desde vSphere</a>
