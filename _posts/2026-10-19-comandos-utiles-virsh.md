@@ -46,7 +46,7 @@ Este post porma parte de la serie sobre HPE VM Essentials y a continuación pode
       <li><a href="https://miquelmariano.github.io/migracion-vsphere-vme-veeam/">Parte 9.1 - Migración con Veeam</a></li>
     </ul>
   </li>
-  <li>[Parte 10 - Comandos útiles]</li>
+  <li><a href="https://miquelmariano.github.io/ha-en-vm-essentials/">Parte 10 - Comandos útiles</a></li>
   <li><a href="https://miquelmariano.github.io/actualizaciones-vme-manager-y-nodos-hvm">Parte 11 - Gestión de actualizaciones en HPE VM Essentials</a></li>
 </ul>
 
@@ -198,7 +198,7 @@ Es irreversible. Comprueba dos veces el nombre antes de lanzarlo.
 
 En un clúster de varios nodos, virsh solo ve lo que corre en el nodo local. Yo uso un pequeño script (`allssh.sh`) que ejecuta un comando en todos los nodos por SSH y lo agrupa por host:
 
-``ssh
+```ssh
 allssh.sh "sudo virsh list --all"
 ================== 10.10.10.101 =================
  Id   Name              State
