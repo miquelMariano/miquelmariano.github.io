@@ -221,7 +221,7 @@ sudo virsh domblklist mmr-test-03 --details
  Type   Device   Target   Source
 ----------------------------------------------------------------------
  file   disk     sda      /mnt/116b3df5-a376-43a2-a527-345e0edb4381/mmr-test-03/hvm_21-disk-0-da7951f
-ssh
+```
 
 El UUID de la ruta (`116b3df5-...`) es el del pool, es decir, el datastore.
 
@@ -259,7 +259,7 @@ Cuando el manager no te da consola (o la VM está en una pantalla en la que nece
 ### 1. Encontrar el host y la VM
 `sudo virsh list --all`
 
-###2. Obtener el display VNC
+### 2. Obtener el display VNC
 `sudo virsh domdisplay vme-manager-01`
 `sudo virsh vncdisplay vme-manager-01`
 
